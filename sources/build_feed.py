@@ -66,6 +66,14 @@ def normalise(record: dict) -> dict:
 
     out["copy_eligible"] = not reasons
     out["copy_ineligible_reasons"] = reasons
+
+    # Some filings state outright that the filer did not choose the trade. It
+    # is still copyable, but it says nothing about the filer's judgement, so it
+    # must be visible rather than buried.
+    endnote = (out.get("endnote") or "").lower()
+    out["advisor_directed"] = bool(endnote) and (
+        "independent advisor" in endnote or "without personal input" in endnote
+    )
     return out
 
 

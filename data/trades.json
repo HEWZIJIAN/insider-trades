@@ -27,7 +27,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035480-1",
@@ -57,7 +58,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035471-2",
@@ -87,7 +89,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035455-5",
@@ -119,7 +122,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "option contract, not the underlying share"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035455-4",
@@ -151,7 +155,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "option contract, not the underlying share"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035455-3",
@@ -183,7 +188,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "option contract, not the underlying share"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035455-2",
@@ -215,7 +221,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "option contract, not the underlying share"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035455-6",
@@ -245,7 +252,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035455-1",
@@ -275,7 +283,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-9116331-doc",
@@ -295,7 +304,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035471-1",
@@ -325,7 +335,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035403-2",
@@ -358,7 +369,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035403-1",
@@ -391,7 +403,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-9116328-doc",
@@ -411,7 +424,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-9",
@@ -441,7 +455,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-8",
@@ -471,7 +486,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-7",
@@ -501,7 +517,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-6",
@@ -531,7 +548,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-5",
@@ -561,7 +579,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-4",
@@ -591,7 +610,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-3",
@@ -621,7 +641,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-2",
@@ -651,7 +672,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035392-1",
@@ -681,7 +703,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035420-4",
@@ -711,7 +734,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035420-3",
@@ -741,7 +765,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035420-6",
@@ -771,7 +796,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035420-5",
@@ -801,7 +827,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035420-2",
@@ -831,7 +858,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035420-1",
@@ -861,7 +889,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035350-2",
@@ -894,7 +923,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035350-1",
@@ -927,357 +957,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-9",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "20",
-  "asset_name": "ALLIANCEBERNSTEIN HOLDING LP (AB)",
-  "ticker": "AB",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-8",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "19",
-  "asset_name": "MICROSOFT CORP (MSFT)",
-  "ticker": "MSFT",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-7",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "13",
-  "asset_name": "GE HEALTHCARE TECHNOLOGIES INC (GEHC)",
-  "ticker": "GEHC",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-6",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "12",
-  "asset_name": "NATIONAL BEVERAGE CORP (FIZZ)",
-  "ticker": "FIZZ",
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-5",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "11",
-  "asset_name": "INTEL CORP (INTC)",
-  "ticker": "INTC",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-4",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "6",
-  "asset_name": "IONQ INC (IONQ)",
-  "ticker": "IONQ",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-3",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "3",
-  "asset_name": "ARM HOLDINGS PLC - ADR (ARM)",
-  "ticker": "ARM",
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-2",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "2",
-  "asset_name": "AMAZON COM INC (AMZN)",
-  "ticker": "AMZN",
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-14",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "27",
-  "asset_name": "CHARLES SCHWAB CORP (SCHW)",
-  "ticker": "SCHW",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-13",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "26",
-  "asset_name": "PALO ALTO NETWORKS (PANW)",
-  "ticker": "PANW",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-12",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "24",
-  "asset_name": "MICROSOFT CORP (MSFT)",
-  "ticker": "MSFT",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-11",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "23",
-  "asset_name": "CAMECO CORP (CCJ)",
-  "ticker": "CCJ",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-10",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "22",
-  "asset_name": "ARM HOLDINGS PLC - ADR (ARM)",
-  "ticker": "ARM",
-  "action": "sell",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-miller-stephen-2026-08-29-1",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Miller, Stephen",
-  "person_id": "miller-stephen",
-  "role": "Executive branch",
-  "row_number": "1",
-  "asset_name": "ALLIANCEBERNSTEIN HOLDING LP (AB)",
-  "ticker": "AB",
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-29",
-  "delay_days": 380,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-5",
@@ -1310,7 +991,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-17",
@@ -1340,7 +1022,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-13",
@@ -1370,7 +1053,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-12",
@@ -1400,7 +1084,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-19",
@@ -1430,7 +1115,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-14",
@@ -1460,7 +1146,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-8",
@@ -1490,7 +1177,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-7",
@@ -1520,7 +1208,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-4",
@@ -1550,7 +1239,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-3",
@@ -1580,7 +1270,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-11",
@@ -1610,7 +1301,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-6",
@@ -1640,7 +1332,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-20",
@@ -1670,7 +1363,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-10",
@@ -1700,7 +1394,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-1",
@@ -1730,7 +1425,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-9",
@@ -1760,7 +1456,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-21",
@@ -1790,7 +1487,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-15",
@@ -1820,7 +1518,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-2",
@@ -1850,7 +1549,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-18",
@@ -1880,7 +1580,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035326-16",
@@ -1910,88 +1611,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
- },
- {
-  "id": "oge-burrows-daniel-2026-08-27-3",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Burrows, Daniel",
-  "person_id": "burrows-daniel",
-  "role": "Executive branch",
-  "row_number": "3",
-  "asset_name": "BlackRock, Inc. (BLK) See Endnote",
-  "ticker": null,
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-14",
-  "disclosure_date": "2026-08-27",
-  "delay_days": 378,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Burrows-Daniel-Periodic-Transaction-Report-08.27.26-1.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
- },
- {
-  "id": "oge-burrows-daniel-2026-08-27-2",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Burrows, Daniel",
-  "person_id": "burrows-daniel",
-  "role": "Executive branch",
-  "row_number": "2",
-  "asset_name": "Alphabet Inc Class A (GOOGL) See Endnote",
-  "ticker": null,
-  "action": "buy",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-13",
-  "disclosure_date": "2026-08-27",
-  "delay_days": 379,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Burrows-Daniel-Periodic-Transaction-Report-08.27.26-1.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
- },
- {
-  "id": "oge-burrows-daniel-2026-08-27-1",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Burrows, Daniel",
-  "person_id": "burrows-daniel",
-  "role": "Executive branch",
-  "row_number": "1",
-  "asset_name": "BCE Inc. Common Stock (BCE) See Endnote",
-  "ticker": null,
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2025-08-13",
-  "disclosure_date": "2026-08-27",
-  "delay_days": 379,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Burrows-Daniel-Periodic-Transaction-Report-08.27.26-1.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-028743-non-1",
@@ -2035,7 +1656,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000936",
@@ -2056,7 +1678,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035400-1",
@@ -2089,7 +1712,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035289-3",
@@ -2119,7 +1743,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035289-4",
@@ -2149,7 +1774,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035289-2",
@@ -2179,7 +1805,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035289-1",
@@ -2209,7 +1836,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-027765-non-1",
@@ -2253,7 +1881,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-027763-non-1",
@@ -2297,7 +1926,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-027761-non-1",
@@ -2341,7 +1971,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-027758-non-1",
@@ -2385,7 +2016,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035345-1",
@@ -2415,7 +2047,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000860",
@@ -2436,7 +2069,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000859",
@@ -2457,7 +2091,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000858",
@@ -2478,7 +2113,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000857",
@@ -2499,7 +2135,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035209-1",
@@ -2532,7 +2169,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035203-1",
@@ -2562,7 +2200,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035203-3",
@@ -2595,7 +2234,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035203-2",
@@ -2628,7 +2268,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-08-12-26",
@@ -2648,7 +2289,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035244-7",
@@ -2678,7 +2320,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035244-6",
@@ -2708,7 +2351,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035244-5",
@@ -2738,7 +2382,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035244-4",
@@ -2768,7 +2413,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035244-3",
@@ -2798,7 +2444,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035244-2",
@@ -2828,7 +2475,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035244-1",
@@ -2858,7 +2506,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035235-2",
@@ -2891,7 +2540,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035235-1",
@@ -2924,7 +2574,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035274-3",
@@ -2957,7 +2608,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-9116267-doc",
@@ -2977,7 +2629,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035274-2",
@@ -3010,7 +2663,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035274-1",
@@ -3043,7 +2697,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-3",
@@ -3073,7 +2728,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-1",
@@ -3103,7 +2759,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-8",
@@ -3133,7 +2790,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-7",
@@ -3163,7 +2821,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-6",
@@ -3193,7 +2852,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-5",
@@ -3223,7 +2883,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-4",
@@ -3253,7 +2914,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-3",
@@ -3283,7 +2945,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-2",
@@ -3313,7 +2976,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-5",
@@ -3343,7 +3007,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-2",
@@ -3373,7 +3038,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-9",
@@ -3403,7 +3069,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-11",
@@ -3433,7 +3100,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-8",
@@ -3463,7 +3131,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035146-1",
@@ -3493,7 +3162,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-7",
@@ -3523,7 +3193,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-10",
@@ -3553,7 +3224,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-6",
@@ -3583,7 +3255,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035186-4",
@@ -3613,7 +3286,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035196-2",
@@ -3647,6 +3321,7 @@
    "withdrawn by the filer in an amendment",
    "re-disclosure of an earlier filing"
   ],
+  "advisor_directed": false,
   "superseded": true,
   "superseded_by": "house-20035134-13"
  },
@@ -3681,6 +3356,7 @@
   "copy_ineligible_reasons": [
    "re-disclosure of an earlier filing"
   ],
+  "advisor_directed": false,
   "superseded": true,
   "superseded_by": "house-20035134-11"
  },
@@ -3712,7 +3388,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-6",
@@ -3742,7 +3419,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-4",
@@ -3772,7 +3450,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-2",
@@ -3802,7 +3481,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-13",
@@ -3832,7 +3512,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-11",
@@ -3862,7 +3543,8 @@
   "parsed": true,
   "amended": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-12",
@@ -3895,7 +3577,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-1",
@@ -3928,7 +3611,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-7",
@@ -3961,7 +3645,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-5",
@@ -3994,7 +3679,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-8",
@@ -4027,7 +3713,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-10",
@@ -4060,7 +3747,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035134-3",
@@ -4093,7 +3781,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-9116256-doc",
@@ -4113,7 +3802,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "house-20035175-1",
@@ -4146,7 +3836,8 @@
   "copy_ineligible_reasons": [
    "bond or deposit, not a listed security",
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-06-25-26-2",
@@ -4166,7 +3857,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-06-25-26-1",
@@ -4186,7 +3878,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-021440-non-1",
@@ -4230,7 +3923,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-021439-non-1",
@@ -4274,7 +3968,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-021437-non-1",
@@ -4318,7 +4013,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-021435-non-1",
@@ -4362,7 +4058,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-021434-non-1",
@@ -4406,7 +4103,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001437749-26-021433-non-1",
@@ -4450,7 +4148,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015667-26-000004-non-2",
@@ -4493,7 +4192,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015667-26-000004-non-1",
@@ -4537,7 +4237,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015663-26-000004-non-2",
@@ -4580,7 +4281,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015663-26-000004-non-1",
@@ -4624,7 +4326,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001808488-26-000004-non-2",
@@ -4667,7 +4370,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001808488-26-000004-non-1",
@@ -4711,7 +4415,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000558",
@@ -4732,7 +4437,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000557",
@@ -4753,7 +4459,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000556",
@@ -4774,7 +4481,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001140361-26-022487-non-1",
@@ -4818,7 +4526,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000535",
@@ -4839,7 +4548,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000474",
@@ -4860,7 +4570,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015667-26-000003-non-1",
@@ -4904,7 +4615,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015663-26-000003-non-1",
@@ -4948,7 +4660,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001808488-26-000003-non-1",
@@ -4992,7 +4705,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000469",
@@ -5013,7 +4727,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000468",
@@ -5034,7 +4749,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000467",
@@ -5055,7 +4771,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000466",
@@ -5076,7 +4793,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-05-08-26-2",
@@ -5096,7 +4814,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-05-08-26-1",
@@ -5116,7 +4835,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001140361-26-016776-non-1",
@@ -5159,7 +4879,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000412",
@@ -5180,7 +4901,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000411",
@@ -5201,7 +4923,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-04-20-26",
@@ -5221,7 +4944,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-2",
@@ -5233,20 +4957,26 @@
   "row_number": "2",
   "asset_name": "WisdomTree U.S. Value Fund N/A (WTV)",
   "ticker": "WTV",
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-12",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 1,
+  "public_delay_days": 27,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26-1.pdf",
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-2",
@@ -5258,20 +4988,26 @@
   "row_number": "2",
   "asset_name": "WisdomTree U.S. Value Fund N/A (WTV)",
   "ticker": "WTV",
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-12",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 1,
+  "public_delay_days": 27,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf",
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-5",
@@ -5283,14 +5019,19 @@
   "row_number": "5",
   "asset_name": "North Hempsted, NY Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-04",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 9,
+  "public_delay_days": 35,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26-1.pdf",
   "parsed": true,
@@ -5298,7 +5039,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-5",
@@ -5310,14 +5052,19 @@
   "row_number": "5",
   "asset_name": "North Hempsted, NY Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-04",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 9,
+  "public_delay_days": 35,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf",
   "parsed": true,
@@ -5325,7 +5072,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-4",
@@ -5337,14 +5085,19 @@
   "row_number": "4",
   "asset_name": "NY State MTG Authority Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-04",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 9,
+  "public_delay_days": 35,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26-1.pdf",
   "parsed": true,
@@ -5352,7 +5105,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-4",
@@ -5364,14 +5118,19 @@
   "row_number": "4",
   "asset_name": "NY State MTG Authority Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-04",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 9,
+  "public_delay_days": 35,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf",
   "parsed": true,
@@ -5379,7 +5138,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-3",
@@ -5391,14 +5151,19 @@
   "row_number": "3",
   "asset_name": "New York, NY HSG Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-04",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 9,
+  "public_delay_days": 35,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26-1.pdf",
   "parsed": true,
@@ -5406,7 +5171,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-3",
@@ -5418,14 +5184,19 @@
   "row_number": "3",
   "asset_name": "New York, NY HSG Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-04",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 9,
+  "public_delay_days": 35,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf",
   "parsed": true,
@@ -5433,7 +5204,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-6",
@@ -5445,20 +5217,26 @@
   "row_number": "6",
   "asset_name": "Vanguard International Dividend Appreciation Index Fund ETF Shares (VIGI)",
   "ticker": "VIGI",
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-02",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 11,
+  "public_delay_days": 37,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26-1.pdf",
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-6",
@@ -5470,20 +5248,26 @@
   "row_number": "6",
   "asset_name": "Vanguard International Dividend Appreciation Index Fund ETF Shares (VIGI)",
   "ticker": "VIGI",
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-03-02",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 11,
+  "public_delay_days": 37,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf",
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-7",
@@ -5495,20 +5279,26 @@
   "row_number": "7",
   "asset_name": "WisdomTree U.S. Value Fund N/A (WTV)",
   "ticker": "WTV",
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-19",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 22,
+  "public_delay_days": 48,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26-1.pdf",
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-7",
@@ -5520,20 +5310,26 @@
   "row_number": "7",
   "asset_name": "WisdomTree U.S. Value Fund N/A (WTV)",
   "ticker": "WTV",
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-19",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 22,
+  "public_delay_days": 48,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf",
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-1",
@@ -5545,14 +5341,19 @@
   "row_number": "1",
   "asset_name": "SDZNY",
   "ticker": null,
+  "endnote": null,
   "action": "sell",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-17",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 24,
+  "public_delay_days": 50,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26-1.pdf",
   "parsed": true,
@@ -5560,7 +5361,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-03-13-1",
@@ -5572,14 +5374,19 @@
   "row_number": "1",
   "asset_name": "SDZNY",
   "ticker": null,
+  "endnote": null,
   "action": "sell",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-17",
-  "disclosure_date": "2026-03-13",
+  "filed_date": "2026-03-13",
+  "certified_date": "2026-04-08",
+  "disclosure_date": "2026-04-08",
+  "link_text_date": "2026-03-13",
   "delay_days": 24,
+  "public_delay_days": 50,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf",
   "parsed": true,
@@ -5587,7 +5394,258 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-scharf-william-2026-03-04-1",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Scharf, William",
+  "person_id": "scharf-william",
+  "role": "Executive branch",
+  "row_number": "1",
+  "asset_name": "AerCap Holdings N.V. Ordinary Shares (AER) See Endnote",
+  "ticker": "AER",
+  "endnote": "Trade made by independent advisor without personal input or foreknowledge",
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2026-03-03",
+  "filed_date": "2026-03-04",
+  "certified_date": "2026-03-25",
+  "disclosure_date": "2026-03-25",
+  "link_text_date": "2026-03-04",
+  "delay_days": 1,
+  "public_delay_days": 22,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-03.04.26-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": true
+ },
+ {
+  "id": "oge-scharf-william-2026-02-26-3",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Scharf, William",
+  "person_id": "scharf-william",
+  "role": "Executive branch",
+  "row_number": "3",
+  "asset_name": "Amazon.com, Inc. (AMZN) See Endnote",
+  "ticker": "AMZN",
+  "endnote": "Trade made by independent advisor without personal input or foreknowledge.",
+  "action": "buy",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2026-02-17",
+  "filed_date": "2026-02-26",
+  "certified_date": "2026-03-25",
+  "disclosure_date": "2026-03-25",
+  "link_text_date": "2026-02-26",
+  "delay_days": 9,
+  "public_delay_days": 36,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.26.26-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": true
+ },
+ {
+  "id": "oge-scharf-william-2026-02-26-2",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Scharf, William",
+  "person_id": "scharf-william",
+  "role": "Executive branch",
+  "row_number": "2",
+  "asset_name": "Constellation Software F (CNSWF) See Endnote",
+  "ticker": "CNSWF",
+  "endnote": "Trade made by independent advisor without personal input or foreknowledge.",
+  "action": "buy",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2026-02-03",
+  "filed_date": "2026-02-26",
+  "certified_date": "2026-03-25",
+  "disclosure_date": "2026-03-25",
+  "link_text_date": "2026-02-26",
+  "delay_days": 23,
+  "public_delay_days": 50,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.26.26-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": true
+ },
+ {
+  "id": "oge-scharf-william-2026-02-26-1",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Scharf, William",
+  "person_id": "scharf-william",
+  "role": "Executive branch",
+  "row_number": "1",
+  "asset_name": "PayPal Holdings, Inc. (PYPL) See Endnote",
+  "ticker": "PYPL",
+  "endnote": "Trade made by independent advisor without personal input or foreknowledge.",
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2026-02-03",
+  "filed_date": "2026-02-26",
+  "certified_date": "2026-03-25",
+  "disclosure_date": "2026-03-25",
+  "link_text_date": "2026-02-26",
+  "delay_days": 23,
+  "public_delay_days": 50,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.26.26-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": true
+ },
+ {
+  "id": "oge-scharf-william-2026-02-04-2",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Scharf, William",
+  "person_id": "scharf-william",
+  "role": "Executive branch",
+  "row_number": "2",
+  "asset_name": "Constellation Software Inc. See Endnote",
+  "ticker": null,
+  "endnote": "Trade made by independent advisor without personal input or foreknowledge.",
+  "action": "buy",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2026-02-03",
+  "filed_date": "2026-02-04",
+  "certified_date": "2026-03-25",
+  "disclosure_date": "2026-03-25",
+  "link_text_date": "2026-02-04",
+  "delay_days": 1,
+  "public_delay_days": 50,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.04.26-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": false,
+  "copy_ineligible_reasons": [
+   "no ticker reported"
+  ],
+  "advisor_directed": true
+ },
+ {
+  "id": "oge-scharf-william-2026-02-04-1",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Scharf, William",
+  "person_id": "scharf-william",
+  "role": "Executive branch",
+  "row_number": "1",
+  "asset_name": "PayPal Holdings, Inc. (PYPL) See Endnote",
+  "ticker": "PYPL",
+  "endnote": "Trade made by independent advisor without personal input or foreknowledge.",
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2026-02-03",
+  "filed_date": "2026-02-04",
+  "certified_date": "2026-03-25",
+  "disclosure_date": "2026-03-25",
+  "link_text_date": "2026-02-04",
+  "delay_days": 1,
+  "public_delay_days": 50,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.04.26-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": true
+ },
+ {
+  "id": "oge-scharf-william-2026-02-04-1",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Scharf, William",
+  "person_id": "scharf-william",
+  "role": "Executive branch",
+  "row_number": "1",
+  "asset_name": "Liberty Broadband Corp Series C (LBRDK) See Endnote",
+  "ticker": "LBRDK",
+  "endnote": "Trade made by independent advisor without personal input or foreknowledge.",
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-12-26",
+  "filed_date": "2026-02-04",
+  "certified_date": "2026-03-25",
+  "disclosure_date": "2026-03-25",
+  "link_text_date": "2026-02-04",
+  "delay_days": 40,
+  "public_delay_days": 89,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.04.26-2-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": true
+ },
+ {
+  "id": "oge-bresso-gineen-2026-02-25-1",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Bresso, Gineen",
+  "person_id": "bresso-gineen",
+  "role": "Executive branch",
+  "row_number": "1",
+  "asset_name": "Snowline Gold Corp Com (SNWGF)",
+  "ticker": "SNWGF",
+  "endnote": null,
+  "action": "buy",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2026-02-24",
+  "filed_date": "2026-02-25",
+  "certified_date": "2026-03-23",
+  "disclosure_date": "2026-03-23",
+  "link_text_date": "2026-02-25",
+  "delay_days": 1,
+  "public_delay_days": 27,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Bresso-Gineen-Periodic-Transaction-Report-02.25.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015798-26-000001-non-1",
@@ -5631,7 +5689,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015667-26-000001-non-1",
@@ -5675,7 +5734,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015663-26-000001-non-1",
@@ -5719,7 +5779,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001808488-26-000001-non-1",
@@ -5763,34 +5824,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
- },
- {
-  "id": "oge-scharf-william-2026-03-04-1",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Scharf, William",
-  "person_id": "scharf-william",
-  "role": "Executive branch",
-  "row_number": "1",
-  "asset_name": "AerCap Holdings N.V. Ordinary Shares (AER) See Endnote",
-  "ticker": null,
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2026-03-03",
-  "disclosure_date": "2026-03-04",
-  "delay_days": 1,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-03.04.26-1.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000258",
@@ -5811,7 +5846,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000257",
@@ -5832,7 +5868,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000256",
@@ -5853,7 +5890,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-26-000255",
@@ -5874,88 +5912,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
- },
- {
-  "id": "oge-scharf-william-2026-02-26-3",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Scharf, William",
-  "person_id": "scharf-william",
-  "role": "Executive branch",
-  "row_number": "3",
-  "asset_name": "Amazon.com, Inc. (AMZN) See Endnote",
-  "ticker": null,
-  "action": "buy",
-  "amount_min": 15001,
-  "amount_max": 50000,
-  "amount_label": "$15,001 - $50,000",
-  "notification_over_30_days": false,
-  "trade_date": "2026-02-17",
-  "disclosure_date": "2026-02-26",
-  "delay_days": 9,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.26.26-1.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
- },
- {
-  "id": "oge-scharf-william-2026-02-26-2",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Scharf, William",
-  "person_id": "scharf-william",
-  "role": "Executive branch",
-  "row_number": "2",
-  "asset_name": "Constellation Software F (CNSWF) See Endnote",
-  "ticker": null,
-  "action": "buy",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2026-02-03",
-  "disclosure_date": "2026-02-26",
-  "delay_days": 23,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.26.26-1.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
- },
- {
-  "id": "oge-scharf-william-2026-02-26-1",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Scharf, William",
-  "person_id": "scharf-william",
-  "role": "Executive branch",
-  "row_number": "1",
-  "asset_name": "PayPal Holdings, Inc. (PYPL) See Endnote",
-  "ticker": null,
-  "action": "sell",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2026-02-03",
-  "disclosure_date": "2026-02-26",
-  "delay_days": 23,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.26.26-1.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-02-26-26-2",
@@ -5975,7 +5933,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-02-26-26-1",
@@ -5995,32 +5954,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
- },
- {
-  "id": "oge-bresso-gineen-2026-02-25-1",
-  "source": "oge_278t",
-  "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Bresso, Gineen",
-  "person_id": "bresso-gineen",
-  "role": "Executive branch",
-  "row_number": "1",
-  "asset_name": "Snowline Gold Corp Com (SNWGF)",
-  "ticker": "SNWGF",
-  "action": "buy",
-  "amount_min": 1001,
-  "amount_max": 15000,
-  "amount_label": "$1,001 - $15,000",
-  "notification_over_30_days": false,
-  "trade_date": "2026-02-24",
-  "disclosure_date": "2026-02-25",
-  "delay_days": 1,
-  "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Bresso-Gineen-Periodic-Transaction-Report-02.25.26.pdf",
-  "parsed": true,
-  "withdrawn": false,
-  "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-4",
@@ -6032,14 +5967,19 @@
   "row_number": "4",
   "asset_name": "New York, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Called",
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-06",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 10,
+  "public_delay_days": 18,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6047,7 +5987,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-3",
@@ -6059,14 +6000,19 @@
   "row_number": "3",
   "asset_name": "New York, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Called",
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-06",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 10,
+  "public_delay_days": 18,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6074,7 +6020,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-2",
@@ -6086,14 +6033,19 @@
   "row_number": "2",
   "asset_name": "New York, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Called",
   "action": "sell",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-06",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 10,
+  "public_delay_days": 18,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6101,7 +6053,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-1",
@@ -6113,14 +6066,19 @@
   "row_number": "1",
   "asset_name": "Long Beach, NY Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-06",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 10,
+  "public_delay_days": 18,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6128,7 +6086,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-8",
@@ -6140,14 +6099,19 @@
   "row_number": "8",
   "asset_name": "Cayuga Cty, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Matured",
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-01",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 15,
+  "public_delay_days": 23,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6155,7 +6119,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-7",
@@ -6167,14 +6132,19 @@
   "row_number": "7",
   "asset_name": "New York, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Matured",
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-01",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 15,
+  "public_delay_days": 23,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6182,7 +6152,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-6",
@@ -6194,14 +6165,19 @@
   "row_number": "6",
   "asset_name": "Orange Cty, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Matured",
   "action": "sell",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-01",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 15,
+  "public_delay_days": 23,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6209,7 +6185,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-5",
@@ -6221,14 +6198,19 @@
   "row_number": "5",
   "asset_name": "New York, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Matured",
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-02-01",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 15,
+  "public_delay_days": 23,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6236,7 +6218,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-9",
@@ -6248,14 +6231,19 @@
   "row_number": "9",
   "asset_name": "NY State Housing Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-01-28",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 19,
+  "public_delay_days": 27,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6263,7 +6251,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-10",
@@ -6275,14 +6264,19 @@
   "row_number": "10",
   "asset_name": "New York, NY Bond See Endnote",
   "ticker": null,
+  "endnote": "Called",
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-01-27",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 20,
+  "public_delay_days": 28,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6290,7 +6284,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-11",
@@ -6302,14 +6297,19 @@
   "row_number": "11",
   "asset_name": "Rye, NY City School Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-01-26",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 21,
+  "public_delay_days": 29,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6317,7 +6317,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-13",
@@ -6329,14 +6330,19 @@
   "row_number": "13",
   "asset_name": "NY State Housing Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-01-23",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 24,
+  "public_delay_days": 32,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6344,7 +6350,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-12",
@@ -6356,20 +6363,26 @@
   "row_number": "12",
   "asset_name": "WisdomTree U.S. Value Fund N/A (WTV)",
   "ticker": "WTV",
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-01-23",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 24,
+  "public_delay_days": 32,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-14",
@@ -6381,14 +6394,19 @@
   "row_number": "14",
   "asset_name": "NY State Housing Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 15001,
   "amount_max": 50000,
   "amount_label": "$15,001 - $50,000",
   "notification_over_30_days": false,
   "trade_date": "2026-01-22",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 25,
+  "public_delay_days": 33,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6396,7 +6414,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "oge-zinberg-joel-2026-02-16-15",
@@ -6408,14 +6427,19 @@
   "row_number": "15",
   "asset_name": "Panama NY Cent School Bond",
   "ticker": null,
+  "endnote": null,
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
   "trade_date": "2026-01-21",
-  "disclosure_date": "2026-02-16",
+  "filed_date": "2026-02-16",
+  "certified_date": "2026-02-24",
+  "disclosure_date": "2026-02-24",
+  "link_text_date": "2026-02-16",
   "delay_days": 26,
+  "public_delay_days": 34,
   "amended": false,
   "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf",
   "parsed": true,
@@ -6423,88 +6447,535 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "no ticker reported"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
-  "id": "oge-scharf-william-2026-02-04-2",
+  "id": "oge-burrows-daniel-2026-08-27-3",
   "source": "oge_278t",
   "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Scharf, William",
-  "person_id": "scharf-william",
+  "person": "Burrows, Daniel",
+  "person_id": "burrows-daniel",
+  "role": "Executive branch",
+  "row_number": "3",
+  "asset_name": "BlackRock, Inc. (BLK) See Endnote",
+  "ticker": "BLK",
+  "endnote": "Underlying asset in family trust for which I hold a variable remainder interest (see OGE 278 New Entrant",
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-27",
+  "certified_date": "2026-01-22",
+  "disclosure_date": "2026-01-22",
+  "link_text_date": "2026-08-27",
+  "delay_days": 13,
+  "public_delay_days": 161,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Burrows-Daniel-Periodic-Transaction-Report-08.27.26-1.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-burrows-daniel-2026-08-27-2",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Burrows, Daniel",
+  "person_id": "burrows-daniel",
   "role": "Executive branch",
   "row_number": "2",
-  "asset_name": "Constellation Software Inc. See Endnote",
-  "ticker": null,
+  "asset_name": "Alphabet Inc Class A (GOOGL) See Endnote",
+  "ticker": "GOOGL",
+  "endnote": "Underlying asset in family trust for which I hold a variable remainder interest (see OGE 278 New Entrant",
   "action": "buy",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
-  "trade_date": "2026-02-03",
-  "disclosure_date": "2026-02-04",
-  "delay_days": 1,
+  "trade_date": "2025-08-13",
+  "filed_date": "2025-08-27",
+  "certified_date": "2026-01-22",
+  "disclosure_date": "2026-01-22",
+  "link_text_date": "2026-08-27",
+  "delay_days": 14,
+  "public_delay_days": 162,
   "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.04.26-1.pdf",
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Burrows-Daniel-Periodic-Transaction-Report-08.27.26-1.pdf",
   "parsed": true,
   "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
-  "id": "oge-scharf-william-2026-02-04-1",
+  "id": "oge-burrows-daniel-2026-08-27-1",
   "source": "oge_278t",
   "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Scharf, William",
-  "person_id": "scharf-william",
+  "person": "Burrows, Daniel",
+  "person_id": "burrows-daniel",
   "role": "Executive branch",
   "row_number": "1",
-  "asset_name": "PayPal Holdings, Inc. (PYPL) See Endnote",
-  "ticker": null,
+  "asset_name": "BCE Inc. Common Stock (BCE) See Endnote",
+  "ticker": "BCE",
+  "endnote": "Underlying asset in family trust for which I hold a variable remainder interest (see OGE 278 New Entrant",
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
-  "trade_date": "2026-02-03",
-  "disclosure_date": "2026-02-04",
-  "delay_days": 1,
+  "trade_date": "2025-08-13",
+  "filed_date": "2025-08-27",
+  "certified_date": "2026-01-22",
+  "disclosure_date": "2026-01-22",
+  "link_text_date": "2026-08-27",
+  "delay_days": 14,
+  "public_delay_days": 162,
   "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.04.26-1.pdf",
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Burrows-Daniel-Periodic-Transaction-Report-08.27.26-1.pdf",
   "parsed": true,
   "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
-  "id": "oge-scharf-william-2026-02-04-1",
+  "id": "oge-miller-stephen-2026-08-29-9",
   "source": "oge_278t",
   "source_label": "OGE Form 278-T (whitehouse.gov)",
-  "person": "Scharf, William",
-  "person_id": "scharf-william",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
   "role": "Executive branch",
-  "row_number": "1",
-  "asset_name": "Liberty Broadband Corp Series C (LBRDK) See Endnote",
-  "ticker": null,
+  "row_number": "20",
+  "asset_name": "ALLIANCEBERNSTEIN HOLDING LP (AB)",
+  "ticker": "AB",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-8",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "19",
+  "asset_name": "MICROSOFT CORP (MSFT)",
+  "ticker": "MSFT",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-7",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "13",
+  "asset_name": "GE HEALTHCARE TECHNOLOGIES INC (GEHC)",
+  "ticker": "GEHC",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-6",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "12",
+  "asset_name": "NATIONAL BEVERAGE CORP (FIZZ)",
+  "ticker": "FIZZ",
+  "endnote": null,
   "action": "sell",
   "amount_min": 1001,
   "amount_max": 15000,
   "amount_label": "$1,001 - $15,000",
   "notification_over_30_days": false,
-  "trade_date": "2025-12-26",
-  "disclosure_date": "2026-02-04",
-  "delay_days": 40,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
   "amended": false,
-  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-02.04.26-2-1.pdf",
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
   "parsed": true,
   "withdrawn": false,
-  "copy_eligible": false,
-  "copy_ineligible_reasons": [
-   "no ticker reported"
-  ]
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-5",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "11",
+  "asset_name": "INTEL CORP (INTC)",
+  "ticker": "INTC",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-4",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "6",
+  "asset_name": "IONQ INC (IONQ)",
+  "ticker": "IONQ",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-3",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "3",
+  "asset_name": "ARM HOLDINGS PLC - ADR (ARM)",
+  "ticker": "ARM",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-2",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "2",
+  "asset_name": "AMAZON COM INC (AMZN)",
+  "ticker": "AMZN",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-14",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "27",
+  "asset_name": "CHARLES SCHWAB CORP (SCHW)",
+  "ticker": "SCHW",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-13",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "26",
+  "asset_name": "PALO ALTO NETWORKS (PANW)",
+  "ticker": "PANW",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-12",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "24",
+  "asset_name": "MICROSOFT CORP (MSFT)",
+  "ticker": "MSFT",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-11",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "23",
+  "asset_name": "CAMECO CORP (CCJ)",
+  "ticker": "CCJ",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-10",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "22",
+  "asset_name": "ARM HOLDINGS PLC - ADR (ARM)",
+  "ticker": "ARM",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 15001,
+  "amount_max": 50000,
+  "amount_label": "$15,001 - $50,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
+ },
+ {
+  "id": "oge-miller-stephen-2026-08-29-1",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "Miller, Stephen",
+  "person_id": "miller-stephen",
+  "role": "Executive branch",
+  "row_number": "1",
+  "asset_name": "ALLIANCEBERNSTEIN HOLDING LP (AB)",
+  "ticker": "AB",
+  "endnote": null,
+  "action": "sell",
+  "amount_min": 1001,
+  "amount_max": 15000,
+  "amount_label": "$1,001 - $15,000",
+  "notification_over_30_days": false,
+  "trade_date": "2025-08-14",
+  "filed_date": "2025-08-29",
+  "certified_date": "2025-11-25",
+  "disclosure_date": "2025-11-25",
+  "link_text_date": "2026-08-29",
+  "delay_days": 15,
+  "public_delay_days": 103,
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+  "parsed": true,
+  "withdrawn": false,
+  "copy_eligible": true,
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015663-25-000003-non-1",
@@ -6544,7 +7015,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001836937-25-000002-non-1",
@@ -6583,7 +7055,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-001375",
@@ -6604,7 +7077,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015798-25-000002-non-1",
@@ -6648,7 +7122,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015667-25-000002-non-1",
@@ -6692,7 +7167,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0002015663-25-000002-non-1",
@@ -6736,7 +7212,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001808488-25-000002-non-1",
@@ -6780,7 +7257,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-001362",
@@ -6801,7 +7279,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-001361",
@@ -6822,7 +7301,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-001360",
@@ -6843,7 +7323,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-001359",
@@ -6864,7 +7345,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000169-non-1",
@@ -6905,7 +7387,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-001136",
@@ -6926,7 +7409,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000168-non-1",
@@ -6967,7 +7451,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-001055",
@@ -6988,7 +7473,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000163-non-1",
@@ -7032,7 +7518,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000162-non-1",
@@ -7076,7 +7563,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000158-non-1",
@@ -7120,7 +7608,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000157-non-1",
@@ -7164,7 +7653,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000156-non-1",
@@ -7208,7 +7698,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000155-non-1",
@@ -7252,7 +7743,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000150-non-2",
@@ -7296,7 +7788,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000150-non-1",
@@ -7339,7 +7832,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000149-non-2",
@@ -7383,7 +7877,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000149-non-1",
@@ -7426,7 +7921,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000148-non-2",
@@ -7470,7 +7966,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000148-non-1",
@@ -7513,7 +8010,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000147-non-2",
@@ -7557,7 +8055,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000147-non-1",
@@ -7600,7 +8099,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000884",
@@ -7621,7 +8121,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000883",
@@ -7642,7 +8143,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000882",
@@ -7663,7 +8165,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000881",
@@ -7684,7 +8187,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001830188-25-000048-non-1",
@@ -7725,7 +8229,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000641",
@@ -7746,7 +8251,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000095-non-1",
@@ -7785,7 +8291,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000094-non-4",
@@ -7824,7 +8331,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000094-non-3",
@@ -7865,7 +8373,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000094-non-2",
@@ -7907,7 +8416,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000094-non-1",
@@ -7949,7 +8459,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000093-non-4",
@@ -7990,7 +8501,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000093-non-3",
@@ -8031,7 +8543,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000093-non-2",
@@ -8073,7 +8586,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000093-non-1",
@@ -8115,7 +8629,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000092-non-2",
@@ -8157,7 +8672,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000092-non-1",
@@ -8199,7 +8715,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000091-non-2",
@@ -8241,7 +8758,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000091-non-1",
@@ -8283,7 +8801,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001950047-25-003022",
@@ -8304,7 +8823,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000492",
@@ -8325,7 +8845,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000491",
@@ -8346,7 +8867,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000490",
@@ -8367,7 +8889,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000489",
@@ -8388,7 +8911,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec144-0001921094-25-000488",
@@ -8409,7 +8933,8 @@
   "copy_eligible": false,
   "copy_ineligible_reasons": [
    "document not machine-parsed"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000056-non-2",
@@ -8448,7 +8973,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000056-non-1",
@@ -8488,7 +9014,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000055-non-3",
@@ -8528,7 +9055,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000055-non-2",
@@ -8568,7 +9096,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000055-non-1",
@@ -8609,7 +9138,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000046-non-1",
@@ -8652,7 +9182,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000045-non-1",
@@ -8695,7 +9226,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000044-non-1",
@@ -8738,7 +9270,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000043-non-1",
@@ -8781,7 +9314,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (tax)",
    "Form 4 code F is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000024-non-1",
@@ -8824,7 +9358,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000023-non-1",
@@ -8867,7 +9402,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000022-non-1",
@@ -8910,7 +9446,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000021-non-1",
@@ -8953,7 +9490,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000020-non-1",
@@ -8996,7 +9534,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-25-000019-non-1",
@@ -9039,7 +9578,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000291-non-1",
@@ -9082,7 +9622,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (gift)",
    "Form 4 code G is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000290-non-1",
@@ -9125,7 +9666,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (gift)",
    "Form 4 code G is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000239-non-2",
@@ -9164,7 +9706,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000240-non-1",
@@ -9203,7 +9746,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000239-non-1",
@@ -9242,7 +9786,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000238-non-1",
@@ -9279,7 +9824,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000236-non-1",
@@ -9322,7 +9868,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000235-non-1",
@@ -9365,7 +9912,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000234-non-1",
@@ -9408,7 +9956,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000233-non-1",
@@ -9451,7 +10000,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000216-non-1",
@@ -9493,7 +10043,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (other)",
    "Form 4 code J is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000192-non-1",
@@ -9532,7 +10083,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000191-non-1",
@@ -9571,7 +10123,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000190-non-1",
@@ -9610,7 +10163,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000189-non-1",
@@ -9649,7 +10203,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000188-non-1",
@@ -9688,7 +10243,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000146-non-1",
@@ -9731,7 +10287,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (other)",
    "Form 4 code J is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000146-der-1",
@@ -9780,7 +10337,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (other)",
    "Form 4 code J is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001140361-24-015770-non-2",
@@ -9823,7 +10381,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (conversion)",
    "Form 4 code C is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001140361-24-015770-non-1",
@@ -9865,7 +10424,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (conversion)",
    "Form 4 code C is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001140361-24-015770-der-1",
@@ -9911,7 +10471,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (conversion)",
    "Form 4 code C is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000116-non-1",
@@ -9953,7 +10514,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000115-non-1",
@@ -9995,7 +10557,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000114-non-1",
@@ -10037,7 +10600,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000113-non-1",
@@ -10079,7 +10643,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001474506-24-000112-non-1",
@@ -10121,7 +10686,8 @@
   "copy_ineligible_reasons": [
    "not an open-market trade (grant)",
    "Form 4 code A is not a trade"
-  ]
+  ],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001104659-21-114762-non-1",
@@ -10161,7 +10727,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001104659-21-114762-der-1",
@@ -10205,7 +10772,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001104659-21-114761-non-1",
@@ -10246,7 +10814,8 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  },
  {
   "id": "sec4-0001104659-21-114761-der-1",
@@ -10291,6 +10860,7 @@
   "parsed": true,
   "withdrawn": false,
   "copy_eligible": true,
-  "copy_ineligible_reasons": []
+  "copy_ineligible_reasons": [],
+  "advisor_directed": false
  }
 ]

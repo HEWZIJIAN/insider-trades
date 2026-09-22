@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T06:10:43+00:00",
+ "generated_at": "2026-09-22T06:16:45+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 38,
-  "measured": 36,
+  "eligible_buys": 41,
+  "measured": 39,
   "unmeasurable": 2
  },
  "people": [
@@ -125,6 +125,34 @@
    }
   },
   {
+   "person_id": "scharf-william",
+   "person": "Scharf, William",
+   "measured_buys": 2,
+   "underlying_filing_rows": 2,
+   "by_horizon": {
+    "d7": {
+     "status": "insufficient_data",
+     "n": 2,
+     "needed": 5
+    },
+    "d30": {
+     "status": "insufficient_data",
+     "n": 2,
+     "needed": 5
+    },
+    "d90": {
+     "status": "insufficient_data",
+     "n": 2,
+     "needed": 5
+    },
+    "today": {
+     "status": "insufficient_data",
+     "n": 2,
+     "needed": 5
+    }
+   }
+  },
+  {
    "person_id": "byron-donalds-fl19",
    "person": "Byron Donalds",
    "measured_buys": 1,
@@ -183,6 +211,34 @@
   {
    "person_id": "bresso-gineen",
    "person": "Bresso, Gineen",
+   "measured_buys": 1,
+   "underlying_filing_rows": 1,
+   "by_horizon": {
+    "d7": {
+     "status": "insufficient_data",
+     "n": 1,
+     "needed": 5
+    },
+    "d30": {
+     "status": "insufficient_data",
+     "n": 1,
+     "needed": 5
+    },
+    "d90": {
+     "status": "insufficient_data",
+     "n": 1,
+     "needed": 5
+    },
+    "today": {
+     "status": "insufficient_data",
+     "n": 1,
+     "needed": 5
+    }
+   }
+  },
+  {
+   "person_id": "burrows-daniel",
+   "person": "Burrows, Daniel",
    "measured_buys": 1,
    "underlying_filing_rows": 1,
    "by_horizon": {
@@ -1384,45 +1440,45 @@
    "person": "Zinberg, Joel",
    "ticker": "WTV",
    "asset_class": "equity",
-   "disclosure_date": "2026-03-13",
+   "disclosure_date": "2026-04-08",
    "trade_date": "2026-03-12",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-03-16",
-   "baseline_price": 94.74,
+   "baseline_date": "2026-04-09",
+   "baseline_price": 96.44,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-03-23",
-     "price": 94.47,
-     "return_pct": -0.28,
-     "benchmark_return_pct": -2.04,
-     "excess_pct": 1.76
+     "as_of": "2026-04-16",
+     "price": 97.44,
+     "return_pct": 1.04,
+     "benchmark_return_pct": 3.2,
+     "excess_pct": -2.16
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-04-15",
-     "price": 96.83,
-     "return_pct": 2.21,
-     "benchmark_return_pct": 4.62,
-     "excess_pct": -2.41
+     "as_of": "2026-05-08",
+     "price": 100.23,
+     "return_pct": 3.93,
+     "benchmark_return_pct": 8.49,
+     "excess_pct": -4.56
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-06-12",
-     "price": 103.6,
-     "return_pct": 9.35,
-     "benchmark_return_pct": 10.87,
-     "excess_pct": -1.52
+     "as_of": "2026-07-08",
+     "price": 102.99,
+     "return_pct": 6.79,
+     "benchmark_return_pct": 9.63,
+     "excess_pct": -2.84
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 106.39,
-     "return_pct": 12.3,
-     "benchmark_return_pct": 15.62,
-     "excess_pct": -3.32
+     "return_pct": 10.32,
+     "benchmark_return_pct": 13.77,
+     "excess_pct": -3.45
     }
    }
   },
@@ -1432,45 +1488,45 @@
    "person": "Zinberg, Joel",
    "ticker": "WTV",
    "asset_class": "equity",
-   "disclosure_date": "2026-03-13",
+   "disclosure_date": "2026-04-08",
    "trade_date": "2026-03-12",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-03-16",
-   "baseline_price": 94.74,
+   "baseline_date": "2026-04-09",
+   "baseline_price": 96.44,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-03-23",
-     "price": 94.47,
-     "return_pct": -0.28,
-     "benchmark_return_pct": -2.04,
-     "excess_pct": 1.76
+     "as_of": "2026-04-16",
+     "price": 97.44,
+     "return_pct": 1.04,
+     "benchmark_return_pct": 3.2,
+     "excess_pct": -2.16
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-04-15",
-     "price": 96.83,
-     "return_pct": 2.21,
-     "benchmark_return_pct": 4.62,
-     "excess_pct": -2.41
+     "as_of": "2026-05-08",
+     "price": 100.23,
+     "return_pct": 3.93,
+     "benchmark_return_pct": 8.49,
+     "excess_pct": -4.56
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-06-12",
-     "price": 103.6,
-     "return_pct": 9.35,
-     "benchmark_return_pct": 10.87,
-     "excess_pct": -1.52
+     "as_of": "2026-07-08",
+     "price": 102.99,
+     "return_pct": 6.79,
+     "benchmark_return_pct": 9.63,
+     "excess_pct": -2.84
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 106.39,
-     "return_pct": 12.3,
-     "benchmark_return_pct": 15.62,
-     "excess_pct": -3.32
+     "return_pct": 10.32,
+     "benchmark_return_pct": 13.77,
+     "excess_pct": -3.45
     }
    }
   },
@@ -1480,45 +1536,45 @@
    "person": "Zinberg, Joel",
    "ticker": "VIGI",
    "asset_class": "equity",
-   "disclosure_date": "2026-03-13",
+   "disclosure_date": "2026-04-08",
    "trade_date": "2026-03-02",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-03-16",
-   "baseline_price": 90.13,
+   "baseline_date": "2026-04-09",
+   "baseline_price": 91.35,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-03-23",
-     "price": 87.37,
-     "return_pct": -3.06,
-     "benchmark_return_pct": -2.04,
-     "excess_pct": -1.02
+     "as_of": "2026-04-16",
+     "price": 92.67,
+     "return_pct": 1.44,
+     "benchmark_return_pct": 3.2,
+     "excess_pct": -1.76
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-04-15",
-     "price": 92.58,
-     "return_pct": 2.72,
-     "benchmark_return_pct": 4.62,
-     "excess_pct": -1.9
+     "as_of": "2026-05-08",
+     "price": 92.93,
+     "return_pct": 1.73,
+     "benchmark_return_pct": 8.49,
+     "excess_pct": -6.76
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-06-12",
-     "price": 93.68,
-     "return_pct": 3.94,
-     "benchmark_return_pct": 10.87,
-     "excess_pct": -6.93
+     "as_of": "2026-07-08",
+     "price": 94.26,
+     "return_pct": 3.19,
+     "benchmark_return_pct": 9.63,
+     "excess_pct": -6.44
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 96.65,
-     "return_pct": 7.23,
-     "benchmark_return_pct": 15.62,
-     "excess_pct": -8.39
+     "return_pct": 5.8,
+     "benchmark_return_pct": 13.77,
+     "excess_pct": -7.97
     }
    }
   },
@@ -1528,45 +1584,45 @@
    "person": "Zinberg, Joel",
    "ticker": "VIGI",
    "asset_class": "equity",
-   "disclosure_date": "2026-03-13",
+   "disclosure_date": "2026-04-08",
    "trade_date": "2026-03-02",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-03-16",
-   "baseline_price": 90.13,
+   "baseline_date": "2026-04-09",
+   "baseline_price": 91.35,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-03-23",
-     "price": 87.37,
-     "return_pct": -3.06,
-     "benchmark_return_pct": -2.04,
-     "excess_pct": -1.02
+     "as_of": "2026-04-16",
+     "price": 92.67,
+     "return_pct": 1.44,
+     "benchmark_return_pct": 3.2,
+     "excess_pct": -1.76
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-04-15",
-     "price": 92.58,
-     "return_pct": 2.72,
-     "benchmark_return_pct": 4.62,
-     "excess_pct": -1.9
+     "as_of": "2026-05-08",
+     "price": 92.93,
+     "return_pct": 1.73,
+     "benchmark_return_pct": 8.49,
+     "excess_pct": -6.76
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-06-12",
-     "price": 93.68,
-     "return_pct": 3.94,
-     "benchmark_return_pct": 10.87,
-     "excess_pct": -6.93
+     "as_of": "2026-07-08",
+     "price": 94.26,
+     "return_pct": 3.19,
+     "benchmark_return_pct": 9.63,
+     "excess_pct": -6.44
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 96.65,
-     "return_pct": 7.23,
-     "benchmark_return_pct": 15.62,
-     "excess_pct": -8.39
+     "return_pct": 5.8,
+     "benchmark_return_pct": 13.77,
+     "excess_pct": -7.97
     }
    }
   },
@@ -1576,45 +1632,45 @@
    "person": "Zinberg, Joel",
    "ticker": "WTV",
    "asset_class": "equity",
-   "disclosure_date": "2026-03-13",
+   "disclosure_date": "2026-04-08",
    "trade_date": "2026-02-19",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-03-16",
-   "baseline_price": 94.74,
+   "baseline_date": "2026-04-09",
+   "baseline_price": 96.44,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-03-23",
-     "price": 94.47,
-     "return_pct": -0.28,
-     "benchmark_return_pct": -2.04,
-     "excess_pct": 1.76
+     "as_of": "2026-04-16",
+     "price": 97.44,
+     "return_pct": 1.04,
+     "benchmark_return_pct": 3.2,
+     "excess_pct": -2.16
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-04-15",
-     "price": 96.83,
-     "return_pct": 2.21,
-     "benchmark_return_pct": 4.62,
-     "excess_pct": -2.41
+     "as_of": "2026-05-08",
+     "price": 100.23,
+     "return_pct": 3.93,
+     "benchmark_return_pct": 8.49,
+     "excess_pct": -4.56
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-06-12",
-     "price": 103.6,
-     "return_pct": 9.35,
-     "benchmark_return_pct": 10.87,
-     "excess_pct": -1.52
+     "as_of": "2026-07-08",
+     "price": 102.99,
+     "return_pct": 6.79,
+     "benchmark_return_pct": 9.63,
+     "excess_pct": -2.84
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 106.39,
-     "return_pct": 12.3,
-     "benchmark_return_pct": 15.62,
-     "excess_pct": -3.32
+     "return_pct": 10.32,
+     "benchmark_return_pct": 13.77,
+     "excess_pct": -3.45
     }
    }
   },
@@ -1624,45 +1680,141 @@
    "person": "Zinberg, Joel",
    "ticker": "WTV",
    "asset_class": "equity",
-   "disclosure_date": "2026-03-13",
+   "disclosure_date": "2026-04-08",
    "trade_date": "2026-02-19",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-03-16",
-   "baseline_price": 94.74,
+   "baseline_date": "2026-04-09",
+   "baseline_price": 96.44,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-03-23",
-     "price": 94.47,
-     "return_pct": -0.28,
-     "benchmark_return_pct": -2.04,
-     "excess_pct": 1.76
+     "as_of": "2026-04-16",
+     "price": 97.44,
+     "return_pct": 1.04,
+     "benchmark_return_pct": 3.2,
+     "excess_pct": -2.16
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-04-15",
-     "price": 96.83,
-     "return_pct": 2.21,
-     "benchmark_return_pct": 4.62,
-     "excess_pct": -2.41
+     "as_of": "2026-05-08",
+     "price": 100.23,
+     "return_pct": 3.93,
+     "benchmark_return_pct": 8.49,
+     "excess_pct": -4.56
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-06-12",
-     "price": 103.6,
-     "return_pct": 9.35,
-     "benchmark_return_pct": 10.87,
-     "excess_pct": -1.52
+     "as_of": "2026-07-08",
+     "price": 102.99,
+     "return_pct": 6.79,
+     "benchmark_return_pct": 9.63,
+     "excess_pct": -2.84
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 106.39,
-     "return_pct": 12.3,
-     "benchmark_return_pct": 15.62,
-     "excess_pct": -3.32
+     "return_pct": 10.32,
+     "benchmark_return_pct": 13.77,
+     "excess_pct": -3.45
+    }
+   }
+  },
+  {
+   "trade_id": "oge-scharf-william-2026-02-26-3",
+   "person_id": "scharf-william",
+   "person": "Scharf, William",
+   "ticker": "AMZN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-03-25",
+   "trade_date": "2026-02-17",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-03-26",
+   "baseline_price": 207.54,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-02",
+     "price": 209.77,
+     "return_pct": 1.07,
+     "benchmark_return_pct": 1.66,
+     "excess_pct": -0.59
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-04-24",
+     "price": 263.99,
+     "return_pct": 27.2,
+     "benchmark_return_pct": 10.67,
+     "excess_pct": 16.53
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-06-24",
+     "price": 234.27,
+     "return_pct": 12.88,
+     "benchmark_return_pct": 13.66,
+     "excess_pct": -0.78
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 258.45,
+     "return_pct": 24.53,
+     "benchmark_return_pct": 19.91,
+     "excess_pct": 4.62
+    }
+   }
+  },
+  {
+   "trade_id": "oge-scharf-william-2026-02-26-2",
+   "person_id": "scharf-william",
+   "person": "Scharf, William",
+   "ticker": "CNSWF",
+   "asset_class": "equity",
+   "disclosure_date": "2026-03-25",
+   "trade_date": "2026-02-03",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-03-26",
+   "baseline_price": 1724.0,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-02",
+     "price": 1760.0,
+     "return_pct": 2.09,
+     "benchmark_return_pct": 1.66,
+     "excess_pct": 0.43
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-04-24",
+     "price": 1774.03,
+     "return_pct": 2.9,
+     "benchmark_return_pct": 10.67,
+     "excess_pct": -7.77
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-06-24",
+     "price": 2018.52,
+     "return_pct": 17.08,
+     "benchmark_return_pct": 13.66,
+     "excess_pct": 3.42
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 1984.3101,
+     "return_pct": 15.1,
+     "benchmark_return_pct": 19.91,
+     "excess_pct": -4.81
     }
    }
   },
@@ -1672,45 +1824,45 @@
    "person": "Bresso, Gineen",
    "ticker": "SNWGF",
    "asset_class": "equity",
-   "disclosure_date": "2026-02-25",
+   "disclosure_date": "2026-03-23",
    "trade_date": "2026-02-24",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-02-26",
-   "baseline_price": 14.127,
+   "baseline_date": "2026-03-24",
+   "baseline_price": 9.92,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-03-05",
-     "price": 13.4,
-     "return_pct": -5.15,
-     "benchmark_return_pct": -1.16,
-     "excess_pct": -3.99
+     "as_of": "2026-03-31",
+     "price": 9.964,
+     "return_pct": 0.44,
+     "benchmark_return_pct": -0.43,
+     "excess_pct": 0.87
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-03-27",
-     "price": 9.6,
-     "return_pct": -32.05,
-     "benchmark_return_pct": -8.01,
-     "excess_pct": -24.04
+     "as_of": "2026-04-23",
+     "price": 10.94,
+     "return_pct": 10.28,
+     "benchmark_return_pct": 8.46,
+     "excess_pct": 1.82
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-05-27",
-     "price": 10.4,
-     "return_pct": -26.38,
-     "benchmark_return_pct": 8.87,
-     "excess_pct": -35.25
+     "as_of": "2026-06-22",
+     "price": 9.1,
+     "return_pct": -8.27,
+     "benchmark_return_pct": 13.96,
+     "excess_pct": -22.23
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 12.11,
-     "return_pct": -14.28,
-     "benchmark_return_pct": 12.22,
-     "excess_pct": -26.5
+     "return_pct": 22.08,
+     "benchmark_return_pct": 18.42,
+     "excess_pct": 3.66
     }
    }
   },
@@ -1720,45 +1872,93 @@
    "person": "Zinberg, Joel",
    "ticker": "WTV",
    "asset_class": "equity",
-   "disclosure_date": "2026-02-16",
+   "disclosure_date": "2026-02-24",
    "trade_date": "2026-01-23",
    "benchmark": "SPY",
    "measurable": true,
    "reason": null,
-   "baseline_date": "2026-02-17",
-   "baseline_price": 100.11,
+   "baseline_date": "2026-02-25",
+   "baseline_price": 99.53,
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-02-24",
-     "price": 99.58,
-     "return_pct": -0.53,
-     "benchmark_return_pct": 0.66,
-     "excess_pct": -1.19
+     "as_of": "2026-03-04",
+     "price": 98.89,
+     "return_pct": -0.64,
+     "benchmark_return_pct": -1.16,
+     "excess_pct": 0.52
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-03-19",
-     "price": 94.53,
-     "return_pct": -5.57,
-     "benchmark_return_pct": -3.38,
-     "excess_pct": -2.19
+     "as_of": "2026-03-27",
+     "price": 93.5,
+     "return_pct": -6.06,
+     "benchmark_return_pct": -8.52,
+     "excess_pct": 2.46
     },
     "d90": {
      "status": "ok",
-     "as_of": "2026-05-18",
-     "price": 99.68,
-     "return_pct": -0.43,
-     "benchmark_return_pct": 8.17,
-     "excess_pct": -8.6
+     "as_of": "2026-05-26",
+     "price": 101.93,
+     "return_pct": 2.41,
+     "benchmark_return_pct": 8.29,
+     "excess_pct": -5.88
     },
     "today": {
      "status": "ok",
      "as_of": "2026-09-21",
      "price": 106.39,
-     "return_pct": 6.27,
-     "benchmark_return_pct": 13.28,
-     "excess_pct": -7.01
+     "return_pct": 6.89,
+     "benchmark_return_pct": 11.59,
+     "excess_pct": -4.7
+    }
+   }
+  },
+  {
+   "trade_id": "oge-burrows-daniel-2026-08-27-2",
+   "person_id": "burrows-daniel",
+   "person": "Burrows, Daniel",
+   "ticker": "GOOGL",
+   "asset_class": "equity",
+   "disclosure_date": "2026-01-22",
+   "trade_date": "2025-08-13",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-01-23",
+   "baseline_price": 327.93,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-01-30",
+     "price": 338.0,
+     "return_pct": 3.07,
+     "benchmark_return_pct": 0.4,
+     "excess_pct": 2.67
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-02-20",
+     "price": 314.98,
+     "return_pct": -3.95,
+     "benchmark_return_pct": 0.03,
+     "excess_pct": -3.98
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-04-23",
+     "price": 338.89,
+     "return_pct": 3.34,
+     "benchmark_return_pct": 2.79,
+     "excess_pct": 0.55
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 354.97,
+     "return_pct": 8.25,
+     "benchmark_return_pct": 12.23,
+     "excess_pct": -3.98
     }
    }
   },

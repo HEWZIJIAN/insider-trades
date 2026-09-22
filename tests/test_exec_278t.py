@@ -116,6 +116,58 @@ def test_ocr_mangled_type_words_are_not_accepted():
     assert len(rows) == 1 and rows[0]["action"] == "buy"
 
 
+# ---------------------------------------------------------------------------
+# The dates printed in the link text on whitehouse.gov are not reliable.
+# Miller's filing is labelled "08.29.26" but was signed 08/29/2025. Trusting
+# the label invents a 380-day disclosure delay that never happened.
+# ---------------------------------------------------------------------------
+def test_dates_come_from_the_filing_not_the_link_text():
+    doc = {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/"
+               "Miller-Stephen-Periodic-Transaction-Report-08.29.26.pdf",
+        "label": "Miller, Stephen - Periodic Transaction Report 08.29.26",
+        "person": "Miller, Stephen",
+        "disclosure_date": "2026-08-29",   # what the link text claims
+        "amended": False,
+    }
+    text = extract_text((FIXTURES / "oge278t_miller_wrong_link_date.pdf").read_bytes())
+    rows, _ = parse_rows(text, doc)
+    assert rows, "expected transactions in the Miller filing"
+
+    row = rows[0]
+    assert row["filed_date"] == "2025-08-29", "must use the filer's signature date"
+    assert row["link_text_date"] == "2026-08-29", "keep the link claim for reference"
+    assert row["certified_date"] == "2025-11-25"
+    # A report is not public before it is certified.
+    assert row["disclosure_date"] == "2025-11-25"
+
+    # The filing delay must be plausible, not an artefact of a bad label.
+    assert 0 <= row["delay_days"] <= 60, row["delay_days"]
+    assert row["delay_days"] == 15
+
+
+def test_endnotes_are_attached_to_their_row():
+    doc = {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/"
+               "Scharf-William-Periodic-Transaction-Report-02.26.26-1.pdf",
+        "label": "Scharf, William - Periodic Transaction Report 02.26.26",
+        "person": "Scharf, William",
+        "disclosure_date": "2026-02-26",
+        "amended": False,
+    }
+    text = extract_text((FIXTURES / "oge278t_scharf_endnotes.pdf").read_bytes())
+    rows, _ = parse_rows(text, doc)
+
+    noted = [r for r in rows if r.get("endnote")]
+    assert noted, "endnotes should be captured"
+    assert any("independent advisor" in r["endnote"] for r in noted)
+
+    # A ticker followed by "See Endnote" must still be found.
+    amzn = [r for r in rows if r["ticker"] == "AMZN"]
+    assert amzn, f"AMZN not extracted from {[r['asset_name'] for r in rows]}"
+    assert "See Endnote" in amzn[0]["asset_name"]
+
+
 if __name__ == "__main__":
     passed = failed = 0
     for name, fn in sorted(globals().items()):

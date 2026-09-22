@@ -25,8 +25,8 @@
   ],
   "trade_count": 29,
   "document_count": 0,
-  "first_seen": "2026-02-16",
-  "last_seen": "2026-03-13",
+  "first_seen": "2026-02-24",
+  "last_seen": "2026-04-08",
   "positions": []
  },
  {
@@ -114,21 +114,6 @@
   "positions": []
  },
  {
-  "person_id": "miller-stephen",
-  "name": "Miller, Stephen",
-  "roles": [
-   "Executive branch"
-  ],
-  "sources": [
-   "oge_278t"
-  ],
-  "trade_count": 14,
-  "document_count": 0,
-  "first_seen": "2026-08-29",
-  "last_seen": "2026-08-29",
-  "positions": []
- },
- {
   "person_id": "novachki-vladimir",
   "name": "Novachki Vladimir",
   "roles": [
@@ -153,6 +138,21 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027761/0001437749-26-027761-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "miller-stephen",
+  "name": "Miller, Stephen",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 14,
+  "document_count": 0,
+  "first_seen": "2025-11-25",
+  "last_seen": "2025-11-25",
+  "positions": []
  },
  {
   "person_id": "swider-eric",
@@ -258,8 +258,8 @@
   ],
   "trade_count": 7,
   "document_count": 0,
-  "first_seen": "2026-02-04",
-  "last_seen": "2026-03-04",
+  "first_seen": "2026-03-25",
+  "last_seen": "2026-03-25",
   "positions": []
  },
  {
@@ -375,21 +375,6 @@
   ]
  },
  {
-  "person_id": "burrows-daniel",
-  "name": "Burrows, Daniel",
-  "roles": [
-   "Executive branch"
-  ],
-  "sources": [
-   "oge_278t"
-  ],
-  "trade_count": 3,
-  "document_count": 0,
-  "first_seen": "2026-08-27",
-  "last_seen": "2026-08-27",
-  "positions": []
- },
- {
   "person_id": "green-w-kyle",
   "name": "Green W. Kyle",
   "roles": [
@@ -414,6 +399,21 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021435/0001437749-26-021435-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "burrows-daniel",
+  "name": "Burrows, Daniel",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-01-22",
+  "last_seen": "2026-01-22",
+  "positions": []
  },
  {
   "person_id": "trump-donald-j",
@@ -750,8 +750,8 @@
   ],
   "trade_count": 1,
   "document_count": 0,
-  "first_seen": "2026-02-25",
-  "last_seen": "2026-02-25",
+  "first_seen": "2026-03-23",
+  "last_seen": "2026-03-23",
   "positions": []
  },
  {

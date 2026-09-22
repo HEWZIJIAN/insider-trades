@@ -80,6 +80,23 @@ ROW_TAIL = re.compile(
 )
 ROW_START = re.compile(r"^(?P<num>\d{1,3})\s+(?P<rest>.+)$")
 
+# A ticker in parentheses, optionally followed by a qualifier such as
+# "See Endnote". Taking the last match handles "Alphabet Inc Class A (GOOGL)".
+TICKER = re.compile(r"\(([A-Z][A-Z0-9.\-]{0,6})\)")
+
+# Endnotes are listed as "Transactions <row number> <text>" and often carry
+# the most important context on the filing, e.g. that the trade was made by an
+# independent advisor without the filer's input or foreknowledge.
+ENDNOTE = re.compile(r"^Transactions\s+(?P<num>\d{1,3})\s+(?P<text>.+)$", re.IGNORECASE)
+
+# The dates printed on the link text are unreliable - one filing is labelled
+# "08.29.26" but was actually signed 08/29/2025, which would invent a 380-day
+# delay. The signatures inside the PDF are authoritative.
+SIGNATURE = re.compile(
+    r"electronically signed on (\d{2}/\d{2}/\d{4}) by ([^\]]+?) in Integrity\.gov",
+    re.IGNORECASE,
+)
+
 
 def _strip_tags(text: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", text))).strip()
@@ -148,6 +165,21 @@ def parse_rows(text: str, doc: dict) -> tuple[list[dict], int]:
     that check - the signal that we are looking at a bad OCR layer.
     """
     lines = [l.rstrip() for l in text.splitlines()]
+
+    # First signature is the filer's; the last belongs to the reviewing ethics
+    # official. A report cannot have been public before it was certified, so the
+    # last signature is the earliest defensible "you could have seen this" date.
+    signatures = [parse_date(m.group(1)) for m in SIGNATURE.finditer(text)]
+    signatures = [s for s in signatures if s]
+    filed_date = signatures[0] if signatures else None
+    certified_date = max(signatures) if signatures else None
+    public_date = certified_date or filed_date or doc["disclosure_date"]
+
+    endnotes = {
+        m.group("num"): m.group("text").strip()
+        for m in (ENDNOTE.match(l.strip()) for l in lines)
+        if m
+    }
     rows: list[dict] = []
     rejected = 0
     pending: list[str] = []
@@ -205,7 +237,8 @@ def parse_rows(text: str, doc: dict) -> tuple[list[dict], int]:
             pending.clear()
             continue
 
-        ticker_match = re.search(r"\(([A-Z][A-Z0-9.\-]{0,6})\)\s*$", description)
+        found_tickers = TICKER.findall(description)
+        ticker = found_tickers[-1] if found_tickers else None
         trade_date = parse_date(tail.group("date"))
         bounds = re.findall(r"\$[\d,]+", amount)
 
@@ -219,15 +252,26 @@ def parse_rows(text: str, doc: dict) -> tuple[list[dict], int]:
                 "role": "Executive branch",
                 "row_number": number,
                 "asset_name": description,
-                "ticker": ticker_match.group(1) if ticker_match else None,
+                "ticker": ticker,
+                # Often says the trade was made by an independent advisor with
+                # no input from the filer - which changes what copying it means.
+                "endnote": endnotes.get(number) if number else None,
                 "action": TX_TYPES[tx_type],
                 "amount_min": parse_money(bounds[0]) if bounds else None,
                 "amount_max": parse_money(bounds[1]) if len(bounds) > 1 else None,
                 "amount_label": amount,  # exactly as reported
                 "notification_over_30_days": tail.group("over30").lower() == "yes",
                 "trade_date": trade_date,
-                "disclosure_date": doc["disclosure_date"],
-                "delay_days": delay_days(trade_date, doc["disclosure_date"]),
+                # When the filer submitted it (their STOCK Act clock).
+                "filed_date": filed_date,
+                # When the ethics official certified it.
+                "certified_date": certified_date,
+                # Earliest date it could have been public - what the copy-check
+                # uses, because you cannot act on a report you cannot yet read.
+                "disclosure_date": public_date,
+                "link_text_date": doc["disclosure_date"],
+                "delay_days": delay_days(trade_date, filed_date or public_date),
+                "public_delay_days": delay_days(trade_date, public_date),
                 "amended": doc["amended"],
                 "source_url": doc["url"],
                 "parsed": True,
