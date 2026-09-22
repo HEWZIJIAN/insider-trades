@@ -123,7 +123,11 @@ function tradeCard(t) {
     : (t.transaction_code_label || t.action || 'Other');
 
   let amount = '';
-  if (t.amount_label) {
+  if (t.quantity != null && t.source === 'crypto') {
+    amount = `<div class="amount">${Number(t.quantity).toLocaleString(undefined, { maximumFractionDigits: 4 })}
+      ${esc(t.ticker || '')}
+      <small>on-chain quantity${t.on_chain_method ? ` · method ${esc(t.on_chain_method)}` : ''}</small></div>`;
+  } else if (t.amount_label) {
     amount = `<div class="amount">${esc(t.amount_label)}
       <small>range as reported — not an exact figure</small></div>`;
   } else if (t.shares != null) {
@@ -133,6 +137,18 @@ function tradeCard(t) {
   }
 
   const notes = [];
+  // Who attributes this wallet to this person - never let that be implicit.
+  if (t.label_source) {
+    const src = t.label_source_url
+      ? `<a href="${esc(t.label_source_url)}" target="_blank" rel="noopener">${esc(t.label_source)}</a>`
+      : esc(t.label_source);
+    notes.push(`<div class="note">Wallet attributed by: ${src}</div>`);
+  }
+  if (t.likely_airdrop) {
+    notes.push(`<div class="note warn">Almost certainly an unsolicited airdrop — this token
+      arrived unprompted and the wallet has never sent it. Anyone can send tokens to any
+      address, so this is not evidence the owner bought or wanted it.</div>`);
+  }
   if (t.date_anomaly) notes.push(`<div class="note flag">⚠ ${esc(t.date_anomaly)}. Shown exactly as filed.</div>`);
   if (t.advisor_directed) notes.push(`<div class="note warn">Filing states this trade was made by an independent advisor without the filer's input or foreknowledge.</div>`);
   else if (t.endnote) notes.push(`<div class="note">Filing endnote: ${esc(t.endnote)}</div>`);
@@ -169,7 +185,7 @@ function tradeCard(t) {
     </div>
     ${notes.join('')}
     <a class="source-link" href="${esc(t.source_url || '#')}" target="_blank" rel="noopener">
-      View original filing ↗</a>
+      ${t.source === 'crypto' ? 'View transaction on the block explorer' : 'View original filing'} ↗</a>
   </article>`;
 }
 

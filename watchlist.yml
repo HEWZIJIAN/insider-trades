@@ -73,12 +73,28 @@ companies:
 # Never add an address on rumour.
 #
 # chain: ethereum | base | polygon   (Blockscout-backed, no API key needed)
-crypto_wallets: []
-  # - address: "0x0000000000000000000000000000000000000000"
-  #   name: World Liberty Financial (treasury)
-  #   chain: ethereum
-  #   label_source: "Etherscan public label"
-  #   label_source_url: "https://etherscan.io/address/0x..."
+crypto_wallets:
+  # Verified on 2026-09-22: the label was read off Etherscan itself, and the
+  # address was checked on-chain to confirm it is a real wallet rather than a
+  # token contract. Both checks matter - see the note below.
+  - address: "0x5be9a4959308a0d0c7bc0870e319314d8d957dbb"
+    name: World Liberty Financial (multisig)
+    chain: ethereum
+    label_source: "Etherscan public name tag: \"World Liberty: Multisig\""
+    label_source_url: "https://etherscan.io/address/0x5be9a4959308a0d0c7bc0870e319314d8d957dbb"
+
+  - address: "0x94845333028b1204fbe14e1278fd4adde46b22ce"
+    name: Donald Trump (labelled wallet)
+    chain: ethereum
+    label_source: "Etherscan public name tag: \"Donald Trump\"; attribution originally by Arkham Intelligence"
+    label_source_url: "https://etherscan.io/address/0x94845333028b1204fbe14e1278fd4adde46b22ce"
+
+  # NOT ADDED, on purpose:
+  #   0xda5e1988097297dcdc1f90d4dfe7909e847cbef6  WLFI token contract
+  #   0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d  USD1 token contract
+  # These are token CONTRACTS, not wallets. Watching one would report every
+  # transfer of that token by anybody on earth as if it were a Trump-linked
+  # trade. Always check is_contract before adding an address.
 
 # ---------------------------------------------------------------------
 # 5. COPY-CHECK BENCHMARKS

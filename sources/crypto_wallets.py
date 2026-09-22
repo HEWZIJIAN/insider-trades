@@ -87,7 +87,20 @@ def fetch_transfers(wallet: dict) -> list[dict]:
     return items[:MAX_TRANSFERS_PER_WALLET]
 
 
-def to_record(item: dict, wallet: dict) -> dict:
+def tokens_ever_sent(items: list[dict], address: str) -> set[str]:
+    """Contract addresses of tokens this wallet has actually sent."""
+    address = (address or "").lower()
+    sent = set()
+    for item in items:
+        if ((item.get("from") or {}).get("hash") or "").lower() == address:
+            # Blockscout calls this address_hash, not address.
+            contract = ((item.get("token") or {}).get("address_hash") or "").lower()
+            if contract:
+                sent.add(contract)
+    return sent
+
+
+def to_record(item: dict, wallet: dict, sent_tokens: set[str] | None = None) -> dict:
     chain_key = (wallet.get("chain") or "ethereum").lower()
     chain = CHAINS[chain_key]
     address = (wallet["address"] or "").lower()
@@ -105,6 +118,21 @@ def to_record(item: dict, wallet: dict) -> dict:
         action = "buy" if incoming else "sell"
     else:
         action = "received" if incoming else "sent"
+
+    # Unsolicited airdrops are the dominant activity on any famous wallet:
+    # spammers send worthless tokens to it to manufacture an association.
+    # Donald Trump's labelled wallet is 48/50 inbound tokens named FAFO,
+    # pwease, 4CHAN and the like. Reporting those as though the owner acquired
+    # something would be worse than not showing the wallet at all.
+    #
+    # Heuristic: it arrived, it was a plain transfer rather than a swap, and
+    # this wallet has never sent that token. Conservative - a real purchase
+    # made by a DEX swap is not caught by it.
+    contract = (token.get("address_hash") or "").lower()
+    likely_airdrop = bool(
+        incoming and not is_swap and sent_tokens is not None
+        and contract and contract not in sent_tokens
+    )
 
     timestamp = (item.get("timestamp") or "")[:10] or None
     tx_hash = item.get("transaction_hash") or item.get("tx_hash") or ""
@@ -125,6 +153,8 @@ def to_record(item: dict, wallet: dict) -> dict:
         "ticker": token.get("symbol"),
         "action": action,
         "on_chain_method": method,
+        # True = almost certainly spam sent TO this wallet, not an acquisition.
+        "likely_airdrop": likely_airdrop,
         "is_swap": is_swap,
         "quantity": _amount(item.get("total") or {}),
         "counterparty": recipient if not incoming else sender,
@@ -169,8 +199,10 @@ def run() -> list[dict]:
             errors.append(f"{wallet['address'][:12]}... has no label_source; skipped")
             continue
         try:
-            for item in fetch_transfers(wallet):
-                records.append(to_record(item, wallet))
+            transfers = fetch_transfers(wallet)
+            sent = tokens_ever_sent(transfers, wallet["address"])
+            for item in transfers:
+                records.append(to_record(item, wallet, sent))
         except Exception as exc:
             errors.append(f"{wallet.get('name') or wallet['address'][:12]}: {exc}")
 
@@ -178,12 +210,13 @@ def run() -> list[dict]:
     write_json("crypto.json", records)
 
     swaps = sum(1 for r in records if r.get("is_swap"))
+    airdrops = sum(1 for r in records if r.get("likely_airdrop"))
     update_status(
         SOURCE_ID,
         ok=not errors,
         detail=(
             f"{len(wallets)} wallets, {len(records)} transfers ({swaps} swaps "
-            f"treated as trades)" + (f"; issues: {'; '.join(errors)}" if errors else "")
+            f"treated as trades, {airdrops} likely airdrop spam)" + (f"; issues: {'; '.join(errors)}" if errors else "")
         ),
         count=len(records),
     )
@@ -196,5 +229,7 @@ if __name__ == "__main__":
         print("No wallets configured (or none with a label_source). Wrote an empty crypto.json.")
     else:
         swaps = sum(1 for r in out if r.get("is_swap"))
-        print(f"{len(out)} transfers, {swaps} swaps treated as trades")
+        airdrops = sum(1 for r in out if r.get("likely_airdrop"))
+        print(f"{len(out)} transfers, {swaps} swaps treated as trades, "
+              f"{airdrops} flagged as likely airdrop spam")
     sys.exit(0)

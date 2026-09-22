@@ -90,6 +90,36 @@
   "positions": []
  },
  {
+  "person_id": "donald-trump-labelled-wallet",
+  "name": "Donald Trump (labelled wallet)",
+  "roles": [
+   "Wallet on ethereum"
+  ],
+  "sources": [
+   "crypto"
+  ],
+  "trade_count": 50,
+  "document_count": 0,
+  "first_seen": "2026-02-11",
+  "last_seen": "2026-09-20",
+  "positions": []
+ },
+ {
+  "person_id": "world-liberty-financial-multisig",
+  "name": "World Liberty Financial (multisig)",
+  "roles": [
+   "Wallet on ethereum"
+  ],
+  "sources": [
+   "crypto"
+  ],
+  "trade_count": 50,
+  "document_count": 0,
+  "first_seen": "2026-02-08",
+  "last_seen": "2026-09-03",
+  "positions": []
+ },
+ {
   "person_id": "escobedo-christopher",
   "name": "Escobedo, Christopher",
   "roles": [

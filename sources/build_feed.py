@@ -57,6 +57,8 @@ def normalise(record: dict) -> dict:
     # Form 4 decides copyability from its transaction code.
     if out.get("source") == "sec_form4" and out.get("copyable") is False:
         reasons.append(f"Form 4 code {out.get('transaction_code')} is not a trade")
+    if out.get("likely_airdrop"):
+        reasons.append("unsolicited airdrop, not an acquisition")
     if _is_option(out):
         reasons.append("option contract, not the underlying share")
     if (out.get("asset_type") or "").upper() in NON_COPYABLE_ASSET_TYPES and not _is_option(out):
