@@ -6,5 +6,13 @@
   "ok": true,
   "detail": "25 filings, 107 trades parsed, 4 unparsed, 0 errors",
   "count": 107
+ },
+ "sec_form4": {
+  "source": "sec_form4",
+  "last_attempt": "2026-09-22T06:01:01+00:00",
+  "last_success": "2026-09-22T06:01:01+00:00",
+  "ok": true,
+  "detail": "145 rows, 36 open-market (P/S), 0 errors; codes={'F': 28, 'A': 35, 'P': 3, 'S': 33, 'G': 2, 'J': 3, 'C': 3}",
+  "count": 145
  }
 }

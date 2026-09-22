@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0508</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2025-11-18</periodOfReport>
+
+    <notSubjectToSection16>0</notSubjectToSection16>
+
+    <issuer>
+        <issuerCik>0001849635</issuerCik>
+        <issuerName>Trump Media &amp; Technology Group Corp.</issuerName>
+        <issuerTradingSymbol>DJT</issuerTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0002015663</rptOwnerCik>
+            <rptOwnerName>Glabe Scott</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerStreet1>C/O TRUMP MEDIA &amp; TECHNOLOGY GROUP CORP</rptOwnerStreet1>
+            <rptOwnerStreet2>401 N. CATTLEMEN RD., SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>SARASOTA</rptOwnerCity>
+            <rptOwnerState>FL</rptOwnerState>
+            <rptOwnerZipCode>34232</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isDirector>0</isDirector>
+            <isOfficer>1</isOfficer>
+            <isTenPercentOwner>0</isTenPercentOwner>
+            <isOther>0</isOther>
+            <officerTitle>General Counsel and Secretary</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.0001 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2025-11-18</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>P</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+            </transactionCoding>
+            <transactionTimeliness>
+                <value></value>
+            </transactionTimeliness>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>1000</value>
+                    <footnoteId id="F1"/>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>10.465</value>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>A</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>326236</value>
+                    <footnoteId id="F2"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">The Reporting Person has agreed to disgorge to Trump Media &amp; Technology Group Corp. (the &quot;Issuer&quot;) all statutory &quot;profits&quot; pursuant to Section 16(b) of the Securities Exchange Act of 1934, as amended, that resulted from the transaction reported herein.</footnote>
+        <footnote id="F2">Certain of the securities reported in Column 5 are Restricted Stock Units (&quot;RSUs&quot;), each of which represents the contingent right to receive one share of the Issuer's common stock, par value $0.0001 per share, subject to the conditions of the applicable RSU award (including the vesting schedule set forth therein) and the Issuer's Amended and Restated 2024 Equity Incentive Plan.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Nelson Mullins Riley &amp; Scarborough LLP, Attorney-in-Fact</signatureName>
+        <signatureDate>2025-11-19</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
