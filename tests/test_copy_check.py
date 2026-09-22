@@ -88,6 +88,44 @@ def test_missing_price_history_is_reported_not_guessed():
     assert result["horizons"] == {}
 
 
+def test_baseline_far_from_disclosure_is_refused():
+    """A thinly traded ticker with no price near the filing must be refused.
+
+    Real case: an OTC holding disclosed 2025-06-05 whose first available close
+    was 2026-06-29. Taking that as the entry price measures a completely
+    different trade and produced a fictitious return.
+    """
+    copy_check.series_for = lambda symbol, start, end=None, **k: (
+        dict(BENCH) if symbol.upper() in ("SPY", "BTC")
+        else {"2027-06-29": 5.0, "2027-07-30": 9.0}   # only prices a year later
+    )
+    result = measure(_trade(ticker="PTHRF"), HORIZONS, BENCHMARKS)
+    assert result["measurable"] is False
+    assert "within" in result["reason"] and "days of disclosure" in result["reason"]
+
+
+def test_a_short_gap_is_still_allowed():
+    """A long weekend or holiday must not disqualify a trade."""
+    _install_prices()
+    # Disclosed Friday 2026-01-02; first close is Monday 2026-01-05.
+    result = measure(_trade(), HORIZONS, BENCHMARKS)
+    assert result["measurable"] is True
+    assert result["baseline_date"] == "2026-01-05"
+
+
+def test_concentration_is_reported():
+    """Buys disclosed on one day are not independent decisions."""
+    rows = _measured(6, 4.0)
+    for row in rows:                       # force them all onto one baseline
+        row["baseline_date"] = "2026-01-01"
+    summary = summarise(rows, [7], minimum=5)[0]
+    assert summary["distinct_baseline_dates"] == 1
+    assert summary["measured_buys"] == 6
+
+    spread = summarise(_measured(6, 4.0), [7], minimum=5)[0]
+    assert spread["distinct_baseline_dates"] == 6
+
+
 def test_trade_without_ticker_is_unmeasurable():
     _install_prices()
     result = measure(_trade(ticker=None), HORIZONS, BENCHMARKS)

@@ -328,27 +328,7 @@ function personStats(stats, today) {
     ${stats.underlying_filing_rows > stats.measured_buys
       ? `<div class="note">${stats.measured_buys} distinct decisions from
          ${stats.underlying_filing_rows} filing rows — the same purchase reported across
-         several accounts counts once.</div>` : ''}
-    ${concentrationNote(stats)}`;
-}
-
-/* Buys disclosed on a single day are one bet on one day's market, however many
- * tickers they cover. A win rate built on that is far weaker than the same
- * number spread over many dates, so say so rather than let it read as skill. */
-function concentrationNote(stats) {
-  const dates = stats.distinct_baseline_dates;
-  if (!dates || stats.measured_buys < 5) return '';
-  const perDate = stats.measured_buys / dates;
-  if (dates === 1) {
-    return `<div class="note warn">All ${stats.measured_buys} buys became public on the
-      same day. That is one decision about one day's market, not ${stats.measured_buys}
-      independent calls — treat this win rate as a single data point.</div>`;
-  }
-  if (perDate >= 4) {
-    return `<div class="note warn">These ${stats.measured_buys} buys span only ${dates}
-      disclosure dates, so they are far less independent than the count suggests.</div>`;
-  }
-  return `<div class="note">Spread across ${dates} separate disclosure dates.</div>`;
+         several accounts counts once.</div>` : ''}`;
 }
 
 function viewCopy() {

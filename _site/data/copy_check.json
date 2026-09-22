@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T06:37:32+00:00",
+ "generated_at": "2026-09-22T06:35:22+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -18,8 +18,8 @@
  },
  "counts": {
   "eligible_buys": 292,
-  "measured": 285,
-  "unmeasurable": 7
+  "measured": 288,
+  "unmeasurable": 4
  },
  "people": [
   {
@@ -27,7 +27,6 @@
    "person": "David J. Taylor",
    "measured_buys": 47,
    "underlying_filing_rows": 58,
-   "distinct_baseline_dates": 14,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -68,7 +67,6 @@
    "person": "Josh Gottheimer",
    "measured_buys": 34,
    "underlying_filing_rows": 37,
-   "distinct_baseline_dates": 7,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -107,25 +105,24 @@
   {
    "person_id": "escobedo-christopher",
    "person": "Escobedo, Christopher",
-   "measured_buys": 28,
-   "underlying_filing_rows": 43,
-   "distinct_baseline_dates": 1,
+   "measured_buys": 30,
+   "underlying_filing_rows": 46,
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 28,
-     "win_rate_vs_benchmark_pct": 64.3,
-     "avg_return_pct": 3.28,
-     "avg_excess_pct": 3.64,
-     "median_excess_pct": 3.19
+     "n": 30,
+     "win_rate_vs_benchmark_pct": 60.0,
+     "avg_return_pct": 3.06,
+     "avg_excess_pct": 1.77,
+     "median_excess_pct": 3.08
     },
     "d30": {
      "status": "ok",
-     "n": 28,
-     "win_rate_vs_benchmark_pct": 53.6,
-     "avg_return_pct": 5.19,
-     "avg_excess_pct": 0.82,
-     "median_excess_pct": 0.28
+     "n": 30,
+     "win_rate_vs_benchmark_pct": 50.0,
+     "avg_return_pct": 4.32,
+     "avg_excess_pct": -1.47,
+     "median_excess_pct": -0.04
     },
     "d90": {
      "status": "ok",
@@ -137,11 +134,11 @@
     },
     "today": {
      "status": "ok",
-     "n": 28,
-     "win_rate_vs_benchmark_pct": 67.9,
-     "avg_return_pct": 67.68,
-     "avg_excess_pct": 38.58,
-     "median_excess_pct": 19.66
+     "n": 30,
+     "win_rate_vs_benchmark_pct": 63.3,
+     "avg_return_pct": 62.09,
+     "avg_excess_pct": 32.99,
+     "median_excess_pct": 17.62
     }
    }
   },
@@ -150,7 +147,6 @@
    "person": "Cleo Fields",
    "measured_buys": 23,
    "underlying_filing_rows": 27,
-   "distinct_baseline_dates": 16,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -191,7 +187,6 @@
    "person": "Dziedzic, Andrew",
    "measured_buys": 16,
    "underlying_filing_rows": 19,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -232,7 +227,6 @@
    "person": "Lane, Jackson",
    "measured_buys": 15,
    "underlying_filing_rows": 16,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -273,7 +267,6 @@
    "person": "Zinberg, Joel",
    "measured_buys": 12,
    "underlying_filing_rows": 38,
-   "distinct_baseline_dates": 3,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -314,7 +307,6 @@
    "person": "Byron Donalds",
    "measured_buys": 9,
    "underlying_filing_rows": 18,
-   "distinct_baseline_dates": 6,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -355,7 +347,6 @@
    "person": "Kenny, Stephen",
    "measured_buys": 6,
    "underlying_filing_rows": 8,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -396,7 +387,6 @@
    "person": "Donaldson, David",
    "measured_buys": 4,
    "underlying_filing_rows": 9,
-   "distinct_baseline_dates": 2,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -425,7 +415,6 @@
    "person": "Scharf, William",
    "measured_buys": 2,
    "underlying_filing_rows": 2,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -454,7 +443,6 @@
    "person": "McMullan, Matthew",
    "measured_buys": 2,
    "underlying_filing_rows": 2,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -483,7 +471,6 @@
    "person": "Steve Cohen",
    "measured_buys": 2,
    "underlying_filing_rows": 2,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -512,7 +499,6 @@
    "person": "Bresso, Gineen",
    "measured_buys": 1,
    "underlying_filing_rows": 1,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -541,7 +527,6 @@
    "person": "Baasch, Ryan",
    "measured_buys": 1,
    "underlying_filing_rows": 1,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -570,7 +555,6 @@
    "person": "Burrows, Daniel",
    "measured_buys": 1,
    "underlying_filing_rows": 1,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -599,7 +583,6 @@
    "person": "Klopp, Jacalynne",
    "measured_buys": 1,
    "underlying_filing_rows": 1,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -628,7 +611,6 @@
    "person": "Glabe Scott",
    "measured_buys": 1,
    "underlying_filing_rows": 1,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -657,7 +639,6 @@
    "person": "Tiso, Daniel",
    "measured_buys": 1,
    "underlying_filing_rows": 1,
-   "distinct_baseline_dates": 1,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -12120,11 +12101,40 @@
    "disclosure_date": "2025-06-05",
    "trade_date": "2025-04-24",
    "benchmark": "SPY",
-   "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-06-29, 389 days later)",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-06-29",
+   "baseline_price": 0.19,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-06",
+     "price": 0.19,
+     "return_pct": 0.0,
+     "benchmark_return_pct": 25.39,
+     "excess_pct": -25.39
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 0.16,
+     "return_pct": -15.79,
+     "benchmark_return_pct": 21.75,
+     "excess_pct": -37.54
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 0.16,
+     "return_pct": -15.79,
+     "benchmark_return_pct": 29.1,
+     "excess_pct": -44.89
+    }
+   }
   },
   {
    "trade_id": "oge-escobedo-christopher--43",
@@ -12663,11 +12673,40 @@
    "disclosure_date": "2025-06-05",
    "trade_date": "2025-04-04",
    "benchmark": "SPY",
-   "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-06-29, 389 days later)",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-06-29",
+   "baseline_price": 0.19,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-06",
+     "price": 0.19,
+     "return_pct": 0.0,
+     "benchmark_return_pct": 25.39,
+     "excess_pct": -25.39
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 0.16,
+     "return_pct": -15.79,
+     "benchmark_return_pct": 21.75,
+     "excess_pct": -37.54
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 0.16,
+     "return_pct": -15.79,
+     "benchmark_return_pct": 29.1,
+     "excess_pct": -44.89
+    }
+   }
   },
   {
    "trade_id": "oge-escobedo-christopher--47",
@@ -13620,11 +13659,40 @@
    "disclosure_date": "2025-06-05",
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
-   "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-07-17, 407 days later)",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-07-17",
+   "baseline_price": 11.03,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-17",
+     "price": 11.03,
+     "return_pct": 0.0,
+     "benchmark_return_pct": 23.33,
+     "excess_pct": -23.33
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-07-17",
+     "price": 11.03,
+     "return_pct": 0.0,
+     "benchmark_return_pct": 29.58,
+     "excess_pct": -29.58
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-08-27",
+     "price": 9.2,
+     "return_pct": -16.59,
+     "benchmark_return_pct": 29.1,
+     "excess_pct": -45.69
+    }
+   }
   },
   {
    "trade_id": "oge-escobedo-christopher--20",

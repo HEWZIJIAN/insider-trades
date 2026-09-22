@@ -26,11 +26,15 @@ import datetime as dt
 import statistics
 import sys
 
-from common import load_watchlist, now_iso, read_json, update_status, write_json
+from common import delay_days, load_watchlist, now_iso, read_json, update_status, write_json
 from prices import close_on_or_before, first_close_on_or_after, series_for
 
 SOURCE_ID = "copy_check"
 CRYPTO_SOURCES = {"crypto"}
+
+# A baseline must be close to the disclosure. Anything further away is not the
+# trade we set out to measure. Ten days covers a long weekend plus a holiday.
+MAX_BASELINE_GAP_DAYS = 10
 
 
 def _is_crypto(trade: dict) -> bool:
@@ -91,6 +95,19 @@ def measure(trade: dict, horizons: list[int], benchmarks: dict) -> dict:
 
     baseline_date, baseline_price = base
     _, bench_baseline = bench_base
+
+    # If the first price we can find is long after the disclosure, we are not
+    # measuring "what if you had copied this" - we are measuring a different
+    # trade entirely. Thinly traded OTC tickers do this: the filing is from
+    # June 2025 but the first available close is a year later. Refuse it.
+    gap = delay_days(disclosed, baseline_date)
+    if gap is not None and gap > MAX_BASELINE_GAP_DAYS:
+        result["reason"] = (
+            f"no price within {MAX_BASELINE_GAP_DAYS} days of disclosure "
+            f"(first available close was {baseline_date}, {gap} days later)"
+        )
+        result["measurable"] = False
+        return result
     result.update(
         measurable=True, baseline_date=baseline_date, baseline_price=round(baseline_price, 4)
     )
@@ -162,6 +179,10 @@ def summarise(measured: list[dict], horizons: list[int], minimum: int) -> list[d
             # distinct_opportunities() for why these differ.
             "measured_buys": len(rows),
             "underlying_filing_rows": sum(r.get("underlying_filings", 1) for r in rows),
+            # Thirty buys disclosed on one day is one decision about one day's
+            # market, not thirty independent calls. Surface that rather than
+            # letting a single filing masquerade as a track record.
+            "distinct_baseline_dates": len({r["baseline_date"] for r in rows}),
             "by_horizon": {},
         }
         for key in [f"d{d}" for d in horizons] + ["today"]:
