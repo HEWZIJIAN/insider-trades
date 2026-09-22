@@ -1,0 +1,241 @@
+================================================================================================
+ACCURACY AUDIT - 10 randomly sampled trades vs their original filings
+(seed 42 - rerun with the same seed to get the same sample)
+================================================================================================
+
+[1] Glabe Scott  -  SEC EDGAR - Form 4
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Common Stock, par value $0.0001 per share
+     ticker     : DJT
+     action     : tax   (Form 4 code F = Shares withheld to pay exercise price or tax)
+     shares     : 25,546 @ $8.325
+     owned after: 586,497
+     trade date : 2026-08-13
+     disclosed  : 2026-08-13  (delay 0 days)
+     excluded from copy-check: not an open-market trade (tax); Form 4 code F is not a trade
+
+  ORIGINAL FILING SAYS:
+      reporting owner                  Glabe Scott
+      issuer                           Trump Media & Technology Group Corp.  (DJT)
+      security                         Common Stock, par value $0.0001 per share
+      transactionDate                  2026-08-13
+      transactionCode                  F
+      shares                           25546
+      pricePerShare                    8.325
+      sharesOwnedFollowing             586497
+
+  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000143774926027763/0001437749-26-027763-index.htm
+
+[2] David J. Taylor  -  U.S. House Clerk - Periodic Transaction Report
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Vertex Pharmaceuticals Incorporated - Common Stock
+     ticker     : VRTX
+     action     : sell
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-08-26
+     disclosed  : 2026-09-03  (delay 8 days)
+     account    : David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+     status     : New
+
+  ORIGINAL FILING SAYS:
+      F S: New
+      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+      Vertex Pharmaceuticals Incorporated
+   >> - Common Stock (VRTX) [ST]
+      S 08/26/2026 09/03/2026 $1,001 - $15,000
+      F S: New
+      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+
+[3] Zinberg, Joel  -  OGE Form 278-T (whitehouse.gov)
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : WisdomTree U.S. Value Fund N/A (WTV)
+     ticker     : WTV
+     action     : buy
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-02-19
+     disclosed  : 2026-04-08  (delay 22 days)
+
+  ORIGINAL FILING SAYS:
+      6 Vanguard International Dividend Appreciation Index
+      Fund ETF Shares (VIGI)
+      Purchase 03/02/2026 No $1,001 - $15,000
+   >> 7 WisdomTree U.S. Value Fund N/A (WTV) Purchase 02/19/2026 No $1,001 - $15,000
+      Zinberg, Joel M - Page 3
+      to the proceeding; (7) to reviewing officials in a new office, department or agency when an employee transfers or is detailed from one covered positio
+      financial disclosure report and any accompanying documents, including statements notifying an employee’s supervising ethics office of the commencement
+
+  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf
+
+[4] Novachki Vladimir  -  SEC EDGAR - Form 4
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Common Stock, par value $0.0001 per share
+     ticker     : DJT
+     action     : tax   (Form 4 code F = Shares withheld to pay exercise price or tax)
+     shares     : 17,104 @ $8.757
+     owned after: 589,234
+     trade date : 2026-05-13
+     disclosed  : 2026-05-13  (delay 0 days)
+     excluded from copy-check: not an open-market trade (tax); Form 4 code F is not a trade
+
+  ORIGINAL FILING SAYS:
+      reporting owner                  Novachki Vladimir
+      issuer                           Trump Media & Technology Group Corp.  (DJT)
+      security                         Common Stock, par value $0.0001 per share
+      transactionDate                  2026-05-13
+      transactionCode                  F
+      shares                           17104
+      pricePerShare                    8.757
+      sharesOwnedFollowing             589234
+
+  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000201566726000003/0002015667-26-000003-index.htm
+
+[5] Holding George Edward Bell  -  SEC EDGAR - Form 4
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Common Stock, par value $0.0001 per share
+     ticker     : DJT
+     action     : grant   (Form 4 code A = Grant, award or other acquisition from the issuer)
+     shares     : 23,600
+     owned after: 46,705
+     trade date : 2026-06-19
+     disclosed  : 2026-06-23  (delay 4 days)
+     excluded from copy-check: not an open-market trade (grant); Form 4 code A is not a trade
+
+  ORIGINAL FILING SAYS:
+      reporting owner                  Holding George Edward Bell
+      issuer                           Trump Media & Technology Group Corp.  (DJT)
+      security                         Common Stock, par value $0.0001 per share
+      transactionDate                  2026-06-19
+      transactionCode                  A
+      shares                           23600
+      pricePerShare                    0
+      sharesOwnedFollowing             46705
+
+  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000143774926021437/0001437749-26-021437-index.htm
+
+[6] Kelly Louise Morrison  -  U.S. House Clerk - Periodic Transaction Report
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Accenture plc Class A Ordinary Shares
+     ticker     : ACN
+     action     : sell
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-08-11
+     disclosed  : 2026-08-11  (delay 0 days)
+     owner      : spouse
+     account    : Trust 2
+     status     : New
+
+  ORIGINAL FILING SAYS:
+      Gains >
+      $200?
+      SP Accenture plc Class A Ordinary
+   >> Shares (ACN) [ST]
+      S 08/11/2026 08/11/2026 $1,001 - $15,000
+      F S: New
+      S O: Trust 2
+
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+
+[7] David J. Taylor  -  U.S. House Clerk - Periodic Transaction Report
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Installed Building Products, Inc. Common Stock
+     ticker     : IBP
+     action     : buy
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-08-14
+     disclosed  : 2026-08-20  (delay 6 days)
+     account    : David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+     status     : New
+
+  ORIGINAL FILING SAYS:
+      F S: New
+      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+      Installed Building Products, Inc.
+   >> Common Stock (IBP) [ST]
+      P 08/14/2026 08/20/2026 $1,001 - $15,000
+      F S: New
+      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf
+
+[8] Kevin Hern  -  U.S. House Clerk - Periodic Transaction Report
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Hormel Foods Corporation Common Stock
+     ticker     : HRL
+     action     : sell
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-08-13
+     disclosed  : 2026-08-27  (delay 14 days)
+     account    : Kevin Hern Traditional IRA
+     status     : New
+
+  ORIGINAL FILING SAYS:
+      F S: New
+      S O: Hern Family Foundation
+      Hormel Foods Corporation Common
+   >> Stock (HRL) [ST]
+      S 08/13/2026 08/27/2026 $1,001 - $15,000
+      F S: New
+      S O: Kevin Hern Traditional IRA
+
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+
+[9] Glabe Scott  -  SEC EDGAR - Form 4
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Common Stock, par value $0.0001 per share
+     ticker     : DJT
+     action     : sell   (Form 4 code S = Open-market or private sale)
+     shares     : 43,775 @ $26.4114
+     owned after: 240,794
+     trade date : 2025-05-14
+     disclosed  : 2025-05-14  (delay 0 days)
+
+  ORIGINAL FILING SAYS:
+      reporting owner                  Glabe Scott
+      issuer                           Trump Media & Technology Group Corp.  (DJT)
+      security                         Common Stock, par value $0.0001 per share
+      transactionDate                  2025-05-14
+      transactionCode                  S
+      shares                           43775
+      pricePerShare                    26.4114
+      sharesOwnedFollowing             240794
+
+  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/0001474506-25-000093-index.htm
+
+[10] David J. Taylor  -  U.S. House Clerk - Periodic Transaction Report
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Broadcom Inc. - Common Stock
+     ticker     : AVGO
+     action     : buy
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-08-26
+     disclosed  : 2026-09-03  (delay 8 days)
+     account    : Dave's IRA @ Schwab (Home Grown)
+     status     : New
+
+  ORIGINAL FILING SAYS:
+      F S: New
+      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+      Broadcom Inc. - Common Stock
+   >> (AVGO) [ST]
+      P 08/26/2026 09/03/2026 $1,001 - $15,000
+      F S: New
+      S O: Dave's IRA @ Schwab (Home Grown)
+
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+
+================================================================================================
+Open any link above and compare. If a stored value differs from the filing,
+tell me the number and I will fix the parser and add a test for it.
+================================================================================================

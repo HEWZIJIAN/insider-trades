@@ -1,0 +1,16 @@
+{
+  "name": "Insider Trades",
+  "short_name": "Insider",
+  "description": "Publicly disclosed trades by Trump administration officials, members of Congress and insiders at Trump-linked companies.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1521",
+  "theme_color": "#0f1521",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
