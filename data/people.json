@@ -75,6 +75,21 @@
   "positions": []
  },
  {
+  "person_id": "scott-h-peters-ca50",
+  "name": "Scott H. Peters",
+  "roles": [
+   "House (CA50)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 132,
+  "document_count": 0,
+  "first_seen": "2025-12-31",
+  "last_seen": "2026-08-31",
+  "positions": []
+ },
+ {
   "person_id": "josh-gottheimer-nj05",
   "name": "Josh Gottheimer",
   "roles": [
@@ -87,21 +102,6 @@
   "document_count": 0,
   "first_seen": "2026-01-07",
   "last_seen": "2026-09-14",
-  "positions": []
- },
- {
-  "person_id": "scott-h-peters-ca50",
-  "name": "Scott H. Peters",
-  "roles": [
-   "House (CA50)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 115,
-  "document_count": 0,
-  "first_seen": "2025-12-31",
-  "last_seen": "2026-07-31",
   "positions": []
  },
  {

@@ -2197,7 +2197,7 @@
   "asset_name": "Wrapped ARIA",
   "ticker": "WARIA",
   "action": "sent",
-  "on_chain_method": "0x9dc29fac",
+  "on_chain_method": "burn",
   "likely_airdrop": false,
   "is_swap": false,
   "quantity": 1.0,
