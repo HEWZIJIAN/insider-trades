@@ -1,239 +1,231 @@
 ================================================================================================
 ACCURACY AUDIT - 10 randomly sampled trades vs their original filings
-(seed 42 - rerun with the same seed to get the same sample)
+(seed 101 - rerun with the same seed to get the same sample)
 ================================================================================================
 
-[1] Glabe Scott  -  SEC EDGAR - Form 4
+[1] David J. Taylor  -  U.S. House Clerk - Periodic Transaction Report
 ------------------------------------------------------------------------------------------------
   WE STORED:
-     asset      : Common Stock, par value $0.0001 per share
-     ticker     : DJT
-     action     : tax   (Form 4 code F = Shares withheld to pay exercise price or tax)
-     shares     : 25,546 @ $8.325
-     owned after: 586,497
-     trade date : 2026-08-13
-     disclosed  : 2026-08-13  (delay 0 days)
-     excluded from copy-check: not an open-market trade (tax); Form 4 code F is not a trade
-
-  ORIGINAL FILING SAYS:
-      reporting owner                  Glabe Scott
-      issuer                           Trump Media & Technology Group Corp.  (DJT)
-      security                         Common Stock, par value $0.0001 per share
-      transactionDate                  2026-08-13
-      transactionCode                  F
-      shares                           25546
-      pricePerShare                    8.325
-      sharesOwnedFollowing             586497
-
-  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000143774926027763/0001437749-26-027763-index.htm
-
-[2] David J. Taylor  -  U.S. House Clerk - Periodic Transaction Report
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Vertex Pharmaceuticals Incorporated - Common Stock
-     ticker     : VRTX
-     action     : sell
+     asset      : Amazon.com, Inc. - Common Stock
+     ticker     : AMZN
+     action     : buy
      amount     : $1,001 - $15,000   <- as printed in the filing
-     trade date : 2026-08-26
-     disclosed  : 2026-09-03  (delay 8 days)
-     account    : David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+     trade date : 2026-02-26
+     disclosed  : 2026-03-05  (delay 7 days)
+     account    : David Taylor Trust > Sardinia Ready Mix 401(k) - Dave
      status     : New
 
   ORIGINAL FILING SAYS:
       F S: New
-      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
-      Vertex Pharmaceuticals Incorporated
-   >> - Common Stock (VRTX) [ST]
-      S 08/26/2026 09/03/2026 $1,001 - $15,000
+      S O: David Taylor Trust > Sardinia Ready Mix 401(k) - Dave
+      Amazon.com, Inc. - Common Stock
+   >> (AMZN) [ST]
+      P 02/26/2026 03/05/2026 $1,001 - $15,000
       F S: New
-      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
+      S O: David Taylor Trust > Sardinia Ready Mix 401(k) - Dave
 
-  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf
 
-[3] Zinberg, Joel  -  OGE Form 278-T (whitehouse.gov)
+[2] Donaldson, David  -  OGE Form 278-T (whitehouse.gov)
 ------------------------------------------------------------------------------------------------
   WE STORED:
-     asset      : WisdomTree U.S. Value Fund N/A (WTV)
-     ticker     : WTV
-     action     : buy
-     amount     : $1,001 - $15,000   <- as printed in the filing
-     trade date : 2026-02-19
-     disclosed  : 2026-04-08  (delay 22 days)
-
-  ORIGINAL FILING SAYS:
-      6 Vanguard International Dividend Appreciation Index
-      Fund ETF Shares (VIGI)
-      Purchase 03/02/2026 No $1,001 - $15,000
-   >> 7 WisdomTree U.S. Value Fund N/A (WTV) Purchase 02/19/2026 No $1,001 - $15,000
-      Zinberg, Joel M - Page 3
-      to the proceeding; (7) to reviewing officials in a new office, department or agency when an employee transfers or is detailed from one covered positio
-      financial disclosure report and any accompanying documents, including statements notifying an employee’s supervising ethics office of the commencement
-
-  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-03.13.26.pdf
-
-[4] Novachki Vladimir  -  SEC EDGAR - Form 4
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Common Stock, par value $0.0001 per share
-     ticker     : DJT
-     action     : tax   (Form 4 code F = Shares withheld to pay exercise price or tax)
-     shares     : 17,104 @ $8.757
-     owned after: 589,234
-     trade date : 2026-05-13
-     disclosed  : 2026-05-13  (delay 0 days)
-     excluded from copy-check: not an open-market trade (tax); Form 4 code F is not a trade
-
-  ORIGINAL FILING SAYS:
-      reporting owner                  Novachki Vladimir
-      issuer                           Trump Media & Technology Group Corp.  (DJT)
-      security                         Common Stock, par value $0.0001 per share
-      transactionDate                  2026-05-13
-      transactionCode                  F
-      shares                           17104
-      pricePerShare                    8.757
-      sharesOwnedFollowing             589234
-
-  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000201566726000003/0002015667-26-000003-index.htm
-
-[5] Holding George Edward Bell  -  SEC EDGAR - Form 4
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Common Stock, par value $0.0001 per share
-     ticker     : DJT
-     action     : grant   (Form 4 code A = Grant, award or other acquisition from the issuer)
-     shares     : 23,600
-     owned after: 46,705
-     trade date : 2026-06-19
-     disclosed  : 2026-06-23  (delay 4 days)
-     excluded from copy-check: not an open-market trade (grant); Form 4 code A is not a trade
-
-  ORIGINAL FILING SAYS:
-      reporting owner                  Holding George Edward Bell
-      issuer                           Trump Media & Technology Group Corp.  (DJT)
-      security                         Common Stock, par value $0.0001 per share
-      transactionDate                  2026-06-19
-      transactionCode                  A
-      shares                           23600
-      pricePerShare                    0
-      sharesOwnedFollowing             46705
-
-  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000143774926021437/0001437749-26-021437-index.htm
-
-[6] Kelly Louise Morrison  -  U.S. House Clerk - Periodic Transaction Report
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Accenture plc Class A Ordinary Shares
-     ticker     : ACN
+     asset      : Global X Blockchain ETF Global X Blockchain ETF (BKCH)
+     ticker     : BKCH
      action     : sell
      amount     : $1,001 - $15,000   <- as printed in the filing
-     trade date : 2026-08-11
-     disclosed  : 2026-08-11  (delay 0 days)
-     owner      : spouse
-     account    : Trust 2
+     trade date : 2025-10-27
+     disclosed  : 2026-01-12  (delay 7 days)
+
+  ORIGINAL FILING SAYS:
+      (PLTR)
+      Purchase 10/15/2025 No $1,001 - $15,000
+      13 Global X Blockchain ETF Global X Blockchain ETF
+   >> (BKCH)
+      Sale 10/27/2025 No $1,001 - $15,000
+      14 Global X Blockchain ETF Global X Blockchain ETF
+      (BKCH)
+
+  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2026/02/Donaldson-David-Periodic-Transaction-Report-11.03.25.pdf
+
+[3] Borg, Jared  -  OGE Form 278-T (whitehouse.gov)
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Vanguard 500 Index Fund ETF Shares (VOO)
+     ticker     : VOO
+     action     : sell
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2025-04-10
+     disclosed  : 2025-05-14  (delay 28 days)
+
+  ORIGINAL FILING SAYS:
+      5 SPDR Dow Jones Industrial Average ETF Trust
+      (DIA)
+      Sale 04/10/2025 No $1,001 - $15,000
+   >> 6 Vanguard 500 Index Fund ETF Shares (VOO) Sale 04/10/2025 No $1,001 - $15,000
+      7 SPDR S&P 500 ETF Trust (SPY) Sale 04/10/2025 No $1,001 - $15,000
+      Borg, Jared - Page 3
+      grand jury, or administrative or adjudicative body, or in a proceeding before an administrative or adjudicative body when the adjudicator determines t
+
+  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2025/11/Borg-Jared-Periodic-Transaction-Report-05.08.25.pdf
+
+[4] Kevin Hern  -  U.S. House Clerk - Periodic Transaction Report
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Kenvue Inc. Common Stock
+     ticker     : KVUE
+     action     : sell
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-08-05
+     disclosed  : 2026-08-05  (delay 0 days)
+     owner      : joint
+     account    : Hern Family Foundation
+     status     : New
+
+  ORIGINAL FILING SAYS:
+      $200?
+      F S: New
+      S O: Hern Family Revocable Trust
+   >> JT Kenvue Inc. Common Stock (KVUE)
+      [ST]
+      S 08/05/2026 08/05/2026 $1,001 - $15,000
+      F S: New
+
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+
+[5] TRUMP DONALD J  -  SEC EDGAR - Form 4
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Right to receive Earnout Shares
+     ticker     : DJT
+     action     : other   (Form 4 code J = Other acquisition or disposition)
+     shares     : 36,000,000
+     owned after: 0
+     trade date : 2024-04-26
+     disclosed  : 2024-04-30  (delay 4 days)
+     excluded from copy-check: not an open-market trade (other); Form 4 code J is not a trade
+
+  ORIGINAL FILING SAYS:
+      reporting owner                  TRUMP DONALD J
+      issuer                           Trump Media & Technology Group Corp.  (DJT)
+      security                         Common Stock, par value $0.0001 per share
+      transactionDate                  2024-04-26
+      transactionCode                  J
+      shares                           36000000
+      pricePerShare                    0
+      sharesOwnedFollowing             114750000
+
+  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/0001474506-24-000146-index.htm
+
+[6] Scharf, William  -  OGE Form 278-T (whitehouse.gov)
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Brighthouse Financial, Inc. See Endnote
+     ticker     : (none reported)
+     action     : sell
+     amount     : $15,001 - $50,000   <- as printed in the filing
+     trade date : 2025-11-06
+     disclosed  : 2026-02-25  (delay 8 days)
+     excluded from copy-check: no ticker reported
+
+  ORIGINAL FILING SAYS:
+      9 GCI Liberty Inc Series C See Endnote Sale 07/17/2025 Yes $1,001 - $15,000
+      10 Wells Fargo & Co See Endnote Sale 07/28/2025 Yes $1,001 - $15,000
+      11 American Express Co. See Endnote Sale 08/12/2025 Yes $1,001 - $15,000
+   >> 12 Brighthouse Financial, Inc. See Endnote Sale 09/19/2025 Yes $1,001 - $15,000
+      13 Alphabet Inc. Class C See Endnote Sale 10/30/2025 No $1,001 - $15,000
+      14 Brighthouse Financial, Inc. See Endnote Sale 11/06/2025 No $15,001 - $50,000
+      PART # ENDNOTE
+
+  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2026/04/Scharf-William-Periodic-Transaction-Report-11.14.25-1.pdf
+
+[7] Zinberg, Joel  -  OGE Form 278-T (whitehouse.gov)
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : New York, NY Bond See Endnote
+     ticker     : (none reported)
+     action     : sell
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-02-06
+     disclosed  : 2026-02-24  (delay 10 days)
+     excluded from copy-check: no ticker reported
+
+  ORIGINAL FILING SAYS:
+      30 DAYS AGO
+      AMOUNT
+      1 Long Beach, NY Bond Purchase 02/06/2026 No $1,001 - $15,000
+   >> 2 New York, NY Bond See Endnote Sale 02/06/2026 No $15,001 - $50,000
+      3 New York, NY Bond See Endnote Sale 02/06/2026 No $1,001 - $15,000
+      4 New York, NY Bond See Endnote Sale 02/06/2026 No $1,001 - $15,000
+      5 New York, NY Bond See Endnote Sale 02/01/2026 No $1,001 - $15,000
+
+  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2026/04/Zinberg-Joel-Periodic-Transaction-Report-02.16.26-1.pdf
+
+[8] Zinberg, Joel  -  OGE Form 278-T (whitehouse.gov)
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : NY State Housing Revenue Bond
+     ticker     : (none reported)
+     action     : buy
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2025-10-15
+     disclosed  : 2026-02-06  (delay 0 days)
+     excluded from copy-check: no ticker reported
+
+  ORIGINAL FILING SAYS:
+      8 Vanguard Dividend Appreciation Index Fund ETF
+      Class Shares (VIG)
+      Purchase 10/15/2025 No $15,001 - $50,000
+   >> 9 NY State Housing Revenue Bond Purchase 10/15/2025 No $1,001 - $15,000
+      Zinberg, Joel M - Page 3
+      5 U.S.C. § 13101 et seq., and 5 C.F.R. Part 2634 of the U. S. Office of Government Ethics regulations require the reporting of this information. Failu
+      requested 'information may result in separation, disciplinary action, or civil action. The primary use of the information on this report is for review
+
+  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2026/02/Zinberg-Joel-Periodic-Transaction-Report-10.15.25.pdf
+
+[9] Lyon, Andrew  -  OGE Form 278-T (whitehouse.gov)
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : BP P L C FSPONSORED ADR See Endnote
+     ticker     : (none reported)
+     action     : sell
+     amount     : $15,001 - $50,000   <- as printed in the filing
+     trade date : 2025-02-12
+     disclosed  : 2025-04-02  (delay 44 days)
+     excluded from copy-check: no ticker reported
+
+  ORIGINAL FILING SAYS:
+      13 WELLS FARGO & CO See Endnote Sale 02/14/2025 Yes $15,001 - $50,000
+      14 GSK PLC ADR FSPONSORED ADR See Endnote Sale 02/12/2025 Yes $1,001 - $15,000
+      15 LVMH MOET HENNESSY ADR See Endnote Sale 02/12/2025 Yes $15,001 - $50,000
+   >> 16 BP P L C FSPONSORED ADR See Endnote Sale 02/12/2025 Yes $15,001 - $50,000
+      17 BCE INC See Endnote Sale 02/12/2025 Yes $15,001 - $50,000
+      18 LIBERTY BROADBAND CORP CLASS A See Endnote Sale 02/12/2025 Yes $15,001 - $50,000
+      19 SKYWORKS SOLUTIONS INC See Endnote Sale 02/12/2025 Yes $15,001 - $50,000
+
+  VERIFY AT: https://www.whitehouse.gov/wp-content/uploads/2025/11/Lyon-Andrew-Periodic-Transaction-Report-–-03.28.25.pdf
+
+[10] Byron Donalds  -  U.S. House Clerk - Periodic Transaction Report
+------------------------------------------------------------------------------------------------
+  WE STORED:
+     asset      : Brown & Brown, Inc. Common Stock
+     ticker     : BRO
+     action     : sell
+     amount     : $1,001 - $15,000   <- as printed in the filing
+     trade date : 2026-02-10
+     disclosed  : 2026-03-01  (delay 19 days)
+     account    : Moran Wealth IRA
      status     : New
 
   ORIGINAL FILING SAYS:
       Gains >
       $200?
-      SP Accenture plc Class A Ordinary
-   >> Shares (ACN) [ST]
-      S 08/11/2026 08/11/2026 $1,001 - $15,000
+      Brown & Brown, Inc. Common Stock
+   >> (BRO) [ST]
+      S 02/10/2026 03/01/2026 $1,001 - $15,000
       F S: New
-      S O: Trust 2
+      S O: Moran Wealth IRA
 
-  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
-
-[7] David J. Taylor  -  U.S. House Clerk - Periodic Transaction Report
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Installed Building Products, Inc. Common Stock
-     ticker     : IBP
-     action     : buy
-     amount     : $1,001 - $15,000   <- as printed in the filing
-     trade date : 2026-08-14
-     disclosed  : 2026-08-20  (delay 6 days)
-     account    : David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
-     status     : New
-
-  ORIGINAL FILING SAYS:
-      F S: New
-      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
-      Installed Building Products, Inc.
-   >> Common Stock (IBP) [ST]
-      P 08/14/2026 08/20/2026 $1,001 - $15,000
-      F S: New
-      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
-
-  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf
-
-[8] Kevin Hern  -  U.S. House Clerk - Periodic Transaction Report
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Hormel Foods Corporation Common Stock
-     ticker     : HRL
-     action     : sell
-     amount     : $1,001 - $15,000   <- as printed in the filing
-     trade date : 2026-08-13
-     disclosed  : 2026-08-27  (delay 14 days)
-     account    : Kevin Hern Traditional IRA
-     status     : New
-
-  ORIGINAL FILING SAYS:
-      F S: New
-      S O: Hern Family Foundation
-      Hormel Foods Corporation Common
-   >> Stock (HRL) [ST]
-      S 08/13/2026 08/27/2026 $1,001 - $15,000
-      F S: New
-      S O: Kevin Hern Traditional IRA
-
-  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
-
-[9] Glabe Scott  -  SEC EDGAR - Form 4
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Common Stock, par value $0.0001 per share
-     ticker     : DJT
-     action     : sell   (Form 4 code S = Open-market or private sale)
-     shares     : 43,775 @ $26.4114
-     owned after: 240,794
-     trade date : 2025-05-14
-     disclosed  : 2025-05-14  (delay 0 days)
-
-  ORIGINAL FILING SAYS:
-      reporting owner                  Glabe Scott
-      issuer                           Trump Media & Technology Group Corp.  (DJT)
-      security                         Common Stock, par value $0.0001 per share
-      transactionDate                  2025-05-14
-      transactionCode                  S
-      shares                           43775
-      pricePerShare                    26.4114
-      sharesOwnedFollowing             240794
-
-  VERIFY AT: https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/0001474506-25-000093-index.htm
-
-[10] David J. Taylor  -  U.S. House Clerk - Periodic Transaction Report
-------------------------------------------------------------------------------------------------
-  WE STORED:
-     asset      : Broadcom Inc. - Common Stock
-     ticker     : AVGO
-     action     : buy
-     amount     : $1,001 - $15,000   <- as printed in the filing
-     trade date : 2026-08-26
-     disclosed  : 2026-09-03  (delay 8 days)
-     account    : Dave's IRA @ Schwab (Home Grown)
-     status     : New
-
-  ORIGINAL FILING SAYS:
-      F S: New
-      S O: David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)
-      Broadcom Inc. - Common Stock
-   >> (AVGO) [ST]
-      P 08/26/2026 09/03/2026 $1,001 - $15,000
-      F S: New
-      S O: Dave's IRA @ Schwab (Home Grown)
-
-  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+  VERIFY AT: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034134.pdf
 
 ================================================================================================
 Open any link above and compare. If a stored value differs from the filing,
