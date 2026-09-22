@@ -188,7 +188,14 @@ def parse_transactions(text: str, filing: Filing) -> list[dict]:
             stripped = line.strip()
             if stripped and not NOISE.match(stripped):
                 pending.append(stripped)
-                if len(pending) > 4:  # an asset name never runs longer than this
+                # Long security names really do run to five or six lines, e.g.
+                # "Alphabet Inc. - Depositary Shares representing a 1/20th
+                # Interest in a Share of Series B Mandatory Convertible
+                # Preferred Stock". Dropping the first line loses both the
+                # start of the name and the owner code that sits on it.
+                # Contamination is prevented by the NOISE clear below, which
+                # fires between every pair of transactions.
+                if len(pending) > 8:
                     pending.pop(0)
             elif NOISE.match(stripped):
                 pending.clear()

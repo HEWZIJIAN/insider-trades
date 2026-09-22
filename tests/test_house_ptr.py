@@ -112,6 +112,34 @@ def test_morrison_spouse_and_notes():
 # ---------------------------------------------------------------------------
 # A scanned paper filing. It must produce NO trades - never a guess.
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# .../2026/20035186.pdf - Josh Gottheimer (NJ05). Three rows carry a security
+# name long enough to wrap over five lines. The FIRST of those lines holds both
+# the start of the name and the owner code, so a parser that keeps too few
+# lines silently reports a joint holding as the member's own.
+# ---------------------------------------------------------------------------
+def test_long_security_names_keep_their_first_line():
+    trades = _parse(
+        "house_ptr_gottheimer_longname_20035186.pdf",
+        doc_id="20035186", last="Gottheimer", first="Josh", district="NJ05",
+        filing_date="2026-08-06",
+    )
+    assert len(trades) == 11
+
+    alphabet = [t for t in trades if (t["ticker"] or "").startswith("GOOG")]
+    assert len(alphabet) == 3
+    for trade in alphabet:
+        assert trade["asset_name"].startswith("Alphabet Inc. - Depositary Shares"), (
+            f"name was truncated to: {trade['asset_name'][:60]}"
+        )
+        assert "Mandatory Convertible Preferred Stock" in trade["asset_name"]
+        # The owner code rides on the dropped first line.
+        assert trade["owner"] == "joint", "JT prefix was lost with the first line"
+
+    # Every row in this filing is jointly held.
+    assert all(t["owner"] == "joint" for t in trades)
+
+
 def test_scanned_filing_yields_nothing():
     text = extract_text((FIXTURES / "house_ptr_scanned_9116331.pdf").read_bytes())
     assert len(text.strip()) < 200, "fixture is supposed to be an image-only scan"

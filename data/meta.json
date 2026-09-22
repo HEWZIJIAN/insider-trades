@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T06:16:24+00:00",
+ "generated_at": "2026-09-22T06:18:40+00:00",
  "counts": {
   "records": 318,
   "parsed_trades": 268,
@@ -16,8 +16,8 @@
  "sources": {
   "house_clerk_ptr": {
    "source": "house_clerk_ptr",
-   "last_attempt": "2026-09-22T05:56:40+00:00",
-   "last_success": "2026-09-22T05:56:40+00:00",
+   "last_attempt": "2026-09-22T06:18:07+00:00",
+   "last_success": "2026-09-22T06:18:07+00:00",
    "ok": true,
    "detail": "25 filings, 107 trades parsed, 4 unparsed, 0 errors",
    "count": 107
@@ -48,11 +48,11 @@
   },
   "copy_check": {
    "source": "copy_check",
-   "last_attempt": "2026-09-22T06:10:43+00:00",
-   "last_success": "2026-09-22T06:10:43+00:00",
+   "last_attempt": "2026-09-22T06:16:45+00:00",
+   "last_success": "2026-09-22T06:16:45+00:00",
    "ok": true,
-   "detail": "36/38 eligible buys measured",
-   "count": 36
+   "detail": "39/41 eligible buys measured",
+   "count": 39
   }
  }
 }
