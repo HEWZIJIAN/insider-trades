@@ -32,12 +32,15 @@ from common import (
     load_watchlist,
     parse_date,
     parse_money,
+    reusable_records,
     slug,
     update_status,
     write_json,
 )
 
 SOURCE_ID = "house_clerk_ptr"
+# Bump when parsing changes, to reprocess filings already stored.
+PARSER_VERSION = "2026-09-22.1"
 SOURCE_LABEL = "U.S. House Clerk - Periodic Transaction Report"
 INDEX_URL = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}FD.zip"
 PDF_URL = "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{year}/{doc_id}.pdf"
@@ -342,6 +345,7 @@ def run(year: int | None = None, limit: int | None = None) -> list[dict]:
     cfg = load_watchlist()
     year = year or datetime.date.today().year
 
+    reusable, done = reusable_records("house_ptr.json", "doc_id", PARSER_VERSION)
     filings = fetch_index(year)
     selected = select(filings, cfg)
     selected.sort(key=lambda f: f.filing_date, reverse=True)
@@ -351,7 +355,13 @@ def run(year: int | None = None, limit: int | None = None) -> list[dict]:
     trades: list[dict] = []
     unparsed: list[dict] = []
     errors = 0
+    reused = 0
     for filing in selected:
+        if filing.doc_id in done:
+            for record in reusable[filing.doc_id]:
+                (trades if record.get("parsed") else unparsed).append(record)
+            reused += 1
+            continue
         try:
             got, missed = fetch_filing(filing)
             trades.extend(got)
@@ -361,13 +371,15 @@ def run(year: int | None = None, limit: int | None = None) -> list[dict]:
             unparsed.append(unparsed_card(filing, "fetch_error", str(exc)[:200]))
 
     records = trades + unparsed
+    for record in records:
+        record["parser_version"] = PARSER_VERSION
     write_json("house_ptr.json", records)
     update_status(
         SOURCE_ID,
         ok=errors == 0,
         detail=(
-            f"{len(selected)} filings, {len(trades)} trades parsed, "
-            f"{len(unparsed)} unparsed, {errors} errors"
+            f"{len(selected)} filings ({reused} reused), {len(trades)} trades "
+            f"parsed, {len(unparsed)} unparsed, {errors} errors"
         ),
         count=len(trades),
     )

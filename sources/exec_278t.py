@@ -26,6 +26,7 @@ from pypdf import PdfReader
 
 from common import (
     cache_path,
+    reusable_records,
     delay_days,
     get,
     load_watchlist,
@@ -37,6 +38,8 @@ from common import (
 )
 
 SOURCE_ID = "oge_278t"
+# Bump when parsing changes, to reprocess documents already stored.
+PARSER_VERSION = "2026-09-22.1"
 SOURCE_LABEL = "OGE Form 278-T (whitehouse.gov)"
 DISCLOSURES_URL = "https://www.whitehouse.gov/disclosures/"
 
@@ -344,6 +347,7 @@ def process(doc: dict) -> tuple[list[dict], list[dict]]:
 
 def run(limit: int | None = None) -> list[dict]:
     cfg = load_watchlist()
+    reusable, done = reusable_records("oge_278t.json", "source_url", PARSER_VERSION)
     docs = select(list_documents(), cfg)
     docs.sort(key=lambda d: d["disclosure_date"] or "", reverse=True)
     if limit:
@@ -352,7 +356,13 @@ def run(limit: int | None = None) -> list[dict]:
     rows: list[dict] = []
     cards: list[dict] = []
     errors = 0
+    reused = 0
     for doc in docs:
+        if doc["url"] in done:
+            for record in reusable[doc["url"]]:
+                (rows if record.get("parsed") else cards).append(record)
+            reused += 1
+            continue
         try:
             got, missed = process(doc)
             rows.extend(got)
@@ -362,13 +372,15 @@ def run(limit: int | None = None) -> list[dict]:
             cards.append(document_card(doc, "fetch_error", str(exc)[:200]))
 
     records = rows + cards
+    for record in records:
+        record["parser_version"] = PARSER_VERSION
     write_json("oge_278t.json", records)
     update_status(
         SOURCE_ID,
         ok=errors == 0,
         detail=(
-            f"{len(docs)} documents, {len(rows)} transactions parsed, "
-            f"{len(cards)} linked-only, {errors} errors"
+            f"{len(docs)} documents ({reused} reused), {len(rows)} transactions "
+            f"parsed, {len(cards)} linked-only, {errors} errors"
         ),
         count=len(rows),
     )

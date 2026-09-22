@@ -20,6 +20,7 @@ from collections import Counter
 
 from common import (
     SEC_LIMITER,
+    reusable_records,
     cache_path,
     delay_days,
     get,
@@ -31,6 +32,8 @@ from common import (
 )
 
 SOURCE_ID = "sec_form4"
+# Bump when parsing changes, to reprocess filings already stored.
+PARSER_VERSION = "2026-09-22.1"
 SOURCE_LABEL = "SEC EDGAR - Form 4"
 SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik}.json"
 ARCHIVE = "https://www.sec.gov/Archives/edgar/data/{cik_int}/{acc_nodash}/{doc}"
@@ -269,8 +272,10 @@ def run(limit_per_company: int | None = None) -> list[dict]:
     cfg = load_watchlist()
     companies = cfg.get("companies", []) or []
 
+    reusable, done = reusable_records("sec_form4.json", "doc_id", PARSER_VERSION)
     records: list[dict] = []
     errors = 0
+    reused = 0
     codes: Counter[str] = Counter()
 
     for company in companies:
@@ -289,6 +294,10 @@ def run(limit_per_company: int | None = None) -> list[dict]:
             form144s = form144s[:limit_per_company]
 
         for filing in form4s:
+            if filing["accession"] in done:
+                records.extend(reusable[filing["accession"]])
+                reused += 1
+                continue
             try:
                 parsed = parse_form4(fetch_form4(filing), filing)
                 records.extend(parsed)
@@ -310,16 +319,23 @@ def run(limit_per_company: int | None = None) -> list[dict]:
                     }
                 )
 
-        records.extend(form144_card(f) for f in form144s)
+        for filing in form144s:
+            if filing["accession"] in done:
+                records.extend(reusable[filing["accession"]])
+                reused += 1
+            else:
+                records.append(form144_card(filing))
 
+    for record in records:
+        record["parser_version"] = PARSER_VERSION
     write_json("sec_form4.json", records)
     tradeable = sum(1 for r in records if r.get("copyable"))
     update_status(
         SOURCE_ID,
         ok=errors == 0,
         detail=(
-            f"{len(records)} rows, {tradeable} open-market (P/S), "
-            f"{errors} errors; codes={dict(codes)}"
+            f"{len(records)} rows ({reused} filings reused), {tradeable} "
+            f"open-market (P/S), {errors} errors"
         ),
         count=len(records),
     )

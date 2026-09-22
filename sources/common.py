@@ -179,6 +179,33 @@ def update_status(source: str, *, ok: bool, detail: str = "", count: int | None 
     write_json("status.json", statuses)
 
 
+def reusable_records(filename: str, key_field: str, parser_version: str):
+    """Records from a previous run that can be reused without refetching.
+
+    Documents do not change once filed, so there is no reason to download a
+    48 MB scan every half hour. Results are keyed by document and reused.
+
+    Bump the module's PARSER_VERSION whenever parsing changes; that invalidates
+    everything so improvements apply retroactively instead of only to new
+    filings. FORCE_REPARSE=1 in the environment does the same on demand.
+    """
+    if os.environ.get("FORCE_REPARSE") == "1":
+        return {}, set()
+
+    previous = read_json(filename, default=None)
+    if not isinstance(previous, list):
+        return {}, set()
+
+    grouped: dict[str, list] = {}
+    for record in previous:
+        if record.get("parser_version") != parser_version:
+            return {}, set()  # parser changed: redo everything
+        key = record.get(key_field)
+        if key:
+            grouped.setdefault(str(key), []).append(record)
+    return grouped, set(grouped)
+
+
 def cache_path(*parts: str) -> Path:
     p = CACHE.joinpath(*parts)
     p.parent.mkdir(parents=True, exist_ok=True)

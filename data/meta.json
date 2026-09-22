@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T06:18:40+00:00",
+ "generated_at": "2026-09-22T06:30:48+00:00",
  "counts": {
   "records": 318,
   "parsed_trades": 268,
@@ -16,26 +16,26 @@
  "sources": {
   "house_clerk_ptr": {
    "source": "house_clerk_ptr",
-   "last_attempt": "2026-09-22T06:18:07+00:00",
-   "last_success": "2026-09-22T06:18:07+00:00",
+   "last_attempt": "2026-09-22T06:27:15+00:00",
+   "last_success": "2026-09-22T06:27:15+00:00",
    "ok": true,
-   "detail": "25 filings, 107 trades parsed, 4 unparsed, 0 errors",
+   "detail": "25 filings (25 reused), 107 trades parsed, 4 unparsed, 0 errors",
    "count": 107
   },
   "sec_form4": {
    "source": "sec_form4",
-   "last_attempt": "2026-09-22T06:01:01+00:00",
-   "last_success": "2026-09-22T06:01:01+00:00",
+   "last_attempt": "2026-09-22T06:27:42+00:00",
+   "last_success": "2026-09-22T06:27:42+00:00",
    "ok": true,
-   "detail": "145 rows, 36 open-market (P/S), 0 errors; codes={'F': 28, 'A': 35, 'P': 3, 'S': 33, 'G': 2, 'J': 3, 'C': 3}",
+   "detail": "145 rows (121 filings reused), 36 open-market (P/S), 0 errors",
    "count": 145
   },
   "oge_278t": {
    "source": "oge_278t",
-   "last_attempt": "2026-09-22T06:15:38+00:00",
-   "last_success": "2026-09-22T06:15:38+00:00",
+   "last_attempt": "2026-09-22T06:27:40+00:00",
+   "last_success": "2026-09-22T06:27:40+00:00",
    "ok": true,
-   "detail": "18 documents, 54 transactions parsed, 8 linked-only, 0 errors",
+   "detail": "18 documents (18 reused), 54 transactions parsed, 8 linked-only, 0 errors",
    "count": 54
   },
   "prices": {
@@ -48,11 +48,27 @@
   },
   "copy_check": {
    "source": "copy_check",
-   "last_attempt": "2026-09-22T06:16:45+00:00",
-   "last_success": "2026-09-22T06:16:45+00:00",
+   "last_attempt": "2026-09-22T06:18:54+00:00",
+   "last_success": "2026-09-22T06:18:54+00:00",
    "ok": true,
    "detail": "39/41 eligible buys measured",
    "count": 39
+  },
+  "alerts": {
+   "source": "alerts",
+   "last_attempt": "2026-09-22T06:25:52+00:00",
+   "last_success": "2026-09-22T06:25:52+00:00",
+   "ok": true,
+   "detail": "sent 4 of 4 new",
+   "count": 4
+  },
+  "crypto": {
+   "source": "crypto",
+   "last_attempt": "2026-09-22T06:30:47+00:00",
+   "last_success": "2026-09-22T06:30:47+00:00",
+   "ok": true,
+   "detail": "no wallets configured - add addresses to watchlist.yml, each with a label_source naming who attributes it",
+   "count": 0
   }
  }
 }

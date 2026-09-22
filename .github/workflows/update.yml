@@ -1,0 +1,206 @@
+name: Update data
+
+# Runs every 30 minutes. Each source is allowed to fail on its own: a broken
+# source must show as "unavailable, last updated ..." in the app rather than
+# taking the whole run down with it.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      force_reparse:
+        description: 'Re-download and re-parse every filing from scratch'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'watchlist.yml'
+      - 'sources/**'
+      - 'web/**'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write   # commit refreshed data back to the repo
+  pages: write
+  id-token: write
+
+# Never let two runs fight over the same commit.
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      failures: ${{ steps.summary.outputs.failures }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run parser tests
+        # If the parsers are broken, stop before writing bad data over good.
+        run: python tests/run_all.py
+
+      # ---- sources: each may fail independently -------------------------
+      - name: House Clerk PTRs
+        id: house
+        continue-on-error: true
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          FORCE_REPARSE: ${{ inputs.force_reparse && '1' || '0' }}
+        run: python sources/house_ptr.py
+
+      - name: SEC Form 4
+        id: sec
+        continue-on-error: true
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          FORCE_REPARSE: ${{ inputs.force_reparse && '1' || '0' }}
+        run: python sources/sec_form4.py
+
+      - name: Executive branch 278-T
+        id: oge
+        continue-on-error: true
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          FORCE_REPARSE: ${{ inputs.force_reparse && '1' || '0' }}
+        run: python sources/exec_278t.py
+
+      - name: Crypto wallets
+        id: crypto
+        continue-on-error: true
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: python sources/crypto_wallets.py
+
+      - name: Price provider health
+        id: prices
+        continue-on-error: true
+        run: python sources/prices.py
+
+      # ---- derive ------------------------------------------------------
+      - name: Merge into the feed
+        run: python sources/build_feed.py
+
+      - name: Copy check
+        continue-on-error: true
+        run: python sources/copy_check.py
+
+      - name: Send alerts
+        continue-on-error: true
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITE_URL: ${{ steps.pages.outputs.base_url || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+        run: python sources/alerts.py
+
+      - name: Summarise source health
+        id: summary
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          p = pathlib.Path("data/status.json")
+          statuses = json.loads(p.read_text()) if p.exists() else {}
+          bad = [k for k, v in statuses.items() if not v.get("ok")]
+          print(f"failures={','.join(bad)}")
+          for key, value in sorted(statuses.items()):
+              flag = "OK  " if value.get("ok") else "FAIL"
+              print(f"::notice::{flag} {key}: {value.get('detail','')}", file=__import__('sys').stderr)
+          PY
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Update data $(date -u '+%Y-%m-%d %H:%M UTC')"
+            # A run every 30 minutes will collide with itself occasionally.
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main && git push origin HEAD:main && break
+              echo "push attempt $attempt failed; retrying"
+              sleep 5
+            done
+          fi
+
+      # ---- publish -----------------------------------------------------
+      - name: Assemble the site
+        run: |
+          rm -rf _site && mkdir -p _site
+          cp -r web/* _site/
+          mkdir -p _site/data
+          cp data/*.json _site/data/
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+        id: pages
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      # A dead man's switch. If GitHub Actions stops running this workflow
+      # entirely - disabled, suspended, account issue - no ping arrives and the
+      # external monitor alerts. Nothing inside GitHub can detect that.
+      # Optional: set the HEALTHCHECK_URL secret to a free healthchecks.io check.
+      - name: Ping the external dead man's switch
+        if: success()
+        env:
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+        run: |
+          if [ -n "$HEALTHCHECK_URL" ]; then
+            curl -fsS -m 10 --retry 3 "$HEALTHCHECK_URL" > /dev/null && echo "pinged" || echo "ping failed"
+          else
+            echo "HEALTHCHECK_URL not set - relying on the in-app staleness banner only"
+          fi
+
+      - name: Alert if a source failed
+        if: steps.summary.outputs.failures != ''
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -n "$NTFY_TOPIC" ]; then
+            curl -s -H "Title: Source failing: ${{ steps.summary.outputs.failures }}" \
+                 -H "Tags: warning" -H "Priority: high" \
+                 -d "The app will show these as unavailable with their last good timestamp. Check the run log." \
+                 "https://ntfy.sh/$NTFY_TOPIC" > /dev/null
+          fi
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # A run that dies before writing anything would otherwise be invisible.
+  notify-failure:
+    needs: [update, deploy]
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push a failure notification
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -n "$NTFY_TOPIC" ]; then
+            curl -s -H "Title: Insider Trades update FAILED" \
+                 -H "Tags: rotating_light" -H "Priority: high" \
+                 -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+                 -d "The scheduled update did not complete. The app will start showing stale data." \
+                 "https://ntfy.sh/$NTFY_TOPIC" > /dev/null
+          fi

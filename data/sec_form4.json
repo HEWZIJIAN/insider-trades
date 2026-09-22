@@ -35,7 +35,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926028743/0001437749-26-028743-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926028743/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-027765-non-1",
@@ -73,7 +74,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027765/0001437749-26-027765-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027765/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-027763-non-1",
@@ -111,7 +113,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027763/0001437749-26-027763-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027763/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-027761-non-1",
@@ -149,7 +152,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027761/0001437749-26-027761-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027761/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-027758-non-1",
@@ -187,7 +191,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027758/0001437749-26-027758-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027758/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-021440-non-1",
@@ -225,7 +230,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021440/0001437749-26-021440-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021440/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-021439-non-1",
@@ -263,7 +269,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021439/0001437749-26-021439-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021439/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-021437-non-1",
@@ -301,7 +308,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021437/0001437749-26-021437-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021437/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-021435-non-1",
@@ -339,7 +347,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021435/0001437749-26-021435-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021435/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-021434-non-1",
@@ -377,7 +386,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021434/0001437749-26-021434-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021434/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001437749-26-021433-non-1",
@@ -415,7 +425,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021433/0001437749-26-021433-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021433/rdgdoc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015663-26-000004-non-1",
@@ -453,7 +464,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000004/0002015663-26-000004-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000004/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015663-26-000004-non-2",
@@ -490,7 +502,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000004/0002015663-26-000004-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000004/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015667-26-000004-non-1",
@@ -528,7 +541,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000004/0002015667-26-000004-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000004/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015667-26-000004-non-2",
@@ -565,7 +579,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000004/0002015667-26-000004-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000004/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001808488-26-000004-non-1",
@@ -603,7 +618,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000004/0001808488-26-000004-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000004/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001808488-26-000004-non-2",
@@ -640,7 +656,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000004/0001808488-26-000004-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000004/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001140361-26-022487-non-1",
@@ -678,7 +695,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036126022487/0001140361-26-022487-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036126022487/form4.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015663-26-000003-non-1",
@@ -716,7 +734,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000003/0002015663-26-000003-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000003/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015667-26-000003-non-1",
@@ -754,7 +773,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000003/0002015667-26-000003-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000003/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001808488-26-000003-non-1",
@@ -792,7 +812,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000003/0001808488-26-000003-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000003/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001140361-26-016776-non-1",
@@ -829,7 +850,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036126016776/0001140361-26-016776-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036126016776/form4.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001808488-26-000001-non-1",
@@ -867,7 +889,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000001/0001808488-26-000001-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848826000001/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015663-26-000001-non-1",
@@ -905,7 +928,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000001/0002015663-26-000001-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566326000001/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015667-26-000001-non-1",
@@ -943,7 +967,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000001/0002015667-26-000001-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566726000001/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015798-26-000001-non-1",
@@ -981,7 +1006,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201579826000001/0002015798-26-000001-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201579826000001/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015663-25-000003-non-1",
@@ -1018,7 +1044,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566325000003/0002015663-25-000003-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566325000003/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001836937-25-000002-non-1",
@@ -1054,7 +1081,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000183693725000002/0001836937-25-000002-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000183693725000002/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001808488-25-000002-non-1",
@@ -1092,7 +1120,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848825000002/0001808488-25-000002-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000180848825000002/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015663-25-000002-non-1",
@@ -1130,7 +1159,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566325000002/0002015663-25-000002-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566325000002/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015667-25-000002-non-1",
@@ -1168,7 +1198,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566725000002/0002015667-25-000002-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201566725000002/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0002015798-25-000002-non-1",
@@ -1206,7 +1237,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201579825000002/0002015798-25-000002-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201579825000002/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000169-non-1",
@@ -1244,7 +1276,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000169/0001474506-25-000169-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000169/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000168-non-1",
@@ -1282,7 +1315,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000168/0001474506-25-000168-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000168/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000163-non-1",
@@ -1320,7 +1354,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000163/0001474506-25-000163-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000163/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000162-non-1",
@@ -1358,7 +1393,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000162/0001474506-25-000162-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000162/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000158-non-1",
@@ -1396,7 +1432,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000158/0001474506-25-000158-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000158/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000157-non-1",
@@ -1434,7 +1471,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000157/0001474506-25-000157-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000157/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000156-non-1",
@@ -1472,7 +1510,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000156/0001474506-25-000156-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000156/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000155-non-1",
@@ -1510,7 +1549,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000155/0001474506-25-000155-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000155/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000150-non-1",
@@ -1547,7 +1587,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000150/0001474506-25-000150-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000150/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000150-non-2",
@@ -1585,7 +1626,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000150/0001474506-25-000150-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000150/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000149-non-1",
@@ -1622,7 +1664,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000149/0001474506-25-000149-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000149/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000149-non-2",
@@ -1660,7 +1703,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000149/0001474506-25-000149-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000149/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000148-non-1",
@@ -1697,7 +1741,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000148/0001474506-25-000148-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000148/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000148-non-2",
@@ -1735,7 +1780,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000148/0001474506-25-000148-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000148/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000147-non-1",
@@ -1772,7 +1818,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000147/0001474506-25-000147-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000147/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000147-non-2",
@@ -1810,7 +1857,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000147/0001474506-25-000147-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000147/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001830188-25-000048-non-1",
@@ -1848,7 +1896,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000183018825000048/0001830188-25-000048-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000183018825000048/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000095-non-1",
@@ -1884,7 +1933,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000095/0001474506-25-000095-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000095/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000094-non-1",
@@ -1923,7 +1973,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/0001474506-25-000094-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000094-non-2",
@@ -1962,7 +2013,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/0001474506-25-000094-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000094-non-3",
@@ -2000,7 +2052,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/0001474506-25-000094-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000094-non-4",
@@ -2036,7 +2089,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/0001474506-25-000094-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000094/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000093-non-1",
@@ -2075,7 +2129,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/0001474506-25-000093-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000093-non-2",
@@ -2114,7 +2169,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/0001474506-25-000093-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000093-non-3",
@@ -2152,7 +2208,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/0001474506-25-000093-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000093-non-4",
@@ -2190,7 +2247,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/0001474506-25-000093-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000093/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000092-non-1",
@@ -2229,7 +2287,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000092/0001474506-25-000092-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000092/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000092-non-2",
@@ -2268,7 +2327,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000092/0001474506-25-000092-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000092/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000091-non-1",
@@ -2307,7 +2367,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000091/0001474506-25-000091-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000091/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000091-non-2",
@@ -2346,7 +2407,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000091/0001474506-25-000091-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000091/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000056-non-1",
@@ -2383,7 +2445,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000056/0001474506-25-000056-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000056/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000056-non-2",
@@ -2419,7 +2482,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000056/0001474506-25-000056-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000056/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000055-non-1",
@@ -2457,7 +2521,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000055/0001474506-25-000055-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000055/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000055-non-2",
@@ -2494,7 +2559,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000055/0001474506-25-000055-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000055/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000055-non-3",
@@ -2531,7 +2597,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000055/0001474506-25-000055-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000055/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000046-non-1",
@@ -2568,7 +2635,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000046/0001474506-25-000046-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000046/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000045-non-1",
@@ -2605,7 +2673,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000045/0001474506-25-000045-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000045/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000044-non-1",
@@ -2642,7 +2711,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000044/0001474506-25-000044-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000044/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000043-non-1",
@@ -2679,7 +2749,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000043/0001474506-25-000043-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000043/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000024-non-1",
@@ -2716,7 +2787,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000024/0001474506-25-000024-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000024/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000023-non-1",
@@ -2753,7 +2825,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000023/0001474506-25-000023-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000023/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000022-non-1",
@@ -2790,7 +2863,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000022/0001474506-25-000022-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000022/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000021-non-1",
@@ -2827,7 +2901,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000021/0001474506-25-000021-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000021/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000020-non-1",
@@ -2864,7 +2939,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000020/0001474506-25-000020-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000020/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-25-000019-non-1",
@@ -2901,7 +2977,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000019/0001474506-25-000019-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000019/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000291-non-1",
@@ -2938,7 +3015,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000291/0001474506-24-000291-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000291/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000290-non-1",
@@ -2975,7 +3053,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000290/0001474506-24-000290-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000290/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000240-non-1",
@@ -3011,7 +3090,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000240/0001474506-24-000240-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000240/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000239-non-1",
@@ -3047,7 +3127,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000239/0001474506-24-000239-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000239/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000239-non-2",
@@ -3083,7 +3164,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000239/0001474506-24-000239-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000239/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000238-non-1",
@@ -3117,7 +3199,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000238/0001474506-24-000238-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000238/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000236-non-1",
@@ -3154,7 +3237,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000236/0001474506-24-000236-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000236/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000235-non-1",
@@ -3191,7 +3275,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000235/0001474506-24-000235-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000235/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000234-non-1",
@@ -3228,7 +3313,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000234/0001474506-24-000234-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000234/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000233-non-1",
@@ -3265,7 +3351,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000233/0001474506-24-000233-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000233/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000216-non-1",
@@ -3301,7 +3388,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000216/0001474506-24-000216-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000216/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000192-non-1",
@@ -3337,7 +3425,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000192/0001474506-24-000192-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000192/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000191-non-1",
@@ -3373,7 +3462,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000191/0001474506-24-000191-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000191/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000190-non-1",
@@ -3409,7 +3499,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000190/0001474506-24-000190-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000190/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000189-non-1",
@@ -3445,7 +3536,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000189/0001474506-24-000189-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000189/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000188-non-1",
@@ -3481,7 +3573,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000188/0001474506-24-000188-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000188/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000146-non-1",
@@ -3518,7 +3611,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/0001474506-24-000146-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000146-der-1",
@@ -3561,7 +3655,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/0001474506-24-000146-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001140361-24-015770-non-1",
@@ -3597,7 +3692,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036124015770/0001140361-24-015770-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036124015770/form4.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001140361-24-015770-non-2",
@@ -3634,7 +3730,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036124015770/0001140361-24-015770-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036124015770/form4.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001140361-24-015770-der-1",
@@ -3674,7 +3771,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036124015770/0001140361-24-015770-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036124015770/form4.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000116-non-1",
@@ -3710,7 +3808,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000116/0001474506-24-000116-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000116/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000115-non-1",
@@ -3746,7 +3845,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000115/0001474506-24-000115-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000115/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000114-non-1",
@@ -3782,7 +3882,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000114/0001474506-24-000114-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000114/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000113-non-1",
@@ -3818,7 +3919,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000113/0001474506-24-000113-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000113/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001474506-24-000112-non-1",
@@ -3854,7 +3956,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000112/0001474506-24-000112-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000112/primary_doc.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001104659-21-114762-non-1",
@@ -3891,7 +3994,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114762/0001104659-21-114762-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114762/tm2127360-4_4seq1.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001104659-21-114762-der-1",
@@ -3932,7 +4036,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114762/0001104659-21-114762-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114762/tm2127360-4_4seq1.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001104659-21-114761-non-1",
@@ -3970,7 +4075,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114761/0001104659-21-114761-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114761/tm2127360-3_4seq1.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec4-0001104659-21-114761-der-1",
@@ -4012,7 +4118,8 @@
   "amended": false,
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114761/0001104659-21-114761-index.htm",
   "source_xml_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114761/tm2127360-3_4seq1.xml",
-  "parsed": true
+  "parsed": true,
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000936",
@@ -4027,7 +4134,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000936/0001921094-26-000936-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000860",
@@ -4042,7 +4150,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000860/0001921094-26-000860-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000859",
@@ -4057,7 +4166,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000859/0001921094-26-000859-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000858",
@@ -4072,7 +4182,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000858/0001921094-26-000858-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000857",
@@ -4087,7 +4198,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000857/0001921094-26-000857-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000558",
@@ -4102,7 +4214,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000558/0001921094-26-000558-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000557",
@@ -4117,7 +4230,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000557/0001921094-26-000557-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000556",
@@ -4132,7 +4246,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000556/0001921094-26-000556-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000535",
@@ -4147,7 +4262,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000535/0001921094-26-000535-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000474",
@@ -4162,7 +4278,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000474/0001921094-26-000474-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000469",
@@ -4177,7 +4294,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000469/0001921094-26-000469-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000468",
@@ -4192,7 +4310,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000468/0001921094-26-000468-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000467",
@@ -4207,7 +4326,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000467/0001921094-26-000467-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000466",
@@ -4222,7 +4342,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000466/0001921094-26-000466-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000412",
@@ -4237,7 +4358,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000412/0001921094-26-000412-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000411",
@@ -4252,7 +4374,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000411/0001921094-26-000411-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000258",
@@ -4267,7 +4390,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000258/0001921094-26-000258-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000257",
@@ -4282,7 +4406,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000257/0001921094-26-000257-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000256",
@@ -4297,7 +4422,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000256/0001921094-26-000256-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-26-000255",
@@ -4312,7 +4438,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426000255/0001921094-26-000255-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-001375",
@@ -4327,7 +4454,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425001375/0001921094-25-001375-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-001362",
@@ -4342,7 +4470,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425001362/0001921094-25-001362-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-001361",
@@ -4357,7 +4486,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425001361/0001921094-25-001361-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-001360",
@@ -4372,7 +4502,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425001360/0001921094-25-001360-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-001359",
@@ -4387,7 +4518,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425001359/0001921094-25-001359-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-001136",
@@ -4402,7 +4534,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425001136/0001921094-25-001136-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-001055",
@@ -4417,7 +4550,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425001055/0001921094-25-001055-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000884",
@@ -4432,7 +4566,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000884/0001921094-25-000884-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000883",
@@ -4447,7 +4582,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000883/0001921094-25-000883-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000882",
@@ -4462,7 +4598,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000882/0001921094-25-000882-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000881",
@@ -4477,7 +4614,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000881/0001921094-25-000881-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000641",
@@ -4492,7 +4630,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000641/0001921094-25-000641-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000492",
@@ -4507,7 +4646,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000492/0001921094-25-000492-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000491",
@@ -4522,7 +4662,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000491/0001921094-25-000491-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000490",
@@ -4537,7 +4678,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000490/0001921094-25-000490-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000489",
@@ -4552,7 +4694,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000489/0001921094-25-000489-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001921094-25-000488",
@@ -4567,7 +4710,8 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109425000488/0001921094-25-000488-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  },
  {
   "id": "sec144-0001950047-25-003022",
@@ -4582,6 +4726,7 @@
   "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000195004725003022/0001950047-25-003022-index.htm",
   "parsed": false,
   "unparsed_reason": "notice_only",
-  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade."
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
  }
 ]
