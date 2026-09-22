@@ -1,0 +1,105 @@
+# =====================================================================
+#  WATCHLIST  -  this is the file you edit.
+#
+#  After changing it, commit and push. The next scheduled run picks it up.
+#  Nothing else needs editing. See README section "Editing the watchlist".
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# 1. EXECUTIVE BRANCH  (OGE Form 278-T, published on whitehouse.gov)
+# ---------------------------------------------------------------------
+# Names are matched case-insensitively against the PDF link text on
+# https://www.whitehouse.gov/disclosures/
+#
+# NOTE ON TRUMP'S OWN FILINGS: they are published as scanned images with a
+# damaged text layer, so they CANNOT be parsed into individual trades without
+# inventing numbers. They appear in the app as linked documents marked
+# "scanned filing - not machine-parsed". This is deliberate. See README.
+executive_branch:
+  track_all: true          # true = every 278-T on the disclosures page
+  highlight:               # these get a badge in the feed
+    - Trump
+    - Vance
+    - Bessent
+    - Lutnick
+    - Rubio
+    - Witkoff
+
+# ---------------------------------------------------------------------
+# 2. CONGRESS  (House Clerk Periodic Transaction Reports)
+# ---------------------------------------------------------------------
+# Senate eFD is deliberately NOT included: it sits behind a legal
+# affirmation of the Ethics in Government Act prohibitions that only a
+# person can make, and it blocks automated access. See README.
+#
+# Set track_all: true to follow every House filer (108 filed in 2026).
+# Otherwise only the members listed below are tracked.
+#
+# Match is on last name + state/district, so add the district to be exact.
+congress:
+  track_all: false
+  members:
+    # Starter list: the most active PTR filers of 2026, by real filing counts
+    # measured from the Clerk's own index. Delete freely.
+    - { last: Taylor,      first: David,   district: OH02 }
+    - { last: Morrison,    first: Kelly,   district: MN03 }
+    - { last: Cohen,       first: Steve,   district: TN09 }
+    - { last: Fields,      first: Cleo,    district: LA06 }
+    - { last: Harshbarger, first: Diana,   district: TN01 }
+    - { last: DelBene,     first: Suzan,   district: WA01 }
+    - { last: Hern,        first: Kevin,   district: OK01 }
+    - { last: Kelly,       first: Mike,    district: PA16 }
+    - { last: Gottheimer,  first: Josh,    district: NJ05 }
+    - { last: Donalds,     first: Byron,   district: FL19 }
+    - { last: Khanna,      first: Rohit,   district: CA17 }
+    - { last: Sessions,    first: Pete,    district: TX17 }
+
+# ---------------------------------------------------------------------
+# 3. TRUMP-LINKED PUBLIC COMPANIES  (SEC Form 4 / Form 144)
+# ---------------------------------------------------------------------
+# cik must be the SEC Central Index Key. Find it at
+# https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany
+companies:
+  - name: Trump Media & Technology Group Corp.
+    ticker: DJT
+    cik: "0001849635"
+
+# ---------------------------------------------------------------------
+# 4. CRYPTO WALLETS  (watched on-chain)
+# ---------------------------------------------------------------------
+# RULE: only addresses you supply yourself, or addresses a NAMED public
+# source labels. Every entry must carry a label_source that is shown in the
+# app, so you always know who said this wallet belongs to whom.
+# Never add an address on rumour.
+#
+# chain: ethereum | base | polygon   (Blockscout-backed, no API key needed)
+crypto_wallets: []
+  # - address: "0x0000000000000000000000000000000000000000"
+  #   name: World Liberty Financial (treasury)
+  #   chain: ethereum
+  #   label_source: "Etherscan public label"
+  #   label_source_url: "https://etherscan.io/address/0x..."
+
+# ---------------------------------------------------------------------
+# 5. COPY-CHECK BENCHMARKS
+# ---------------------------------------------------------------------
+benchmarks:
+  stocks: SPY
+  crypto: BTC
+
+# Horizons in calendar days, measured from the first trading day AFTER the
+# trade became public (the earliest day you could actually have copied it).
+copy_check_horizons: [7, 30, 90]
+
+# Below this many measurable trades, the app shows "insufficient data"
+# rather than printing a win rate that means nothing.
+min_trades_for_stats: 5
+
+# ---------------------------------------------------------------------
+# 6. ALERTS
+# ---------------------------------------------------------------------
+# ntfy topic name. Treat it like a password: anyone who knows it can read
+# your alerts. Set the real value as the NTFY_TOPIC repo secret, not here.
+alerts:
+  enabled: true
+  only_watchlisted: true   # false = alert on every new trade found

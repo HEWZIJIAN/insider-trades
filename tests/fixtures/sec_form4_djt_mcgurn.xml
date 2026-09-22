@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+
+    <schemaVersion>X0609</schemaVersion>
+
+    <documentType>4</documentType>
+
+    <periodOfReport>2026-08-21</periodOfReport>
+
+    <issuer>
+        <issuerCik>0001849635</issuerCik>
+        <issuerName>Trump Media &amp; Technology Group Corp.</issuerName>
+        <issuerTradingSymbol>DJT</issuerTradingSymbol>
+        <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+    </issuer>
+
+    <reportingOwner>
+        <reportingOwnerId>
+            <rptOwnerCik>0002074510</rptOwnerCik>
+            <rptOwnerName>McGurn Kevin</rptOwnerName>
+        </reportingOwnerId>
+        <reportingOwnerAddress>
+            <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+            <rptOwnerStreet1>C/O TRUMP MEDIA &amp; TECHNOLOGY GROUP CORP.</rptOwnerStreet1>
+            <rptOwnerStreet2>401 N. CATTLEMEN RD., SUITE 200</rptOwnerStreet2>
+            <rptOwnerCity>SARASOTA</rptOwnerCity>
+            <rptOwnerState>FL</rptOwnerState>
+            <rptOwnerZipCode>34232</rptOwnerZipCode>
+            <rptOwnerStateDescription></rptOwnerStateDescription>
+        </reportingOwnerAddress>
+        <reportingOwnerRelationship>
+            <isOfficer>1</isOfficer>
+            <officerTitle>Interim CEO</officerTitle>
+        </reportingOwnerRelationship>
+    </reportingOwner>
+
+    <aff10b5One>0</aff10b5One>
+
+    <nonDerivativeTable>
+        <nonDerivativeTransaction>
+            <securityTitle>
+                <value>Common Stock, par value $0.0001 per share</value>
+            </securityTitle>
+            <transactionDate>
+                <value>2026-08-21</value>
+            </transactionDate>
+            <transactionCoding>
+                <transactionFormType>4</transactionFormType>
+                <transactionCode>F</transactionCode>
+                <equitySwapInvolved>0</equitySwapInvolved>
+                <footnoteId id="F1"/>
+            </transactionCoding>
+            <transactionAmounts>
+                <transactionShares>
+                    <value>7958</value>
+                </transactionShares>
+                <transactionPricePerShare>
+                    <value>8.8864</value>
+                    <footnoteId id="F2"/>
+                </transactionPricePerShare>
+                <transactionAcquiredDisposedCode>
+                    <value>D</value>
+                </transactionAcquiredDisposedCode>
+            </transactionAmounts>
+            <postTransactionAmounts>
+                <sharesOwnedFollowingTransaction>
+                    <value>112853</value>
+                    <footnoteId id="F3"/>
+                </sharesOwnedFollowingTransaction>
+            </postTransactionAmounts>
+            <ownershipNature>
+                <directOrIndirectOwnership>
+                    <value>D</value>
+                </directOrIndirectOwnership>
+            </ownershipNature>
+        </nonDerivativeTransaction>
+    </nonDerivativeTable>
+
+    <footnotes>
+        <footnote id="F1">Reflects a transaction solely to cover withholding payments by Trump Media &amp; Technology Group Corp. (&quot;the Issuer&quot;) to applicable taxing authorities. No cash proceeds were received by the reporting person in connection with the disposition of securities disclosed in this row.</footnote>
+        <footnote id="F2">The price reported in Column 4 is a weighted average price. These shares were disposed of in multiple transactions at prices ranging from $8.685 to $9.10, inclusive. The reporting person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares disposed of at each separate price within the range.</footnote>
+        <footnote id="F3">Certain of the securities reported in Column 5 are Restricted Stock Units (&quot;RSUs&quot;), each of which represents the contingent right to receive one share of the Issuer's common stock, par value $0.0001 per share, subject to the conditions of the applicable RSU award (including the vesting schedule set forth therein) and the Issuer's Amended and Restated 2024 Equity Incentive Plan.</footnote>
+    </footnotes>
+
+    <ownerSignature>
+        <signatureName>/s/ Kevin McGurn</signatureName>
+        <signatureDate>2026-08-21</signatureDate>
+    </ownerSignature>
+</ownershipDocument>
