@@ -124,7 +124,10 @@ def test_long_security_names_keep_their_first_line():
         doc_id="20035186", last="Gottheimer", first="Josh", district="NJ05",
         filing_date="2026-08-06",
     )
-    assert len(trades) == 11
+    # 13 transaction rows in the document. Two of them - GTLS and FN - put the
+    # asset name and the transaction on one line, and were silently dropped
+    # while the parser anchored the row pattern to the start of the line.
+    assert len(trades) == 13
 
     alphabet = [t for t in trades if (t["ticker"] or "").startswith("GOOG")]
     assert len(alphabet) == 3
@@ -138,6 +141,35 @@ def test_long_security_names_keep_their_first_line():
 
     # Every row in this filing is jointly held.
     assert all(t["owner"] == "joint" for t in trades)
+
+
+def test_inline_rows_are_not_dropped():
+    """A row whose asset name shares a line with its transaction tail.
+
+    The filing contains:
+        JT Chart Industries, Inc. (GTLS) [ST] S 07/17/2026 08/06/2026 $1,001 - $15,000
+    Matching only at the start of a line missed 541 of these across 146 filings.
+    """
+    trades = _parse(
+        "house_ptr_gottheimer_longname_20035186.pdf",
+        doc_id="20035186", last="Gottheimer", first="Josh", district="NJ05",
+        filing_date="2026-08-06",
+    )
+    by_ticker = {t["ticker"]: t for t in trades if t["ticker"]}
+
+    gtls = by_ticker.get("GTLS")
+    assert gtls, f"inline row dropped; found {sorted(by_ticker)}"
+    assert gtls["asset_name"] == "Chart Industries, Inc"
+    assert gtls["action"] == "sell"
+    assert gtls["trade_date"] == "2026-07-17"
+    assert gtls["owner"] == "joint"       # the JT prefix is on the same line
+    assert gtls["amount_label"] == "$1,001 - $15,000"
+
+    fn = by_ticker.get("FN")
+    assert fn, "second inline row dropped"
+    assert fn["asset_name"] == "Fabrinet Ordinary Shares"
+    assert fn["action"] == "sell"
+    assert fn["trade_date"] == "2026-07-14"
 
 
 def test_scanned_filing_yields_nothing():

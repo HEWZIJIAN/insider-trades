@@ -37,7 +37,7 @@ reads them, and publishes clean data to a web page you keep on your home screen.
 | **U.S. House Clerk** | Periodic Transaction Reports — the trades your chosen members of Congress disclose |
 | **SEC EDGAR Form 4** | Insider trades at Trump Media (DJT), with exact share counts, prices, **and current holdings** |
 | **whitehouse.gov** | OGE Form 278-T filings by executive-branch officials |
-| **Blockscout** | On-chain wallet activity, for any wallet addresses you add |
+| **Blockscout** | On-chain activity for the World Liberty Financial multisig and Trump's labelled wallet, with airdrop spam filtered out |
 
 **Four screens:**
 
@@ -210,7 +210,21 @@ Everything you'd want to change lives in one file: **`watchlist.yml`**. Edit it
 on GitHub directly (click the file, then the pencil icon) and commit. The next
 run picks it up automatically.
 
-### Adding a member of Congress
+### Choosing which members of Congress
+
+It is currently set to follow **every** House member who files — 108 of them
+filed 396 reports in 2026:
+
+```yaml
+congress:
+  track_all: true
+```
+
+That gives the fullest picture and a large enough sample that more people clear
+the copy check's 5-decision threshold. Notifications stay manageable because of
+the alert threshold below, not because the list is short.
+
+To follow only specific people instead, set `track_all: false` and list them:
 
 ```yaml
 congress:
@@ -222,8 +236,33 @@ congress:
 Use their **last name and district**. To find the district, open
 <https://disclosures-clerk.house.gov/PublicDisclosure> and search for them.
 
-To follow **every** House member who files (108 of them in 2026), set
-`track_all: true`. You'll get a lot more data and a lot more notifications.
+### Choosing which trades are worth a notification
+
+```yaml
+alerts:
+  min_amount_usd: 50001
+```
+
+Only trades of at least this much will notify you. With every House member
+tracked this matters a lot — most disclosures are in the `$1,001 – $15,000`
+band, which you do not want waking you up.
+
+Because filings disclose a **band** rather than a figure, the test is on the
+**bottom** of the band:
+
+| Disclosed band | Alerts at `50001`? |
+|---|---|
+| `$1,001 – $15,000` | no |
+| `$15,001 – $50,000` | no — it tops out a dollar short |
+| `$50,001 – $100,000` | **yes** |
+| `$1,000,001 – $5,000,000` | **yes** |
+
+SEC Form 4 reports an exact value, so that number is used directly. On-chain
+**swaps** always notify, because they're rare, deliberate, and have no dollar
+value to compare. Airdrops and plain transfers never do.
+
+Set `min_amount_usd: 0` to be told about everything. Anything held back is
+counted on the **Sources** screen, so it's never silently dropped.
 
 ### Adding another company
 
@@ -239,12 +278,21 @@ Find the CIK number by searching the company at
 
 ### Adding a crypto wallet
 
+Two are already set up, both verified against Etherscan's own public name tags:
+
+| Wallet | Address | Label |
+|---|---|---|
+| World Liberty Financial multisig | `0x5be9a495…` | "World Liberty: Multisig" |
+| Donald Trump | `0x94845333…` | "Donald Trump" (attribution originally by Arkham) |
+
+To add another:
+
 ```yaml
 crypto_wallets:
   - address: "0x1234...."
-    name: World Liberty Financial (treasury)
+    name: Some Entity
     chain: ethereum
-    label_source: "Etherscan public label"
+    label_source: "Etherscan public name tag"
     label_source_url: "https://etherscan.io/address/0x1234...."
 ```
 
@@ -254,10 +302,27 @@ to this person. Never add an address because someone claimed it on social media.
 
 Supported chains: `ethereum`, `base`, `polygon`, `optimism`.
 
-Note that a token transfer is **not** the same as a trade. Moving coins between
-your own wallets looks much like buying on an exchange. The app only treats a
-transfer as a buy or sell when the blockchain shows it was a swap; everything
-else is labelled "received" or "sent" and kept out of the copy check.
+#### Two traps worth knowing about
+
+**A token contract is not a wallet.** Searching for "World Liberty address"
+turns up the WLFI and USD1 *token contracts*. Adding one would report every
+transfer of that token, by anyone on earth, as a Trump-linked trade. Always
+check the address is not a contract first — those two are listed in
+`watchlist.yml` as deliberately excluded.
+
+**Most activity on a famous wallet is spam.** Anyone can send any token to any
+address, and scammers do it constantly to manufacture an association. Of the 50
+most recent transfers into Trump's labelled wallet, **46 were unsolicited** —
+tokens named `FAFO`, `pwease`, `4CHAN`, `TMAGA`. The app flags a transfer as a
+likely airdrop when the token arrived unprompted and the wallet has never sent
+that token, keeps it out of the copy check, and says so on the card.
+
+What survives that filter is real: two genuine DEX swaps by Trump's wallet, and
+33 treasury movements by the multisig.
+
+Note also that a token transfer is **not** the same as a trade. Moving coins
+between your own wallets looks much like buying on an exchange. The app only
+treats a transfer as a buy or sell when the blockchain shows it was a swap.
 
 ### Other settings
 

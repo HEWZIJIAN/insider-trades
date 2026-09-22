@@ -61,6 +61,45 @@ def _headline(trade: dict) -> tuple[str, str]:
     return title, " · ".join(bits)
 
 
+def passes_amount_threshold(trade: dict, minimum: float, alert_unreadable: bool) -> tuple[bool, str]:
+    """Is this trade big enough to be worth a notification?
+
+    Filings disclose a BAND, not a figure, so the test is on the bottom of the
+    band: a trade qualifies if it could be at least `minimum`. That errs
+    towards telling you, which is the right way round for an alert.
+
+    Returns (passes, reason) so the run can report what it held back rather
+    than silently swallowing things.
+    """
+    if minimum <= 0:
+        return True, "no threshold set"
+
+    if not trade.get("parsed"):
+        return alert_unreadable, "filing could not be read, so it has no amount"
+
+    # On-chain swaps have a token quantity, not a dollar value. They are rare
+    # and deliberate, so they always notify rather than being judged on a
+    # number we do not have.
+    if trade.get("source") == "crypto":
+        if trade.get("likely_airdrop"):
+            return False, "unsolicited airdrop"
+        if trade.get("is_swap"):
+            return True, "on-chain swap (no USD value available)"
+        return False, "on-chain transfer, not a trade"
+
+    # Range-based filings: the bottom of the band.
+    if trade.get("amount_min") is not None:
+        ok = trade["amount_min"] >= minimum
+        return ok, f"band starts at ${trade['amount_min']:,}"
+
+    # Form 4 reports an exact value.
+    if trade.get("value_usd") is not None:
+        ok = trade["value_usd"] >= minimum
+        return ok, f"reported value ${trade['value_usd']:,.0f}"
+
+    return alert_unreadable, "no amount reported"
+
+
 def _watchlisted(trade: dict, cfg: dict) -> bool:
     """Does this record belong to someone the watchlist names?"""
     congress = cfg.get("congress", {}) or {}
@@ -120,6 +159,21 @@ def run(dry_run: bool = False) -> dict:
     if alerts_cfg.get("only_watchlisted", True):
         new = [t for t in new if _watchlisted(t, cfg)]
 
+    # Apply the size threshold, keeping a count of what was held back so the
+    # Sources tab can say so rather than leaving it invisible.
+    minimum = float(alerts_cfg.get("min_amount_usd") or 0)
+    alert_unreadable = bool(alerts_cfg.get("alert_on_unreadable_filings", False))
+    held_back = 0
+    if minimum > 0:
+        kept = []
+        for trade in new:
+            ok, _ = passes_amount_threshold(trade, minimum, alert_unreadable)
+            if ok:
+                kept.append(trade)
+            else:
+                held_back += 1
+        new = kept
+
     # Newest first, so a truncated burst shows the most recent.
     new.sort(key=lambda t: (t.get("disclosure_date") or "", t.get("id") or ""), reverse=True)
 
@@ -161,10 +215,14 @@ def run(dry_run: bool = False) -> dict:
     write_json(SEEN_FILE, {"updated_at": now_iso(), "ids": current_ids})
 
     detail = skipped_reason or f"sent {sent} of {len(new)} new"
+    if held_back:
+        detail += f"; {held_back} below the ${minimum:,.0f} alert threshold"
     update_status(SOURCE_ID, ok=True, detail=detail, count=sent)
-    return {"new": len(new), "sent": sent, "detail": detail, "first_run": first_run}
+    return {"new": len(new), "sent": sent, "held_back": held_back,
+            "detail": detail, "first_run": first_run}
 
 
 if __name__ == "__main__":
     result = run(dry_run="--dry-run" in sys.argv)
-    print(f"new: {result['new']}  sent: {result['sent']}  ({result['detail']})")
+    print(f"new: {result['new']}  sent: {result['sent']}  "
+          f"held back: {result['held_back']}  ({result['detail']})")

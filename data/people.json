@@ -1,5 +1,50 @@
 [
  {
+  "person_id": "gilbert-cisneros-ca31",
+  "name": "Gilbert Cisneros",
+  "roles": [
+   "House (CA31)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 883,
+  "document_count": 0,
+  "first_seen": "2026-01-09",
+  "last_seen": "2026-09-04",
+  "positions": []
+ },
+ {
+  "person_id": "april-mcclain-delaney-md06",
+  "name": "April McClain Delaney",
+  "roles": [
+   "House (MD06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 339,
+  "document_count": 0,
+  "first_seen": "2026-01-01",
+  "last_seen": "2026-09-02",
+  "positions": []
+ },
+ {
+  "person_id": "julia-letlow-la05",
+  "name": "Julia Letlow",
+  "roles": [
+   "House (LA05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 257,
+  "document_count": 0,
+  "first_seen": "2025-08-11",
+  "last_seen": "2026-03-01",
+  "positions": []
+ },
+ {
   "person_id": "david-j-taylor-oh02",
   "name": "David J. Taylor",
   "roles": [
@@ -8,10 +53,55 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 118,
+  "trade_count": 151,
   "document_count": 0,
   "first_seen": "2026-01-15",
   "last_seen": "2026-09-17",
+  "positions": []
+ },
+ {
+  "person_id": "julie-johnson-tx32",
+  "name": "Julie Johnson",
+  "roles": [
+   "House (TX32)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 141,
+  "document_count": 0,
+  "first_seen": "2025-04-03",
+  "last_seen": "2026-06-03",
+  "positions": []
+ },
+ {
+  "person_id": "josh-gottheimer-nj05",
+  "name": "Josh Gottheimer",
+  "roles": [
+   "House (NJ05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 122,
+  "document_count": 0,
+  "first_seen": "2026-01-07",
+  "last_seen": "2026-09-14",
+  "positions": []
+ },
+ {
+  "person_id": "scott-h-peters-ca50",
+  "name": "Scott H. Peters",
+  "roles": [
+   "House (CA50)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 115,
+  "document_count": 0,
+  "first_seen": "2025-12-31",
+  "last_seen": "2026-07-31",
   "positions": []
  },
  {
@@ -30,18 +120,48 @@
   "positions": []
  },
  {
-  "person_id": "josh-gottheimer-nj05",
-  "name": "Josh Gottheimer",
+  "person_id": "jared-moskowitz-fl23",
+  "name": "Jared Moskowitz",
   "roles": [
-   "House (NJ05)"
+   "House (FL23)"
   ],
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 102,
+  "trade_count": 84,
   "document_count": 0,
-  "first_seen": "2026-01-07",
-  "last_seen": "2026-09-14",
+  "first_seen": "2025-12-31",
+  "last_seen": "2026-07-31",
+  "positions": []
+ },
+ {
+  "person_id": "maria-elvira-salazar-fl27",
+  "name": "Maria Elvira Salazar",
+  "roles": [
+   "House (FL27)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 79,
+  "document_count": 0,
+  "first_seen": "2026-04-01",
+  "last_seen": "2026-09-01",
+  "positions": []
+ },
+ {
+  "person_id": "kevin-hern-ok01",
+  "name": "Kevin Hern",
+  "roles": [
+   "House (OK01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 73,
+  "document_count": 0,
+  "first_seen": "2025-12-24",
+  "last_seen": "2026-08-27",
   "positions": []
  },
  {
@@ -60,18 +180,48 @@
   "positions": []
  },
  {
-  "person_id": "kevin-hern-ok01",
-  "name": "Kevin Hern",
+  "person_id": "thomas-h-kean-nj07",
+  "name": "Thomas H. Kean",
   "roles": [
-   "House (OK01)"
+   "House (NJ07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 64,
+  "document_count": 0,
+  "first_seen": "2026-01-02",
+  "last_seen": "2026-09-10",
+  "positions": []
+ },
+ {
+  "person_id": "richard-dean-dr-mccormick-ga06",
+  "name": "Richard Dean Dr McCormick",
+  "roles": [
+   "House (GA06)"
   ],
   "sources": [
    "house_clerk_ptr"
   ],
   "trade_count": 63,
-  "document_count": 1,
-  "first_seen": "2025-12-24",
-  "last_seen": "2026-08-27",
+  "document_count": 0,
+  "first_seen": "2025-12-15",
+  "last_seen": "2026-08-13",
+  "positions": []
+ },
+ {
+  "person_id": "sheri-biggs-sc03",
+  "name": "Sheri Biggs",
+  "roles": [
+   "House (SC03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 63,
+  "document_count": 0,
+  "first_seen": "2026-01-12",
+  "last_seen": "2026-07-09",
   "positions": []
  },
  {
@@ -120,6 +270,36 @@
   "positions": []
  },
  {
+  "person_id": "dan-newhouse-wa04",
+  "name": "Dan Newhouse",
+  "roles": [
+   "House (WA04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 50,
+  "document_count": 0,
+  "first_seen": "2026-01-02",
+  "last_seen": "2026-07-10",
+  "positions": []
+ },
+ {
+  "person_id": "kelly-louise-morrison-mn03",
+  "name": "Kelly Louise Morrison",
+  "roles": [
+   "House (MN03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 49,
+  "document_count": 0,
+  "first_seen": "2025-12-22",
+  "last_seen": "2026-08-11",
+  "positions": []
+ },
+ {
   "person_id": "escobedo-christopher",
   "name": "Escobedo, Christopher",
   "roles": [
@@ -158,10 +338,25 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 42,
-  "document_count": 1,
-  "first_seen": "2026-01-01",
+  "trade_count": 45,
+  "document_count": 0,
+  "first_seen": "2025-12-18",
   "last_seen": "2026-09-01",
+  "positions": []
+ },
+ {
+  "person_id": "jonathan-jackson-il01",
+  "name": "Jonathan Jackson",
+  "roles": [
+   "House (IL01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 44,
+  "document_count": 0,
+  "first_seen": "2026-01-05",
+  "last_seen": "2026-09-02",
   "positions": []
  },
  {
@@ -195,6 +390,36 @@
   "positions": []
  },
  {
+  "person_id": "michael-rulli-oh06",
+  "name": "Michael Rulli",
+  "roles": [
+   "House (OH06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 35,
+  "document_count": 0,
+  "first_seen": "2024-11-26",
+  "last_seen": "2026-08-24",
+  "positions": []
+ },
+ {
+  "person_id": "tim-moore-nc14",
+  "name": "Tim Moore",
+  "roles": [
+   "House (NC14)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 35,
+  "document_count": 0,
+  "first_seen": "2026-01-03",
+  "last_seen": "2026-08-14",
+  "positions": []
+ },
+ {
   "person_id": "donaldson-david",
   "name": "Donaldson, David",
   "roles": [
@@ -218,7 +443,7 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 29,
+  "trade_count": 31,
   "document_count": 0,
   "first_seen": "2025-12-26",
   "last_seen": "2026-08-13",
@@ -240,18 +465,33 @@
   "positions": []
  },
  {
-  "person_id": "kelly-louise-morrison-mn03",
-  "name": "Kelly Louise Morrison",
+  "person_id": "richard-w-allen-ga12",
+  "name": "Richard W. Allen",
   "roles": [
-   "House (MN03)"
+   "House (GA12)"
   ],
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 19,
-  "document_count": 8,
-  "first_seen": "2026-01-07",
-  "last_seen": "2026-08-11",
+  "trade_count": 27,
+  "document_count": 0,
+  "first_seen": "2026-01-06",
+  "last_seen": "2026-08-17",
+  "positions": []
+ },
+ {
+  "person_id": "nancy-pelosi-ca11",
+  "name": "Nancy Pelosi",
+  "roles": [
+   "House (CA11)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 26,
+  "document_count": 0,
+  "first_seen": "2025-12-24",
+  "last_seen": "2026-07-28",
   "positions": []
  },
  {
@@ -267,6 +507,21 @@
   "document_count": 0,
   "first_seen": "2025-04-24",
   "last_seen": "2026-02-20",
+  "positions": []
+ },
+ {
+  "person_id": "mike-kelly-pa16",
+  "name": "Mike Kelly",
+  "roles": [
+   "House (PA16)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 21,
+  "document_count": 0,
+  "first_seen": "2026-01-07",
+  "last_seen": "2026-09-08",
   "positions": []
  },
  {
@@ -297,18 +552,33 @@
   ]
  },
  {
-  "person_id": "mike-kelly-pa16",
-  "name": "Mike Kelly",
+  "person_id": "rick-larsen-wa02",
+  "name": "Rick Larsen",
   "roles": [
-   "House (PA16)"
+   "House (WA02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 21,
+  "document_count": 0,
+  "first_seen": "2026-01-09",
+  "last_seen": "2026-07-09",
+  "positions": []
+ },
+ {
+  "person_id": "william-r-keating-ma09",
+  "name": "William R. Keating",
+  "roles": [
+   "House (MA09)"
   ],
   "sources": [
    "house_clerk_ptr"
   ],
   "trade_count": 19,
   "document_count": 0,
-  "first_seen": "2026-01-07",
-  "last_seen": "2026-09-08",
+  "first_seen": "2026-02-04",
+  "last_seen": "2026-08-19",
   "positions": []
  },
  {
@@ -339,6 +609,21 @@
   ]
  },
  {
+  "person_id": "lloyd-doggett-tx37",
+  "name": "Lloyd Doggett",
+  "roles": [
+   "House (TX37)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 18,
+  "document_count": 0,
+  "first_seen": "2026-01-02",
+  "last_seen": "2026-09-08",
+  "positions": []
+ },
+ {
   "person_id": "steve-cohen-tn09",
   "name": "Steve Cohen",
   "roles": [
@@ -347,8 +632,8 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 15,
-  "document_count": 1,
+  "trade_count": 18,
+  "document_count": 0,
   "first_seen": "2025-12-30",
   "last_seen": "2026-08-31",
   "positions": []
@@ -366,6 +651,66 @@
   "document_count": 16,
   "first_seen": "2025-08-12",
   "last_seen": "2026-08-12",
+  "positions": []
+ },
+ {
+  "person_id": "tim-walberg-mi05",
+  "name": "Tim Walberg",
+  "roles": [
+   "House (MI05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 16,
+  "document_count": 0,
+  "first_seen": "2026-05-29",
+  "last_seen": "2026-06-01",
+  "positions": []
+ },
+ {
+  "person_id": "august-lee-pfluger-tx11",
+  "name": "August Lee Pfluger",
+  "roles": [
+   "House (TX11)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 15,
+  "document_count": 0,
+  "first_seen": "2026-01-13",
+  "last_seen": "2026-09-11",
+  "positions": []
+ },
+ {
+  "person_id": "scott-scott-franklin-fl18",
+  "name": "Scott Scott Franklin",
+  "roles": [
+   "House (FL18)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 15,
+  "document_count": 0,
+  "first_seen": "2026-02-12",
+  "last_seen": "2026-09-02",
+  "positions": []
+ },
+ {
+  "person_id": "donald-sternoff-beyer-va08",
+  "name": "Donald Sternoff Beyer",
+  "roles": [
+   "House (VA08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 14,
+  "document_count": 0,
+  "first_seen": "2026-01-02",
+  "last_seen": "2026-09-01",
   "positions": []
  },
  {
@@ -410,6 +755,36 @@
   "positions": []
  },
  {
+  "person_id": "max-miller-oh07",
+  "name": "Max Miller",
+  "roles": [
+   "House (OH07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 13,
+  "document_count": 0,
+  "first_seen": "2026-01-29",
+  "last_seen": "2026-07-26",
+  "positions": []
+ },
+ {
+  "person_id": "matthew-robert-van-epps-tn07",
+  "name": "Matthew Robert Van Epps",
+  "roles": [
+   "House (TN07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 13,
+  "document_count": 0,
+  "first_seen": "2026-06-17",
+  "last_seen": "2026-06-17",
+  "positions": []
+ },
+ {
   "person_id": "swider-eric",
   "name": "Swider Eric",
   "roles": [
@@ -446,6 +821,21 @@
   ]
  },
  {
+  "person_id": "brian-babin-tx36",
+  "name": "Brian Babin",
+  "roles": [
+   "House (TX36)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 12,
+  "document_count": 0,
+  "first_seen": "2026-05-08",
+  "last_seen": "2026-05-08",
+  "positions": []
+ },
+ {
   "person_id": "diana-harshbarger-tn01",
   "name": "Diana Harshbarger",
   "roles": [
@@ -458,6 +848,96 @@
   "document_count": 11,
   "first_seen": "2026-05-06",
   "last_seen": "2026-09-11",
+  "positions": []
+ },
+ {
+  "person_id": "john-mcguire-va05",
+  "name": "John McGuire",
+  "roles": [
+   "House (VA05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 11,
+  "document_count": 0,
+  "first_seen": "2026-02-06",
+  "last_seen": "2026-07-07",
+  "positions": []
+ },
+ {
+  "person_id": "jefferson-shreve-in06",
+  "name": "Jefferson Shreve",
+  "roles": [
+   "House (IN06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 11,
+  "document_count": 0,
+  "first_seen": "2025-12-30",
+  "last_seen": "2026-05-28",
+  "positions": []
+ },
+ {
+  "person_id": "elizabeth-fletcher-tx07",
+  "name": "Elizabeth Fletcher",
+  "roles": [
+   "House (TX07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 11,
+  "document_count": 0,
+  "first_seen": "2026-04-13",
+  "last_seen": "2026-04-13",
+  "positions": []
+ },
+ {
+  "person_id": "ed-case-hi01",
+  "name": "Ed Case",
+  "roles": [
+   "House (HI01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 10,
+  "document_count": 0,
+  "first_seen": "2024-12-31",
+  "last_seen": "2026-08-18",
+  "positions": []
+ },
+ {
+  "person_id": "thomas-suozzi-ny03",
+  "name": "Thomas Suozzi",
+  "roles": [
+   "House (NY03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 10,
+  "document_count": 0,
+  "first_seen": "2026-02-19",
+  "last_seen": "2026-06-02",
+  "positions": []
+ },
+ {
+  "person_id": "lori-trahan-ma03",
+  "name": "Lori Trahan",
+  "roles": [
+   "House (MA03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 10,
+  "document_count": 0,
+  "first_seen": "2026-04-15",
+  "last_seen": "2026-04-15",
   "positions": []
  },
  {
@@ -488,6 +968,51 @@
   ]
  },
  {
+  "person_id": "michael-patrick-guest-ms03",
+  "name": "Michael Patrick Guest",
+  "roles": [
+   "House (MS03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 9,
+  "document_count": 0,
+  "first_seen": "2026-02-04",
+  "last_seen": "2026-08-13",
+  "positions": []
+ },
+ {
+  "person_id": "ann-wagner-mo02",
+  "name": "Ann Wagner",
+  "roles": [
+   "House (MO02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 9,
+  "document_count": 0,
+  "first_seen": "2025-12-05",
+  "last_seen": "2026-06-23",
+  "positions": []
+ },
+ {
+  "person_id": "mark-alford-mo04",
+  "name": "Mark Alford",
+  "roles": [
+   "House (MO04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 9,
+  "document_count": 0,
+  "first_seen": "2026-03-16",
+  "last_seen": "2026-03-16",
+  "positions": []
+ },
+ {
   "person_id": "rohit-khanna-ca17",
   "name": "Rohit Khanna",
   "roles": [
@@ -500,6 +1025,141 @@
   "document_count": 8,
   "first_seen": "2026-02-06",
   "last_seen": "2026-09-04",
+  "positions": []
+ },
+ {
+  "person_id": "christian-d-menefee-tx18",
+  "name": "Christian D. Menefee",
+  "roles": [
+   "House (TX18)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2026-02-10",
+  "last_seen": "2026-08-07",
+  "positions": []
+ },
+ {
+  "person_id": "debbie-dingell-mi06",
+  "name": "Debbie Dingell",
+  "roles": [
+   "House (MI06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2026-01-05",
+  "last_seen": "2026-07-20",
+  "positions": []
+ },
+ {
+  "person_id": "virginia-foxx-nc05",
+  "name": "Virginia Foxx",
+  "roles": [
+   "House (NC05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2026-01-05",
+  "last_seen": "2026-07-01",
+  "positions": []
+ },
+ {
+  "person_id": "katherine-m-clark-ma05",
+  "name": "Katherine M. Clark",
+  "roles": [
+   "House (MA05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2026-07-01",
+  "last_seen": "2026-07-01",
+  "positions": []
+ },
+ {
+  "person_id": "dwight-evans-pa03",
+  "name": "Dwight Evans",
+  "roles": [
+   "House (PA03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2025-12-05",
+  "last_seen": "2026-06-11",
+  "positions": []
+ },
+ {
+  "person_id": "daniel-crenshaw-tx02",
+  "name": "Daniel Crenshaw",
+  "roles": [
+   "House (TX02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2026-04-28",
+  "last_seen": "2026-06-01",
+  "positions": []
+ },
+ {
+  "person_id": "lloyd-k-smucker-pa11",
+  "name": "Lloyd K. Smucker",
+  "roles": [
+   "House (PA11)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2026-04-20",
+  "last_seen": "2026-04-23",
+  "positions": []
+ },
+ {
+  "person_id": "harold-dallas-rogers-ky05",
+  "name": "Harold Dallas Rogers",
+  "roles": [
+   "House (KY05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 7,
+  "first_seen": "2026-02-13",
+  "last_seen": "2026-08-20",
+  "positions": []
+ },
+ {
+  "person_id": "daniel-meuser-pa09",
+  "name": "Daniel Meuser",
+  "roles": [
+   "House (PA09)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 7,
+  "document_count": 0,
+  "first_seen": "2026-02-11",
+  "last_seen": "2026-06-16",
   "positions": []
  },
  {
@@ -518,6 +1178,51 @@
   "positions": []
  },
  {
+  "person_id": "john-j-mr-mcguire-va05",
+  "name": "John J Mr McGuire",
+  "roles": [
+   "House (VA05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 6,
+  "document_count": 0,
+  "first_seen": "2026-08-07",
+  "last_seen": "2026-09-01",
+  "positions": []
+ },
+ {
+  "person_id": "laurel-lee-fl15",
+  "name": "Laurel Lee",
+  "roles": [
+   "House (FL15)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 6,
+  "document_count": 0,
+  "first_seen": "2026-06-02",
+  "last_seen": "2026-07-17",
+  "positions": []
+ },
+ {
+  "person_id": "michael-t-mccaul-tx10",
+  "name": "Michael T. McCaul",
+  "roles": [
+   "House (TX10)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 6,
+  "first_seen": "2026-02-11",
+  "last_seen": "2026-07-08",
+  "positions": []
+ },
+ {
   "person_id": "centorino-scott",
   "name": "Centorino, Scott",
   "roles": [
@@ -530,6 +1235,81 @@
   "document_count": 0,
   "first_seen": "2025-05-14",
   "last_seen": "2026-01-09",
+  "positions": []
+ },
+ {
+  "person_id": "tony-wied-wi08",
+  "name": "Tony Wied",
+  "roles": [
+   "House (WI08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 5,
+  "first_seen": "2026-03-09",
+  "last_seen": "2026-09-02",
+  "positions": []
+ },
+ {
+  "person_id": "charles-j-chuck-fleischmann-tn03",
+  "name": "Charles J. \"Chuck\" Fleischmann",
+  "roles": [
+   "House (TN03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 5,
+  "first_seen": "2026-02-09",
+  "last_seen": "2026-08-12",
+  "positions": []
+ },
+ {
+  "person_id": "lisa-mcclain-mi09",
+  "name": "Lisa McClain",
+  "roles": [
+   "House (MI09)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 5,
+  "document_count": 0,
+  "first_seen": "2025-12-15",
+  "last_seen": "2026-07-15",
+  "positions": []
+ },
+ {
+  "person_id": "rob-bresnahan-pa08",
+  "name": "Rob Bresnahan",
+  "roles": [
+   "House (PA08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 5,
+  "document_count": 0,
+  "first_seen": "2026-02-06",
+  "last_seen": "2026-07-13",
+  "positions": []
+ },
+ {
+  "person_id": "neal-patrick-md-facs-dunn-fl02",
+  "name": "Neal Patrick MD, Facs Dunn",
+  "roles": [
+   "House (FL02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 5,
+  "document_count": 0,
+  "first_seen": "2026-03-02",
+  "last_seen": "2026-06-17",
   "positions": []
  },
  {
@@ -572,6 +1352,21 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926028743/0001437749-26-028743-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "robert-e-latta-oh05",
+  "name": "Robert E. Latta",
+  "roles": [
+   "House (OH05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2026-01-21",
+  "last_seen": "2026-07-20",
+  "positions": []
  },
  {
   "person_id": "trump-donald-j-jr",
@@ -630,6 +1425,81 @@
   "positions": []
  },
  {
+  "person_id": "james-french-hill-ar02",
+  "name": "James French Hill",
+  "roles": [
+   "House (AR02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2025-12-31",
+  "last_seen": "2025-12-31",
+  "positions": []
+ },
+ {
+  "person_id": "roger-williams-tx25",
+  "name": "Roger Williams",
+  "roles": [
+   "House (TX25)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2025-12-22",
+  "last_seen": "2025-12-22",
+  "positions": []
+ },
+ {
+  "person_id": "carol-devine-miller-wv01",
+  "name": "Carol Devine Miller",
+  "roles": [
+   "House (WV01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2025-04-11",
+  "last_seen": "2025-04-11",
+  "positions": []
+ },
+ {
+  "person_id": "james-a-himes-ct04",
+  "name": "James A. Himes",
+  "roles": [
+   "House (CT04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-07-20",
+  "last_seen": "2026-07-20",
+  "positions": []
+ },
+ {
+  "person_id": "susie-lee-nv03",
+  "name": "Susie Lee",
+  "roles": [
+   "House (NV03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-05-13",
+  "last_seen": "2026-07-03",
+  "positions": []
+ },
+ {
   "person_id": "green-w-kyle",
   "name": "Green W. Kyle",
   "roles": [
@@ -654,6 +1524,51 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021435/0001437749-26-021435-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "jake-auchincloss-ma04",
+  "name": "Jake Auchincloss",
+  "roles": [
+   "House (MA04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-02-17",
+  "last_seen": "2026-05-18",
+  "positions": []
+ },
+ {
+  "person_id": "chip-roy-tx21",
+  "name": "Chip Roy",
+  "roles": [
+   "House (TX21)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-05-13",
+  "positions": []
+ },
+ {
+  "person_id": "laura-friedman-ca30",
+  "name": "Laura Friedman",
+  "roles": [
+   "House (CA30)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-04-03",
+  "last_seen": "2026-05-03",
+  "positions": []
  },
  {
   "person_id": "bresso-gineen",
@@ -722,6 +1637,21 @@
   ]
  },
  {
+  "person_id": "rudy-c-yakym-in02",
+  "name": "Rudy C. Yakym",
+  "roles": [
+   "House (IN02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-04-06",
+  "last_seen": "2026-07-13",
+  "positions": []
+ },
+ {
   "person_id": "bernhardt-david-longly",
   "name": "Bernhardt David Longly",
   "roles": [
@@ -772,6 +1702,171 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021437/0001437749-26-021437-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "william-r-timmons-sc04",
+  "name": "William R. Timmons",
+  "roles": [
+   "House (SC04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-06-17",
+  "last_seen": "2026-06-22",
+  "positions": []
+ },
+ {
+  "person_id": "nicholas-begich-ak00",
+  "name": "Nicholas Begich",
+  "roles": [
+   "House (AK00)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-05-13",
+  "last_seen": "2026-06-07",
+  "positions": []
+ },
+ {
+  "person_id": "greg-stanton-az04",
+  "name": "Greg Stanton",
+  "roles": [
+   "House (AZ04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-05-07",
+  "last_seen": "2026-05-28",
+  "positions": []
+ },
+ {
+  "person_id": "sara-jacobs-ca51",
+  "name": "Sara Jacobs",
+  "roles": [
+   "House (CA51)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-05-06",
+  "last_seen": "2026-05-07",
+  "positions": []
+ },
+ {
+  "person_id": "greg-steube-fl17",
+  "name": "Greg Steube",
+  "roles": [
+   "House (FL17)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-04-14",
+  "last_seen": "2026-04-14",
+  "positions": []
+ },
+ {
+  "person_id": "terri-a-sewell-al07",
+  "name": "Terri A. Sewell",
+  "roles": [
+   "House (AL07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-03-26",
+  "last_seen": "2026-03-26",
+  "positions": []
+ },
+ {
+  "person_id": "austin-scott-ga08",
+  "name": "Austin Scott",
+  "roles": [
+   "House (GA08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-02-17",
+  "last_seen": "2026-02-17",
+  "positions": []
+ },
+ {
+  "person_id": "michael-a-collins-ga10",
+  "name": "Michael A. Collins",
+  "roles": [
+   "House (GA10)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2025-12-26",
+  "last_seen": "2026-01-12",
+  "positions": []
+ },
+ {
+  "person_id": "shri-thanedar-mi13",
+  "name": "Shri Thanedar",
+  "roles": [
+   "House (MI13)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2025-10-21",
+  "last_seen": "2026-01-09",
+  "positions": []
+ },
+ {
+  "person_id": "zoe-lofgren-ca18",
+  "name": "Zoe Lofgren",
+  "roles": [
+   "House (CA18)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-01-05",
+  "last_seen": "2026-01-05",
+  "positions": []
+ },
+ {
+  "person_id": "david-rouzer-nc07",
+  "name": "David Rouzer",
+  "roles": [
+   "House (NC07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2025-12-09",
+  "last_seen": "2025-12-09",
+  "positions": []
  },
  {
   "person_id": "lighthizer-robert",
@@ -827,6 +1922,21 @@
   "document_count": 0,
   "first_seen": "2025-06-17",
   "last_seen": "2025-06-17",
+  "positions": []
+ },
+ {
+  "person_id": "john-w-rose-tn06",
+  "name": "John W. Rose",
+  "roles": [
+   "House (TN06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2025-06-04",
+  "last_seen": "2025-06-04",
   "positions": []
  },
  {
@@ -928,6 +2038,156 @@
   ]
  },
  {
+  "person_id": "brandon-gill-tx26",
+  "name": "Brandon Gill",
+  "roles": [
+   "House (TX26)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-08-13",
+  "last_seen": "2026-08-13",
+  "positions": []
+ },
+ {
+  "person_id": "tracey-robert-mann-ks01",
+  "name": "Tracey Robert Mann",
+  "roles": [
+   "House (KS01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 1,
+  "first_seen": "2026-08-13",
+  "last_seen": "2026-08-13",
+  "positions": []
+ },
+ {
+  "person_id": "sam-t-liccardo-ca16",
+  "name": "Sam T. Liccardo",
+  "roles": [
+   "House (CA16)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-07-22",
+  "last_seen": "2026-07-22",
+  "positions": []
+ },
+ {
+  "person_id": "derek-tran-ca45",
+  "name": "Derek Tran",
+  "roles": [
+   "House (CA45)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-07-21",
+  "last_seen": "2026-07-21",
+  "positions": []
+ },
+ {
+  "person_id": "tom-cole-ok04",
+  "name": "Tom Cole",
+  "roles": [
+   "House (OK04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 1,
+  "first_seen": "2026-07-21",
+  "last_seen": "2026-07-21",
+  "positions": []
+ },
+ {
+  "person_id": "nicole-malliotakis-ny11",
+  "name": "Nicole Malliotakis",
+  "roles": [
+   "House (NY11)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 1,
+  "first_seen": "2026-07-14",
+  "last_seen": "2026-07-14",
+  "positions": []
+ },
+ {
+  "person_id": "debbie-wasserman-schultz-fl25",
+  "name": "Debbie Wasserman Schultz",
+  "roles": [
+   "House (FL25)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 1,
+  "first_seen": "2026-07-14",
+  "last_seen": "2026-07-14",
+  "positions": []
+ },
+ {
+  "person_id": "adrian-smith-ne03",
+  "name": "Adrian Smith",
+  "roles": [
+   "House (NE03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-07-13",
+  "last_seen": "2026-07-13",
+  "positions": []
+ },
+ {
+  "person_id": "robert-j-wittman-va01",
+  "name": "Robert J. Wittman",
+  "roles": [
+   "House (VA01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-07-02",
+  "last_seen": "2026-07-02",
+  "positions": []
+ },
+ {
+  "person_id": "keith-alan-self-tx03",
+  "name": "Keith Alan Self",
+  "roles": [
+   "House (TX03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 1,
+  "first_seen": "2026-06-30",
+  "last_seen": "2026-06-30",
+  "positions": []
+ },
+ {
   "person_id": "epshteyn-boris",
   "name": "EPSHTEYN BORIS",
   "roles": [
@@ -980,6 +2240,81 @@
   ]
  },
  {
+  "person_id": "john-james-mi10",
+  "name": "John James",
+  "roles": [
+   "House (MI10)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-06-12",
+  "last_seen": "2026-06-12",
+  "positions": []
+ },
+ {
+  "person_id": "earl-leroy-carter-ga01",
+  "name": "Earl Leroy Carter",
+  "roles": [
+   "House (GA01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-05-08",
+  "last_seen": "2026-05-08",
+  "positions": []
+ },
+ {
+  "person_id": "cliff-bentz-or02",
+  "name": "Cliff Bentz",
+  "roles": [
+   "House (OR02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-05-04",
+  "last_seen": "2026-05-04",
+  "positions": []
+ },
+ {
+  "person_id": "jennifer-mcclellan-va04",
+  "name": "Jennifer McClellan",
+  "roles": [
+   "House (VA04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-04-07",
+  "last_seen": "2026-04-07",
+  "positions": []
+ },
+ {
+  "person_id": "warren-davidson-oh08",
+  "name": "Warren Davidson",
+  "roles": [
+   "House (OH08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-03-23",
+  "last_seen": "2026-03-23",
+  "positions": []
+ },
+ {
   "person_id": "klopp-jacalynne",
   "name": "Klopp, Jacalynne",
   "roles": [
@@ -995,6 +2330,66 @@
   "positions": []
  },
  {
+  "person_id": "doris-o-matsui-ca07",
+  "name": "Doris O. Matsui",
+  "roles": [
+   "House (CA07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 1,
+  "first_seen": "2026-01-09",
+  "last_seen": "2026-01-09",
+  "positions": []
+ },
+ {
+  "person_id": "linda-t-sanchez-ca38",
+  "name": "Linda T. Sanchez",
+  "roles": [
+   "House (CA38)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-12-27",
+  "last_seen": "2025-12-27",
+  "positions": []
+ },
+ {
+  "person_id": "james-d-jordan-oh04",
+  "name": "James D Jordan",
+  "roles": [
+   "House (OH04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-10-27",
+  "last_seen": "2025-10-27",
+  "positions": []
+ },
+ {
+  "person_id": "valerie-hoyle-or04",
+  "name": "Valerie Hoyle",
+  "roles": [
+   "House (OR04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-09-11",
+  "last_seen": "2025-09-11",
+  "positions": []
+ },
+ {
   "person_id": "blakely-kyser",
   "name": "Blakely, Kyser",
   "roles": [
@@ -1007,6 +2402,21 @@
   "document_count": 0,
   "first_seen": "2025-08-25",
   "last_seen": "2025-08-25",
+  "positions": []
+ },
+ {
+  "person_id": "ritchie-john-torres-ny15",
+  "name": "Ritchie John Torres",
+  "roles": [
+   "House (NY15)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-08-01",
+  "last_seen": "2025-08-01",
   "positions": []
  },
  {
@@ -1037,6 +2447,21 @@
   "document_count": 0,
   "first_seen": "2025-07-03",
   "last_seen": "2025-07-03",
+  "positions": []
+ },
+ {
+  "person_id": "daniel-webster-fl11",
+  "name": "Daniel Webster",
+  "roles": [
+   "House (FL11)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-03-01",
+  "last_seen": "2025-03-01",
   "positions": []
  },
  {
@@ -1090,6 +2515,21 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000020/0001474506-25-000020-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "pramila-jayapal-wa07",
+  "name": "Pramila Jayapal",
+  "roles": [
+   "House (WA07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2024-05-13",
+  "last_seen": "2024-05-13",
+  "positions": []
  },
  {
   "person_id": "bulazel-alina",

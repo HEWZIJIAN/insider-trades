@@ -47,6 +47,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Price history does not change retroactively, so it is fetched once per
+      # ticker per day and reused. Without this, a run every 30 minutes would
+      # ask Yahoo for ~570 tickers each time, which is not a reasonable way to
+      # treat a free, undocumented service.
+      - name: Restore the price cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/prices
+          key: prices-${{ github.run_id }}
+          restore-keys: |
+            prices-
+
       - name: Run parser tests
         # If the parsers are broken, stop before writing bad data over good.
         run: python tests/run_all.py

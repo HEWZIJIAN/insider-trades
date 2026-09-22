@@ -16,6 +16,7 @@ Primary source: https://disclosures-clerk.house.gov/PublicDisclosure
 """
 from __future__ import annotations
 
+import datetime as _dt
 import io
 import re
 import sys
@@ -40,7 +41,7 @@ from common import (
 
 SOURCE_ID = "house_clerk_ptr"
 # Bump when parsing changes, to reprocess filings already stored.
-PARSER_VERSION = "2026-09-22.1"
+PARSER_VERSION = "2026-09-22.5"   # inline rows + comment-leak fix
 SOURCE_LABEL = "U.S. House Clerk - Periodic Transaction Report"
 INDEX_URL = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}FD.zip"
 PDF_URL = "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{year}/{doc_id}.pdf"
@@ -52,11 +53,22 @@ TX_TYPES = {
     "E": "exchange",
 }
 
-# A transaction row always ends with: <type> <date> <date> <amount...>
-# The asset name sits on the preceding line(s). Amounts frequently wrap, so the
-# upper bound is allowed to fall onto the following line.
+# A transaction row always ENDS with: <type> <date> <date> <amount...>
+#
+# Where it starts varies. Usually the asset name occupies the preceding lines
+# and the row stands alone:
+#     Sony Group Corporation American
+#     Depositary Shares (SONY) [ST]
+#     P 12/26/2026 01/21/2026 $1,001 - $15,000
+#
+# But often the tail shares its line with the end of the asset name:
+#     AT&T Inc. (T) [ST] S (partial) 07/02/2025 08/11/2025 $1,001 - $15,000
+#
+# So this is searched for at the END of a line rather than anchored at the
+# start, and whatever precedes it on that line is part of the asset name.
+# Anchoring at the start silently dropped 541 transactions across 146 filings.
 TX_ANCHOR = re.compile(
-    r"""^\s*
+    r"""(?:^|\s)
     (?P<type>P|S|E)
     (?:\s*\(partial\))?
     \s+(?P<trade>\d{2}/\d{2}/\d{4})
@@ -81,7 +93,7 @@ FILER_NOTE = re.compile(r"^D\s*:\s*(.+)$")
 
 # Lines that belong to a transaction block but carry no data we keep.
 NOISE = re.compile(
-    r"^\s*(F\s*S\s*:|S\s*O\s*:|D\s*:|\*\s*For the complete list|"
+    r"^\s*(F\s*S\s*:|S\s*O\s*:|D\s*:|C\s*:|\*\s*For the complete list|"
     r"Digitally Signed|Filing ID|ID\s+Owner\s+Asset|Type\b|Date\b|Amount\b|"
     r"Gains\s*>|\$200\?|Clerk of the House|Name:|Status:|State/District:|"
     r"[A-Z]\s*$|Yes\s+No|I CERTIFY|my knowledge)",
@@ -173,6 +185,53 @@ def extract_text(pdf_bytes: bytes) -> str:
     return "\n".join(parts).replace("\x00", "")
 
 
+# Filers write multi-line notes under "D:" (description) and "C:" (comments).
+# Only the first line carries the marker; the continuations look like ordinary
+# text and would otherwise be swallowed into the NEXT asset's name, producing
+# entries like "calls to prevent insider trading. SP Pinterest, Inc. ...".
+#
+# Every asset name ends with its type marker - "(PINS) [ST]" - and comment prose
+# never contains one. So the name is the run of lines ending at that marker,
+# walked back until a line that closes a sentence.
+NAME_ABBREV_END = re.compile(
+    r"\b(Inc|Corp|Co|Ltd|plc|LP|L\.P|LLC|N\.V|S\.A|A\.G|Cos|Bros|Intl|Sr|Jr)\.$",
+    re.IGNORECASE,
+)
+
+# Prose that does not end in a full stop still is not part of a security name.
+# Filers narrate their trades: "... sold @ $493.42/share SPY - 8.318 shares".
+COMMENT_PROSE = re.compile(
+    r"(@\s*\$|/share|\bshares sold\b|\bI directed\b|\bpurchased those\b|"
+    r"\bthis entry\b|\bcan only be sold\b)",
+    re.IGNORECASE,
+)
+
+
+def _asset_lines(pending: list[str], head: str) -> list[str]:
+    """Pick out just the asset-name lines from everything seen since the last row."""
+    lines = [l for l in (list(pending) + ([head] if head else [])) if l]
+    if not lines:
+        return []
+
+    marker = None
+    for i in range(len(lines) - 1, -1, -1):
+        if ASSET_TYPE.search(lines[i]):
+            marker = i
+            break
+    if marker is None:
+        # No type marker in this block; keep the tail and hope for the best.
+        return lines[-3:]
+
+    start = marker
+    while start > 0:
+        previous = lines[start - 1]
+        ends_sentence = previous.endswith((".", ":", ";")) and not NAME_ABBREV_END.search(previous)
+        if ends_sentence or COMMENT_PROSE.search(previous):
+            break
+        start -= 1
+    return lines[start: marker + 1]
+
+
 def _clean_asset(lines: list[str]) -> str:
     text = " ".join(l.strip() for l in lines if l.strip())
     text = ASSET_TYPE.sub("", text)
@@ -186,7 +245,7 @@ def parse_transactions(text: str, filing: Filing) -> list[dict]:
     pending: list[str] = []  # candidate asset-name lines seen since the last row
 
     for idx, line in enumerate(lines):
-        match = TX_ANCHOR.match(line)
+        match = TX_ANCHOR.search(line)
         if not match:
             stripped = line.strip()
             if stripped and not NOISE.match(stripped):
@@ -216,7 +275,10 @@ def parse_transactions(text: str, filing: Filing) -> list[dict]:
         amount_min = parse_money(bounds[0]) if bounds else None
         amount_max = parse_money(bounds[1]) if len(bounds) > 1 else None
 
-        asset_lines = list(pending)
+        # Anything before the tail on this same line is the end of the asset
+        # name, e.g. "AT&T Inc. (T) [ST] S (partial) 07/02/2025 ...".
+        head = line[: match.start("type")].strip()
+        asset_lines = _asset_lines(pending, head)
         owner = "self"
         tx_id = None
         if asset_lines:
@@ -260,6 +322,20 @@ def parse_transactions(text: str, filing: Filing) -> list[dict]:
         trade_date = parse_date(match.group("trade"))
         disclosure_date = parse_date(match.group("disclosed"))
 
+        # Filings do contain impossible dates: one reports a trade on
+        # 12/26/2026 disclosed 01/21/2026, and was signed in February 2026.
+        # Almost always a mistyped year. Publish the date exactly as filed and
+        # say that it contradicts itself - never quietly correct it.
+        lag = delay_days(trade_date, disclosure_date or filing.filing_date)
+        anomaly = None
+        if lag is not None and lag < 0:
+            anomaly = (
+                f"Filing reports a trade date {abs(lag)} days AFTER the date it "
+                f"was disclosed, which cannot be right"
+            )
+        elif trade_date and trade_date > _dt.date.today().isoformat():
+            anomaly = "Filing reports a trade date in the future"
+
         trades.append(
             {
                 "id": f"house-{filing.doc_id}-{len(trades) + 1}",
@@ -278,7 +354,8 @@ def parse_transactions(text: str, filing: Filing) -> list[dict]:
                 "amount_label": amount_label,  # exactly as reported
                 "trade_date": trade_date,
                 "disclosure_date": disclosure_date or filing.filing_date,
-                "delay_days": delay_days(trade_date, disclosure_date or filing.filing_date),
+                "delay_days": lag,
+                "date_anomaly": anomaly,
                 "doc_id": filing.doc_id,
                 "tx_id": tx_id,
                 "filing_status": filing_status,

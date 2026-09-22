@@ -37,7 +37,13 @@ executive_branch:
 #
 # Match is on last name + state/district, so add the district to be exact.
 congress:
-  track_all: false
+  # Following every House member who files: 108 of them filed 396 PTRs in 2026.
+  # This is the complete picture, and it gives the copy-check a big enough
+  # sample that more people clear the reporting threshold. Notifications stay
+  # manageable because of the alert threshold in section 6.
+  track_all: true
+  # Ignored while track_all is true. Kept so you can switch back by flipping
+  # track_all to false.
   members:
     # Starter list: the most active PTR filers of 2026, by real filing counts
     # measured from the Clerk's own index. Delete freely.
@@ -119,3 +125,16 @@ min_trades_for_stats: 5
 alerts:
   enabled: true
   only_watchlisted: true   # false = alert on every new trade found
+
+  # Only notify about trades of at least this much. With every House member
+  # tracked, this is what keeps the phone quiet: most disclosures fall in the
+  # $1,001-$15,000 band, which is not what you want waking you up.
+  #
+  # Filings disclose a RANGE, so the test is on the bottom of the range: a
+  # trade counts if it could be at least this large. "$50,001 - $100,000"
+  # passes at 50001; "$15,001 - $50,000" does not.
+  min_amount_usd: 50001
+
+  # Filings we could not read have no amount to compare, so they would either
+  # always pass or always fail. They are counted in the Sources tab either way.
+  alert_on_unreadable_filings: false
