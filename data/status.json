@@ -22,5 +22,21 @@
   "ok": true,
   "detail": "18 documents, 54 transactions parsed, 8 linked-only, 0 errors",
   "count": 54
+ },
+ "prices": {
+  "source": "prices",
+  "last_attempt": "2026-09-22T06:07:05+00:00",
+  "last_success": "2026-09-22T06:07:05+00:00",
+  "ok": true,
+  "detail": "equities=True crypto=True",
+  "count": null
+ },
+ "copy_check": {
+  "source": "copy_check",
+  "last_attempt": "2026-09-22T06:10:43+00:00",
+  "last_success": "2026-09-22T06:10:43+00:00",
+  "ok": true,
+  "detail": "36/38 eligible buys measured",
+  "count": 36
  }
 }

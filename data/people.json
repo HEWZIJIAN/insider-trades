@@ -1,0 +1,809 @@
+[
+ {
+  "person_id": "kevin-hern-ok01",
+  "name": "Kevin Hern",
+  "roles": [
+   "House (OK01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 36,
+  "document_count": 0,
+  "first_seen": "2026-08-05",
+  "last_seen": "2026-08-27",
+  "positions": []
+ },
+ {
+  "person_id": "zinberg-joel",
+  "name": "Zinberg, Joel",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 29,
+  "document_count": 0,
+  "first_seen": "2026-02-16",
+  "last_seen": "2026-03-13",
+  "positions": []
+ },
+ {
+  "person_id": "david-j-taylor-oh02",
+  "name": "David J. Taylor",
+  "roles": [
+   "House (OH02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 23,
+  "document_count": 0,
+  "first_seen": "2026-08-06",
+  "last_seen": "2026-09-17",
+  "positions": []
+ },
+ {
+  "person_id": "juhan-phillip",
+  "name": "Juhan Phillip",
+  "roles": [
+   "Chief Financial Officer @ DJT",
+   "CFO and Treasurer @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 21,
+  "document_count": 0,
+  "first_seen": "2024-03-26",
+  "last_seen": "2026-08-13",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 581749.0,
+    "as_of_trade_date": "2026-08-13",
+    "as_of_disclosure_date": "2026-08-13",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027765/0001437749-26-027765-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "glabe-scott",
+  "name": "Glabe Scott",
+  "roles": [
+   "General Counsel @ DJT",
+   "General Counsel and Secretary @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 19,
+  "document_count": 0,
+  "first_seen": "2024-03-26",
+  "last_seen": "2026-08-13",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 586497.0,
+    "as_of_trade_date": "2026-08-13",
+    "as_of_disclosure_date": "2026-08-13",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027763/0001437749-26-027763-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "josh-gottheimer-nj05",
+  "name": "Josh Gottheimer",
+  "roles": [
+   "House (NJ05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 17,
+  "document_count": 0,
+  "first_seen": "2026-08-06",
+  "last_seen": "2026-09-14",
+  "positions": []
+ },
+ {
+  "person_id": "miller-stephen",
+  "name": "Miller, Stephen",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 14,
+  "document_count": 0,
+  "first_seen": "2026-08-29",
+  "last_seen": "2026-08-29",
+  "positions": []
+ },
+ {
+  "person_id": "novachki-vladimir",
+  "name": "Novachki Vladimir",
+  "roles": [
+   "Chief Technology Officer @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 14,
+  "document_count": 0,
+  "first_seen": "2024-03-26",
+  "last_seen": "2026-08-13",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 914244.0,
+    "as_of_trade_date": "2026-08-13",
+    "as_of_disclosure_date": "2026-08-13",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027761/0001437749-26-027761-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "swider-eric",
+  "name": "Swider Eric",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 13,
+  "document_count": 0,
+  "first_seen": "2024-03-27",
+  "last_seen": "2025-11-17",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 18841.0,
+    "as_of_trade_date": "2025-11-17",
+    "as_of_disclosure_date": "2025-11-17",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000183693725000002/0001836937-25-000002-index.htm"
+   },
+   {
+    "ticker": "DJT",
+    "security": "Class B Common Stock",
+    "security_kind": "derivative",
+    "shares_owned": 0.0,
+    "as_of_trade_date": "2024-03-25",
+    "as_of_disclosure_date": "2024-03-27",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000114036124015770/0001140361-24-015770-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "nunes-devin-g",
+  "name": "Nunes Devin G.",
+  "roles": [
+   "Director, CEO, President, Chairman @ DJT",
+   "Director, CEO and President @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 10,
+  "document_count": 0,
+  "first_seen": "2024-03-26",
+  "last_seen": "2026-03-04",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 1327246.0,
+    "as_of_trade_date": "2026-03-04",
+    "as_of_disclosure_date": "2026-03-04",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000201579826000001/0002015798-26-000001-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "president-donald-j-trump",
+  "name": "President Donald J. Trump",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 0,
+  "document_count": 8,
+  "first_seen": "2026-02-26",
+  "last_seen": "2026-08-12",
+  "positions": []
+ },
+ {
+  "person_id": "kelly-louise-morrison-mn03",
+  "name": "Kelly Louise Morrison",
+  "roles": [
+   "House (MN03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 7,
+  "document_count": 0,
+  "first_seen": "2026-08-11",
+  "last_seen": "2026-08-11",
+  "positions": []
+ },
+ {
+  "person_id": "scharf-william",
+  "name": "Scharf, William",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 7,
+  "document_count": 0,
+  "first_seen": "2026-02-04",
+  "last_seen": "2026-03-04",
+  "positions": []
+ },
+ {
+  "person_id": "mike-kelly-pa16",
+  "name": "Mike Kelly",
+  "roles": [
+   "House (PA16)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 6,
+  "document_count": 0,
+  "first_seen": "2026-08-12",
+  "last_seen": "2026-09-08",
+  "positions": []
+ },
+ {
+  "person_id": "byron-donalds-fl19",
+  "name": "Byron Donalds",
+  "roles": [
+   "House (FL19)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 6,
+  "document_count": 0,
+  "first_seen": "2026-09-01",
+  "last_seen": "2026-09-01",
+  "positions": []
+ },
+ {
+  "person_id": "suzan-k-delbene-wa01",
+  "name": "Suzan K. DelBene",
+  "roles": [
+   "House (WA01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 5,
+  "document_count": 0,
+  "first_seen": "2026-07-23",
+  "last_seen": "2026-08-20",
+  "positions": []
+ },
+ {
+  "person_id": "steve-cohen-tn09",
+  "name": "Steve Cohen",
+  "roles": [
+   "House (TN09)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2026-08-11",
+  "last_seen": "2026-08-31",
+  "positions": []
+ },
+ {
+  "person_id": "mcgurn-kevin",
+  "name": "McGurn Kevin",
+  "roles": [
+   "Interim CEO @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2026-04-24",
+  "last_seen": "2026-08-21",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 112853.0,
+    "as_of_trade_date": "2026-08-21",
+    "as_of_disclosure_date": "2026-08-21",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926028743/0001437749-26-028743-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "trump-donald-j-jr",
+  "name": "Trump Donald J. JR",
+  "roles": [
+   "Director, 10% owner @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2024-12-19",
+  "last_seen": "2026-06-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 61098.0,
+    "as_of_trade_date": "2026-06-19",
+    "as_of_disclosure_date": "2026-06-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021434/0001437749-26-021434-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "burrows-daniel",
+  "name": "Burrows, Daniel",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-08-27",
+  "last_seen": "2026-08-27",
+  "positions": []
+ },
+ {
+  "person_id": "green-w-kyle",
+  "name": "Green W. Kyle",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2025-01-30",
+  "last_seen": "2026-06-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 61098.0,
+    "as_of_trade_date": "2026-06-19",
+    "as_of_disclosure_date": "2026-06-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021435/0001437749-26-021435-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "trump-donald-j",
+  "name": "TRUMP DONALD J",
+  "roles": [
+   "10% owner @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2024-04-30",
+  "last_seen": "2024-12-19",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 0.0,
+    "as_of_trade_date": "2024-12-17",
+    "as_of_disclosure_date": "2024-12-19",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000291/0001474506-24-000291-index.htm"
+   },
+   {
+    "ticker": "DJT",
+    "security": "Right to receive Earnout Shares",
+    "security_kind": "derivative",
+    "shares_owned": 0.0,
+    "as_of_trade_date": "2024-04-26",
+    "as_of_disclosure_date": "2024-04-30",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/0001474506-24-000146-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "pete-sessions-tx17",
+  "name": "Pete Sessions",
+  "roles": [
+   "House (TX17)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-18",
+  "positions": []
+ },
+ {
+  "person_id": "diana-harshbarger-tn01",
+  "name": "Diana Harshbarger",
+  "roles": [
+   "House (TN01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 2,
+  "first_seen": "2026-08-03",
+  "last_seen": "2026-09-11",
+  "positions": []
+ },
+ {
+  "person_id": "rohit-khanna-ca17",
+  "name": "Rohit Khanna",
+  "roles": [
+   "House (CA17)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 2,
+  "first_seen": "2026-08-07",
+  "last_seen": "2026-09-04",
+  "positions": []
+ },
+ {
+  "person_id": "bernhardt-david-longly",
+  "name": "Bernhardt David Longly",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2025-08-25",
+  "last_seen": "2026-06-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 46705.0,
+    "as_of_trade_date": "2026-06-19",
+    "as_of_disclosure_date": "2026-06-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021439/0001437749-26-021439-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "holding-george-edward-bell",
+  "name": "Holding George Edward Bell",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2025-08-25",
+  "last_seen": "2026-06-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 46705.0,
+    "as_of_trade_date": "2026-06-19",
+    "as_of_disclosure_date": "2026-06-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021437/0001437749-26-021437-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "lighthizer-robert",
+  "name": "Lighthizer Robert",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2025-01-30",
+  "last_seen": "2025-08-22",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 37498.0,
+    "as_of_trade_date": "2025-08-22",
+    "as_of_disclosure_date": "2025-08-22",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000157/0001474506-25-000157-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "northwall-andrew",
+  "name": "Northwall Andrew",
+  "roles": [
+   "Chief Operating Officer @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2024-03-26",
+  "last_seen": "2024-08-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 16533.0,
+    "as_of_trade_date": "2024-08-22",
+    "as_of_disclosure_date": "2024-08-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000189/0001474506-24-000189-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "arc-global-investments-ii-llc",
+  "name": "ARC Global Investments II LLC",
+  "roles": [
+   "10% owner @ DWACU"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2021-09-10",
+  "last_seen": "2021-09-10",
+  "positions": [
+   {
+    "ticker": "DWACU",
+    "security": "Class A Common Stock",
+    "security_kind": "non-derivative",
+    "shares_owned": 1133484.0,
+    "as_of_trade_date": "2021-09-08",
+    "as_of_disclosure_date": "2021-09-10",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114762/0001104659-21-114762-index.htm"
+   },
+   {
+    "ticker": "DWACU",
+    "security": "Class B Common Stock",
+    "security_kind": "derivative",
+    "shares_owned": 5490000.0,
+    "as_of_trade_date": "2021-09-08",
+    "as_of_disclosure_date": "2021-09-10",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114762/0001104659-21-114762-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "orlando-patrick-francis",
+  "name": "Orlando Patrick Francis",
+  "roles": [
+   "President and CEO, 10% owner @ DWACU"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2021-09-10",
+  "last_seen": "2021-09-10",
+  "positions": [
+   {
+    "ticker": "DWACU",
+    "security": "Class A Common Stock",
+    "security_kind": "non-derivative",
+    "shares_owned": 1133484.0,
+    "as_of_trade_date": "2021-09-08",
+    "as_of_disclosure_date": "2021-09-10",
+    "ownership": "I",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114761/0001104659-21-114761-index.htm"
+   },
+   {
+    "ticker": "DWACU",
+    "security": "Class B Common Stock",
+    "security_kind": "derivative",
+    "shares_owned": 5490000.0,
+    "as_of_trade_date": "2021-09-08",
+    "as_of_disclosure_date": "2021-09-10",
+    "ownership": "I",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114761/0001104659-21-114761-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "cleo-fields-la06",
+  "name": "Cleo Fields",
+  "roles": [
+   "House (LA06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-08-13",
+  "last_seen": "2026-08-13",
+  "positions": []
+ },
+ {
+  "person_id": "epshteyn-boris",
+  "name": "EPSHTEYN BORIS",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-06-23",
+  "last_seen": "2026-06-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 47200.0,
+    "as_of_trade_date": "2026-06-19",
+    "as_of_disclosure_date": "2026-06-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021440/0001437749-26-021440-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "o-rourke-meredith-michelle",
+  "name": "O'Rourke Meredith Michelle",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-06-23",
+  "last_seen": "2026-06-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 47200.0,
+    "as_of_trade_date": "2026-06-19",
+    "as_of_disclosure_date": "2026-06-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926021433/0001437749-26-021433-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "bresso-gineen",
+  "name": "Bresso, Gineen",
+  "roles": [
+   "Executive branch"
+  ],
+  "sources": [
+   "oge_278t"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-02-25",
+  "last_seen": "2026-02-25",
+  "positions": []
+ },
+ {
+  "person_id": "patel-kashyap",
+  "name": "Patel Kashyap",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-01-30",
+  "last_seen": "2025-01-30",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 25946.0,
+    "as_of_trade_date": "2025-01-28",
+    "as_of_disclosure_date": "2025-01-30",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000022/0001474506-25-000022-index.htm"
+   }
+  ]
+ },
+ {
+  "person_id": "mcmahon-linda-e",
+  "name": "McMahon Linda E.",
+  "roles": [
+   "Director @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-01-30",
+  "last_seen": "2025-01-30",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 25946.0,
+    "as_of_trade_date": "2025-01-28",
+    "as_of_disclosure_date": "2025-01-30",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450625000020/0001474506-25-000020-index.htm"
+   }
+  ]
+ }
+]
