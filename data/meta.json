@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T06:35:35+00:00",
+ "generated_at": "2026-09-22T10:37:42+00:00",
  "counts": {
   "records": 1132,
   "parsed_trades": 1044,
@@ -16,56 +16,56 @@
  "sources": {
   "house_clerk_ptr": {
    "source": "house_clerk_ptr",
-   "last_attempt": "2026-09-22T06:32:04+00:00",
-   "last_success": "2026-09-22T06:32:04+00:00",
+   "last_attempt": "2026-09-22T10:37:40+00:00",
+   "last_success": "2026-09-22T10:37:40+00:00",
    "ok": true,
-   "detail": "120 filings (25 reused), 439 trades parsed, 30 unparsed, 0 errors",
+   "detail": "120 filings (120 reused), 439 trades parsed, 30 unparsed, 0 errors",
    "count": 439
   },
   "sec_form4": {
    "source": "sec_form4",
-   "last_attempt": "2026-09-22T06:32:05+00:00",
-   "last_success": "2026-09-22T06:32:05+00:00",
+   "last_attempt": "2026-09-22T10:37:40+00:00",
+   "last_success": "2026-09-22T10:37:40+00:00",
    "ok": true,
    "detail": "145 rows (121 filings reused), 36 open-market (P/S), 0 errors",
    "count": 145
   },
   "oge_278t": {
    "source": "oge_278t",
-   "last_attempt": "2026-09-22T06:33:02+00:00",
-   "last_success": "2026-09-22T06:33:02+00:00",
+   "last_attempt": "2026-09-22T10:37:41+00:00",
+   "last_success": "2026-09-22T10:37:41+00:00",
    "ok": true,
-   "detail": "80 documents (18 reused), 498 transactions parsed, 20 linked-only, 0 errors",
+   "detail": "80 documents (80 reused), 498 transactions parsed, 20 linked-only, 0 errors",
    "count": 498
   },
   "prices": {
    "source": "prices",
-   "last_attempt": "2026-09-22T06:33:02+00:00",
-   "last_success": "2026-09-22T06:33:02+00:00",
+   "last_attempt": "2026-09-22T10:37:42+00:00",
+   "last_success": "2026-09-22T10:37:42+00:00",
    "ok": true,
    "detail": "equities=True crypto=True",
    "count": null
   },
   "copy_check": {
    "source": "copy_check",
-   "last_attempt": "2026-09-22T06:35:22+00:00",
-   "last_success": "2026-09-22T06:35:22+00:00",
+   "last_attempt": "2026-09-22T06:37:32+00:00",
+   "last_success": "2026-09-22T06:37:32+00:00",
    "ok": true,
-   "detail": "288/292 eligible buys measured",
-   "count": 288
+   "detail": "285/292 eligible buys measured",
+   "count": 285
   },
   "alerts": {
    "source": "alerts",
-   "last_attempt": "2026-09-22T06:35:22+00:00",
-   "last_success": "2026-09-22T06:35:22+00:00",
+   "last_attempt": "2026-09-22T06:42:45+00:00",
+   "last_success": "2026-09-22T06:42:45+00:00",
    "ok": true,
-   "detail": "814 new trades but NTFY_TOPIC is not set",
+   "detail": "no new trades",
    "count": 0
   },
   "crypto": {
    "source": "crypto",
-   "last_attempt": "2026-09-22T06:33:02+00:00",
-   "last_success": "2026-09-22T06:33:02+00:00",
+   "last_attempt": "2026-09-22T10:37:41+00:00",
+   "last_success": "2026-09-22T10:37:41+00:00",
    "ok": true,
    "detail": "no wallets configured - add addresses to watchlist.yml, each with a label_source naming who attributes it",
    "count": 0
