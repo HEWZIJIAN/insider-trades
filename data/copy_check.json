@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T22:26:30+00:00",
+ "generated_at": "2026-09-24T00:42:47+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -703,11 +703,11 @@
     },
     "d90": {
      "status": "ok",
-     "n": 9,
+     "n": 12,
      "win_rate_vs_benchmark_pct": 33.3,
-     "avg_return_pct": -1.35,
-     "avg_excess_pct": -2.81,
-     "median_excess_pct": -5.53
+     "avg_return_pct": 0.28,
+     "avg_excess_pct": -2.34,
+     "median_excess_pct": -3.29
     },
     "today": {
      "status": "ok",
@@ -11599,7 +11599,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for EA",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -14407,8 +14407,12 @@
      "excess_pct": 6.07
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 227.38,
+     "return_pct": 18.1,
+     "benchmark_return_pct": 6.11,
+     "excess_pct": 11.99
     },
     "today": {
      "status": "ok",
@@ -14451,8 +14455,12 @@
      "excess_pct": -6.59
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 354.97,
+     "return_pct": 5.21,
+     "benchmark_return_pct": 6.11,
+     "excess_pct": -0.9
     },
     "today": {
      "status": "ok",
@@ -14495,8 +14503,12 @@
      "excess_pct": -20.03
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-09-21",
+     "price": 1043.96,
+     "return_pct": -7.8,
+     "benchmark_return_pct": 6.11,
+     "excess_pct": -13.91
     },
     "today": {
      "status": "ok",
@@ -16342,7 +16354,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for EA",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
