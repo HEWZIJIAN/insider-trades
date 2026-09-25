@@ -13944,6 +13944,22 @@
   "parser_version": "2026-09-22.1"
  },
  {
+  "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-09-08-26",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "President Donald J. Trump",
+  "person_id": "president-donald-j-trump",
+  "role": "Executive branch",
+  "title": "President Donald J. Trump Periodic Transaction Report 09.08.26",
+  "disclosure_date": "2026-09-08",
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/09/President-Donald-J.-Trump-Periodic-Transaction-Report-09.08.26.pdf",
+  "parsed": false,
+  "unparsed_reason": "scanned_image",
+  "unparsed_detail": "scanned filing, 16.6 MB, no readable text layer",
+  "parser_version": "2026-09-22.1"
+ },
+ {
   "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-08-12-26",
   "source": "oge_278t",
   "source_label": "OGE Form 278-T (whitehouse.gov)",

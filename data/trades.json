@@ -1085,6 +1085,28 @@
   "advisor_directed": false
  },
  {
+  "id": "oge-doc-president-donald-j-trump-periodic-transaction-report-09-08-26",
+  "source": "oge_278t",
+  "source_label": "OGE Form 278-T (whitehouse.gov)",
+  "person": "President Donald J. Trump",
+  "person_id": "president-donald-j-trump",
+  "role": "Executive branch",
+  "title": "President Donald J. Trump Periodic Transaction Report 09.08.26",
+  "disclosure_date": "2026-09-08",
+  "amended": false,
+  "source_url": "https://www.whitehouse.gov/wp-content/uploads/2026/09/President-Donald-J.-Trump-Periodic-Transaction-Report-09.08.26.pdf",
+  "parsed": false,
+  "unparsed_reason": "scanned_image",
+  "unparsed_detail": "scanned filing, 16.6 MB, no readable text layer",
+  "parser_version": "2026-09-22.1",
+  "withdrawn": false,
+  "copy_eligible": false,
+  "copy_ineligible_reasons": [
+   "document not machine-parsed"
+  ],
+  "advisor_directed": false
+ },
+ {
   "id": "chain-ethereum-0x39b0819296ffa534c76fa11750f62534fb487a028369504b79b04393b28c29fb-570",
   "source": "crypto",
   "source_label": "On-chain (Blockscout) - ethereum",
@@ -52987,7 +53009,7 @@
   "asset_name": "PWEASE",
   "ticker": "pwease",
   "action": "received",
-  "on_chain_method": "airdropEqual",
+  "on_chain_method": "0x62ed4815",
   "likely_airdrop": true,
   "is_swap": false,
   "quantity": 30535.711154884,
