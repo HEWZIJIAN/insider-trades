@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T23:00:20+00:00",
+ "generated_at": "2026-09-25T01:21:08+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -113,11 +113,11 @@
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 66,
-     "win_rate_vs_benchmark_pct": 47.0,
-     "avg_return_pct": -0.24,
+     "n": 67,
+     "win_rate_vs_benchmark_pct": 46.3,
+     "avg_return_pct": -0.22,
      "avg_excess_pct": -0.02,
-     "median_excess_pct": -0.32
+     "median_excess_pct": -0.25
     },
     "d30": {
      "status": "ok",
@@ -1897,8 +1897,12 @@
    "baseline_price": 146.39,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-09-23",
+     "price": 147.39,
+     "return_pct": 0.68,
+     "benchmark_return_pct": 0.8,
+     "excess_pct": -0.12
     },
     "d30": {
      "status": "pending",
