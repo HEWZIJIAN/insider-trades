@@ -45,6 +45,21 @@
   "positions": []
  },
  {
+  "person_id": "kevin-hern-ok01",
+  "name": "Kevin Hern",
+  "roles": [
+   "House (OK01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 172,
+  "document_count": 0,
+  "first_seen": "2025-12-24",
+  "last_seen": "2026-09-15",
+  "positions": []
+ },
+ {
   "person_id": "david-j-taylor-oh02",
   "name": "David J. Taylor",
   "roles": [
@@ -147,21 +162,6 @@
   "document_count": 0,
   "first_seen": "2026-04-01",
   "last_seen": "2026-09-01",
-  "positions": []
- },
- {
-  "person_id": "kevin-hern-ok01",
-  "name": "Kevin Hern",
-  "roles": [
-   "House (OK01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 73,
-  "document_count": 0,
-  "first_seen": "2025-12-24",
-  "last_seen": "2026-08-27",
   "positions": []
  },
  {
@@ -699,6 +699,21 @@
   "positions": []
  },
  {
+  "person_id": "max-miller-oh07",
+  "name": "Max Miller",
+  "roles": [
+   "House (OH07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 14,
+  "document_count": 0,
+  "first_seen": "2026-01-29",
+  "last_seen": "2026-09-27",
+  "positions": []
+ },
+ {
   "person_id": "donald-sternoff-beyer-va08",
   "name": "Donald Sternoff Beyer",
   "roles": [
@@ -752,21 +767,6 @@
   "document_count": 0,
   "first_seen": "2025-11-25",
   "last_seen": "2025-11-25",
-  "positions": []
- },
- {
-  "person_id": "max-miller-oh07",
-  "name": "Max Miller",
-  "roles": [
-   "House (OH07)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 13,
-  "document_count": 0,
-  "first_seen": "2026-01-29",
-  "last_seen": "2026-07-26",
   "positions": []
  },
  {
@@ -1013,6 +1013,21 @@
   "positions": []
  },
  {
+  "person_id": "harold-dallas-rogers-ky05",
+  "name": "Harold Dallas Rogers",
+  "roles": [
+   "House (KY05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 8,
+  "first_seen": "2026-02-13",
+  "last_seen": "2026-09-23",
+  "positions": []
+ },
+ {
   "person_id": "rohit-khanna-ca17",
   "name": "Rohit Khanna",
   "roles": [
@@ -1130,21 +1145,6 @@
   "document_count": 0,
   "first_seen": "2026-04-20",
   "last_seen": "2026-04-23",
-  "positions": []
- },
- {
-  "person_id": "harold-dallas-rogers-ky05",
-  "name": "Harold Dallas Rogers",
-  "roles": [
-   "House (KY05)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 0,
-  "document_count": 7,
-  "first_seen": "2026-02-13",
-  "last_seen": "2026-08-20",
   "positions": []
  },
  {
