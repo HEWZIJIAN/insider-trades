@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T23:31:05+00:00",
+ "generated_at": "2026-10-01T02:18:21+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -57,8 +57,8 @@
      "status": "ok",
      "n": 434,
      "win_rate_vs_benchmark_pct": 32.5,
-     "avg_return_pct": 3.59,
-     "avg_excess_pct": -4.69,
+     "avg_return_pct": 3.57,
+     "avg_excess_pct": -4.71,
      "median_excess_pct": -9.09
     }
    }
@@ -16161,12 +16161,12 @@
    "measurable": true,
    "reason": null,
    "baseline_date": "2026-06-08",
-   "baseline_price": 69.5312,
+   "baseline_price": 69.532,
    "horizons": {
     "d7": {
      "status": "ok",
      "as_of": "2026-06-15",
-     "price": 94.9648,
+     "price": 94.964,
      "return_pct": 36.58,
      "benchmark_return_pct": 2.11,
      "excess_pct": 34.47
@@ -16182,18 +16182,18 @@
     "d90": {
      "status": "ok",
      "as_of": "2026-09-04",
-     "price": 70.525,
+     "price": 70.526,
      "return_pct": 1.43,
      "benchmark_return_pct": 4.19,
      "excess_pct": -2.76
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-09-29",
-     "price": 81.71,
-     "return_pct": 17.52,
+     "as_of": "2026-09-30",
+     "price": 76.45,
+     "return_pct": 9.95,
      "benchmark_return_pct": 3.38,
-     "excess_pct": 14.14
+     "excess_pct": 6.57
     }
    }
   },
