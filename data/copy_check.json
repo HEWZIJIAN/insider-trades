@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T01:22:33+00:00",
+ "generated_at": "2026-10-02T07:17:27+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -16305,11 +16305,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-09-30",
-     "price": 76.45,
-     "return_pct": 9.95,
+     "as_of": "2026-10-01",
+     "price": 75.31,
+     "return_pct": 8.31,
      "benchmark_return_pct": 3.17,
-     "excess_pct": 6.78
+     "excess_pct": 5.14
     }
    }
   },
