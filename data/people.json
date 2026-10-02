@@ -68,10 +68,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 151,
+  "trade_count": 156,
   "document_count": 0,
   "first_seen": "2026-01-15",
-  "last_seen": "2026-09-17",
+  "last_seen": "2026-10-01",
   "positions": []
  },
  {
@@ -390,6 +390,21 @@
   "positions": []
  },
  {
+  "person_id": "cleo-fields-la06",
+  "name": "Cleo Fields",
+  "roles": [
+   "House (LA06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 36,
+  "document_count": 0,
+  "first_seen": "2025-12-26",
+  "last_seen": "2026-09-14",
+  "positions": []
+ },
+ {
   "person_id": "michael-rulli-oh06",
   "name": "Michael Rulli",
   "roles": [
@@ -447,21 +462,6 @@
   "document_count": 0,
   "first_seen": "2026-01-12",
   "last_seen": "2026-02-12",
-  "positions": []
- },
- {
-  "person_id": "cleo-fields-la06",
-  "name": "Cleo Fields",
-  "roles": [
-   "House (LA06)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 31,
-  "document_count": 0,
-  "first_seen": "2025-12-26",
-  "last_seen": "2026-08-13",
   "positions": []
  },
  {
@@ -639,6 +639,21 @@
   "positions": []
  },
  {
+  "person_id": "donald-sternoff-beyer-va08",
+  "name": "Donald Sternoff Beyer",
+  "roles": [
+   "House (VA08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 17,
+  "document_count": 0,
+  "first_seen": "2026-01-02",
+  "last_seen": "2026-10-01",
+  "positions": []
+ },
+ {
   "person_id": "president-donald-j-trump",
   "name": "President Donald J. Trump",
   "roles": [
@@ -711,21 +726,6 @@
   "document_count": 0,
   "first_seen": "2026-01-29",
   "last_seen": "2026-09-27",
-  "positions": []
- },
- {
-  "person_id": "donald-sternoff-beyer-va08",
-  "name": "Donald Sternoff Beyer",
-  "roles": [
-   "House (VA08)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 14,
-  "document_count": 0,
-  "first_seen": "2026-01-02",
-  "last_seen": "2026-09-01",
   "positions": []
  },
  {

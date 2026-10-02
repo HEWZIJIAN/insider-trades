@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T19:10:27+00:00",
+ "generated_at": "2026-10-02T23:09:33+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1458,
-  "measured": 1430,
-  "unmeasurable": 28
+  "eligible_buys": 1466,
+  "measured": 1435,
+  "unmeasurable": 31
  },
  "people": [
   {
@@ -351,6 +351,47 @@
    }
   },
   {
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "measured_buys": 27,
+   "underlying_filing_rows": 32,
+   "distinct_baseline_dates": 19,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 27,
+     "win_rate_vs_benchmark_pct": 44.4,
+     "avg_return_pct": 1.19,
+     "avg_excess_pct": 0.82,
+     "median_excess_pct": -0.36
+    },
+    "d30": {
+     "status": "ok",
+     "n": 23,
+     "win_rate_vs_benchmark_pct": 34.8,
+     "avg_return_pct": -0.31,
+     "avg_excess_pct": -0.62,
+     "median_excess_pct": -1.6
+    },
+    "d90": {
+     "status": "ok",
+     "n": 21,
+     "win_rate_vs_benchmark_pct": 57.1,
+     "avg_return_pct": 12.26,
+     "avg_excess_pct": 8.0,
+     "median_excess_pct": 6.12
+    },
+    "today": {
+     "status": "ok",
+     "n": 27,
+     "win_rate_vs_benchmark_pct": 55.6,
+     "avg_return_pct": 23.39,
+     "avg_excess_pct": 16.0,
+     "median_excess_pct": 5.58
+    }
+   }
+  },
+  {
    "person_id": "jared-moskowitz-fl23",
    "person": "Jared Moskowitz",
    "measured_buys": 27,
@@ -388,47 +429,6 @@
      "avg_return_pct": 5.21,
      "avg_excess_pct": -5.64,
      "median_excess_pct": -13.66
-    }
-   }
-  },
-  {
-   "person_id": "cleo-fields-la06",
-   "person": "Cleo Fields",
-   "measured_buys": 23,
-   "underlying_filing_rows": 27,
-   "distinct_baseline_dates": 16,
-   "by_horizon": {
-    "d7": {
-     "status": "ok",
-     "n": 23,
-     "win_rate_vs_benchmark_pct": 47.8,
-     "avg_return_pct": 1.43,
-     "avg_excess_pct": 1.11,
-     "median_excess_pct": -0.88
-    },
-    "d30": {
-     "status": "ok",
-     "n": 23,
-     "win_rate_vs_benchmark_pct": 34.8,
-     "avg_return_pct": -0.31,
-     "avg_excess_pct": -0.62,
-     "median_excess_pct": -1.6
-    },
-    "d90": {
-     "status": "ok",
-     "n": 21,
-     "win_rate_vs_benchmark_pct": 57.1,
-     "avg_return_pct": 12.26,
-     "avg_excess_pct": 8.0,
-     "median_excess_pct": 6.12
-    },
-    "today": {
-     "status": "ok",
-     "n": 23,
-     "win_rate_vs_benchmark_pct": 56.5,
-     "avg_return_pct": 27.54,
-     "avg_excess_pct": 18.91,
-     "median_excess_pct": 7.04
     }
    }
   },
@@ -1912,6 +1912,51 @@
  ],
  "trades": [
   {
+   "trade_id": "house-20035549-3",
+   "person_id": "david-j-taylor-oh02",
+   "person": "David J. Taylor",
+   "ticker": "HD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-22",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
+   "trade_id": "house-20035549-2",
+   "person_id": "david-j-taylor-oh02",
+   "person": "David J. Taylor",
+   "ticker": "HD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-22",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
+   "trade_id": "house-20035549-1",
+   "person_id": "david-j-taylor-oh02",
+   "person": "David J. Taylor",
+   "ticker": "AMGN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-22",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
    "trade_id": "house-20035471-2",
    "person_id": "david-j-taylor-oh02",
    "person": "David J. Taylor",
@@ -2112,6 +2157,86 @@
    }
   },
   {
+   "trade_id": "house-20035464-5",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "NFLX",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-14",
+   "trade_date": "2026-09-14",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-15",
+   "baseline_price": 77.9,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-22",
+     "price": 72.16,
+     "return_pct": -7.37,
+     "benchmark_return_pct": 2.11,
+     "excess_pct": -9.48
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-30",
+     "price": 69.58,
+     "return_pct": -10.68,
+     "benchmark_return_pct": 0.69,
+     "excess_pct": -11.37
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035464-1",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "GOOG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-14",
+   "trade_date": "2026-09-14",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-15",
+   "baseline_price": 341.43,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-22",
+     "price": 347.41,
+     "return_pct": 1.75,
+     "benchmark_return_pct": 2.11,
+     "excess_pct": -0.36
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-30",
+     "price": 340.74,
+     "return_pct": -0.2,
+     "benchmark_return_pct": 0.69,
+     "excess_pct": -0.89
+    }
+   }
+  },
+  {
    "trade_id": "house-20035455-7",
    "person_id": "josh-gottheimer-nj05",
    "person": "Josh Gottheimer",
@@ -2192,6 +2317,86 @@
    }
   },
   {
+   "trade_id": "house-20035464-4",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "MSFT",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-10",
+   "trade_date": "2026-09-10",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-11",
+   "baseline_price": 495.63,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-18",
+     "price": 493.78,
+     "return_pct": -0.37,
+     "benchmark_return_pct": -0.34,
+     "excess_pct": -0.03
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-30",
+     "price": 512.9,
+     "return_pct": 3.48,
+     "benchmark_return_pct": -0.22,
+     "excess_pct": 3.7
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035464-3",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "MSFT",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-10",
+   "trade_date": "2026-09-10",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-11",
+   "baseline_price": 495.63,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-18",
+     "price": 493.78,
+     "return_pct": -0.37,
+     "benchmark_return_pct": -0.34,
+     "excess_pct": -0.03
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-30",
+     "price": 512.9,
+     "return_pct": 3.48,
+     "benchmark_return_pct": -0.22,
+     "excess_pct": 3.7
+    }
+   }
+  },
+  {
    "trade_id": "house-20035471-1",
    "person_id": "david-j-taylor-oh02",
    "person": "David J. Taylor",
@@ -2228,6 +2433,46 @@
      "return_pct": -4.88,
      "benchmark_return_pct": 0.63,
      "excess_pct": -5.51
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035464-2",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "AAPL",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-08",
+   "trade_date": "2026-09-08",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-09",
+   "baseline_price": 315.34,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-16",
+     "price": 332.41,
+     "return_pct": 5.41,
+     "benchmark_return_pct": -1.1,
+     "excess_pct": 6.51
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-09-30",
+     "price": 333.02,
+     "return_pct": 5.61,
+     "benchmark_return_pct": 0.03,
+     "excess_pct": 5.58
     }
    }
   },
