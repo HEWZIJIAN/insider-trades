@@ -420,6 +420,21 @@
   "positions": []
  },
  {
+  "person_id": "suzan-k-delbene-wa01",
+  "name": "Suzan K. DelBene",
+  "roles": [
+   "House (WA01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 33,
+  "document_count": 0,
+  "first_seen": "2025-12-17",
+  "last_seen": "2026-09-14",
+  "positions": []
+ },
+ {
   "person_id": "donaldson-david",
   "name": "Donaldson, David",
   "roles": [
@@ -462,21 +477,6 @@
   "document_count": 0,
   "first_seen": "2026-01-06",
   "last_seen": "2026-09-15",
-  "positions": []
- },
- {
-  "person_id": "suzan-k-delbene-wa01",
-  "name": "Suzan K. DelBene",
-  "roles": [
-   "House (WA01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 28,
-  "document_count": 0,
-  "first_seen": "2025-12-17",
-  "last_seen": "2026-08-20",
   "positions": []
  },
  {
