@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T13:36:59+00:00",
+ "generated_at": "2026-10-03T17:45:32+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1465,
+  "eligible_buys": 1464,
   "measured": 1438,
-  "unmeasurable": 27
+  "unmeasurable": 26
  },
  "people": [
   {
@@ -27090,21 +27090,6 @@
      "excess_pct": 22.97
     }
    }
-  },
-  {
-   "trade_id": "chain-ethereum-0xbe2b557b470c9ae0834b550615de0eff74bea5cca8ebbbec8e06c713012448d7-420",
-   "person_id": "donald-trump-labelled-wallet",
-   "person": "Donald Trump (labelled wallet)",
-   "ticker": "ARTEMIS",
-   "asset_class": "crypto",
-   "disclosure_date": "2026-04-17",
-   "trade_date": "2026-04-17",
-   "benchmark": "BTC",
-   "measurable": false,
-   "reason": "no free price history available for ARTEMIS",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
   },
   {
    "trade_id": "house-20034345-1",

@@ -1,8 +1,10 @@
 {
- "updated_at": "2026-10-03T13:36:59+00:00",
+ "updated_at": "2026-10-03T17:45:33+00:00",
  "ids": [
   "chain-ethereum-0xccd48d6e19ee01d06e0e3cc9626ad5c13f0fa232c29a561bb57e3207310b9b81-1350",
   "chain-ethereum-0x9c50ab5a1a8cab657d555418911126320ed5906b0e82e5b2bf22e3e33c5e3bf7-1132",
+  "chain-ethereum-0x9382335bf87576df0088b78f153f6ccbfe66cf5f79a6a58f6b53683f4080cca9-2777",
+  "chain-ethereum-0x9308a20962f5fd394935e775ff874ee0cbd2cb30654bcf59cc40d80efb39c1ba-2131",
   "chain-ethereum-0x6ea916ced7abcca68035ca123a740bc656becbed803c2327746eb9a66d5d04d8-3029",
   "chain-ethereum-0x0f3504cfb30084ae3cd7da842f0003929cf5ea4964ae5778f2d41d37ef29d962-1680",
   "chain-ethereum-0x0dbfe369bbe321f8ed2d5473624d7afe09057076eda7363a94ae178164b844e3-2995",
@@ -1743,7 +1745,6 @@
   "oge-doc-president-donald-j-trump-periodic-transaction-report-04-20-26",
   "house-20034300-4",
   "chain-ethereum-0xf94358da86bccf0d10c30e38c6873be246a95baea0aeca628fab7848c104ee2c-1824",
-  "chain-ethereum-0xbe2b557b470c9ae0834b550615de0eff74bea5cca8ebbbec8e06c713012448d7-420",
   "chain-ethereum-0x38f6b3dfc52a1dd01395102b1aa2a6a770f7910ac17a83e14770d2365b09b526-1945",
   "house-20034414-9",
   "house-20034414-8",
@@ -2166,7 +2167,6 @@
   "house-20034247-1",
   "house-20034247-2",
   "chain-ethereum-0x40948effddd964ae52fa671d1eb74706970adca64639e8c42137b1982d58f9fe-1613",
-  "chain-ethereum-0xf32af5680c377b89a2de00f40107998c6805446feb74ec73c70893217b857792-537",
   "chain-ethereum-0x40067856cd60cb292dce63432c6d8cb8584373dc013c28ee7d09ae2ed47a60bc-369",
   "house-20034384-2",
   "house-20034384-1",
