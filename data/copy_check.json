@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T08:26:46+00:00",
+ "generated_at": "2026-10-03T13:36:59+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1466,
+  "eligible_buys": 1465,
   "measured": 1438,
-  "unmeasurable": 28
+  "unmeasurable": 27
  },
  "people": [
   {
@@ -41994,21 +41994,6 @@
      "excess_pct": -6.3
     }
    }
-  },
-  {
-   "trade_id": "chain-ethereum-0xb0a563dcc7583aaa008f6965678b073fa5ccdd0d4ef2986490a9122b224f7e56-89",
-   "person_id": "donald-trump-labelled-wallet",
-   "person": "Donald Trump (labelled wallet)",
-   "ticker": "DUBAI",
-   "asset_class": "crypto",
-   "disclosure_date": "2026-03-01",
-   "trade_date": "2026-03-01",
-   "benchmark": "BTC",
-   "measurable": false,
-   "reason": "no free price history available for DUBAI",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
   },
   {
    "trade_id": "house-20034159-30",
