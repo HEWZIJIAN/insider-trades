@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T22:11:59+00:00",
+ "generated_at": "2026-10-05T01:07:52+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -539,11 +539,11 @@
     },
     "d90": {
      "status": "ok",
-     "n": 12,
-     "win_rate_vs_benchmark_pct": 50.0,
-     "avg_return_pct": 5.41,
-     "avg_excess_pct": 1.28,
-     "median_excess_pct": 0.44
+     "n": 16,
+     "win_rate_vs_benchmark_pct": 37.5,
+     "avg_return_pct": 0.18,
+     "avg_excess_pct": -3.65,
+     "median_excess_pct": -3.67
     },
     "today": {
      "status": "ok",
@@ -11145,8 +11145,12 @@
      "excess_pct": -1.54
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 282.85,
+     "return_pct": -18.06,
+     "benchmark_return_pct": 2.93,
+     "excess_pct": -20.99
     },
     "today": {
      "status": "ok",
@@ -11189,8 +11193,12 @@
      "excess_pct": -5.34
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 105.15,
+     "return_pct": -12.54,
+     "benchmark_return_pct": 2.93,
+     "excess_pct": -15.47
     },
     "today": {
      "status": "ok",
@@ -11233,8 +11241,12 @@
      "excess_pct": -26.54
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 222.64,
+     "return_pct": -27.27,
+     "benchmark_return_pct": 2.93,
+     "excess_pct": -30.2
     },
     "today": {
      "status": "ok",
@@ -11277,8 +11289,12 @@
      "excess_pct": -6.63
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 256.03,
+     "return_pct": -4.19,
+     "benchmark_return_pct": 2.93,
+     "excess_pct": -7.12
     },
     "today": {
      "status": "ok",
