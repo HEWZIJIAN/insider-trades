@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T07:30:35+00:00",
+ "generated_at": "2026-10-05T16:18:19+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1464,
-  "measured": 1438,
+  "eligible_buys": 1465,
+  "measured": 1439,
   "unmeasurable": 26
  },
  "people": [
@@ -597,6 +597,47 @@
    }
   },
   {
+   "person_id": "michael-rulli-oh06",
+   "person": "Michael Rulli",
+   "measured_buys": 16,
+   "underlying_filing_rows": 16,
+   "distinct_baseline_dates": 13,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 16,
+     "win_rate_vs_benchmark_pct": 50.0,
+     "avg_return_pct": 0.99,
+     "avg_excess_pct": 0.23,
+     "median_excess_pct": -0.29
+    },
+    "d30": {
+     "status": "ok",
+     "n": 15,
+     "win_rate_vs_benchmark_pct": 40.0,
+     "avg_return_pct": -3.55,
+     "avg_excess_pct": -3.99,
+     "median_excess_pct": -4.68
+    },
+    "d90": {
+     "status": "ok",
+     "n": 14,
+     "win_rate_vs_benchmark_pct": 28.6,
+     "avg_return_pct": -1.43,
+     "avg_excess_pct": -3.83,
+     "median_excess_pct": -5.8
+    },
+    "today": {
+     "status": "ok",
+     "n": 16,
+     "win_rate_vs_benchmark_pct": 37.5,
+     "avg_return_pct": 9.29,
+     "avg_excess_pct": -1.0,
+     "median_excess_pct": -2.98
+    }
+   }
+  },
+  {
    "person_id": "jonathan-jackson-il01",
    "person": "Jonathan Jackson",
    "measured_buys": 16,
@@ -675,47 +716,6 @@
      "avg_return_pct": 17.09,
      "avg_excess_pct": 5.46,
      "median_excess_pct": -4.82
-    }
-   }
-  },
-  {
-   "person_id": "michael-rulli-oh06",
-   "person": "Michael Rulli",
-   "measured_buys": 15,
-   "underlying_filing_rows": 15,
-   "distinct_baseline_dates": 12,
-   "by_horizon": {
-    "d7": {
-     "status": "ok",
-     "n": 15,
-     "win_rate_vs_benchmark_pct": 53.3,
-     "avg_return_pct": 1.44,
-     "avg_excess_pct": 0.55,
-     "median_excess_pct": 0.39
-    },
-    "d30": {
-     "status": "ok",
-     "n": 15,
-     "win_rate_vs_benchmark_pct": 40.0,
-     "avg_return_pct": -3.55,
-     "avg_excess_pct": -3.99,
-     "median_excess_pct": -4.68
-    },
-    "d90": {
-     "status": "ok",
-     "n": 14,
-     "win_rate_vs_benchmark_pct": 28.6,
-     "avg_return_pct": -1.43,
-     "avg_excess_pct": -3.83,
-     "median_excess_pct": -5.8
-    },
-    "today": {
-     "status": "ok",
-     "n": 15,
-     "win_rate_vs_benchmark_pct": 40.0,
-     "avg_return_pct": 10.77,
-     "avg_excess_pct": -0.17,
-     "median_excess_pct": -2.18
     }
    }
   },
@@ -2576,6 +2576,46 @@
      "return_pct": 1.59,
      "benchmark_return_pct": 0.95,
      "excess_pct": 0.64
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035558-1",
+   "person_id": "michael-rulli-oh06",
+   "person": "Michael Rulli",
+   "ticker": "GS",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-04",
+   "trade_date": "2026-09-03",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-08",
+   "baseline_price": 1036.53,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-15",
+     "price": 976.67,
+     "return_pct": -5.78,
+     "benchmark_return_pct": -1.12,
+     "excess_pct": -4.66
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 902.56,
+     "return_pct": -12.92,
+     "benchmark_return_pct": 0.48,
+     "excess_pct": -13.4
     }
    }
   },
@@ -12276,7 +12316,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -17283,7 +17323,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -69378,7 +69418,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
+   "reason": "no free price history available for LEG",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}

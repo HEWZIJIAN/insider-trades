@@ -375,6 +375,21 @@
   "positions": []
  },
  {
+  "person_id": "michael-rulli-oh06",
+  "name": "Michael Rulli",
+  "roles": [
+   "House (OH06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 38,
+  "document_count": 0,
+  "first_seen": "2024-11-26",
+  "last_seen": "2026-09-28",
+  "positions": []
+ },
+ {
   "person_id": "scharf-william",
   "name": "Scharf, William",
   "roles": [
@@ -402,21 +417,6 @@
   "document_count": 0,
   "first_seen": "2025-12-26",
   "last_seen": "2026-09-14",
-  "positions": []
- },
- {
-  "person_id": "michael-rulli-oh06",
-  "name": "Michael Rulli",
-  "roles": [
-   "House (OH06)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 35,
-  "document_count": 0,
-  "first_seen": "2024-11-26",
-  "last_seen": "2026-08-24",
   "positions": []
  },
  {
@@ -488,10 +488,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 26,
+  "trade_count": 27,
   "document_count": 0,
   "first_seen": "2025-12-24",
-  "last_seen": "2026-07-28",
+  "last_seen": "2026-09-08",
   "positions": []
  },
  {
