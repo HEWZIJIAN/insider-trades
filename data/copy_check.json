@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T09:51:08+00:00",
+ "generated_at": "2026-10-06T16:30:04+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1465,
+  "eligible_buys": 1469,
   "measured": 1439,
-  "unmeasurable": 26
+  "unmeasurable": 30
  },
  "people": [
   {
@@ -1911,6 +1911,66 @@
   }
  ],
  "trades": [
+  {
+   "trade_id": "house-20035580-1",
+   "person_id": "lloyd-doggett-tx37",
+   "person": "Lloyd Doggett",
+   "ticker": "HD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-05",
+   "trade_date": "2026-09-17",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
+   "trade_id": "house-20035580-4",
+   "person_id": "lloyd-doggett-tx37",
+   "person": "Lloyd Doggett",
+   "ticker": "PPG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-05",
+   "trade_date": "2026-09-11",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
+   "trade_id": "house-20035580-2",
+   "person_id": "lloyd-doggett-tx37",
+   "person": "Lloyd Doggett",
+   "ticker": "IBM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-05",
+   "trade_date": "2026-09-10",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
+   "trade_id": "house-20035580-3",
+   "person_id": "lloyd-doggett-tx37",
+   "person": "Lloyd Doggett",
+   "ticker": "JNJ",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-05",
+   "trade_date": "2026-09-08",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
   {
    "trade_id": "house-20035549-3",
    "person_id": "david-j-taylor-oh02",
@@ -16873,11 +16933,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-02",
-     "price": 80.59,
-     "return_pct": 15.9,
+     "as_of": "2026-10-05",
+     "price": 80.76,
+     "return_pct": 16.15,
      "benchmark_return_pct": 4.82,
-     "excess_pct": 11.08
+     "excess_pct": 11.33
     }
    }
   },
