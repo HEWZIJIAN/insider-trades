@@ -113,10 +113,25 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 122,
+  "trade_count": 124,
   "document_count": 0,
   "first_seen": "2026-01-07",
-  "last_seen": "2026-09-14",
+  "last_seen": "2026-10-06",
+  "positions": []
+ },
+ {
+  "person_id": "maria-elvira-salazar-fl27",
+  "name": "Maria Elvira Salazar",
+  "roles": [
+   "House (FL27)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 121,
+  "document_count": 0,
+  "first_seen": "2026-04-01",
+  "last_seen": "2026-10-01",
   "positions": []
  },
  {
@@ -147,21 +162,6 @@
   "document_count": 0,
   "first_seen": "2025-12-31",
   "last_seen": "2026-07-31",
-  "positions": []
- },
- {
-  "person_id": "maria-elvira-salazar-fl27",
-  "name": "Maria Elvira Salazar",
-  "roles": [
-   "House (FL27)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 79,
-  "document_count": 0,
-  "first_seen": "2026-04-01",
-  "last_seen": "2026-09-01",
   "positions": []
  },
  {
