@@ -714,6 +714,21 @@
   "positions": []
  },
  {
+  "person_id": "diana-harshbarger-tn01",
+  "name": "Diana Harshbarger",
+  "roles": [
+   "House (TN01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 14,
+  "first_seen": "2026-05-06",
+  "last_seen": "2026-10-01",
+  "positions": []
+ },
+ {
   "person_id": "max-miller-oh07",
   "name": "Max Miller",
   "roles": [
@@ -833,21 +848,6 @@
   "document_count": 0,
   "first_seen": "2026-05-08",
   "last_seen": "2026-05-08",
-  "positions": []
- },
- {
-  "person_id": "diana-harshbarger-tn01",
-  "name": "Diana Harshbarger",
-  "roles": [
-   "House (TN01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 0,
-  "document_count": 11,
-  "first_seen": "2026-05-06",
-  "last_seen": "2026-09-11",
   "positions": []
  },
  {
@@ -1178,6 +1178,21 @@
   "positions": []
  },
  {
+  "person_id": "tony-wied-wi08",
+  "name": "Tony Wied",
+  "roles": [
+   "House (WI08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 6,
+  "first_seen": "2026-03-09",
+  "last_seen": "2026-10-02",
+  "positions": []
+ },
+ {
   "person_id": "john-j-mr-mcguire-va05",
   "name": "John J Mr McGuire",
   "roles": [
@@ -1250,21 +1265,6 @@
   "document_count": 0,
   "first_seen": "2026-03-09",
   "last_seen": "2026-09-22",
-  "positions": []
- },
- {
-  "person_id": "tony-wied-wi08",
-  "name": "Tony Wied",
-  "roles": [
-   "House (WI08)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 0,
-  "document_count": 5,
-  "first_seen": "2026-03-09",
-  "last_seen": "2026-09-02",
   "positions": []
  },
  {
