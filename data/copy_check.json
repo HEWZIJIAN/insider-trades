@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T06:28:03+00:00",
+ "generated_at": "2026-10-08T13:53:09+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -12612,7 +12612,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -17619,7 +17619,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -69681,7 +69681,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
+   "reason": "no free price history available for LEG",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
