@@ -100108,6 +100108,21 @@
   "parser_version": "2026-09-22.5"
  },
  {
+  "id": "house-9116376-doc",
+  "source": "house_clerk_ptr",
+  "source_label": "U.S. House Clerk - Periodic Transaction Report",
+  "person": "Rohit Khanna",
+  "person_id": "rohit-khanna-ca17",
+  "role": "House (CA17)",
+  "disclosure_date": "2026-10-07",
+  "doc_id": "9116376",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116376.pdf",
+  "parsed": false,
+  "unparsed_reason": "scanned_image",
+  "unparsed_detail": "0 characters of text",
+  "parser_version": "2026-09-22.5"
+ },
+ {
   "id": "house-9116361-doc",
   "source": "house_clerk_ptr",
   "source_label": "U.S. House Clerk - Periodic Transaction Report",
