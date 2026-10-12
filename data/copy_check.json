@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T10:11:42+00:00",
+ "generated_at": "2026-10-12T19:56:48+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -32667,7 +32667,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
+   "reason": "no free price history available for CRNX",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
