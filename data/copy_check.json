@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T19:56:48+00:00",
+ "generated_at": "2026-10-13T01:48:55+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -441,11 +441,11 @@
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 18,
-     "win_rate_vs_benchmark_pct": 55.6,
-     "avg_return_pct": -0.36,
-     "avg_excess_pct": -1.67,
-     "median_excess_pct": 0.23
+     "n": 22,
+     "win_rate_vs_benchmark_pct": 59.1,
+     "avg_return_pct": -0.1,
+     "avg_excess_pct": -1.16,
+     "median_excess_pct": 0.9
     },
     "d30": {
      "status": "ok",
@@ -1926,8 +1926,12 @@
    "baseline_price": 286.69,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 290.74,
+     "return_pct": 1.41,
+     "benchmark_return_pct": -0.07,
+     "excess_pct": 1.48
     },
     "d30": {
      "status": "pending",
@@ -1962,8 +1966,12 @@
    "baseline_price": 106.52,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 103.96,
+     "return_pct": -2.4,
+     "benchmark_return_pct": -0.07,
+     "excess_pct": -2.33
     },
     "d30": {
      "status": "pending",
@@ -1998,8 +2006,12 @@
    "baseline_price": 221.29,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 227.13,
+     "return_pct": 2.64,
+     "benchmark_return_pct": -0.07,
+     "excess_pct": 2.71
     },
     "d30": {
      "status": "pending",
@@ -2034,8 +2046,12 @@
    "baseline_price": 254.78,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 261.44,
+     "return_pct": 2.61,
+     "benchmark_return_pct": -0.07,
+     "excess_pct": 2.68
     },
     "d30": {
      "status": "pending",
@@ -32667,7 +32683,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CRNX",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
