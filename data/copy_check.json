@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:15:29+00:00",
+ "generated_at": "2026-10-15T19:59:34+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1515,
+  "eligible_buys": 1516,
   "measured": 1485,
-  "unmeasurable": 30
+  "unmeasurable": 31
  },
  "people": [
   {
@@ -56,9 +56,9 @@
     "today": {
      "status": "ok",
      "n": 457,
-     "win_rate_vs_benchmark_pct": 35.0,
-     "avg_return_pct": 2.53,
-     "avg_excess_pct": -5.93,
+     "win_rate_vs_benchmark_pct": 34.8,
+     "avg_return_pct": 2.52,
+     "avg_excess_pct": -5.95,
      "median_excess_pct": -7.99
     }
    }
@@ -1917,6 +1917,21 @@
   }
  ],
  "trades": [
+  {
+   "trade_id": "house-20035651-1",
+   "person_id": "richard-dean-dr-mccormick-ga06",
+   "person": "Richard Dean Dr McCormick",
+   "ticker": "BRK.B",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-14",
+   "trade_date": "2026-09-18",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no free price history available for BRK.B",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
   {
    "trade_id": "house-20035635-4",
    "person_id": "rick-larsen-wa02",
@@ -13651,11 +13666,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-13",
-     "price": 89.65,
-     "return_pct": -14.88,
+     "as_of": "2026-10-14",
+     "price": 88.51,
+     "return_pct": -15.96,
      "benchmark_return_pct": 2.44,
-     "excess_pct": -17.32
+     "excess_pct": -18.4
     }
    }
   },
@@ -18370,11 +18385,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-13",
-     "price": 89.65,
-     "return_pct": -10.88,
+     "as_of": "2026-10-14",
+     "price": 88.51,
+     "return_pct": -12.02,
      "benchmark_return_pct": 4.11,
-     "excess_pct": -14.99
+     "excess_pct": -16.13
     }
    }
   },
@@ -18994,11 +19009,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-13",
-     "price": 72.85,
-     "return_pct": 4.77,
+     "as_of": "2026-10-14",
+     "price": 69.24,
+     "return_pct": -0.42,
      "benchmark_return_pct": 4.11,
-     "excess_pct": 0.66
+     "excess_pct": -4.53
     }
    }
   },

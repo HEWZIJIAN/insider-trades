@@ -195,6 +195,21 @@
   "positions": []
  },
  {
+  "person_id": "richard-dean-dr-mccormick-ga06",
+  "name": "Richard Dean Dr McCormick",
+  "roles": [
+   "House (GA06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 64,
+  "document_count": 0,
+  "first_seen": "2025-12-15",
+  "last_seen": "2026-10-14",
+  "positions": []
+ },
+ {
   "person_id": "thomas-h-kean-nj07",
   "name": "Thomas H. Kean",
   "roles": [
@@ -207,21 +222,6 @@
   "document_count": 0,
   "first_seen": "2026-01-02",
   "last_seen": "2026-09-10",
-  "positions": []
- },
- {
-  "person_id": "richard-dean-dr-mccormick-ga06",
-  "name": "Richard Dean Dr McCormick",
-  "roles": [
-   "House (GA06)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 63,
-  "document_count": 0,
-  "first_seen": "2025-12-15",
-  "last_seen": "2026-08-13",
   "positions": []
  },
  {
@@ -390,6 +390,21 @@
   "positions": []
  },
  {
+  "person_id": "suzan-k-delbene-wa01",
+  "name": "Suzan K. DelBene",
+  "roles": [
+   "House (WA01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 37,
+  "document_count": 0,
+  "first_seen": "2025-12-17",
+  "last_seen": "2026-09-24",
+  "positions": []
+ },
+ {
   "person_id": "scharf-william",
   "name": "Scharf, William",
   "roles": [
@@ -435,18 +450,18 @@
   "positions": []
  },
  {
-  "person_id": "suzan-k-delbene-wa01",
-  "name": "Suzan K. DelBene",
+  "person_id": "richard-w-allen-ga12",
+  "name": "Richard W. Allen",
   "roles": [
-   "House (WA01)"
+   "House (GA12)"
   ],
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 33,
+  "trade_count": 32,
   "document_count": 0,
-  "first_seen": "2025-12-17",
-  "last_seen": "2026-09-14",
+  "first_seen": "2026-01-06",
+  "last_seen": "2026-10-14",
   "positions": []
  },
  {
@@ -462,21 +477,6 @@
   "document_count": 0,
   "first_seen": "2026-01-12",
   "last_seen": "2026-02-12",
-  "positions": []
- },
- {
-  "person_id": "richard-w-allen-ga12",
-  "name": "Richard W. Allen",
-  "roles": [
-   "House (GA12)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 30,
-  "document_count": 0,
-  "first_seen": "2026-01-06",
-  "last_seen": "2026-09-15",
   "positions": []
  },
  {
@@ -510,6 +510,21 @@
   "positions": []
  },
  {
+  "person_id": "mike-kelly-pa16",
+  "name": "Mike Kelly",
+  "roles": [
+   "House (PA16)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 23,
+  "document_count": 0,
+  "first_seen": "2026-01-07",
+  "last_seen": "2026-10-14",
+  "positions": []
+ },
+ {
   "person_id": "lloyd-doggett-tx37",
   "name": "Lloyd Doggett",
   "roles": [
@@ -537,21 +552,6 @@
   "document_count": 0,
   "first_seen": "2025-04-24",
   "last_seen": "2026-02-20",
-  "positions": []
- },
- {
-  "person_id": "mike-kelly-pa16",
-  "name": "Mike Kelly",
-  "roles": [
-   "House (PA16)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 21,
-  "document_count": 0,
-  "first_seen": "2026-01-07",
-  "last_seen": "2026-09-08",
   "positions": []
  },
  {
