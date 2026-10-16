@@ -68,10 +68,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 156,
+  "trade_count": 160,
   "document_count": 0,
   "first_seen": "2026-01-15",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-15",
   "positions": []
  },
  {
@@ -98,10 +98,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 132,
+  "trade_count": 136,
   "document_count": 0,
   "first_seen": "2025-12-31",
-  "last_seen": "2026-08-31",
+  "last_seen": "2026-09-30",
   "positions": []
  },
  {
@@ -1178,6 +1178,21 @@
   "positions": []
  },
  {
+  "person_id": "michael-t-mccaul-tx10",
+  "name": "Michael T. McCaul",
+  "roles": [
+   "House (TX10)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 7,
+  "first_seen": "2026-02-11",
+  "last_seen": "2026-10-14",
+  "positions": []
+ },
+ {
   "person_id": "borg-jared",
   "name": "Borg, Jared",
   "roles": [
@@ -1235,21 +1250,6 @@
   "document_count": 0,
   "first_seen": "2026-06-02",
   "last_seen": "2026-07-17",
-  "positions": []
- },
- {
-  "person_id": "michael-t-mccaul-tx10",
-  "name": "Michael T. McCaul",
-  "roles": [
-   "House (TX10)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 0,
-  "document_count": 6,
-  "first_seen": "2026-02-11",
-  "last_seen": "2026-07-08",
   "positions": []
  },
  {

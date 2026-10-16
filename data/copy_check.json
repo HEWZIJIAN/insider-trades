@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:06:36+00:00",
+ "generated_at": "2026-10-16T19:39:11+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1516,
+  "eligible_buys": 1519,
   "measured": 1485,
-  "unmeasurable": 31
+  "unmeasurable": 34
  },
  "people": [
   {
@@ -1917,6 +1917,51 @@
   }
  ],
  "trades": [
+  {
+   "trade_id": "house-20035660-4",
+   "person_id": "david-j-taylor-oh02",
+   "person": "David J. Taylor",
+   "ticker": "RPM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-15",
+   "trade_date": "2026-10-09",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
+   "trade_id": "house-20035660-2",
+   "person_id": "david-j-taylor-oh02",
+   "person": "David J. Taylor",
+   "ticker": "FITB",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-15",
+   "trade_date": "2026-10-09",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
+  {
+   "trade_id": "house-20035660-1",
+   "person_id": "david-j-taylor-oh02",
+   "person": "David J. Taylor",
+   "ticker": "T",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-15",
+   "trade_date": "2026-10-09",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
   {
    "trade_id": "house-20035651-1",
    "person_id": "richard-dean-dr-mccormick-ga06",
