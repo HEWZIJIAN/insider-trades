@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:50:42+00:00",
+ "generated_at": "2026-10-19T00:47:11+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -31,11 +31,11 @@
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 432,
-     "win_rate_vs_benchmark_pct": 51.6,
-     "avg_return_pct": 1.42,
-     "avg_excess_pct": 0.45,
-     "median_excess_pct": 0.24
+     "n": 457,
+     "win_rate_vs_benchmark_pct": 52.5,
+     "avg_return_pct": 1.28,
+     "avg_excess_pct": 0.47,
+     "median_excess_pct": 0.28
     },
     "d30": {
      "status": "ok",
@@ -1238,7 +1238,7 @@
     },
     "d90": {
      "status": "insufficient_data",
-     "n": 3,
+     "n": 4,
      "needed": 5
     },
     "today": {
@@ -2127,8 +2127,12 @@
    "baseline_price": 79.34,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 70.62,
+     "return_pct": -10.99,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -9.08
     },
     "d30": {
      "status": "pending",
@@ -2163,8 +2167,12 @@
    "baseline_price": 39.01,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 43.07,
+     "return_pct": 10.41,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 12.32
     },
     "d30": {
      "status": "pending",
@@ -2199,8 +2207,12 @@
    "baseline_price": 15.3,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 14.54,
+     "return_pct": -4.97,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -3.06
     },
     "d30": {
      "status": "pending",
@@ -2235,8 +2247,12 @@
    "baseline_price": 16.45,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 16.24,
+     "return_pct": -1.28,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 0.63
     },
     "d30": {
      "status": "pending",
@@ -2271,8 +2287,12 @@
    "baseline_price": 33.79,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 31.62,
+     "return_pct": -6.42,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -4.51
     },
     "d30": {
      "status": "pending",
@@ -2307,8 +2327,12 @@
    "baseline_price": 251.38,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 241.76,
+     "return_pct": -3.83,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -1.92
     },
     "d30": {
      "status": "pending",
@@ -2343,8 +2367,12 @@
    "baseline_price": 40.26,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 41.22,
+     "return_pct": 2.38,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 4.29
     },
     "d30": {
      "status": "pending",
@@ -2379,8 +2407,12 @@
    "baseline_price": 26.23,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 25.83,
+     "return_pct": -1.52,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 0.39
     },
     "d30": {
      "status": "pending",
@@ -2415,8 +2447,12 @@
    "baseline_price": 280.77,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 238.05,
+     "return_pct": -15.22,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -13.31
     },
     "d30": {
      "status": "pending",
@@ -2451,8 +2487,12 @@
    "baseline_price": 62.79,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 61.95,
+     "return_pct": -1.34,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 0.57
     },
     "d30": {
      "status": "pending",
@@ -2487,8 +2527,12 @@
    "baseline_price": 76.0,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 72.02,
+     "return_pct": -5.24,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -3.33
     },
     "d30": {
      "status": "pending",
@@ -2523,8 +2567,12 @@
    "baseline_price": 444.35,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 412.61,
+     "return_pct": -7.14,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -5.23
     },
     "d30": {
      "status": "pending",
@@ -2559,8 +2607,12 @@
    "baseline_price": 114.78,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 112.39,
+     "return_pct": -2.08,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": -0.17
     },
     "d30": {
      "status": "pending",
@@ -2595,8 +2647,12 @@
    "baseline_price": 35.15,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 35.17,
+     "return_pct": 0.06,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 1.97
     },
     "d30": {
      "status": "pending",
@@ -2631,8 +2687,12 @@
    "baseline_price": 75.65,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 79.38,
+     "return_pct": 4.93,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 6.84
     },
     "d30": {
      "status": "pending",
@@ -2667,8 +2727,12 @@
    "baseline_price": 27.0,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 27.0,
+     "return_pct": 0.0,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 1.91
     },
     "d30": {
      "status": "pending",
@@ -2703,8 +2767,12 @@
    "baseline_price": 42.78,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 44.79,
+     "return_pct": 4.7,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 6.61
     },
     "d30": {
      "status": "pending",
@@ -2739,8 +2807,12 @@
    "baseline_price": 270.87,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 266.13,
+     "return_pct": -1.75,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 0.16
     },
     "d30": {
      "status": "pending",
@@ -2775,8 +2847,12 @@
    "baseline_price": 165.55,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 171.25,
+     "return_pct": 3.44,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 5.35
     },
     "d30": {
      "status": "pending",
@@ -2811,8 +2887,12 @@
    "baseline_price": 101.82,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 104.89,
+     "return_pct": 3.02,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 4.93
     },
     "d30": {
      "status": "pending",
@@ -2847,8 +2927,12 @@
    "baseline_price": 168.19,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 170.73,
+     "return_pct": 1.51,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 3.42
     },
     "d30": {
      "status": "pending",
@@ -2883,8 +2967,12 @@
    "baseline_price": 57.72,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 58.69,
+     "return_pct": 1.68,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 3.59
     },
     "d30": {
      "status": "pending",
@@ -2919,8 +3007,12 @@
    "baseline_price": 36.46,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 35.83,
+     "return_pct": -1.73,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 0.18
     },
     "d30": {
      "status": "pending",
@@ -2955,8 +3047,12 @@
    "baseline_price": 225.21,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 229.33,
+     "return_pct": 1.83,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 3.74
     },
     "d30": {
      "status": "pending",
@@ -3006,8 +3102,12 @@
    "baseline_price": 225.21,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 229.33,
+     "return_pct": 1.83,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 3.74
     },
     "d30": {
      "status": "pending",
@@ -3042,8 +3142,12 @@
    "baseline_price": 76.24,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 76.71,
+     "return_pct": 0.62,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 2.53
     },
     "d30": {
      "status": "pending",
@@ -12445,8 +12549,12 @@
      "excess_pct": 7.28
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 35.32,
+     "return_pct": 14.3,
+     "benchmark_return_pct": 2.0,
+     "excess_pct": 12.3
     },
     "today": {
      "status": "ok",
