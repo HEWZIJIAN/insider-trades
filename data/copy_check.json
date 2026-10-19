@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T12:01:25+00:00",
+ "generated_at": "2026-10-19T18:46:35+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,49 +17,49 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1519,
-  "measured": 1488,
-  "unmeasurable": 31
+  "eligible_buys": 1520,
+  "measured": 1487,
+  "unmeasurable": 33
  },
  "people": [
   {
    "person_id": "gilbert-cisneros-ca31",
    "person": "Gilbert Cisneros",
-   "measured_buys": 457,
-   "underlying_filing_rows": 502,
+   "measured_buys": 455,
+   "underlying_filing_rows": 500,
    "distinct_baseline_dates": 10,
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 457,
+     "n": 455,
      "win_rate_vs_benchmark_pct": 52.5,
-     "avg_return_pct": 1.28,
-     "avg_excess_pct": 0.47,
+     "avg_return_pct": 1.32,
+     "avg_excess_pct": 0.5,
      "median_excess_pct": 0.28
     },
     "d30": {
      "status": "ok",
-     "n": 432,
-     "win_rate_vs_benchmark_pct": 43.3,
-     "avg_return_pct": 0.69,
-     "avg_excess_pct": -0.9,
-     "median_excess_pct": -1.32
+     "n": 430,
+     "win_rate_vs_benchmark_pct": 43.5,
+     "avg_return_pct": 0.77,
+     "avg_excess_pct": -0.82,
+     "median_excess_pct": -1.23
     },
     "d90": {
      "status": "ok",
-     "n": 366,
-     "win_rate_vs_benchmark_pct": 36.9,
-     "avg_return_pct": 5.69,
-     "avg_excess_pct": -1.28,
-     "median_excess_pct": -6.04
+     "n": 365,
+     "win_rate_vs_benchmark_pct": 37.0,
+     "avg_return_pct": 5.73,
+     "avg_excess_pct": -1.26,
+     "median_excess_pct": -6.03
     },
     "today": {
      "status": "ok",
-     "n": 457,
-     "win_rate_vs_benchmark_pct": 38.7,
-     "avg_return_pct": 2.54,
-     "avg_excess_pct": -5.03,
-     "median_excess_pct": -5.81
+     "n": 455,
+     "win_rate_vs_benchmark_pct": 38.9,
+     "avg_return_pct": 2.67,
+     "avg_excess_pct": -4.93,
+     "median_excess_pct": -5.68
     }
    }
   },
@@ -1534,6 +1534,35 @@
     "today": {
      "status": "insufficient_data",
      "n": 2,
+     "needed": 5
+    }
+   }
+  },
+  {
+   "person_id": "laurel-lee-fl15",
+   "person": "Laurel Lee",
+   "measured_buys": 1,
+   "underlying_filing_rows": 1,
+   "distinct_baseline_dates": 1,
+   "by_horizon": {
+    "d7": {
+     "status": "insufficient_data",
+     "n": 1,
+     "needed": 5
+    },
+    "d30": {
+     "status": "insufficient_data",
+     "n": 0,
+     "needed": 5
+    },
+    "d90": {
+     "status": "insufficient_data",
+     "n": 0,
+     "needed": 5
+    },
+    "today": {
+     "status": "insufficient_data",
+     "n": 1,
      "needed": 5
     }
    }
@@ -4128,6 +4157,46 @@
    }
   },
   {
+   "trade_id": "house-20035490-2",
+   "person_id": "laurel-lee-fl15",
+   "person": "Laurel Lee",
+   "ticker": "NOKBF",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-21",
+   "trade_date": "2026-09-18",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-22",
+   "baseline_price": 10.95,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-29",
+     "price": 10.37,
+     "return_pct": -5.3,
+     "benchmark_return_pct": -1.19,
+     "excess_pct": -4.11
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 9.25,
+     "return_pct": -15.53,
+     "benchmark_return_pct": -1.31,
+     "excess_pct": -14.22
+    }
+   }
+  },
+  {
    "trade_id": "house-20035471-2",
    "person_id": "david-j-taylor-oh02",
    "person": "David J. Taylor",
@@ -5192,40 +5261,11 @@
    "disclosure_date": "2026-09-04",
    "trade_date": "2026-08-20",
    "benchmark": "SPY",
-   "measurable": true,
-   "reason": null,
-   "baseline_date": "2026-09-08",
-   "baseline_price": 79.13,
-   "horizons": {
-    "d7": {
-     "status": "ok",
-     "as_of": "2026-09-15",
-     "price": 67.46,
-     "return_pct": -14.75,
-     "benchmark_return_pct": -1.12,
-     "excess_pct": -13.63
-    },
-    "d30": {
-     "status": "ok",
-     "as_of": "2026-10-08",
-     "price": 65.55,
-     "return_pct": -17.16,
-     "benchmark_return_pct": 1.04,
-     "excess_pct": -18.2
-    },
-    "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
-    },
-    "today": {
-     "status": "ok",
-     "as_of": "2026-10-16",
-     "price": 56.72,
-     "return_pct": -28.32,
-     "benchmark_return_pct": -0.35,
-     "excess_pct": -27.97
-    }
-   }
+   "measurable": false,
+   "reason": "no free price history available for CECO",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
   },
   {
    "trade_id": "house-20035390-9",
@@ -14063,44 +14103,11 @@
    "disclosure_date": "2026-07-02",
    "trade_date": "2026-06-30",
    "benchmark": "SPY",
-   "measurable": true,
-   "reason": null,
-   "baseline_date": "2026-07-06",
-   "baseline_price": 80.68,
-   "horizons": {
-    "d7": {
-     "status": "ok",
-     "as_of": "2026-07-13",
-     "price": 81.9,
-     "return_pct": 1.51,
-     "benchmark_return_pct": -0.28,
-     "excess_pct": 1.79
-    },
-    "d30": {
-     "status": "ok",
-     "as_of": "2026-08-05",
-     "price": 69.12,
-     "return_pct": -14.33,
-     "benchmark_return_pct": 2.46,
-     "excess_pct": -16.79
-    },
-    "d90": {
-     "status": "ok",
-     "as_of": "2026-10-02",
-     "price": 73.66,
-     "return_pct": -8.7,
-     "benchmark_return_pct": 2.44,
-     "excess_pct": -11.14
-    },
-    "today": {
-     "status": "ok",
-     "as_of": "2026-10-16",
-     "price": 56.72,
-     "return_pct": -29.7,
-     "benchmark_return_pct": 1.59,
-     "excess_pct": -31.29
-    }
-   }
+   "measurable": false,
+   "reason": "no free price history available for CECO",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
   },
   {
    "trade_id": "house-20034906-16",
@@ -34299,7 +34306,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
+   "reason": "no free price history available for CRNX",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -62481,7 +62488,7 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-17",
+     "as_of": "2026-10-16",
      "price": 1.0,
      "return_pct": 0.0,
      "benchmark_return_pct": 12.83,
