@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T22:49:21+00:00",
+ "generated_at": "2026-10-20T01:33:15+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -851,11 +851,11 @@
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 9,
-     "win_rate_vs_benchmark_pct": 33.3,
-     "avg_return_pct": -0.54,
-     "avg_excess_pct": -2.04,
-     "median_excess_pct": -2.88
+     "n": 11,
+     "win_rate_vs_benchmark_pct": 36.4,
+     "avg_return_pct": -0.48,
+     "avg_excess_pct": -1.36,
+     "median_excess_pct": -2.74
     },
     "d30": {
      "status": "ok",
@@ -2084,8 +2084,12 @@
    "baseline_price": 239.98,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 250.16,
+     "return_pct": 4.24,
+     "benchmark_return_pct": -1.9,
+     "excess_pct": 6.14
     },
     "d30": {
      "status": "pending",
@@ -2120,8 +2124,12 @@
    "baseline_price": 414.7,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 395.44,
+     "return_pct": -4.64,
+     "benchmark_return_pct": -1.9,
+     "excess_pct": -2.74
     },
     "d30": {
      "status": "pending",
@@ -5262,7 +5270,7 @@
    "trade_date": "2026-08-20",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CECO",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-19, 45 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -14104,7 +14112,7 @@
    "trade_date": "2026-06-30",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CECO",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-19, 109 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -34306,7 +34314,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CRNX",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
