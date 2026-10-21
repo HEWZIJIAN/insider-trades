@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T00:02:02+00:00",
+ "generated_at": "2026-10-21T05:09:01+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -18,48 +18,48 @@
  },
  "counts": {
   "eligible_buys": 1523,
-  "measured": 1490,
-  "unmeasurable": 33
+  "measured": 1492,
+  "unmeasurable": 31
  },
  "people": [
   {
    "person_id": "gilbert-cisneros-ca31",
    "person": "Gilbert Cisneros",
-   "measured_buys": 455,
-   "underlying_filing_rows": 500,
+   "measured_buys": 457,
+   "underlying_filing_rows": 502,
    "distinct_baseline_dates": 10,
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 455,
+     "n": 457,
      "win_rate_vs_benchmark_pct": 52.3,
-     "avg_return_pct": 1.36,
-     "avg_excess_pct": 0.52,
+     "avg_return_pct": 1.33,
+     "avg_excess_pct": 0.49,
      "median_excess_pct": 0.28
     },
     "d30": {
      "status": "ok",
-     "n": 430,
-     "win_rate_vs_benchmark_pct": 43.5,
-     "avg_return_pct": 0.77,
-     "avg_excess_pct": -0.82,
-     "median_excess_pct": -1.23
+     "n": 432,
+     "win_rate_vs_benchmark_pct": 43.3,
+     "avg_return_pct": 0.69,
+     "avg_excess_pct": -0.9,
+     "median_excess_pct": -1.32
     },
     "d90": {
      "status": "ok",
-     "n": 365,
-     "win_rate_vs_benchmark_pct": 37.0,
-     "avg_return_pct": 5.73,
-     "avg_excess_pct": -1.26,
-     "median_excess_pct": -6.03
+     "n": 366,
+     "win_rate_vs_benchmark_pct": 36.9,
+     "avg_return_pct": 5.69,
+     "avg_excess_pct": -1.28,
+     "median_excess_pct": -6.04
     },
     "today": {
      "status": "ok",
-     "n": 455,
-     "win_rate_vs_benchmark_pct": 38.2,
-     "avg_return_pct": 3.18,
-     "avg_excess_pct": -4.88,
-     "median_excess_pct": -6.22
+     "n": 457,
+     "win_rate_vs_benchmark_pct": 38.1,
+     "avg_return_pct": 3.05,
+     "avg_excess_pct": -4.98,
+     "median_excess_pct": -6.26
     }
    }
   },
@@ -5389,11 +5389,40 @@
    "disclosure_date": "2026-09-04",
    "trade_date": "2026-08-20",
    "benchmark": "SPY",
-   "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-19, 45 days later)",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-08",
+   "baseline_price": 79.13,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-15",
+     "price": 67.46,
+     "return_pct": -14.75,
+     "benchmark_return_pct": -1.12,
+     "excess_pct": -13.63
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-10-08",
+     "price": 65.55,
+     "return_pct": -17.16,
+     "benchmark_return_pct": 1.04,
+     "excess_pct": -18.2
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-20",
+     "price": 58.69,
+     "return_pct": -25.83,
+     "benchmark_return_pct": 0.07,
+     "excess_pct": -25.9
+    }
+   }
   },
   {
    "trade_id": "house-20035390-9",
@@ -14070,11 +14099,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-16",
-     "price": 91.15,
-     "return_pct": -13.45,
+     "as_of": "2026-10-20",
+     "price": 91.06,
+     "return_pct": -13.54,
      "benchmark_return_pct": 2.02,
-     "excess_pct": -15.47
+     "excess_pct": -15.56
     }
    }
   },
@@ -14231,11 +14260,44 @@
    "disclosure_date": "2026-07-02",
    "trade_date": "2026-06-30",
    "benchmark": "SPY",
-   "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-19, 109 days later)",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-07-06",
+   "baseline_price": 80.68,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-13",
+     "price": 81.9,
+     "return_pct": 1.51,
+     "benchmark_return_pct": -0.28,
+     "excess_pct": 1.79
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 69.12,
+     "return_pct": -14.33,
+     "benchmark_return_pct": 2.46,
+     "excess_pct": -16.79
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 73.66,
+     "return_pct": -8.7,
+     "benchmark_return_pct": 2.44,
+     "excess_pct": -11.14
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-20",
+     "price": 58.69,
+     "return_pct": -27.26,
+     "benchmark_return_pct": 2.02,
+     "excess_pct": -29.28
+    }
+   }
   },
   {
    "trade_id": "house-20034906-16",
@@ -18756,11 +18818,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-16",
-     "price": 91.15,
-     "return_pct": -9.39,
+     "as_of": "2026-10-20",
+     "price": 91.06,
+     "return_pct": -9.48,
      "benchmark_return_pct": 3.69,
-     "excess_pct": -13.08
+     "excess_pct": -13.17
     }
    }
   },
@@ -19380,11 +19442,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-16",
-     "price": 64.25,
-     "return_pct": -7.6,
+     "as_of": "2026-10-20",
+     "price": 64.44,
+     "return_pct": -7.32,
      "benchmark_return_pct": 3.69,
-     "excess_pct": -11.29
+     "excess_pct": -11.01
     }
    }
   },
