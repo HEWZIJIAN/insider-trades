@@ -1328,6 +1328,21 @@
   "positions": []
  },
  {
+  "person_id": "james-a-himes-ct04",
+  "name": "James A. Himes",
+  "roles": [
+   "House (CT04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 4,
+  "document_count": 0,
+  "first_seen": "2026-07-20",
+  "last_seen": "2026-09-29",
+  "positions": []
+ },
+ {
   "person_id": "mcgurn-kevin",
   "name": "McGurn Kevin",
   "roles": [
@@ -1470,18 +1485,18 @@
   "positions": []
  },
  {
-  "person_id": "james-a-himes-ct04",
-  "name": "James A. Himes",
+  "person_id": "rudy-c-yakym-in02",
+  "name": "Rudy C. Yakym",
   "roles": [
-   "House (CT04)"
+   "House (IN02)"
   ],
   "sources": [
    "house_clerk_ptr"
   ],
   "trade_count": 3,
   "document_count": 0,
-  "first_seen": "2026-07-20",
-  "last_seen": "2026-07-20",
+  "first_seen": "2026-04-06",
+  "last_seen": "2026-10-20",
   "positions": []
  },
  {
@@ -1635,21 +1650,6 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/0001474506-24-000146-index.htm"
    }
   ]
- },
- {
-  "person_id": "rudy-c-yakym-in02",
-  "name": "Rudy C. Yakym",
-  "roles": [
-   "House (IN02)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 2,
-  "document_count": 0,
-  "first_seen": "2026-04-06",
-  "last_seen": "2026-07-13",
-  "positions": []
  },
  {
   "person_id": "bernhardt-david-longly",
