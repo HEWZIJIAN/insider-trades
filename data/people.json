@@ -270,6 +270,21 @@
   "positions": []
  },
  {
+  "person_id": "jonathan-jackson-il01",
+  "name": "Jonathan Jackson",
+  "roles": [
+   "House (IL01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 50,
+  "document_count": 0,
+  "first_seen": "2026-01-05",
+  "last_seen": "2026-10-01",
+  "positions": []
+ },
+ {
   "person_id": "dan-newhouse-wa04",
   "name": "Dan Newhouse",
   "roles": [
@@ -345,18 +360,18 @@
   "positions": []
  },
  {
-  "person_id": "jonathan-jackson-il01",
-  "name": "Jonathan Jackson",
+  "person_id": "michael-rulli-oh06",
+  "name": "Michael Rulli",
   "roles": [
-   "House (IL01)"
+   "House (OH06)"
   ],
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 44,
+  "trade_count": 40,
   "document_count": 0,
-  "first_seen": "2026-01-05",
-  "last_seen": "2026-09-02",
+  "first_seen": "2024-11-26",
+  "last_seen": "2026-10-16",
   "positions": []
  },
  {
@@ -372,21 +387,6 @@
   "document_count": 2,
   "first_seen": "2025-04-02",
   "last_seen": "2025-08-04",
-  "positions": []
- },
- {
-  "person_id": "michael-rulli-oh06",
-  "name": "Michael Rulli",
-  "roles": [
-   "House (OH06)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 38,
-  "document_count": 0,
-  "first_seen": "2024-11-26",
-  "last_seen": "2026-09-28",
   "positions": []
  },
  {

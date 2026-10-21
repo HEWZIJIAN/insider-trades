@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T21:18:32+00:00",
+ "generated_at": "2026-10-21T00:02:02+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1520,
-  "measured": 1487,
+  "eligible_buys": 1523,
+  "measured": 1490,
   "unmeasurable": 33
  },
  "people": [
@@ -556,6 +556,47 @@
    }
   },
   {
+   "person_id": "jonathan-jackson-il01",
+   "person": "Jonathan Jackson",
+   "measured_buys": 19,
+   "underlying_filing_rows": 21,
+   "distinct_baseline_dates": 8,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 19,
+     "win_rate_vs_benchmark_pct": 26.3,
+     "avg_return_pct": 0.4,
+     "avg_excess_pct": 0.12,
+     "median_excess_pct": -0.7
+    },
+    "d30": {
+     "status": "ok",
+     "n": 16,
+     "win_rate_vs_benchmark_pct": 50.0,
+     "avg_return_pct": -4.18,
+     "avg_excess_pct": -2.89,
+     "median_excess_pct": -0.12
+    },
+    "d90": {
+     "status": "ok",
+     "n": 16,
+     "win_rate_vs_benchmark_pct": 43.8,
+     "avg_return_pct": 5.54,
+     "avg_excess_pct": 0.76,
+     "median_excess_pct": -3.58
+    },
+    "today": {
+     "status": "ok",
+     "n": 19,
+     "win_rate_vs_benchmark_pct": 31.6,
+     "avg_return_pct": 7.56,
+     "avg_excess_pct": -0.8,
+     "median_excess_pct": -2.75
+    }
+   }
+  },
+  {
    "person_id": "thomas-h-kean-nj07",
    "person": "Thomas H. Kean",
    "measured_buys": 17,
@@ -634,47 +675,6 @@
      "avg_return_pct": 6.79,
      "avg_excess_pct": -3.04,
      "median_excess_pct": -2.58
-    }
-   }
-  },
-  {
-   "person_id": "jonathan-jackson-il01",
-   "person": "Jonathan Jackson",
-   "measured_buys": 16,
-   "underlying_filing_rows": 18,
-   "distinct_baseline_dates": 7,
-   "by_horizon": {
-    "d7": {
-     "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 18.8,
-     "avg_return_pct": 0.06,
-     "avg_excess_pct": -0.06,
-     "median_excess_pct": -0.78
-    },
-    "d30": {
-     "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 50.0,
-     "avg_return_pct": -4.18,
-     "avg_excess_pct": -2.89,
-     "median_excess_pct": -0.12
-    },
-    "d90": {
-     "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 43.8,
-     "avg_return_pct": 5.54,
-     "avg_excess_pct": 0.76,
-     "median_excess_pct": -3.58
-    },
-    "today": {
-     "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 31.2,
-     "avg_return_pct": 9.12,
-     "avg_excess_pct": -0.88,
-     "median_excess_pct": -2.65
     }
    }
   },
@@ -3521,6 +3521,126 @@
      "return_pct": -14.15,
      "benchmark_return_pct": -0.41,
      "excess_pct": -13.74
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035551-3",
+   "person_id": "jonathan-jackson-il01",
+   "person": "Jonathan Jackson",
+   "ticker": "GH",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-28",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 177.8,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 167.47,
+     "return_pct": -5.81,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": -6.97
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-19",
+     "price": 157.88,
+     "return_pct": -11.2,
+     "benchmark_return_pct": -0.41,
+     "excess_pct": -10.79
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035551-2",
+   "person_id": "jonathan-jackson-il01",
+   "person": "Jonathan Jackson",
+   "ticker": "EL",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-28",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 91.97,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 98.05,
+     "return_pct": 6.61,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": 5.45
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-19",
+     "price": 105.78,
+     "return_pct": 15.02,
+     "benchmark_return_pct": -0.41,
+     "excess_pct": 15.43
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035551-1",
+   "person_id": "jonathan-jackson-il01",
+   "person": "Jonathan Jackson",
+   "ticker": "DDOG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-28",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 277.22,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 293.26,
+     "return_pct": 5.79,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": 4.63
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-19",
+     "price": 260.36,
+     "return_pct": -6.08,
+     "benchmark_return_pct": -0.41,
+     "excess_pct": -5.67
     }
    }
   },
