@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T10:27:23+00:00",
+ "generated_at": "2026-10-21T15:30:50+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -56,9 +56,9 @@
     "today": {
      "status": "ok",
      "n": 457,
-     "win_rate_vs_benchmark_pct": 38.1,
-     "avg_return_pct": 3.05,
-     "avg_excess_pct": -4.98,
+     "win_rate_vs_benchmark_pct": 38.7,
+     "avg_return_pct": 3.07,
+     "avg_excess_pct": -4.96,
      "median_excess_pct": -6.26
     }
    }
@@ -1034,10 +1034,10 @@
     "today": {
      "status": "ok",
      "n": 8,
-     "win_rate_vs_benchmark_pct": 37.5,
-     "avg_return_pct": -8.53,
-     "avg_excess_pct": -9.63,
-     "median_excess_pct": -2.05
+     "win_rate_vs_benchmark_pct": 25.0,
+     "avg_return_pct": -8.41,
+     "avg_excess_pct": -9.51,
+     "median_excess_pct": -2.56
     }
    }
   },
@@ -2181,11 +2181,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 71.12,
-     "return_pct": -10.36,
+     "as_of": "2026-10-20",
+     "price": 70.43,
+     "return_pct": -11.23,
      "benchmark_return_pct": -1.49,
-     "excess_pct": -8.87
+     "excess_pct": -9.74
     }
    }
   },
@@ -2221,11 +2221,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 42.12,
-     "return_pct": 7.97,
+     "as_of": "2026-10-20",
+     "price": 42.55,
+     "return_pct": 9.07,
      "benchmark_return_pct": -1.49,
-     "excess_pct": 9.46
+     "excess_pct": 10.56
     }
    }
   },
@@ -2341,11 +2341,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 33.17,
-     "return_pct": -1.83,
+     "as_of": "2026-10-20",
+     "price": 33.91,
+     "return_pct": 0.36,
      "benchmark_return_pct": -1.49,
-     "excess_pct": -0.34
+     "excess_pct": 1.85
     }
    }
   },
@@ -2581,11 +2581,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 73.12,
-     "return_pct": -3.79,
+     "as_of": "2026-10-20",
+     "price": 75.62,
+     "return_pct": -0.5,
      "benchmark_return_pct": -1.49,
-     "excess_pct": -2.3
+     "excess_pct": 0.99
     }
    }
   },
@@ -2781,7 +2781,7 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
+     "as_of": "2026-10-20",
      "price": 26.2775,
      "return_pct": -2.68,
      "benchmark_return_pct": -1.49,
@@ -2901,11 +2901,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 169.89,
-     "return_pct": 2.62,
+     "as_of": "2026-10-20",
+     "price": 172.07,
+     "return_pct": 3.94,
      "benchmark_return_pct": -1.49,
-     "excess_pct": 4.11
+     "excess_pct": 5.43
     }
    }
   },
@@ -3061,11 +3061,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 35.83,
-     "return_pct": -1.73,
+     "as_of": "2026-10-20",
+     "price": 36.59,
+     "return_pct": 0.36,
      "benchmark_return_pct": -1.49,
-     "excess_pct": -0.24
+     "excess_pct": 1.85
     }
    }
   },
@@ -3436,11 +3436,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 8.42,
-     "return_pct": -18.13,
+     "as_of": "2026-10-20",
+     "price": 8.77,
+     "return_pct": -14.73,
      "benchmark_return_pct": -0.41,
-     "excess_pct": -17.72
+     "excess_pct": -14.32
     }
    }
   },
@@ -3476,11 +3476,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 8.42,
-     "return_pct": -18.13,
+     "as_of": "2026-10-20",
+     "price": 8.77,
+     "return_pct": -14.73,
      "benchmark_return_pct": -0.41,
-     "excess_pct": -17.72
+     "excess_pct": -14.32
     }
    }
   },
@@ -3916,11 +3916,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 15.19,
-     "return_pct": -4.47,
+     "as_of": "2026-10-20",
+     "price": 15.15,
+     "return_pct": -4.72,
      "benchmark_return_pct": -0.41,
-     "excess_pct": -4.06
+     "excess_pct": -4.31
     }
    }
   },
@@ -3956,11 +3956,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 6.52,
-     "return_pct": -0.46,
+     "as_of": "2026-10-20",
+     "price": 6.47,
+     "return_pct": -1.22,
      "benchmark_return_pct": -0.41,
-     "excess_pct": -0.05
+     "excess_pct": -0.81
     }
    }
   },
@@ -3996,11 +3996,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-19",
-     "price": 616.48,
-     "return_pct": 0.23,
+     "as_of": "2026-10-20",
+     "price": 607.75,
+     "return_pct": -1.19,
      "benchmark_return_pct": -0.41,
-     "excess_pct": 0.64
+     "excess_pct": -0.78
     }
    }
   },
@@ -14885,7 +14885,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -19892,7 +19892,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -51626,7 +51626,7 @@
    "trade_date": "2026-01-09",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 236 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -67448,7 +67448,7 @@
    "trade_date": "2024-11-01",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 420 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -71888,7 +71888,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
+   "reason": "no free price history available for LEG",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
