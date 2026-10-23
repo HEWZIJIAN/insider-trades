@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:58:05+00:00",
+ "generated_at": "2026-10-23T03:14:26+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -113,11 +113,11 @@
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 69,
-     "win_rate_vs_benchmark_pct": 47.8,
-     "avg_return_pct": -0.14,
-     "avg_excess_pct": 0.01,
-     "median_excess_pct": -0.25
+     "n": 72,
+     "win_rate_vs_benchmark_pct": 47.2,
+     "avg_return_pct": -0.16,
+     "avg_excess_pct": -0.06,
+     "median_excess_pct": -0.32
     },
     "d30": {
      "status": "ok",
@@ -590,8 +590,8 @@
      "status": "ok",
      "n": 19,
      "win_rate_vs_benchmark_pct": 47.4,
-     "avg_return_pct": 9.84,
-     "avg_excess_pct": 0.54,
+     "avg_return_pct": 9.73,
+     "avg_excess_pct": 0.43,
      "median_excess_pct": -1.58
     }
    }
@@ -1961,8 +1961,12 @@
    "baseline_price": 99.73,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-21",
+     "price": 99.88,
+     "return_pct": 0.15,
+     "benchmark_return_pct": 1.29,
+     "excess_pct": -1.14
     },
     "d30": {
      "status": "pending",
@@ -1997,8 +2001,12 @@
    "baseline_price": 50.37,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-21",
+     "price": 52.81,
+     "return_pct": 4.84,
+     "benchmark_return_pct": 1.29,
+     "excess_pct": 3.55
     },
     "d30": {
      "status": "pending",
@@ -2033,8 +2041,12 @@
    "baseline_price": 23.44,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-21",
+     "price": 21.91,
+     "return_pct": -6.53,
+     "benchmark_return_pct": 1.29,
+     "excess_pct": -7.82
     },
     "d30": {
      "status": "pending",
@@ -3556,11 +3568,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-21",
-     "price": 166.66,
-     "return_pct": -6.27,
+     "as_of": "2026-10-22",
+     "price": 162.94,
+     "return_pct": -8.36,
      "benchmark_return_pct": 0.45,
-     "excess_pct": -6.72
+     "excess_pct": -8.81
     }
    }
   },
