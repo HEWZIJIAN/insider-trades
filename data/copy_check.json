@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T18:37:22+00:00",
+ "generated_at": "2026-10-23T21:50:55+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1523,
-  "measured": 1492,
+  "eligible_buys": 1527,
+  "measured": 1496,
   "unmeasurable": 31
  },
  "people": [
@@ -310,6 +310,47 @@
    }
   },
   {
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "measured_buys": 29,
+   "underlying_filing_rows": 36,
+   "distinct_baseline_dates": 21,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 29,
+     "win_rate_vs_benchmark_pct": 41.4,
+     "avg_return_pct": 0.86,
+     "avg_excess_pct": 0.52,
+     "median_excess_pct": -0.88
+    },
+    "d30": {
+     "status": "ok",
+     "n": 27,
+     "win_rate_vs_benchmark_pct": 37.0,
+     "avg_return_pct": 0.07,
+     "avg_excess_pct": -0.49,
+     "median_excess_pct": -1.31
+    },
+    "d90": {
+     "status": "ok",
+     "n": 22,
+     "win_rate_vs_benchmark_pct": 59.1,
+     "avg_return_pct": 12.04,
+     "avg_excess_pct": 7.8,
+     "median_excess_pct": 5.93
+    },
+    "today": {
+     "status": "ok",
+     "n": 29,
+     "win_rate_vs_benchmark_pct": 48.3,
+     "avg_return_pct": 15.41,
+     "avg_excess_pct": 7.17,
+     "median_excess_pct": -0.74
+    }
+   }
+  },
+  {
    "person_id": "escobedo-christopher",
    "person": "Escobedo, Christopher",
    "measured_buys": 28,
@@ -347,47 +388,6 @@
      "avg_return_pct": 64.43,
      "avg_excess_pct": 35.4,
      "median_excess_pct": 16.26
-    }
-   }
-  },
-  {
-   "person_id": "cleo-fields-la06",
-   "person": "Cleo Fields",
-   "measured_buys": 27,
-   "underlying_filing_rows": 32,
-   "distinct_baseline_dates": 19,
-   "by_horizon": {
-    "d7": {
-     "status": "ok",
-     "n": 27,
-     "win_rate_vs_benchmark_pct": 44.4,
-     "avg_return_pct": 1.19,
-     "avg_excess_pct": 0.82,
-     "median_excess_pct": -0.36
-    },
-    "d30": {
-     "status": "ok",
-     "n": 27,
-     "win_rate_vs_benchmark_pct": 37.0,
-     "avg_return_pct": 0.07,
-     "avg_excess_pct": -0.49,
-     "median_excess_pct": -1.31
-    },
-    "d90": {
-     "status": "ok",
-     "n": 22,
-     "win_rate_vs_benchmark_pct": 59.1,
-     "avg_return_pct": 12.04,
-     "avg_excess_pct": 7.8,
-     "median_excess_pct": 5.93
-    },
-    "today": {
-     "status": "ok",
-     "n": 27,
-     "win_rate_vs_benchmark_pct": 51.9,
-     "avg_return_pct": 16.84,
-     "avg_excess_pct": 7.98,
-     "median_excess_pct": 1.01
     }
    }
   },
@@ -2162,6 +2162,46 @@
    }
   },
   {
+   "trade_id": "house-20035669-4",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "TSM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-09",
+   "trade_date": "2026-10-09",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-12",
+   "baseline_price": 444.35,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-19",
+     "price": 420.22,
+     "return_pct": -5.43,
+     "benchmark_return_pct": -1.49,
+     "excess_pct": -3.94
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-21",
+     "price": 431.89,
+     "return_pct": -2.8,
+     "benchmark_return_pct": -0.64,
+     "excess_pct": -2.16
+    }
+   }
+  },
+  {
    "trade_id": "house-20035622-8",
    "person_id": "gilbert-cisneros-ca31",
    "person": "Gilbert Cisneros",
@@ -3373,6 +3413,126 @@
      "return_pct": 1.18,
      "benchmark_return_pct": -0.77,
      "excess_pct": 1.95
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035669-3",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "NVDA",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-10-01",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 233.95,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 229.28,
+     "return_pct": -2.0,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": -3.16
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-21",
+     "price": 221.97,
+     "return_pct": -5.12,
+     "benchmark_return_pct": 0.45,
+     "excess_pct": -5.57
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035669-2",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "NVDA",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-10-01",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 233.95,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 229.28,
+     "return_pct": -2.0,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": -3.16
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-21",
+     "price": 221.97,
+     "return_pct": -5.12,
+     "benchmark_return_pct": 0.45,
+     "excess_pct": -5.57
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035669-1",
+   "person_id": "cleo-fields-la06",
+   "person": "Cleo Fields",
+   "ticker": "NVDA",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-10-01",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 233.95,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 229.28,
+     "return_pct": -2.0,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": -3.16
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-21",
+     "price": 221.97,
+     "return_pct": -5.12,
+     "benchmark_return_pct": 0.45,
+     "excess_pct": -5.57
     }
    }
   },

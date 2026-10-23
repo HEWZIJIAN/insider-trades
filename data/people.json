@@ -375,6 +375,21 @@
   "positions": []
  },
  {
+  "person_id": "cleo-fields-la06",
+  "name": "Cleo Fields",
+  "roles": [
+   "House (LA06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 40,
+  "document_count": 0,
+  "first_seen": "2025-12-26",
+  "last_seen": "2026-10-09",
+  "positions": []
+ },
+ {
   "person_id": "lyon-andrew",
   "name": "Lyon, Andrew",
   "roles": [
@@ -417,21 +432,6 @@
   "document_count": 0,
   "first_seen": "2025-12-10",
   "last_seen": "2026-03-25",
-  "positions": []
- },
- {
-  "person_id": "cleo-fields-la06",
-  "name": "Cleo Fields",
-  "roles": [
-   "House (LA06)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 36,
-  "document_count": 0,
-  "first_seen": "2025-12-26",
-  "last_seen": "2026-09-14",
   "positions": []
  },
  {
@@ -1650,6 +1650,21 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/0001474506-24-000146-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "darrell-e-issa-ca48",
+  "name": "Darrell E. Issa",
+  "roles": [
+   "House (CA48)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-15",
+  "positions": []
  },
  {
   "person_id": "bernhardt-david-longly",
