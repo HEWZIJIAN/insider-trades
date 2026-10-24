@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T04:54:34+00:00",
+ "generated_at": "2026-10-24T09:18:19+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -59,7 +59,7 @@
      "win_rate_vs_benchmark_pct": 42.5,
      "avg_return_pct": 4.61,
      "avg_excess_pct": -3.07,
-     "median_excess_pct": -4.39
+     "median_excess_pct": -4.36
     }
    }
   },
@@ -5592,11 +5592,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-22",
-     "price": 51.51,
-     "return_pct": -34.9,
+     "as_of": "2026-10-23",
+     "price": 49.08,
+     "return_pct": -37.98,
      "benchmark_return_pct": -0.26,
-     "excess_pct": -34.64
+     "excess_pct": -37.72
     }
    }
   },
@@ -14275,11 +14275,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-22",
-     "price": 98.78,
-     "return_pct": -6.21,
+     "as_of": "2026-10-23",
+     "price": 101.99,
+     "return_pct": -3.16,
      "benchmark_return_pct": 1.69,
-     "excess_pct": -7.9
+     "excess_pct": -4.85
     }
    }
   },
@@ -14467,11 +14467,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-22",
-     "price": 51.51,
-     "return_pct": -36.16,
+     "as_of": "2026-10-23",
+     "price": 49.08,
+     "return_pct": -39.17,
      "benchmark_return_pct": 1.69,
-     "excess_pct": -37.85
+     "excess_pct": -40.86
     }
    }
   },
@@ -18994,11 +18994,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-22",
-     "price": 98.78,
-     "return_pct": -1.81,
+     "as_of": "2026-10-23",
+     "price": 101.99,
+     "return_pct": 1.38,
      "benchmark_return_pct": 3.35,
-     "excess_pct": -5.16
+     "excess_pct": -1.97
     }
    }
   },
@@ -19618,11 +19618,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-22",
-     "price": 59.76,
-     "return_pct": -14.05,
+     "as_of": "2026-10-23",
+     "price": 59.92,
+     "return_pct": -13.82,
      "benchmark_return_pct": 3.35,
-     "excess_pct": -17.4
+     "excess_pct": -17.17
     }
    }
   },
