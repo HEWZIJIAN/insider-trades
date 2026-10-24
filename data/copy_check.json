@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T00:20:06+00:00",
+ "generated_at": "2026-10-24T04:54:34+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -590,8 +590,8 @@
      "status": "ok",
      "n": 19,
      "win_rate_vs_benchmark_pct": 42.1,
-     "avg_return_pct": 8.01,
-     "avg_excess_pct": 0.0,
+     "avg_return_pct": 8.19,
+     "avg_excess_pct": 0.19,
      "median_excess_pct": -1.26
     }
    }
@@ -3728,11 +3728,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-22",
-     "price": 162.94,
-     "return_pct": -8.36,
+     "as_of": "2026-10-23",
+     "price": 169.08,
+     "return_pct": -4.9,
      "benchmark_return_pct": -0.74,
-     "excess_pct": -7.62
+     "excess_pct": -4.16
     }
    }
   },
