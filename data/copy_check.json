@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:02:24+00:00",
+ "generated_at": "2026-10-27T02:18:03+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -1209,7 +1209,7 @@
     },
     "d90": {
      "status": "insufficient_data",
-     "n": 3,
+     "n": 4,
      "needed": 5
     },
     "today": {
@@ -12790,8 +12790,12 @@
      "excess_pct": 23.24
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-10-23",
+     "price": 193.3,
+     "return_pct": 18.05,
+     "benchmark_return_pct": 4.18,
+     "excess_pct": 13.87
     },
     "today": {
      "status": "ok",
@@ -34680,7 +34684,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CRNX",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
