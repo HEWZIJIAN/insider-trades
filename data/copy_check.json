@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T08:17:42+00:00",
+ "generated_at": "2026-10-27T14:49:09+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -590,8 +590,8 @@
      "status": "ok",
      "n": 19,
      "win_rate_vs_benchmark_pct": 52.6,
-     "avg_return_pct": 9.57,
-     "avg_excess_pct": 1.37,
+     "avg_return_pct": 9.7,
+     "avg_excess_pct": 1.49,
      "median_excess_pct": 0.01
     }
    }
@@ -3728,11 +3728,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-23",
-     "price": 169.08,
-     "return_pct": -4.9,
+     "as_of": "2026-10-26",
+     "price": 173.25,
+     "return_pct": -2.56,
      "benchmark_return_pct": -0.55,
-     "excess_pct": -4.35
+     "excess_pct": -2.01
     }
    }
   },
@@ -15073,7 +15073,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -20080,7 +20080,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -51814,7 +51814,7 @@
    "trade_date": "2026-01-09",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 236 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -67636,7 +67636,7 @@
    "trade_date": "2024-11-01",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 420 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -72076,7 +72076,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
+   "reason": "no free price history available for LEG",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
