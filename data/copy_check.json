@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T14:49:09+00:00",
+ "generated_at": "2026-10-27T19:49:54+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -57,9 +57,9 @@
      "status": "ok",
      "n": 457,
      "win_rate_vs_benchmark_pct": 40.7,
-     "avg_return_pct": 4.51,
-     "avg_excess_pct": -3.36,
-     "median_excess_pct": -5.05
+     "avg_return_pct": 4.49,
+     "avg_excess_pct": -3.37,
+     "median_excess_pct": -5.2
     }
    }
   },
@@ -5592,11 +5592,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-23",
-     "price": 49.08,
-     "return_pct": -37.98,
+     "as_of": "2026-10-26",
+     "price": 47.79,
+     "return_pct": -39.61,
      "benchmark_return_pct": -0.08,
-     "excess_pct": -37.9
+     "excess_pct": -39.53
     }
    }
   },
@@ -14287,11 +14287,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-23",
-     "price": 101.99,
-     "return_pct": -3.16,
+     "as_of": "2026-10-26",
+     "price": 101.61,
+     "return_pct": -3.52,
      "benchmark_return_pct": 1.88,
-     "excess_pct": -5.04
+     "excess_pct": -5.4
     }
    }
   },
@@ -14479,11 +14479,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-23",
-     "price": 49.08,
-     "return_pct": -39.17,
+     "as_of": "2026-10-26",
+     "price": 47.79,
+     "return_pct": -40.77,
      "benchmark_return_pct": 1.88,
-     "excess_pct": -41.05
+     "excess_pct": -42.65
     }
    }
   },
@@ -19006,11 +19006,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-23",
-     "price": 101.99,
-     "return_pct": 1.38,
+     "as_of": "2026-10-26",
+     "price": 101.61,
+     "return_pct": 1.0,
      "benchmark_return_pct": 3.54,
-     "excess_pct": -2.16
+     "excess_pct": -2.54
     }
    }
   },
@@ -19630,11 +19630,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-23",
-     "price": 59.92,
-     "return_pct": -13.82,
+     "as_of": "2026-10-26",
+     "price": 58.1,
+     "return_pct": -16.44,
      "benchmark_return_pct": 3.54,
-     "excess_pct": -17.36
+     "excess_pct": -19.98
     }
    }
   },
