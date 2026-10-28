@@ -173,10 +173,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 67,
+  "trade_count": 68,
   "document_count": 0,
   "first_seen": "2026-01-12",
-  "last_seen": "2026-09-09",
+  "last_seen": "2026-10-06",
   "positions": []
  },
  {
@@ -390,6 +390,21 @@
   "positions": []
  },
  {
+  "person_id": "suzan-k-delbene-wa01",
+  "name": "Suzan K. DelBene",
+  "roles": [
+   "House (WA01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 39,
+  "document_count": 0,
+  "first_seen": "2025-12-17",
+  "last_seen": "2026-10-14",
+  "positions": []
+ },
+ {
   "person_id": "lyon-andrew",
   "name": "Lyon, Andrew",
   "roles": [
@@ -405,21 +420,6 @@
   "positions": []
  },
  {
-  "person_id": "suzan-k-delbene-wa01",
-  "name": "Suzan K. DelBene",
-  "roles": [
-   "House (WA01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 37,
-  "document_count": 0,
-  "first_seen": "2025-12-17",
-  "last_seen": "2026-09-24",
-  "positions": []
- },
- {
   "person_id": "scharf-william",
   "name": "Scharf, William",
   "roles": [
@@ -432,6 +432,21 @@
   "document_count": 0,
   "first_seen": "2025-12-10",
   "last_seen": "2026-03-25",
+  "positions": []
+ },
+ {
+  "person_id": "pete-sessions-tx17",
+  "name": "Pete Sessions",
+  "roles": [
+   "House (TX17)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 36,
+  "document_count": 0,
+  "first_seen": "2026-03-09",
+  "last_seen": "2026-10-28",
   "positions": []
  },
  {
@@ -669,6 +684,21 @@
   "positions": []
  },
  {
+  "person_id": "max-miller-oh07",
+  "name": "Max Miller",
+  "roles": [
+   "House (OH07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 16,
+  "document_count": 0,
+  "first_seen": "2026-01-29",
+  "last_seen": "2026-10-27",
+  "positions": []
+ },
+ {
   "person_id": "tim-walberg-mi05",
   "name": "Tim Walberg",
   "roles": [
@@ -741,21 +771,6 @@
   "document_count": 14,
   "first_seen": "2026-05-06",
   "last_seen": "2026-10-01",
-  "positions": []
- },
- {
-  "person_id": "max-miller-oh07",
-  "name": "Max Miller",
-  "roles": [
-   "House (OH07)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 14,
-  "document_count": 0,
-  "first_seen": "2026-01-29",
-  "last_seen": "2026-09-27",
   "positions": []
  },
  {
@@ -1265,21 +1280,6 @@
   "document_count": 0,
   "first_seen": "2025-05-14",
   "last_seen": "2026-01-09",
-  "positions": []
- },
- {
-  "person_id": "pete-sessions-tx17",
-  "name": "Pete Sessions",
-  "roles": [
-   "House (TX17)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 5,
-  "document_count": 0,
-  "first_seen": "2026-03-09",
-  "last_seen": "2026-09-22",
   "positions": []
  },
  {
@@ -2387,6 +2387,21 @@
   "document_count": 0,
   "first_seen": "2025-12-27",
   "last_seen": "2025-12-27",
+  "positions": []
+ },
+ {
+  "person_id": "jodey-arrington-tx19",
+  "name": "Jodey Arrington",
+  "roles": [
+   "House (TX19)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2025-11-01",
+  "last_seen": "2025-11-01",
   "positions": []
  },
  {
