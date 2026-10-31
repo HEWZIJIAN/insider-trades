@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T22:47:00+00:00",
+ "generated_at": "2026-10-31T01:59:47+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -57,8 +57,8 @@
      "status": "ok",
      "n": 457,
      "win_rate_vs_benchmark_pct": 40.9,
-     "avg_return_pct": 5.78,
-     "avg_excess_pct": -2.65,
+     "avg_return_pct": 5.75,
+     "avg_excess_pct": -2.68,
      "median_excess_pct": -4.61
     }
    }
@@ -5667,11 +5667,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-28",
-     "price": 54.84,
-     "return_pct": -30.7,
+     "as_of": "2026-10-30",
+     "price": 50.5,
+     "return_pct": -36.18,
      "benchmark_return_pct": 0.44,
-     "excess_pct": -31.14
+     "excess_pct": -36.62
     }
    }
   },
@@ -14362,11 +14362,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-28",
-     "price": 101.53,
-     "return_pct": -3.6,
+     "as_of": "2026-10-30",
+     "price": 101.77,
+     "return_pct": -3.37,
      "benchmark_return_pct": 2.41,
-     "excess_pct": -6.01
+     "excess_pct": -5.78
     }
    }
   },
@@ -14554,11 +14554,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-28",
-     "price": 54.84,
-     "return_pct": -32.03,
+     "as_of": "2026-10-30",
+     "price": 50.5,
+     "return_pct": -37.41,
      "benchmark_return_pct": 2.41,
-     "excess_pct": -34.44
+     "excess_pct": -39.82
     }
    }
   },
@@ -19081,11 +19081,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-28",
-     "price": 101.53,
-     "return_pct": 0.92,
+     "as_of": "2026-10-30",
+     "price": 101.77,
+     "return_pct": 1.16,
      "benchmark_return_pct": 4.08,
-     "excess_pct": -3.16
+     "excess_pct": -2.92
     }
    }
   },
@@ -19705,11 +19705,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-28",
-     "price": 63.45,
-     "return_pct": -8.75,
+     "as_of": "2026-10-30",
+     "price": 61.25,
+     "return_pct": -11.91,
      "benchmark_return_pct": 4.08,
-     "excess_pct": -12.83
+     "excess_pct": -15.99
     }
    }
   },
