@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T12:45:42+00:00",
+ "generated_at": "2026-11-02T22:12:27+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1532,
-  "measured": 1501,
+  "eligible_buys": 1537,
+  "measured": 1506,
   "unmeasurable": 31
  },
  "people": [
@@ -556,6 +556,47 @@
    }
   },
   {
+   "person_id": "thomas-h-kean-nj07",
+   "person": "Thomas H. Kean",
+   "measured_buys": 19,
+   "underlying_filing_rows": 20,
+   "distinct_baseline_dates": 9,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 19,
+     "win_rate_vs_benchmark_pct": 36.8,
+     "avg_return_pct": -1.41,
+     "avg_excess_pct": -1.5,
+     "median_excess_pct": -2.11
+    },
+    "d30": {
+     "status": "ok",
+     "n": 19,
+     "win_rate_vs_benchmark_pct": 52.6,
+     "avg_return_pct": -1.12,
+     "avg_excess_pct": -1.58,
+     "median_excess_pct": 0.11
+    },
+    "d90": {
+     "status": "ok",
+     "n": 15,
+     "win_rate_vs_benchmark_pct": 33.3,
+     "avg_return_pct": -3.61,
+     "avg_excess_pct": -7.61,
+     "median_excess_pct": -9.68
+    },
+    "today": {
+     "status": "ok",
+     "n": 19,
+     "win_rate_vs_benchmark_pct": 42.1,
+     "avg_return_pct": -1.81,
+     "avg_excess_pct": -4.57,
+     "median_excess_pct": -2.23
+    }
+   }
+  },
+  {
    "person_id": "jonathan-jackson-il01",
    "person": "Jonathan Jackson",
    "measured_buys": 19,
@@ -593,47 +634,6 @@
      "avg_return_pct": 10.0,
      "avg_excess_pct": 3.16,
      "median_excess_pct": 0.55
-    }
-   }
-  },
-  {
-   "person_id": "thomas-h-kean-nj07",
-   "person": "Thomas H. Kean",
-   "measured_buys": 17,
-   "underlying_filing_rows": 18,
-   "distinct_baseline_dates": 8,
-   "by_horizon": {
-    "d7": {
-     "status": "ok",
-     "n": 17,
-     "win_rate_vs_benchmark_pct": 41.2,
-     "avg_return_pct": -1.12,
-     "avg_excess_pct": -1.08,
-     "median_excess_pct": -1.76
-    },
-    "d30": {
-     "status": "ok",
-     "n": 17,
-     "win_rate_vs_benchmark_pct": 47.1,
-     "avg_return_pct": -1.38,
-     "avg_excess_pct": -2.11,
-     "median_excess_pct": -2.16
-    },
-    "d90": {
-     "status": "ok",
-     "n": 15,
-     "win_rate_vs_benchmark_pct": 33.3,
-     "avg_return_pct": -3.61,
-     "avg_excess_pct": -7.61,
-     "median_excess_pct": -9.68
-    },
-    "today": {
-     "status": "ok",
-     "n": 17,
-     "win_rate_vs_benchmark_pct": 35.3,
-     "avg_return_pct": -2.15,
-     "avg_excess_pct": -5.45,
-     "median_excess_pct": -4.28
     }
    }
   },
@@ -1310,6 +1310,35 @@
    }
   },
   {
+   "person_id": "john-j-mr-mcguire-va05",
+   "person": "John J Mr McGuire",
+   "measured_buys": 3,
+   "underlying_filing_rows": 5,
+   "distinct_baseline_dates": 3,
+   "by_horizon": {
+    "d7": {
+     "status": "insufficient_data",
+     "n": 3,
+     "needed": 5
+    },
+    "d30": {
+     "status": "insufficient_data",
+     "n": 2,
+     "needed": 5
+    },
+    "d90": {
+     "status": "insufficient_data",
+     "n": 0,
+     "needed": 5
+    },
+    "today": {
+     "status": "insufficient_data",
+     "n": 3,
+     "needed": 5
+    }
+   }
+  },
+  {
    "person_id": "virginia-foxx-nc05",
    "person": "Virginia Foxx",
    "measured_buys": 3,
@@ -1373,35 +1402,6 @@
    "measured_buys": 2,
    "underlying_filing_rows": 2,
    "distinct_baseline_dates": 1,
-   "by_horizon": {
-    "d7": {
-     "status": "insufficient_data",
-     "n": 2,
-     "needed": 5
-    },
-    "d30": {
-     "status": "insufficient_data",
-     "n": 2,
-     "needed": 5
-    },
-    "d90": {
-     "status": "insufficient_data",
-     "n": 0,
-     "needed": 5
-    },
-    "today": {
-     "status": "insufficient_data",
-     "n": 2,
-     "needed": 5
-    }
-   }
-  },
-  {
-   "person_id": "john-j-mr-mcguire-va05",
-   "person": "John J Mr McGuire",
-   "measured_buys": 2,
-   "underlying_filing_rows": 2,
-   "distinct_baseline_dates": 2,
    "by_horizon": {
     "d7": {
      "status": "insufficient_data",
@@ -3600,6 +3600,126 @@
    }
   },
   {
+   "trade_id": "house-20035484-4",
+   "person_id": "john-j-mr-mcguire-va05",
+   "person": "John J Mr McGuire",
+   "ticker": "MU",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-02",
+   "trade_date": "2026-10-01",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-05",
+   "baseline_price": 1063.96,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-12",
+     "price": 989.04,
+     "return_pct": -7.04,
+     "benchmark_return_pct": 0.42,
+     "excess_pct": -7.46
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-30",
+     "price": 884.74,
+     "return_pct": -16.84,
+     "benchmark_return_pct": -2.47,
+     "excess_pct": -14.37
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035484-3",
+   "person_id": "john-j-mr-mcguire-va05",
+   "person": "John J Mr McGuire",
+   "ticker": "MU",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-02",
+   "trade_date": "2026-09-25",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-05",
+   "baseline_price": 1063.96,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-12",
+     "price": 989.04,
+     "return_pct": -7.04,
+     "benchmark_return_pct": 0.42,
+     "excess_pct": -7.46
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-30",
+     "price": 884.74,
+     "return_pct": -16.84,
+     "benchmark_return_pct": -2.47,
+     "excess_pct": -14.37
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035484-2",
+   "person_id": "john-j-mr-mcguire-va05",
+   "person": "John J Mr McGuire",
+   "ticker": "MU",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-02",
+   "trade_date": "2026-09-24",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-05",
+   "baseline_price": 1063.96,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-12",
+     "price": 989.04,
+     "return_pct": -7.04,
+     "benchmark_return_pct": 0.42,
+     "excess_pct": -7.46
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-30",
+     "price": 884.74,
+     "return_pct": -16.84,
+     "benchmark_return_pct": -2.47,
+     "excess_pct": -14.37
+    }
+   }
+  },
+  {
    "trade_id": "house-20035669-3",
    "person_id": "cleo-fields-la06",
    "person": "Cleo Fields",
@@ -3816,6 +3936,50 @@
      "return_pct": -19.4,
      "benchmark_return_pct": -1.81,
      "excess_pct": -17.59
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035591-2",
+   "person_id": "thomas-h-kean-nj07",
+   "person": "Thomas H. Kean",
+   "ticker": "ESAB",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 69.9,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 66.85,
+     "return_pct": -4.36,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": -5.52
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-10-30",
+     "price": 69.76,
+     "return_pct": -0.2,
+     "benchmark_return_pct": -1.81,
+     "excess_pct": 1.61
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-30",
+     "price": 69.76,
+     "return_pct": -0.2,
+     "benchmark_return_pct": -1.81,
+     "excess_pct": 1.61
     }
    }
   },
@@ -4256,6 +4420,50 @@
      "return_pct": 15.62,
      "benchmark_return_pct": -1.81,
      "excess_pct": 17.43
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035591-6",
+   "person_id": "thomas-h-kean-nj07",
+   "person": "Thomas H. Kean",
+   "ticker": "TXN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-01",
+   "trade_date": "2026-09-17",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-02",
+   "baseline_price": 293.8,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 283.74,
+     "return_pct": -3.42,
+     "benchmark_return_pct": 1.16,
+     "excess_pct": -4.58
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-10-30",
+     "price": 300.84,
+     "return_pct": 2.4,
+     "benchmark_return_pct": -1.81,
+     "excess_pct": 4.21
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-10-30",
+     "price": 300.84,
+     "return_pct": 2.4,
+     "benchmark_return_pct": -1.81,
+     "excess_pct": 4.21
     }
    }
   },
@@ -15512,7 +15720,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -20519,7 +20727,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -35123,7 +35331,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
+   "reason": "no free price history available for CRNX",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -52253,7 +52461,7 @@
    "trade_date": "2026-01-09",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 236 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -63305,7 +63513,7 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-10-31",
+     "as_of": "2026-10-30",
      "price": 1.0,
      "return_pct": 0.0,
      "benchmark_return_pct": 11.72,
@@ -68075,7 +68283,7 @@
    "trade_date": "2024-11-01",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 420 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -72515,7 +72723,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
+   "reason": "no free price history available for LEG",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}

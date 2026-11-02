@@ -165,6 +165,21 @@
   "positions": []
  },
  {
+  "person_id": "thomas-h-kean-nj07",
+  "name": "Thomas H. Kean",
+  "roles": [
+   "House (NJ07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 70,
+  "document_count": 0,
+  "first_seen": "2026-01-02",
+  "last_seen": "2026-10-07",
+  "positions": []
+ },
+ {
   "person_id": "sheri-biggs-sc03",
   "name": "Sheri Biggs",
   "roles": [
@@ -207,21 +222,6 @@
   "document_count": 0,
   "first_seen": "2025-12-15",
   "last_seen": "2026-10-14",
-  "positions": []
- },
- {
-  "person_id": "thomas-h-kean-nj07",
-  "name": "Thomas H. Kean",
-  "roles": [
-   "House (NJ07)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 64,
-  "document_count": 0,
-  "first_seen": "2026-01-02",
-  "last_seen": "2026-09-10",
   "positions": []
  },
  {
@@ -639,6 +639,21 @@
   ]
  },
  {
+  "person_id": "donald-sternoff-beyer-va08",
+  "name": "Donald Sternoff Beyer",
+  "roles": [
+   "House (VA08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 18,
+  "document_count": 0,
+  "first_seen": "2026-01-02",
+  "last_seen": "2026-11-01",
+  "positions": []
+ },
+ {
   "person_id": "steve-cohen-tn09",
   "name": "Steve Cohen",
   "roles": [
@@ -666,21 +681,6 @@
   "document_count": 17,
   "first_seen": "2026-05-06",
   "last_seen": "2026-10-27",
-  "positions": []
- },
- {
-  "person_id": "donald-sternoff-beyer-va08",
-  "name": "Donald Sternoff Beyer",
-  "roles": [
-   "House (VA08)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 17,
-  "document_count": 0,
-  "first_seen": "2026-01-02",
-  "last_seen": "2026-10-01",
   "positions": []
  },
  {
@@ -923,6 +923,21 @@
   "document_count": 0,
   "first_seen": "2026-04-13",
   "last_seen": "2026-04-13",
+  "positions": []
+ },
+ {
+  "person_id": "john-j-mr-mcguire-va05",
+  "name": "John J Mr McGuire",
+  "roles": [
+   "House (VA05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 10,
+  "document_count": 0,
+  "first_seen": "2026-08-07",
+  "last_seen": "2026-10-02",
   "positions": []
  },
  {
@@ -1253,21 +1268,6 @@
   "positions": []
  },
  {
-  "person_id": "john-j-mr-mcguire-va05",
-  "name": "John J Mr McGuire",
-  "roles": [
-   "House (VA05)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 6,
-  "document_count": 0,
-  "first_seen": "2026-08-07",
-  "last_seen": "2026-09-01",
-  "positions": []
- },
- {
   "person_id": "centorino-scott",
   "name": "Centorino, Scott",
   "roles": [
@@ -1280,6 +1280,21 @@
   "document_count": 0,
   "first_seen": "2025-05-14",
   "last_seen": "2026-01-09",
+  "positions": []
+ },
+ {
+  "person_id": "carol-devine-miller-wv01",
+  "name": "Carol Devine Miller",
+  "roles": [
+   "House (WV01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 4,
+  "document_count": 1,
+  "first_seen": "2025-04-11",
+  "last_seen": "2026-10-30",
   "positions": []
  },
  {
@@ -1467,21 +1482,6 @@
   "document_count": 0,
   "first_seen": "2025-12-22",
   "last_seen": "2025-12-22",
-  "positions": []
- },
- {
-  "person_id": "carol-devine-miller-wv01",
-  "name": "Carol Devine Miller",
-  "roles": [
-   "House (WV01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 4,
-  "document_count": 0,
-  "first_seen": "2025-04-11",
-  "last_seen": "2025-04-11",
   "positions": []
  },
  {
