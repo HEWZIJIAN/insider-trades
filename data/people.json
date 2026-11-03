@@ -926,6 +926,21 @@
   "positions": []
  },
  {
+  "person_id": "ann-wagner-mo02",
+  "name": "Ann Wagner",
+  "roles": [
+   "House (MO02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 10,
+  "document_count": 0,
+  "first_seen": "2025-12-05",
+  "last_seen": "2026-10-21",
+  "positions": []
+ },
+ {
   "person_id": "john-j-mr-mcguire-va05",
   "name": "John J Mr McGuire",
   "roles": [
@@ -1040,21 +1055,6 @@
   "document_count": 0,
   "first_seen": "2026-02-04",
   "last_seen": "2026-08-13",
-  "positions": []
- },
- {
-  "person_id": "ann-wagner-mo02",
-  "name": "Ann Wagner",
-  "roles": [
-   "House (MO02)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 9,
-  "document_count": 0,
-  "first_seen": "2025-12-05",
-  "last_seen": "2026-06-23",
   "positions": []
  },
  {
