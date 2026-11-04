@@ -1298,6 +1298,21 @@
   "positions": []
  },
  {
+  "person_id": "robert-e-latta-oh05",
+  "name": "Robert E. Latta",
+  "roles": [
+   "House (OH05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 5,
+  "document_count": 0,
+  "first_seen": "2026-01-21",
+  "last_seen": "2026-10-20",
+  "positions": []
+ },
+ {
   "person_id": "charles-j-chuck-fleischmann-tn03",
   "name": "Charles J. \"Chuck\" Fleischmann",
   "roles": [
@@ -1382,21 +1397,6 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926028743/0001437749-26-028743-index.htm"
    }
   ]
- },
- {
-  "person_id": "robert-e-latta-oh05",
-  "name": "Robert E. Latta",
-  "roles": [
-   "House (OH05)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 4,
-  "document_count": 0,
-  "first_seen": "2026-01-21",
-  "last_seen": "2026-07-20",
-  "positions": []
  },
  {
   "person_id": "trump-donald-j-jr",
