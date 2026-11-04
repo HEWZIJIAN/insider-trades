@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T00:01:52+00:00",
+ "generated_at": "2026-11-04T04:50:34+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -457,11 +457,11 @@
     },
     "d90": {
      "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 37.5,
-     "avg_return_pct": 0.06,
-     "avg_excess_pct": -3.95,
-     "median_excess_pct": -3.67
+     "n": 17,
+     "win_rate_vs_benchmark_pct": 41.2,
+     "avg_return_pct": 0.66,
+     "avg_excess_pct": -2.98,
+     "median_excess_pct": -3.46
     },
     "today": {
      "status": "ok",
@@ -1323,7 +1323,7 @@
     },
     "d30": {
      "status": "insufficient_data",
-     "n": 2,
+     "n": 3,
      "needed": 5
     },
     "d90": {
@@ -3622,8 +3622,12 @@
      "excess_pct": -7.46
     },
     "d30": {
-     "status": "pending",
-     "detail": "+30d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-02",
+     "price": 833.59,
+     "return_pct": -21.65,
+     "benchmark_return_pct": -2.93,
+     "excess_pct": -18.72
     },
     "d90": {
      "status": "pending",
@@ -3662,8 +3666,12 @@
      "excess_pct": -7.46
     },
     "d30": {
-     "status": "pending",
-     "detail": "+30d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-02",
+     "price": 833.59,
+     "return_pct": -21.65,
+     "benchmark_return_pct": -2.93,
+     "excess_pct": -18.72
     },
     "d90": {
      "status": "pending",
@@ -3702,8 +3710,12 @@
      "excess_pct": -7.46
     },
     "d30": {
-     "status": "pending",
-     "detail": "+30d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-02",
+     "price": 833.59,
+     "return_pct": -21.65,
+     "benchmark_return_pct": -2.93,
+     "excess_pct": -18.72
     },
     "d90": {
      "status": "pending",
@@ -11539,8 +11551,12 @@
      "excess_pct": 1.19
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-02",
+     "price": 95.83,
+     "return_pct": 10.34,
+     "benchmark_return_pct": -2.14,
+     "excess_pct": 12.48
     },
     "today": {
      "status": "ok",
@@ -15528,7 +15544,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for KVUE",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 120 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -28740,7 +28756,7 @@
    "trade_date": "2026-04-06",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CBZ",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 178 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -43278,7 +43294,7 @@
    "trade_date": "2026-02-10",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for KVUE",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 238 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -70836,7 +70852,7 @@
    "trade_date": "2024-10-23",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for KVUE",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 445 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
