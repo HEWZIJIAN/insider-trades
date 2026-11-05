@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T07:48:52+00:00",
+ "generated_at": "2026-11-05T16:03:57+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1538,
-  "measured": 1503,
+  "eligible_buys": 1542,
+  "measured": 1507,
   "unmeasurable": 35
  },
  "people": [
@@ -189,9 +189,9 @@
   {
    "person_id": "maria-elvira-salazar-fl27",
    "person": "Maria Elvira Salazar",
-   "measured_buys": 41,
-   "underlying_filing_rows": 69,
-   "distinct_baseline_dates": 7,
+   "measured_buys": 43,
+   "underlying_filing_rows": 73,
+   "distinct_baseline_dates": 8,
    "by_horizon": {
     "d7": {
      "status": "ok",
@@ -219,11 +219,11 @@
     },
     "today": {
      "status": "ok",
-     "n": 41,
-     "win_rate_vs_benchmark_pct": 36.6,
-     "avg_return_pct": 3.12,
-     "avg_excess_pct": -5.14,
-     "median_excess_pct": -9.16
+     "n": 43,
+     "win_rate_vs_benchmark_pct": 37.2,
+     "avg_return_pct": 3.01,
+     "avg_excess_pct": -4.96,
+     "median_excess_pct": -7.79
     }
    }
   },
@@ -631,9 +631,9 @@
      "status": "ok",
      "n": 19,
      "win_rate_vs_benchmark_pct": 47.4,
-     "avg_return_pct": 9.49,
-     "avg_excess_pct": 1.08,
-     "median_excess_pct": -1.2
+     "avg_return_pct": 9.3,
+     "avg_excess_pct": 0.89,
+     "median_excess_pct": -1.69
     }
    }
   },
@@ -1955,6 +1955,150 @@
   }
  ],
  "trades": [
+  {
+   "trade_id": "house-20035778-5",
+   "person_id": "maria-elvira-salazar-fl27",
+   "person": "Maria Elvira Salazar",
+   "ticker": "PG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-01",
+   "trade_date": "2026-10-23",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-02",
+   "baseline_price": 163.56,
+   "horizons": {
+    "d7": {
+     "status": "pending",
+     "detail": "+7d falls in the future"
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-04",
+     "price": 167.32,
+     "return_pct": 2.3,
+     "benchmark_return_pct": 1.96,
+     "excess_pct": 0.34
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035778-4",
+   "person_id": "maria-elvira-salazar-fl27",
+   "person": "Maria Elvira Salazar",
+   "ticker": "PG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-01",
+   "trade_date": "2026-10-23",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-02",
+   "baseline_price": 163.56,
+   "horizons": {
+    "d7": {
+     "status": "pending",
+     "detail": "+7d falls in the future"
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-04",
+     "price": 167.32,
+     "return_pct": 2.3,
+     "benchmark_return_pct": 1.96,
+     "excess_pct": 0.34
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035778-3",
+   "person_id": "maria-elvira-salazar-fl27",
+   "person": "Maria Elvira Salazar",
+   "ticker": "NVDA",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-01",
+   "trade_date": "2026-10-23",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-02",
+   "baseline_price": 202.06,
+   "horizons": {
+    "d7": {
+     "status": "pending",
+     "detail": "+7d falls in the future"
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-04",
+     "price": 200.13,
+     "return_pct": -0.96,
+     "benchmark_return_pct": 1.96,
+     "excess_pct": -2.92
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035778-2",
+   "person_id": "maria-elvira-salazar-fl27",
+   "person": "Maria Elvira Salazar",
+   "ticker": "NVDA",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-01",
+   "trade_date": "2026-10-23",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-02",
+   "baseline_price": 202.06,
+   "horizons": {
+    "d7": {
+     "status": "pending",
+     "detail": "+7d falls in the future"
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-04",
+     "price": 200.13,
+     "return_pct": -0.96,
+     "benchmark_return_pct": 1.96,
+     "excess_pct": -2.92
+    }
+   }
+  },
   {
    "trade_id": "house-20035727-7",
    "person_id": "david-j-taylor-oh02",
@@ -4181,11 +4325,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-03",
-     "price": 175.0,
-     "return_pct": -1.57,
+     "as_of": "2026-11-04",
+     "price": 168.58,
+     "return_pct": -5.19,
      "benchmark_return_pct": -0.37,
-     "excess_pct": -1.2
+     "excess_pct": -4.82
     }
    }
   },
