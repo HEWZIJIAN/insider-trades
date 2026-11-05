@@ -105,21 +105,6 @@
   "positions": []
  },
  {
-  "person_id": "maria-elvira-salazar-fl27",
-  "name": "Maria Elvira Salazar",
-  "roles": [
-   "House (FL27)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 126,
-  "document_count": 0,
-  "first_seen": "2026-04-01",
-  "last_seen": "2026-11-01",
-  "positions": []
- },
- {
   "person_id": "josh-gottheimer-nj05",
   "name": "Josh Gottheimer",
   "roles": [
@@ -132,6 +117,21 @@
   "document_count": 0,
   "first_seen": "2026-01-07",
   "last_seen": "2026-10-06",
+  "positions": []
+ },
+ {
+  "person_id": "maria-elvira-salazar-fl27",
+  "name": "Maria Elvira Salazar",
+  "roles": [
+   "House (FL27)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 121,
+  "document_count": 0,
+  "first_seen": "2026-04-01",
+  "last_seen": "2026-10-01",
   "positions": []
  },
  {
@@ -510,21 +510,6 @@
   "positions": []
  },
  {
-  "person_id": "mike-kelly-pa16",
-  "name": "Mike Kelly",
-  "roles": [
-   "House (PA16)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 25,
-  "document_count": 0,
-  "first_seen": "2026-01-07",
-  "last_seen": "2026-11-04",
-  "positions": []
- },
- {
   "person_id": "rick-larsen-wa02",
   "name": "Rick Larsen",
   "roles": [
@@ -537,6 +522,21 @@
   "document_count": 0,
   "first_seen": "2026-01-09",
   "last_seen": "2026-10-12",
+  "positions": []
+ },
+ {
+  "person_id": "mike-kelly-pa16",
+  "name": "Mike Kelly",
+  "roles": [
+   "House (PA16)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 23,
+  "document_count": 0,
+  "first_seen": "2026-01-07",
+  "last_seen": "2026-10-14",
   "positions": []
  },
  {
@@ -1028,21 +1028,6 @@
   ]
  },
  {
-  "person_id": "daniel-meuser-pa09",
-  "name": "Daniel Meuser",
-  "roles": [
-   "House (PA09)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 9,
-  "document_count": 0,
-  "first_seen": "2026-02-11",
-  "last_seen": "2026-10-14",
-  "positions": []
- },
- {
   "person_id": "rohit-khanna-ca17",
   "name": "Rohit Khanna",
   "roles": [
@@ -1115,6 +1100,21 @@
   "document_count": 0,
   "first_seen": "2026-06-02",
   "last_seen": "2026-09-21",
+  "positions": []
+ },
+ {
+  "person_id": "daniel-meuser-pa09",
+  "name": "Daniel Meuser",
+  "roles": [
+   "House (PA09)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 8,
+  "document_count": 0,
+  "first_seen": "2026-02-11",
+  "last_seen": "2026-09-14",
   "positions": []
  },
  {
