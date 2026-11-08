@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T23:48:38+00:00",
+ "generated_at": "2026-11-08T04:13:34+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -662,11 +662,11 @@
     },
     "d90": {
      "status": "ok",
-     "n": 14,
-     "win_rate_vs_benchmark_pct": 28.6,
-     "avg_return_pct": -1.43,
-     "avg_excess_pct": -3.83,
-     "median_excess_pct": -5.8
+     "n": 15,
+     "win_rate_vs_benchmark_pct": 33.3,
+     "avg_return_pct": -1.53,
+     "avg_excess_pct": -3.45,
+     "median_excess_pct": -5.53
     },
     "today": {
      "status": "ok",
@@ -1334,7 +1334,7 @@
     },
     "d90": {
      "status": "insufficient_data",
-     "n": 0,
+     "n": 1,
      "needed": 5
     },
     "today": {
@@ -11145,8 +11145,12 @@
      "excess_pct": 1.35
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-06",
+     "price": 1012.71,
+     "return_pct": -2.94,
+     "benchmark_return_pct": -4.88,
+     "excess_pct": 1.94
     },
     "today": {
      "status": "ok",
@@ -11189,8 +11193,12 @@
      "excess_pct": -8.82
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-06",
+     "price": 332.72,
+     "return_pct": -36.28,
+     "benchmark_return_pct": -4.88,
+     "excess_pct": -31.4
     },
     "today": {
      "status": "ok",
