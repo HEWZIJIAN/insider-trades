@@ -503,10 +503,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 27,
+  "trade_count": 28,
   "document_count": 0,
   "first_seen": "2025-12-24",
-  "last_seen": "2026-09-08",
+  "last_seen": "2026-10-07",
   "positions": []
  },
  {
@@ -881,6 +881,21 @@
   "positions": []
  },
  {
+  "person_id": "john-j-mr-mcguire-va05",
+  "name": "John J Mr McGuire",
+  "roles": [
+   "House (VA05)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 11,
+  "document_count": 0,
+  "first_seen": "2026-08-07",
+  "last_seen": "2026-11-04",
+  "positions": []
+ },
+ {
   "person_id": "john-mcguire-va05",
   "name": "John McGuire",
   "roles": [
@@ -926,6 +941,21 @@
   "positions": []
  },
  {
+  "person_id": "rohit-khanna-ca17",
+  "name": "Rohit Khanna",
+  "roles": [
+   "House (CA17)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 10,
+  "first_seen": "2026-02-06",
+  "last_seen": "2026-11-05",
+  "positions": []
+ },
+ {
   "person_id": "ann-wagner-mo02",
   "name": "Ann Wagner",
   "roles": [
@@ -938,21 +968,6 @@
   "document_count": 0,
   "first_seen": "2025-12-05",
   "last_seen": "2026-10-21",
-  "positions": []
- },
- {
-  "person_id": "john-j-mr-mcguire-va05",
-  "name": "John J Mr McGuire",
-  "roles": [
-   "House (VA05)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 10,
-  "document_count": 0,
-  "first_seen": "2026-08-07",
-  "last_seen": "2026-10-02",
   "positions": []
  },
  {
@@ -1040,21 +1055,6 @@
   "document_count": 0,
   "first_seen": "2026-02-11",
   "last_seen": "2026-10-14",
-  "positions": []
- },
- {
-  "person_id": "rohit-khanna-ca17",
-  "name": "Rohit Khanna",
-  "roles": [
-   "House (CA17)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 0,
-  "document_count": 9,
-  "first_seen": "2026-02-06",
-  "last_seen": "2026-10-07",
   "positions": []
  },
  {

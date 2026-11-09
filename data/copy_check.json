@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T08:23:51+00:00",
+ "generated_at": "2026-11-09T19:05:44+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -15922,7 +15922,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 120 days later)",
+   "reason": "no free price history available for KVUE",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -16081,7 +16081,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -21088,7 +21088,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -29134,7 +29134,7 @@
    "trade_date": "2026-04-06",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 178 days later)",
+   "reason": "no free price history available for CBZ",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -35659,7 +35659,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
+   "reason": "no free price history available for CRNX",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -43672,7 +43672,7 @@
    "trade_date": "2026-02-10",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 238 days later)",
+   "reason": "no free price history available for KVUE",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -52756,7 +52756,7 @@
    "trade_date": "2026-01-09",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 236 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -63808,7 +63808,7 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-07",
+     "as_of": "2026-11-05",
      "price": 1.0,
      "return_pct": 0.0,
      "benchmark_return_pct": 8.7,
@@ -68578,7 +68578,7 @@
    "trade_date": "2024-11-01",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 420 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -71230,7 +71230,7 @@
    "trade_date": "2024-10-23",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 445 days later)",
+   "reason": "no free price history available for KVUE",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -72985,7 +72985,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
+   "reason": "no free price history available for LEG",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
