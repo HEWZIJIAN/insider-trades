@@ -1,74 +1,74 @@
 {
- "generated_at": "2026-11-08T21:17:14+00:00",
+ "generated_at": "2026-11-09T01:06:19+00:00",
  "counts": {
-  "records": 4478,
-  "parsed_trades": 4359,
+  "records": 4428,
+  "parsed_trades": 4309,
   "linked_documents": 119,
   "copy_eligible": 3339,
-  "people": 156,
+  "people": 155,
   "by_source": {
    "house_ptr": 3713,
    "sec_form4": 145,
    "oge_278t": 520,
-   "crypto": 100
+   "crypto": 50
   }
  },
  "sources": {
   "house_clerk_ptr": {
    "source": "house_clerk_ptr",
-   "last_attempt": "2026-11-08T21:17:02+00:00",
-   "last_success": "2026-11-08T21:17:02+00:00",
+   "last_attempt": "2026-11-09T01:05:42+00:00",
+   "last_success": "2026-11-09T01:05:42+00:00",
    "ok": true,
    "detail": "457 filings (457 reused), 3654 trades parsed, 59 unparsed, 0 errors",
    "count": 3654
   },
   "sec_form4": {
    "source": "sec_form4",
-   "last_attempt": "2026-11-08T21:17:03+00:00",
-   "last_success": "2026-11-08T21:17:03+00:00",
+   "last_attempt": "2026-11-09T01:05:43+00:00",
+   "last_success": "2026-11-09T01:05:43+00:00",
    "ok": true,
    "detail": "145 rows (121 filings reused), 36 open-market (P/S), 0 errors",
    "count": 145
   },
   "oge_278t": {
    "source": "oge_278t",
-   "last_attempt": "2026-11-08T21:17:03+00:00",
-   "last_success": "2026-11-08T21:17:03+00:00",
+   "last_attempt": "2026-11-09T01:05:43+00:00",
+   "last_success": "2026-11-09T01:05:43+00:00",
    "ok": true,
    "detail": "82 documents (82 reused), 498 transactions parsed, 22 linked-only, 0 errors",
    "count": 498
   },
   "prices": {
    "source": "prices",
-   "last_attempt": "2026-11-08T21:17:13+00:00",
-   "last_success": "2026-11-08T21:17:13+00:00",
+   "last_attempt": "2026-11-09T01:06:19+00:00",
+   "last_success": "2026-11-09T01:06:19+00:00",
    "ok": true,
    "detail": "equities=True crypto=True",
    "count": null
   },
   "copy_check": {
    "source": "copy_check",
-   "last_attempt": "2026-11-08T17:12:08+00:00",
-   "last_success": "2026-11-08T17:12:08+00:00",
+   "last_attempt": "2026-11-08T21:18:29+00:00",
+   "last_success": "2026-11-08T21:18:29+00:00",
    "ok": true,
    "detail": "1509/1544 eligible buys measured",
    "count": 1509
   },
   "alerts": {
    "source": "alerts",
-   "last_attempt": "2026-11-08T17:12:08+00:00",
-   "last_success": "2026-11-08T17:12:08+00:00",
+   "last_attempt": "2026-11-08T21:18:30+00:00",
+   "last_success": "2026-11-08T21:18:30+00:00",
    "ok": true,
    "detail": "no new trades",
    "count": 0
   },
   "crypto": {
    "source": "crypto",
-   "last_attempt": "2026-11-08T21:17:13+00:00",
+   "last_attempt": "2026-11-09T01:06:19+00:00",
    "last_success": "2026-11-08T21:17:13+00:00",
-   "ok": true,
-   "detail": "2 wallets, 100 transfers (0 swaps treated as trades, 72 likely airdrop spam)",
-   "count": 100
+   "ok": false,
+   "detail": "2 wallets, 50 transfers (0 swaps treated as trades, 49 likely airdrop spam); issues: World Liberty Financial (multisig): GET failed after 3 attempts: https://eth.blockscout.com/api/v2/addresses/0x5be9a4959308a0d0c7bc0870e319314d8d957dbb/token-transfers?type=ERC-20",
+   "count": 50
   }
  }
 }
