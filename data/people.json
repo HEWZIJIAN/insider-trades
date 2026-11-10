@@ -866,6 +866,21 @@
   ]
  },
  {
+  "person_id": "thomas-suozzi-ny03",
+  "name": "Thomas Suozzi",
+  "roles": [
+   "House (NY03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 12,
+  "document_count": 0,
+  "first_seen": "2026-02-19",
+  "last_seen": "2026-11-01",
+  "positions": []
+ },
+ {
   "person_id": "brian-babin-tx36",
   "name": "Brian Babin",
   "roles": [
@@ -983,21 +998,6 @@
   "document_count": 0,
   "first_seen": "2024-12-31",
   "last_seen": "2026-08-18",
-  "positions": []
- },
- {
-  "person_id": "thomas-suozzi-ny03",
-  "name": "Thomas Suozzi",
-  "roles": [
-   "House (NY03)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 10,
-  "document_count": 0,
-  "first_seen": "2026-02-19",
-  "last_seen": "2026-06-02",
   "positions": []
  },
  {
@@ -2051,6 +2051,21 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000110465921114761/0001104659-21-114761-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "david-kustoff-tn08",
+  "name": "David Kustoff",
+  "roles": [
+   "House (TN08)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 1,
+  "document_count": 0,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12",
+  "positions": []
  },
  {
   "person_id": "vince-fong-ca20",
