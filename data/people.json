@@ -8,10 +8,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 940,
+  "trade_count": 1005,
   "document_count": 0,
   "first_seen": "2026-01-09",
-  "last_seen": "2026-10-09",
+  "last_seen": "2026-11-09",
   "positions": []
  },
  {
@@ -83,10 +83,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 141,
+  "trade_count": 142,
   "document_count": 0,
   "first_seen": "2025-04-03",
-  "last_seen": "2026-06-03",
+  "last_seen": "2026-11-09",
   "positions": []
  },
  {
@@ -1253,6 +1253,21 @@
   "positions": []
  },
  {
+  "person_id": "charles-j-chuck-fleischmann-tn03",
+  "name": "Charles J. \"Chuck\" Fleischmann",
+  "roles": [
+   "House (TN03)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 0,
+  "document_count": 6,
+  "first_seen": "2026-02-09",
+  "last_seen": "2026-11-10",
+  "positions": []
+ },
+ {
   "person_id": "tony-wied-wi08",
   "name": "Tony Wied",
   "roles": [
@@ -1310,21 +1325,6 @@
   "document_count": 0,
   "first_seen": "2026-01-21",
   "last_seen": "2026-10-20",
-  "positions": []
- },
- {
-  "person_id": "charles-j-chuck-fleischmann-tn03",
-  "name": "Charles J. \"Chuck\" Fleischmann",
-  "roles": [
-   "House (TN03)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 0,
-  "document_count": 5,
-  "first_seen": "2026-02-09",
-  "last_seen": "2026-08-12",
   "positions": []
  },
  {
