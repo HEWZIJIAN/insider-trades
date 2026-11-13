@@ -555,6 +555,33 @@
   "positions": []
  },
  {
+  "person_id": "juhan-phillip",
+  "name": "Juhan Phillip",
+  "roles": [
+   "Chief Financial Officer @ DJT",
+   "CFO and Treasurer @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 22,
+  "document_count": 0,
+  "first_seen": "2024-03-26",
+  "last_seen": "2026-11-13",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 561575.0,
+    "as_of_trade_date": "2026-11-13",
+    "as_of_disclosure_date": "2026-11-13",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036960/0001437749-26-036960-index.htm"
+   }
+  ]
+ },
+ {
   "person_id": "baasch-ryan",
   "name": "Baasch, Ryan",
   "roles": [
@@ -570,29 +597,29 @@
   "positions": []
  },
  {
-  "person_id": "juhan-phillip",
-  "name": "Juhan Phillip",
+  "person_id": "glabe-scott",
+  "name": "Glabe Scott",
   "roles": [
-   "Chief Financial Officer @ DJT",
-   "CFO and Treasurer @ DJT"
+   "General Counsel @ DJT",
+   "General Counsel and Secretary @ DJT"
   ],
   "sources": [
    "sec_form4"
   ],
-  "trade_count": 21,
+  "trade_count": 20,
   "document_count": 0,
   "first_seen": "2024-03-26",
-  "last_seen": "2026-08-13",
+  "last_seen": "2026-11-13",
   "positions": [
    {
     "ticker": "DJT",
     "security": "Common Stock, par value $0.0001 per share",
     "security_kind": "non-derivative",
-    "shares_owned": 581749.0,
-    "as_of_trade_date": "2026-08-13",
-    "as_of_disclosure_date": "2026-08-13",
+    "shares_owned": 558958.0,
+    "as_of_trade_date": "2026-11-13",
+    "as_of_disclosure_date": "2026-11-13",
     "ownership": "D",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027765/0001437749-26-027765-index.htm"
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036963/0001437749-26-036963-index.htm"
    }
   ]
  },
@@ -610,33 +637,6 @@
   "first_seen": "2026-02-04",
   "last_seen": "2026-08-19",
   "positions": []
- },
- {
-  "person_id": "glabe-scott",
-  "name": "Glabe Scott",
-  "roles": [
-   "General Counsel @ DJT",
-   "General Counsel and Secretary @ DJT"
-  ],
-  "sources": [
-   "sec_form4"
-  ],
-  "trade_count": 19,
-  "document_count": 0,
-  "first_seen": "2024-03-26",
-  "last_seen": "2026-08-13",
-  "positions": [
-   {
-    "ticker": "DJT",
-    "security": "Common Stock, par value $0.0001 per share",
-    "security_kind": "non-derivative",
-    "shares_owned": 586497.0,
-    "as_of_trade_date": "2026-08-13",
-    "as_of_disclosure_date": "2026-08-13",
-    "ownership": "D",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027763/0001437749-26-027763-index.htm"
-   }
-  ]
  },
  {
   "person_id": "donald-sternoff-beyer-va08",
@@ -729,6 +729,32 @@
   "positions": []
  },
  {
+  "person_id": "novachki-vladimir",
+  "name": "Novachki Vladimir",
+  "roles": [
+   "Chief Technology Officer @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 15,
+  "document_count": 0,
+  "first_seen": "2024-03-26",
+  "last_seen": "2026-11-13",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 882067.0,
+    "as_of_trade_date": "2026-11-13",
+    "as_of_disclosure_date": "2026-11-13",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036966/0001437749-26-036966-index.htm"
+   }
+  ]
+ },
+ {
   "person_id": "august-lee-pfluger-tx11",
   "name": "August Lee Pfluger",
   "roles": [
@@ -772,32 +798,6 @@
   "first_seen": "2025-12-15",
   "last_seen": "2026-10-01",
   "positions": []
- },
- {
-  "person_id": "novachki-vladimir",
-  "name": "Novachki Vladimir",
-  "roles": [
-   "Chief Technology Officer @ DJT"
-  ],
-  "sources": [
-   "sec_form4"
-  ],
-  "trade_count": 14,
-  "document_count": 0,
-  "first_seen": "2024-03-26",
-  "last_seen": "2026-08-13",
-  "positions": [
-   {
-    "ticker": "DJT",
-    "security": "Common Stock, par value $0.0001 per share",
-    "security_kind": "non-derivative",
-    "shares_owned": 914244.0,
-    "as_of_trade_date": "2026-08-13",
-    "as_of_disclosure_date": "2026-08-13",
-    "ownership": "D",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926027761/0001437749-26-027761-index.htm"
-   }
-  ]
  },
  {
   "person_id": "miller-stephen",
@@ -1298,6 +1298,32 @@
   "positions": []
  },
  {
+  "person_id": "mcgurn-kevin",
+  "name": "McGurn Kevin",
+  "roles": [
+   "Interim CEO @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 5,
+  "document_count": 0,
+  "first_seen": "2026-04-24",
+  "last_seen": "2026-11-13",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 95126.0,
+    "as_of_trade_date": "2026-11-13",
+    "as_of_disclosure_date": "2026-11-13",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036958/0001437749-26-036958-index.htm"
+   }
+  ]
+ },
+ {
   "person_id": "carol-devine-miller-wv01",
   "name": "Carol Devine Miller",
   "roles": [
@@ -1371,32 +1397,6 @@
   "first_seen": "2026-07-20",
   "last_seen": "2026-09-29",
   "positions": []
- },
- {
-  "person_id": "mcgurn-kevin",
-  "name": "McGurn Kevin",
-  "roles": [
-   "Interim CEO @ DJT"
-  ],
-  "sources": [
-   "sec_form4"
-  ],
-  "trade_count": 4,
-  "document_count": 0,
-  "first_seen": "2026-04-24",
-  "last_seen": "2026-08-21",
-  "positions": [
-   {
-    "ticker": "DJT",
-    "security": "Common Stock, par value $0.0001 per share",
-    "security_kind": "non-derivative",
-    "shares_owned": 112853.0,
-    "as_of_trade_date": "2026-08-21",
-    "as_of_disclosure_date": "2026-08-21",
-    "ownership": "D",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926028743/0001437749-26-028743-index.htm"
-   }
-  ]
  },
  {
   "person_id": "trump-donald-j-jr",
