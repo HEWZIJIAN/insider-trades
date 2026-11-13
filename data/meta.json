@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-12T22:01:33+00:00",
+ "generated_at": "2026-11-13T02:45:23+00:00",
  "counts": {
-  "records": 4551,
-  "parsed_trades": 4430,
+  "records": 4555,
+  "parsed_trades": 4434,
   "linked_documents": 121,
-  "copy_eligible": 3400,
+  "copy_eligible": 3402,
   "people": 157,
   "by_source": {
-   "house_ptr": 3786,
+   "house_ptr": 3790,
    "sec_form4": 145,
    "oge_278t": 520,
    "crypto": 100
@@ -16,56 +16,56 @@
  "sources": {
   "house_clerk_ptr": {
    "source": "house_clerk_ptr",
-   "last_attempt": "2026-11-12T22:01:26+00:00",
-   "last_success": "2026-11-12T22:01:26+00:00",
+   "last_attempt": "2026-11-13T02:45:18+00:00",
+   "last_success": "2026-11-13T02:45:18+00:00",
    "ok": true,
-   "detail": "465 filings (465 reused), 3725 trades parsed, 61 unparsed, 0 errors",
-   "count": 3725
+   "detail": "467 filings (465 reused), 3729 trades parsed, 61 unparsed, 0 errors",
+   "count": 3729
   },
   "sec_form4": {
    "source": "sec_form4",
-   "last_attempt": "2026-11-12T22:01:26+00:00",
-   "last_success": "2026-11-12T22:01:26+00:00",
+   "last_attempt": "2026-11-13T02:45:18+00:00",
+   "last_success": "2026-11-13T02:45:18+00:00",
    "ok": true,
    "detail": "145 rows (121 filings reused), 36 open-market (P/S), 0 errors",
    "count": 145
   },
   "oge_278t": {
    "source": "oge_278t",
-   "last_attempt": "2026-11-12T22:01:27+00:00",
-   "last_success": "2026-11-12T22:01:27+00:00",
+   "last_attempt": "2026-11-13T02:45:19+00:00",
+   "last_success": "2026-11-13T02:45:19+00:00",
    "ok": true,
    "detail": "82 documents (82 reused), 498 transactions parsed, 22 linked-only, 0 errors",
    "count": 498
   },
   "prices": {
    "source": "prices",
-   "last_attempt": "2026-11-12T22:01:33+00:00",
-   "last_success": "2026-11-12T22:01:33+00:00",
+   "last_attempt": "2026-11-13T02:45:22+00:00",
+   "last_success": "2026-11-13T02:45:22+00:00",
    "ok": true,
    "detail": "equities=True crypto=True",
    "count": null
   },
   "copy_check": {
    "source": "copy_check",
-   "last_attempt": "2026-11-12T15:46:33+00:00",
-   "last_success": "2026-11-12T15:46:33+00:00",
+   "last_attempt": "2026-11-12T22:02:49+00:00",
+   "last_success": "2026-11-12T22:02:49+00:00",
    "ok": true,
    "detail": "1538/1575 eligible buys measured",
    "count": 1538
   },
   "alerts": {
    "source": "alerts",
-   "last_attempt": "2026-11-12T15:46:33+00:00",
-   "last_success": "2026-11-12T15:46:33+00:00",
+   "last_attempt": "2026-11-12T22:02:49+00:00",
+   "last_success": "2026-11-12T22:02:49+00:00",
    "ok": true,
    "detail": "no new trades",
    "count": 0
   },
   "crypto": {
    "source": "crypto",
-   "last_attempt": "2026-11-12T22:01:33+00:00",
-   "last_success": "2026-11-12T22:01:33+00:00",
+   "last_attempt": "2026-11-13T02:45:22+00:00",
+   "last_success": "2026-11-13T02:45:22+00:00",
    "ok": true,
    "detail": "2 wallets, 100 transfers (0 swaps treated as trades, 72 likely airdrop spam)",
    "count": 100

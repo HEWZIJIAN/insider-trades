@@ -450,6 +450,21 @@
   "positions": []
  },
  {
+  "person_id": "richard-w-allen-ga12",
+  "name": "Richard W. Allen",
+  "roles": [
+   "House (GA12)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 35,
+  "document_count": 0,
+  "first_seen": "2026-01-06",
+  "last_seen": "2026-11-10",
+  "positions": []
+ },
+ {
   "person_id": "tim-moore-nc14",
   "name": "Tim Moore",
   "roles": [
@@ -462,21 +477,6 @@
   "document_count": 0,
   "first_seen": "2026-01-03",
   "last_seen": "2026-08-14",
-  "positions": []
- },
- {
-  "person_id": "richard-w-allen-ga12",
-  "name": "Richard W. Allen",
-  "roles": [
-   "House (GA12)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 32,
-  "document_count": 0,
-  "first_seen": "2026-01-06",
-  "last_seen": "2026-10-14",
   "positions": []
  },
  {
@@ -548,10 +548,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 22,
+  "trade_count": 23,
   "document_count": 0,
   "first_seen": "2026-01-02",
-  "last_seen": "2026-10-05",
+  "last_seen": "2026-11-05",
   "positions": []
  },
  {
