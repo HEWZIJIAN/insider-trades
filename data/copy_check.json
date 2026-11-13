@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T02:51:19+00:00",
+ "generated_at": "2026-11-13T10:29:56+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -18,48 +18,48 @@
  },
  "counts": {
   "eligible_buys": 1576,
-  "measured": 1539,
-  "unmeasurable": 37
+  "measured": 1541,
+  "unmeasurable": 35
  },
  "people": [
   {
    "person_id": "gilbert-cisneros-ca31",
    "person": "Gilbert Cisneros",
-   "measured_buys": 481,
-   "underlying_filing_rows": 529,
+   "measured_buys": 483,
+   "underlying_filing_rows": 531,
    "distinct_baseline_dates": 11,
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 454,
-     "win_rate_vs_benchmark_pct": 52.9,
-     "avg_return_pct": 1.36,
-     "avg_excess_pct": 0.52,
-     "median_excess_pct": 0.34
+     "n": 456,
+     "win_rate_vs_benchmark_pct": 52.6,
+     "avg_return_pct": 1.35,
+     "avg_excess_pct": 0.51,
+     "median_excess_pct": 0.32
     },
     "d30": {
      "status": "ok",
-     "n": 454,
-     "win_rate_vs_benchmark_pct": 44.9,
-     "avg_return_pct": 1.11,
-     "avg_excess_pct": -0.26,
+     "n": 456,
+     "win_rate_vs_benchmark_pct": 45.0,
+     "avg_return_pct": 1.09,
+     "avg_excess_pct": -0.29,
      "median_excess_pct": -0.92
     },
     "d90": {
      "status": "ok",
-     "n": 363,
-     "win_rate_vs_benchmark_pct": 37.5,
-     "avg_return_pct": 5.92,
-     "avg_excess_pct": -1.07,
-     "median_excess_pct": -5.74
+     "n": 365,
+     "win_rate_vs_benchmark_pct": 37.3,
+     "avg_return_pct": 5.86,
+     "avg_excess_pct": -1.11,
+     "median_excess_pct": -5.87
     },
     "today": {
      "status": "ok",
-     "n": 481,
-     "win_rate_vs_benchmark_pct": 43.7,
-     "avg_return_pct": 4.13,
-     "avg_excess_pct": -2.26,
-     "median_excess_pct": -2.27
+     "n": 483,
+     "win_rate_vs_benchmark_pct": 43.5,
+     "avg_return_pct": 4.08,
+     "avg_excess_pct": -2.29,
+     "median_excess_pct": -2.5
     }
    }
   },
@@ -238,7 +238,7 @@
      "status": "ok",
      "n": 40,
      "win_rate_vs_benchmark_pct": 52.5,
-     "avg_return_pct": -0.67,
+     "avg_return_pct": -0.68,
      "avg_excess_pct": -0.55,
      "median_excess_pct": 0.43
     },
@@ -263,7 +263,7 @@
      "n": 40,
      "win_rate_vs_benchmark_pct": 42.5,
      "avg_return_pct": 1.66,
-     "avg_excess_pct": -3.0,
+     "avg_excess_pct": -3.01,
      "median_excess_pct": -4.65
     }
    }
@@ -1038,9 +1038,9 @@
      "status": "ok",
      "n": 8,
      "win_rate_vs_benchmark_pct": 50.0,
-     "avg_return_pct": -12.4,
-     "avg_excess_pct": -12.26,
-     "median_excess_pct": -1.66
+     "avg_return_pct": -13.9,
+     "avg_excess_pct": -13.77,
+     "median_excess_pct": -3.87
     }
    }
   },
@@ -2919,11 +2919,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 73.62,
-     "return_pct": 5.76,
+     "as_of": "2026-11-12",
+     "price": 73.73,
+     "return_pct": 5.92,
      "benchmark_return_pct": 0.96,
-     "excess_pct": 4.8
+     "excess_pct": 4.96
     }
    }
   },
@@ -3131,11 +3131,11 @@
    "horizons": {
     "d7": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 64.98,
-     "return_pct": 9.5,
+     "as_of": "2026-11-12",
+     "price": 64.81,
+     "return_pct": 9.22,
      "benchmark_return_pct": 3.29,
-     "excess_pct": 6.21
+     "excess_pct": 5.93
     },
     "d30": {
      "status": "pending",
@@ -3147,11 +3147,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 64.98,
-     "return_pct": 9.5,
+     "as_of": "2026-11-12",
+     "price": 64.81,
+     "return_pct": 9.22,
      "benchmark_return_pct": 3.29,
-     "excess_pct": 6.21
+     "excess_pct": 5.93
     }
    }
   },
@@ -3858,11 +3858,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 64.98,
-     "return_pct": -18.1,
+     "as_of": "2026-11-12",
+     "price": 64.81,
+     "return_pct": -18.31,
      "benchmark_return_pct": -2.7,
-     "excess_pct": -15.4
+     "excess_pct": -15.61
     }
    }
   },
@@ -3902,11 +3902,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 42.79,
-     "return_pct": 9.69,
+     "as_of": "2026-11-12",
+     "price": 38.3,
+     "return_pct": -1.82,
      "benchmark_return_pct": -2.7,
-     "excess_pct": 12.39
+     "excess_pct": 0.88
     }
    }
   },
@@ -4034,11 +4034,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 32.11,
-     "return_pct": -4.97,
+     "as_of": "2026-11-12",
+     "price": 31.71,
+     "return_pct": -6.16,
      "benchmark_return_pct": -2.7,
-     "excess_pct": -2.27
+     "excess_pct": -3.46
     }
    }
   },
@@ -4298,11 +4298,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 73.62,
-     "return_pct": -3.13,
+     "as_of": "2026-11-12",
+     "price": 73.73,
+     "return_pct": -2.99,
      "benchmark_return_pct": -2.7,
-     "excess_pct": -0.43
+     "excess_pct": -0.29
     }
    }
   },
@@ -4506,11 +4506,11 @@
     },
     "d30": {
      "status": "ok",
-     "as_of": "2026-11-10",
-     "price": 25.845,
-     "return_pct": -4.28,
+     "as_of": "2026-11-11",
+     "price": 24.915,
+     "return_pct": -7.72,
      "benchmark_return_pct": -2.35,
-     "excess_pct": -1.93
+     "excess_pct": -5.37
     },
     "d90": {
      "status": "pending",
@@ -4518,11 +4518,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-10",
-     "price": 25.845,
-     "return_pct": -4.28,
+     "as_of": "2026-11-12",
+     "price": 24.915,
+     "return_pct": -7.72,
      "benchmark_return_pct": -2.7,
-     "excess_pct": -1.58
+     "excess_pct": -5.02
     }
    }
   },
@@ -4650,11 +4650,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 189.78,
-     "return_pct": 14.64,
+     "as_of": "2026-11-12",
+     "price": 190.31,
+     "return_pct": 14.96,
      "benchmark_return_pct": -2.7,
-     "excess_pct": 17.34
+     "excess_pct": 17.66
     }
    }
   },
@@ -4826,11 +4826,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 37.12,
-     "return_pct": 1.81,
+     "as_of": "2026-11-12",
+     "price": 36.99,
+     "return_pct": 1.45,
      "benchmark_return_pct": -2.7,
-     "excess_pct": 4.51
+     "excess_pct": 4.15
     }
    }
   },
@@ -5501,11 +5501,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 6.67,
-     "return_pct": -35.15,
+     "as_of": "2026-11-12",
+     "price": 6.07,
+     "return_pct": -40.98,
      "benchmark_return_pct": -1.63,
-     "excess_pct": -33.52
+     "excess_pct": -39.35
     }
    }
   },
@@ -5589,11 +5589,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 6.67,
-     "return_pct": -35.15,
+     "as_of": "2026-11-12",
+     "price": 6.07,
+     "return_pct": -40.98,
      "benchmark_return_pct": -1.63,
-     "excess_pct": -33.52
+     "excess_pct": -39.35
     }
    }
   },
@@ -5677,11 +5677,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 154.78,
-     "return_pct": -12.95,
+     "as_of": "2026-11-12",
+     "price": 154.86,
+     "return_pct": -12.9,
      "benchmark_return_pct": -1.63,
-     "excess_pct": -11.32
+     "excess_pct": -11.27
     }
    }
   },
@@ -6117,11 +6117,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 17.89,
-     "return_pct": 12.52,
+     "as_of": "2026-11-12",
+     "price": 17.66,
+     "return_pct": 11.07,
      "benchmark_return_pct": -1.63,
-     "excess_pct": 14.15
+     "excess_pct": 12.7
     }
    }
   },
@@ -6161,11 +6161,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 6.05,
-     "return_pct": -7.63,
+     "as_of": "2026-11-12",
+     "price": 5.76,
+     "return_pct": -12.06,
      "benchmark_return_pct": -1.63,
-     "excess_pct": -6.0
+     "excess_pct": -10.43
     }
    }
   },
@@ -6205,11 +6205,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 645.88,
-     "return_pct": 5.01,
+     "as_of": "2026-11-12",
+     "price": 643.88,
+     "return_pct": 4.69,
      "benchmark_return_pct": -1.63,
-     "excess_pct": 6.64
+     "excess_pct": 6.32
     }
    }
   },
@@ -7657,11 +7657,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 53.5,
-     "return_pct": -32.39,
+     "as_of": "2026-11-12",
+     "price": 56.0,
+     "return_pct": -29.23,
      "benchmark_return_pct": -1.15,
-     "excess_pct": -31.24
+     "excess_pct": -28.08
     }
    }
   },
@@ -16545,11 +16545,44 @@
    "disclosure_date": "2026-07-02",
    "trade_date": "2026-06-30",
    "benchmark": "SPY",
-   "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-11-09, 130 days later)",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-07-06",
+   "baseline_price": 105.32,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-13",
+     "price": 101.87,
+     "return_pct": -3.28,
+     "benchmark_return_pct": -0.28,
+     "excess_pct": -3.0
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 99.98,
+     "return_pct": -5.07,
+     "benchmark_return_pct": 2.46,
+     "excess_pct": -7.53
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 93.76,
+     "return_pct": -10.98,
+     "benchmark_return_pct": 2.44,
+     "excess_pct": -13.42
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-12",
+     "price": 99.89,
+     "return_pct": -5.16,
+     "benchmark_return_pct": 0.78,
+     "excess_pct": -5.94
+    }
+   }
   },
   {
    "trade_id": "house-20034906-41",
@@ -16735,11 +16768,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
-     "price": 53.5,
-     "return_pct": -33.69,
+     "as_of": "2026-11-12",
+     "price": 56.0,
+     "return_pct": -30.59,
      "benchmark_return_pct": 0.78,
-     "excess_pct": -34.47
+     "excess_pct": -31.37
     }
    }
   },
@@ -21246,11 +21279,44 @@
    "disclosure_date": "2026-06-05",
    "trade_date": "2026-05-29",
    "benchmark": "SPY",
-   "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-11-09, 157 days later)",
-   "baseline_date": null,
-   "baseline_price": null,
-   "horizons": {}
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-06-08",
+   "baseline_price": 100.6,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-06-15",
+     "price": 100.73,
+     "return_pct": 0.13,
+     "benchmark_return_pct": 2.11,
+     "excess_pct": -1.98
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-07-08",
+     "price": 101.47,
+     "return_pct": 0.86,
+     "benchmark_return_pct": 0.84,
+     "excess_pct": 0.02
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-09-04",
+     "price": 98.64,
+     "return_pct": -1.95,
+     "benchmark_return_pct": 4.19,
+     "excess_pct": -6.14
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-12",
+     "price": 99.89,
+     "return_pct": -0.71,
+     "benchmark_return_pct": 2.42,
+     "excess_pct": -3.13
+    }
+   }
   },
   {
    "trade_id": "house-20034713-79",
@@ -21868,7 +21934,7 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-11",
+     "as_of": "2026-11-12",
      "price": 59.56,
      "return_pct": -14.34,
      "benchmark_return_pct": 2.42,
