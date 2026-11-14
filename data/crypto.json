@@ -2645,7 +2645,7 @@
   "asset_name": "USDC",
   "ticker": "USDC",
   "action": "received",
-  "on_chain_method": "execute",
+  "on_chain_method": "0x09c5eabe",
   "likely_airdrop": false,
   "is_swap": false,
   "quantity": 0.000106,
