@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T01:11:52+00:00",
+ "generated_at": "2026-11-15T08:14:40+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -262,8 +262,8 @@
      "status": "ok",
      "n": 40,
      "win_rate_vs_benchmark_pct": 42.5,
-     "avg_return_pct": 0.5,
-     "avg_excess_pct": -3.79,
+     "avg_return_pct": 0.49,
+     "avg_excess_pct": -3.8,
      "median_excess_pct": -4.06
     }
    }
@@ -549,7 +549,7 @@
      "status": "ok",
      "n": 21,
      "win_rate_vs_benchmark_pct": 42.9,
-     "avg_return_pct": 14.81,
+     "avg_return_pct": 14.82,
      "avg_excess_pct": 4.89,
      "median_excess_pct": -2.92
     }
@@ -3352,10 +3352,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 31.9,
-     "return_pct": -3.65,
+     "price": 31.72,
+     "return_pct": -4.2,
      "benchmark_return_pct": 0.59,
-     "excess_pct": -4.24
+     "excess_pct": -4.79
     }
    }
   },
@@ -6894,10 +6894,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 8.0,
-     "return_pct": -26.94,
+     "price": 8.11,
+     "return_pct": -25.94,
      "benchmark_return_pct": -2.46,
-     "excess_pct": -24.48
+     "excess_pct": -23.48
     }
    }
   },
@@ -21670,10 +21670,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 22.05,
-     "return_pct": -51.32,
+     "price": 21.94,
+     "return_pct": -51.57,
      "benchmark_return_pct": 2.05,
-     "excess_pct": -53.37
+     "excess_pct": -53.62
     }
    }
   },
@@ -27907,10 +27907,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 17.84,
-     "return_pct": 6.83,
+     "price": 17.86,
+     "return_pct": 6.95,
      "benchmark_return_pct": 2.04,
-     "excess_pct": 4.79
+     "excess_pct": 4.91
     }
    }
   },
@@ -30787,10 +30787,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 55.77,
-     "return_pct": -20.44,
+     "price": 55.71,
+     "return_pct": -20.53,
      "benchmark_return_pct": 2.8,
-     "excess_pct": -23.24
+     "excess_pct": -23.33
     }
    }
   },
@@ -42733,10 +42733,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 2461.1799,
-     "return_pct": 42.76,
+     "price": 2452.6001,
+     "return_pct": 42.26,
      "benchmark_return_pct": 16.94,
-     "excess_pct": 25.82
+     "excess_pct": 25.32
     }
    }
   },
@@ -42829,10 +42829,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 9.37,
-     "return_pct": -5.54,
+     "price": 9.33,
+     "return_pct": -5.95,
      "benchmark_return_pct": 15.49,
-     "excess_pct": -21.03
+     "excess_pct": -21.44
     }
    }
   },
@@ -46315,10 +46315,10 @@
     "today": {
      "status": "ok",
      "as_of": "2026-11-13",
-     "price": 55.77,
-     "return_pct": 22.38,
+     "price": 55.71,
+     "return_pct": 22.25,
      "benchmark_return_pct": 12.19,
-     "excess_pct": 10.19
+     "excess_pct": 10.06
     }
    }
   },
