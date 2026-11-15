@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T21:05:19+00:00",
+ "generated_at": "2026-11-15T01:11:52+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -47,11 +47,11 @@
     },
     "d90": {
      "status": "ok",
-     "n": 363,
-     "win_rate_vs_benchmark_pct": 37.5,
-     "avg_return_pct": 5.92,
-     "avg_excess_pct": -1.07,
-     "median_excess_pct": -5.74
+     "n": 399,
+     "win_rate_vs_benchmark_pct": 37.6,
+     "avg_return_pct": 4.82,
+     "avg_excess_pct": -1.33,
+     "median_excess_pct": -5.46
     },
     "today": {
      "status": "ok",
@@ -121,11 +121,11 @@
     },
     "d30": {
      "status": "ok",
-     "n": 69,
-     "win_rate_vs_benchmark_pct": 52.2,
-     "avg_return_pct": 1.09,
-     "avg_excess_pct": 1.11,
-     "median_excess_pct": 0.34
+     "n": 72,
+     "win_rate_vs_benchmark_pct": 52.8,
+     "avg_return_pct": 1.14,
+     "avg_excess_pct": 1.2,
+     "median_excess_pct": 0.44
     },
     "d90": {
      "status": "ok",
@@ -3902,8 +3902,12 @@
      "excess_pct": -0.56
     },
     "d30": {
-     "status": "pending",
-     "detail": "+30d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 103.73,
+     "return_pct": 4.01,
+     "benchmark_return_pct": -1.16,
+     "excess_pct": 5.17
     },
     "d90": {
      "status": "pending",
@@ -3942,8 +3946,12 @@
      "excess_pct": 5.61
     },
     "d30": {
-     "status": "pending",
-     "detail": "+30d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 54.5,
+     "return_pct": 8.2,
+     "benchmark_return_pct": -1.16,
+     "excess_pct": 9.36
     },
     "d90": {
      "status": "pending",
@@ -3982,8 +3990,12 @@
      "excess_pct": -10.28
     },
     "d30": {
-     "status": "pending",
-     "detail": "+30d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 22.18,
+     "return_pct": -5.38,
+     "benchmark_return_pct": -1.16,
+     "excess_pct": -4.22
     },
     "d90": {
      "status": "pending",
@@ -10998,8 +11010,12 @@
      "excess_pct": -11.73
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 16.23,
+     "return_pct": -29.83,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -27.46
     },
     "today": {
      "status": "ok",
@@ -11042,8 +11058,12 @@
      "excess_pct": -5.17
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 47.03,
+     "return_pct": -5.66,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -3.29
     },
     "today": {
      "status": "ok",
@@ -11086,8 +11106,12 @@
      "excess_pct": -15.49
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 328.13,
+     "return_pct": -12.82,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -10.45
     },
     "today": {
      "status": "ok",
@@ -11130,8 +11154,12 @@
      "excess_pct": 11.93
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 20.79,
+     "return_pct": 11.83,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 14.2
     },
     "today": {
      "status": "ok",
@@ -11174,8 +11202,12 @@
      "excess_pct": -7.0
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 48.11,
+     "return_pct": -3.02,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -0.65
     },
     "today": {
      "status": "ok",
@@ -11218,8 +11250,12 @@
      "excess_pct": 7.08
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 409.1,
+     "return_pct": 31.13,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 33.5
     },
     "today": {
      "status": "ok",
@@ -11262,8 +11298,12 @@
      "excess_pct": -19.8
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 295.65,
+     "return_pct": -44.84,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -42.47
     },
     "today": {
      "status": "ok",
@@ -11306,8 +11346,12 @@
      "excess_pct": 10.54
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 15.68,
+     "return_pct": 17.01,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 19.38
     },
     "today": {
      "status": "ok",
@@ -11350,8 +11394,12 @@
      "excess_pct": 3.45
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 167.99,
+     "return_pct": -2.64,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -0.27
     },
     "today": {
      "status": "ok",
@@ -11394,8 +11442,12 @@
      "excess_pct": -2.53
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 162.85,
+     "return_pct": -27.63,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -25.26
     },
     "today": {
      "status": "ok",
@@ -11438,8 +11490,12 @@
      "excess_pct": 4.48
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 523.88,
+     "return_pct": 9.06,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 11.43
     },
     "today": {
      "status": "ok",
@@ -11482,8 +11538,12 @@
      "excess_pct": 0.44
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 156.76,
+     "return_pct": -33.1,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -30.73
     },
     "today": {
      "status": "ok",
@@ -11526,8 +11586,12 @@
      "excess_pct": 3.69
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 534.06,
+     "return_pct": 5.55,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 7.92
     },
     "today": {
      "status": "ok",
@@ -11570,8 +11634,12 @@
      "excess_pct": 15.25
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 226.61,
+     "return_pct": 5.94,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 8.31
     },
     "today": {
      "status": "ok",
@@ -11614,8 +11682,12 @@
      "excess_pct": 11.68
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 127.65,
+     "return_pct": -15.21,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -12.84
     },
     "today": {
      "status": "ok",
@@ -11658,8 +11730,12 @@
      "excess_pct": 13.98
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 250.49,
+     "return_pct": 47.36,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 49.73
     },
     "today": {
      "status": "ok",
@@ -11702,8 +11778,12 @@
      "excess_pct": -9.24
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 19.1,
+     "return_pct": -32.56,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -30.19
     },
     "today": {
      "status": "ok",
@@ -11746,8 +11826,12 @@
      "excess_pct": 0.0
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 63.37,
+     "return_pct": 5.23,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 7.6
     },
     "today": {
      "status": "ok",
@@ -11790,8 +11874,12 @@
      "excess_pct": -9.43
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 52.07,
+     "return_pct": -35.4,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -33.03
     },
     "today": {
      "status": "ok",
@@ -11834,8 +11922,12 @@
      "excess_pct": 1.91
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 63.02,
+     "return_pct": 9.47,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 11.84
     },
     "today": {
      "status": "ok",
@@ -11878,8 +11970,12 @@
      "excess_pct": 6.5
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 142.84,
+     "return_pct": 14.07,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 16.44
     },
     "today": {
      "status": "ok",
@@ -11922,8 +12018,12 @@
      "excess_pct": -10.09
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 256.47,
+     "return_pct": 4.69,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 7.06
     },
     "today": {
      "status": "ok",
@@ -11966,8 +12066,12 @@
      "excess_pct": -0.93
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 39.37,
+     "return_pct": 6.18,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 8.55
     },
     "today": {
      "status": "ok",
@@ -12010,8 +12114,12 @@
      "excess_pct": -13.61
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 283.04,
+     "return_pct": -17.41,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -15.04
     },
     "today": {
      "status": "ok",
@@ -12054,8 +12162,12 @@
      "excess_pct": -14.22
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 10.21,
+     "return_pct": -17.59,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -15.22
     },
     "today": {
      "status": "ok",
@@ -12098,8 +12210,12 @@
      "excess_pct": -3.56
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 82.85,
+     "return_pct": -6.95,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -4.58
     },
     "today": {
      "status": "ok",
@@ -12142,8 +12258,12 @@
      "excess_pct": -11.53
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 63.12,
+     "return_pct": -3.63,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -1.26
     },
     "today": {
      "status": "ok",
@@ -12186,8 +12306,12 @@
      "excess_pct": -7.6
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 72.75,
+     "return_pct": -13.38,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -11.01
     },
     "today": {
      "status": "ok",
@@ -12230,8 +12354,12 @@
      "excess_pct": 1.91
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 63.02,
+     "return_pct": 9.47,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 11.84
     },
     "today": {
      "status": "ok",
@@ -12274,8 +12402,12 @@
      "excess_pct": -4.74
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 62.95,
+     "return_pct": -14.25,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -11.88
     },
     "today": {
      "status": "ok",
@@ -12318,8 +12450,12 @@
      "excess_pct": -2.36
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 61.33,
+     "return_pct": -15.25,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -12.88
     },
     "today": {
      "status": "ok",
@@ -12362,8 +12498,12 @@
      "excess_pct": -7.97
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 14.96,
+     "return_pct": -10.26,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -7.89
     },
     "today": {
      "status": "ok",
@@ -12406,8 +12546,12 @@
      "excess_pct": -1.35
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 53.01,
+     "return_pct": 3.33,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 5.7
     },
     "today": {
      "status": "ok",
@@ -12450,8 +12594,12 @@
      "excess_pct": -3.78
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 103.46,
+     "return_pct": 1.1,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 3.47
     },
     "today": {
      "status": "ok",
@@ -12494,8 +12642,12 @@
      "excess_pct": -0.93
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 39.37,
+     "return_pct": 6.18,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": 8.55
     },
     "today": {
      "status": "ok",
@@ -12538,8 +12690,12 @@
      "excess_pct": -14.02
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 139.14,
+     "return_pct": -32.2,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -29.83
     },
     "today": {
      "status": "ok",
@@ -12582,8 +12738,12 @@
      "excess_pct": -12.78
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 7.61,
+     "return_pct": -23.44,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -21.07
     },
     "today": {
      "status": "ok",
@@ -12626,8 +12786,12 @@
      "excess_pct": -3.63
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 173.14,
+     "return_pct": -2.94,
+     "benchmark_return_pct": -2.37,
+     "excess_pct": -0.57
     },
     "today": {
      "status": "ok",
