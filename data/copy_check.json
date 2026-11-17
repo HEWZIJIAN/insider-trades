@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:58:26+00:00",
+ "generated_at": "2026-11-17T01:32:07+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1585,
-  "measured": 1548,
+  "eligible_buys": 1587,
+  "measured": 1550,
   "unmeasurable": 37
  },
  "people": [
@@ -31,11 +31,11 @@
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 454,
-     "win_rate_vs_benchmark_pct": 52.9,
-     "avg_return_pct": 1.36,
-     "avg_excess_pct": 0.52,
-     "median_excess_pct": 0.34
+     "n": 481,
+     "win_rate_vs_benchmark_pct": 52.6,
+     "avg_return_pct": 1.33,
+     "avg_excess_pct": 0.5,
+     "median_excess_pct": 0.28
     },
     "d30": {
      "status": "ok",
@@ -515,6 +515,47 @@
    }
   },
   {
+   "person_id": "jonathan-jackson-il01",
+   "person": "Jonathan Jackson",
+   "measured_buys": 21,
+   "underlying_filing_rows": 23,
+   "distinct_baseline_dates": 9,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 21,
+     "win_rate_vs_benchmark_pct": 28.6,
+     "avg_return_pct": -0.19,
+     "avg_excess_pct": -0.38,
+     "median_excess_pct": -0.7
+    },
+    "d30": {
+     "status": "ok",
+     "n": 19,
+     "win_rate_vs_benchmark_pct": 52.6,
+     "avg_return_pct": -3.3,
+     "avg_excess_pct": -1.93,
+     "median_excess_pct": 1.03
+    },
+    "d90": {
+     "status": "ok",
+     "n": 16,
+     "win_rate_vs_benchmark_pct": 43.8,
+     "avg_return_pct": 5.54,
+     "avg_excess_pct": 0.76,
+     "median_excess_pct": -3.58
+    },
+    "today": {
+     "status": "ok",
+     "n": 21,
+     "win_rate_vs_benchmark_pct": 47.6,
+     "avg_return_pct": 7.08,
+     "avg_excess_pct": 1.06,
+     "median_excess_pct": -0.82
+    }
+   }
+  },
+  {
    "person_id": "tim-moore-nc14",
    "person": "Tim Moore",
    "measured_buys": 21,
@@ -593,47 +634,6 @@
      "avg_return_pct": 0.8,
      "avg_excess_pct": -1.77,
      "median_excess_pct": -1.68
-    }
-   }
-  },
-  {
-   "person_id": "jonathan-jackson-il01",
-   "person": "Jonathan Jackson",
-   "measured_buys": 19,
-   "underlying_filing_rows": 21,
-   "distinct_baseline_dates": 8,
-   "by_horizon": {
-    "d7": {
-     "status": "ok",
-     "n": 19,
-     "win_rate_vs_benchmark_pct": 26.3,
-     "avg_return_pct": 0.4,
-     "avg_excess_pct": 0.12,
-     "median_excess_pct": -0.7
-    },
-    "d30": {
-     "status": "ok",
-     "n": 19,
-     "win_rate_vs_benchmark_pct": 52.6,
-     "avg_return_pct": -3.3,
-     "avg_excess_pct": -1.93,
-     "median_excess_pct": 1.03
-    },
-    "d90": {
-     "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 43.8,
-     "avg_return_pct": 5.54,
-     "avg_excess_pct": 0.76,
-     "median_excess_pct": -3.58
-    },
-    "today": {
-     "status": "ok",
-     "n": 19,
-     "win_rate_vs_benchmark_pct": 47.4,
-     "avg_return_pct": 8.38,
-     "avg_excess_pct": 1.73,
-     "median_excess_pct": -0.82
     }
    }
   },
@@ -1185,9 +1185,12 @@
      "median_excess_pct": -2.21
     },
     "d90": {
-     "status": "insufficient_data",
-     "n": 4,
-     "needed": 5
+     "status": "ok",
+     "n": 5,
+     "win_rate_vs_benchmark_pct": 60.0,
+     "avg_return_pct": 2.89,
+     "avg_excess_pct": 2.68,
+     "median_excess_pct": 2.42
     },
     "today": {
      "status": "ok",
@@ -2294,8 +2297,12 @@
    "baseline_price": 78.67,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 78.3,
+     "return_pct": -0.47,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -1.06
     },
     "d30": {
      "status": "pending",
@@ -2330,8 +2337,12 @@
    "baseline_price": 971.55,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 960.04,
+     "return_pct": -1.18,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -1.77
     },
     "d30": {
      "status": "pending",
@@ -2366,8 +2377,12 @@
    "baseline_price": 226.48,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 232.06,
+     "return_pct": 2.46,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 1.87
     },
     "d30": {
      "status": "pending",
@@ -2402,8 +2417,12 @@
    "baseline_price": 78.67,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 78.3,
+     "return_pct": -0.47,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -1.06
     },
     "d30": {
      "status": "pending",
@@ -2438,8 +2457,12 @@
    "baseline_price": 99.61,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 102.25,
+     "return_pct": 2.65,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 2.06
     },
     "d30": {
      "status": "pending",
@@ -2474,8 +2497,12 @@
    "baseline_price": 85.76,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 86.05,
+     "return_pct": 0.34,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -0.25
     },
     "d30": {
      "status": "pending",
@@ -2510,8 +2537,12 @@
    "baseline_price": 250.83,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 223.37,
+     "return_pct": -10.95,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -11.54
     },
     "d30": {
      "status": "pending",
@@ -2546,8 +2577,12 @@
    "baseline_price": 585.57,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 596.62,
+     "return_pct": 1.89,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 1.3
     },
     "d30": {
      "status": "pending",
@@ -2582,8 +2617,12 @@
    "baseline_price": 148.06,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 152.48,
+     "return_pct": 2.99,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 2.4
     },
     "d30": {
      "status": "pending",
@@ -2618,8 +2657,12 @@
    "baseline_price": 67.37,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 68.42,
+     "return_pct": 1.56,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 0.97
     },
     "d30": {
      "status": "pending",
@@ -2654,8 +2697,12 @@
    "baseline_price": 28.31,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 29.54,
+     "return_pct": 4.34,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 3.75
     },
     "d30": {
      "status": "pending",
@@ -2690,8 +2737,12 @@
    "baseline_price": 1432.29,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 1443.5,
+     "return_pct": 0.78,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 0.19
     },
     "d30": {
      "status": "pending",
@@ -2726,8 +2777,12 @@
    "baseline_price": 60.2,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 60.18,
+     "return_pct": -0.03,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -0.62
     },
     "d30": {
      "status": "pending",
@@ -2762,8 +2817,12 @@
    "baseline_price": 24.75,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 25.16,
+     "return_pct": 1.66,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 1.07
     },
     "d30": {
      "status": "pending",
@@ -2798,8 +2857,12 @@
    "baseline_price": 73.24,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 73.43,
+     "return_pct": 0.26,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -0.33
     },
     "d30": {
      "status": "pending",
@@ -2834,8 +2897,12 @@
    "baseline_price": 69.78,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 70.38,
+     "return_pct": 0.86,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 0.27
     },
     "d30": {
      "status": "pending",
@@ -2870,8 +2937,12 @@
    "baseline_price": 98.15,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 95.64,
+     "return_pct": -2.56,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -3.15
     },
     "d30": {
      "status": "pending",
@@ -2906,8 +2977,12 @@
    "baseline_price": 122.36,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 125.09,
+     "return_pct": 2.23,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 1.64
     },
     "d30": {
      "status": "pending",
@@ -2942,8 +3017,12 @@
    "baseline_price": 44.7,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 43.84,
+     "return_pct": -1.92,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -2.51
     },
     "d30": {
      "status": "pending",
@@ -2978,8 +3057,12 @@
    "baseline_price": 188.16,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 185.98,
+     "return_pct": -1.16,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -1.75
     },
     "d30": {
      "status": "pending",
@@ -3014,8 +3097,12 @@
    "baseline_price": 971.55,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 960.04,
+     "return_pct": -1.18,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -1.77
     },
     "d30": {
      "status": "pending",
@@ -3050,8 +3137,12 @@
    "baseline_price": 19.93,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 23.28,
+     "return_pct": 16.81,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 16.22
     },
     "d30": {
      "status": "pending",
@@ -3086,8 +3177,12 @@
    "baseline_price": 971.55,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 960.04,
+     "return_pct": -1.18,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -1.77
     },
     "d30": {
      "status": "pending",
@@ -3122,8 +3217,12 @@
    "baseline_price": 63.57,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 62.65,
+     "return_pct": -1.45,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -2.04
     },
     "d30": {
      "status": "pending",
@@ -3158,8 +3257,12 @@
    "baseline_price": 28.49,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 27.73,
+     "return_pct": -2.67,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -3.26
     },
     "d30": {
      "status": "pending",
@@ -3194,8 +3297,12 @@
    "baseline_price": 26.27,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 27.51,
+     "return_pct": 4.72,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 4.13
     },
     "d30": {
      "status": "pending",
@@ -3230,8 +3337,12 @@
    "baseline_price": 69.61,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 71.06,
+     "return_pct": 2.08,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": 1.49
     },
     "d30": {
      "status": "pending",
@@ -3266,8 +3377,12 @@
    "baseline_price": 92.63,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 92.54,
+     "return_pct": -0.1,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -0.69
     },
     "d30": {
      "status": "pending",
@@ -3302,8 +3417,12 @@
    "baseline_price": 641.39,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 641.69,
+     "return_pct": 0.05,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -0.54
     },
     "d30": {
      "status": "pending",
@@ -3338,8 +3457,12 @@
    "baseline_price": 33.11,
    "horizons": {
     "d7": {
-     "status": "pending",
-     "detail": "+7d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 31.72,
+     "return_pct": -4.2,
+     "benchmark_return_pct": 0.59,
+     "excess_pct": -4.79
     },
     "d30": {
      "status": "pending",
@@ -3476,6 +3599,86 @@
      "return_pct": 6.22,
      "benchmark_return_pct": 2.92,
      "excess_pct": 3.3
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035757-2",
+   "person_id": "jonathan-jackson-il01",
+   "person": "Jonathan Jackson",
+   "ticker": "DDOG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-02",
+   "trade_date": "2026-10-22",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-03",
+   "baseline_price": 220.52,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-11-10",
+     "price": 178.4,
+     "return_pct": -19.1,
+     "benchmark_return_pct": -0.59,
+     "excess_pct": -18.51
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 184.16,
+     "return_pct": -16.49,
+     "benchmark_return_pct": 0.0,
+     "excess_pct": -16.49
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035757-3",
+   "person_id": "jonathan-jackson-il01",
+   "person": "Jonathan Jackson",
+   "ticker": "EL",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-02",
+   "trade_date": "2026-10-12",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-03",
+   "baseline_price": 105.39,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-11-10",
+     "price": 113.43,
+     "return_pct": 7.63,
+     "benchmark_return_pct": -0.59,
+     "excess_pct": 8.22
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 111.75,
+     "return_pct": 6.03,
+     "benchmark_return_pct": 0.0,
+     "excess_pct": 6.03
     }
    }
   },
@@ -10878,8 +11081,12 @@
      "excess_pct": 7.05
     },
     "d90": {
-     "status": "pending",
-     "detail": "+90d falls in the future"
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 356.27,
+     "return_pct": 12.45,
+     "benchmark_return_pct": -1.91,
+     "excess_pct": 14.36
     },
     "today": {
      "status": "ok",
@@ -17633,7 +17840,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for KVUE",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 120 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -17792,7 +17999,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for EA",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -22814,7 +23021,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for EA",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -30860,7 +31067,7 @@
    "trade_date": "2026-04-06",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CBZ",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 178 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -36602,7 +36809,7 @@
    "trade_date": "2026-03-13",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for PSKY",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-22, 199 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -37385,7 +37592,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for CRNX",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -45398,7 +45605,7 @@
    "trade_date": "2026-02-10",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for KVUE",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 238 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -54482,7 +54689,7 @@
    "trade_date": "2026-01-09",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for WBD",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 236 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -70304,7 +70511,7 @@
    "trade_date": "2024-11-01",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for WBD",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 420 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -72956,7 +73163,7 @@
    "trade_date": "2024-10-23",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for KVUE",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 445 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -74711,7 +74918,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for LEG",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}

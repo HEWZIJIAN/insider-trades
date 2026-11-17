@@ -75,6 +75,21 @@
   "positions": []
  },
  {
+  "person_id": "scott-h-peters-ca50",
+  "name": "Scott H. Peters",
+  "roles": [
+   "House (CA50)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 145,
+  "document_count": 0,
+  "first_seen": "2025-12-31",
+  "last_seen": "2026-10-31",
+  "positions": []
+ },
+ {
   "person_id": "julie-johnson-tx32",
   "name": "Julie Johnson",
   "roles": [
@@ -87,21 +102,6 @@
   "document_count": 0,
   "first_seen": "2025-04-03",
   "last_seen": "2026-11-09",
-  "positions": []
- },
- {
-  "person_id": "scott-h-peters-ca50",
-  "name": "Scott H. Peters",
-  "roles": [
-   "House (CA50)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 136,
-  "document_count": 0,
-  "first_seen": "2025-12-31",
-  "last_seen": "2026-09-30",
   "positions": []
  },
  {
@@ -240,6 +240,21 @@
   "positions": []
  },
  {
+  "person_id": "jonathan-jackson-il01",
+  "name": "Jonathan Jackson",
+  "roles": [
+   "House (IL01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 54,
+  "document_count": 0,
+  "first_seen": "2026-01-05",
+  "last_seen": "2026-11-02",
+  "positions": []
+ },
+ {
   "person_id": "world-liberty-financial-multisig",
   "name": "World Liberty Financial (multisig)",
   "roles": [
@@ -267,21 +282,6 @@
   "document_count": 0,
   "first_seen": "2026-05-06",
   "last_seen": "2026-11-04",
-  "positions": []
- },
- {
-  "person_id": "jonathan-jackson-il01",
-  "name": "Jonathan Jackson",
-  "roles": [
-   "House (IL01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 50,
-  "document_count": 0,
-  "first_seen": "2026-01-05",
-  "last_seen": "2026-10-01",
   "positions": []
  },
  {
@@ -345,6 +345,21 @@
   "positions": []
  },
  {
+  "person_id": "suzan-k-delbene-wa01",
+  "name": "Suzan K. DelBene",
+  "roles": [
+   "House (WA01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 45,
+  "document_count": 0,
+  "first_seen": "2025-12-17",
+  "last_seen": "2026-10-30",
+  "positions": []
+ },
+ {
   "person_id": "byron-donalds-fl19",
   "name": "Byron Donalds",
   "roles": [
@@ -387,21 +402,6 @@
   "document_count": 0,
   "first_seen": "2025-12-26",
   "last_seen": "2026-10-09",
-  "positions": []
- },
- {
-  "person_id": "suzan-k-delbene-wa01",
-  "name": "Suzan K. DelBene",
-  "roles": [
-   "House (WA01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 39,
-  "document_count": 0,
-  "first_seen": "2025-12-17",
-  "last_seen": "2026-10-14",
   "positions": []
  },
  {
@@ -1324,6 +1324,21 @@
   ]
  },
  {
+  "person_id": "james-french-hill-ar02",
+  "name": "James French Hill",
+  "roles": [
+   "House (AR02)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 5,
+  "document_count": 0,
+  "first_seen": "2025-12-31",
+  "last_seen": "2026-11-09",
+  "positions": []
+ },
+ {
   "person_id": "carol-devine-miller-wv01",
   "name": "Carol Devine Miller",
   "roles": [
@@ -1452,21 +1467,6 @@
   "document_count": 0,
   "first_seen": "2026-01-22",
   "last_seen": "2026-01-22",
-  "positions": []
- },
- {
-  "person_id": "james-french-hill-ar02",
-  "name": "James French Hill",
-  "roles": [
-   "House (AR02)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 4,
-  "document_count": 0,
-  "first_seen": "2025-12-31",
-  "last_seen": "2025-12-31",
   "positions": []
  },
  {
