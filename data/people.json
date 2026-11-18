@@ -255,6 +255,21 @@
   "positions": []
  },
  {
+  "person_id": "byron-donalds-fl19",
+  "name": "Byron Donalds",
+  "roles": [
+   "House (FL19)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 53,
+  "document_count": 0,
+  "first_seen": "2025-12-18",
+  "last_seen": "2026-11-01",
+  "positions": []
+ },
+ {
   "person_id": "world-liberty-financial-multisig",
   "name": "World Liberty Financial (multisig)",
   "roles": [
@@ -357,21 +372,6 @@
   "document_count": 0,
   "first_seen": "2025-12-17",
   "last_seen": "2026-10-30",
-  "positions": []
- },
- {
-  "person_id": "byron-donalds-fl19",
-  "name": "Byron Donalds",
-  "roles": [
-   "House (FL19)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 45,
-  "document_count": 0,
-  "first_seen": "2025-12-18",
-  "last_seen": "2026-09-01",
   "positions": []
  },
  {

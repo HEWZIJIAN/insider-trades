@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:22:09+00:00",
+ "generated_at": "2026-11-18T01:47:16+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1587,
-  "measured": 1550,
+  "eligible_buys": 1589,
+  "measured": 1552,
   "unmeasurable": 37
  },
  "people": [
@@ -843,6 +843,47 @@
    }
   },
   {
+   "person_id": "byron-donalds-fl19",
+   "person": "Byron Donalds",
+   "measured_buys": 11,
+   "underlying_filing_rows": 21,
+   "distinct_baseline_dates": 8,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 11,
+     "win_rate_vs_benchmark_pct": 36.4,
+     "avg_return_pct": 3.09,
+     "avg_excess_pct": 1.76,
+     "median_excess_pct": -0.56
+    },
+    "d30": {
+     "status": "ok",
+     "n": 10,
+     "win_rate_vs_benchmark_pct": 60.0,
+     "avg_return_pct": 9.25,
+     "avg_excess_pct": 6.79,
+     "median_excess_pct": 2.2
+    },
+    "d90": {
+     "status": "ok",
+     "n": 9,
+     "win_rate_vs_benchmark_pct": 44.4,
+     "avg_return_pct": 2.48,
+     "avg_excess_pct": -3.22,
+     "median_excess_pct": -9.04
+    },
+    "today": {
+     "status": "ok",
+     "n": 11,
+     "win_rate_vs_benchmark_pct": 36.4,
+     "avg_return_pct": -4.54,
+     "avg_excess_pct": -9.89,
+     "median_excess_pct": -14.24
+    }
+   }
+  },
+  {
    "person_id": "rick-larsen-wa02",
    "person": "Rick Larsen",
    "measured_buys": 11,
@@ -921,47 +962,6 @@
      "avg_return_pct": -0.48,
      "avg_excess_pct": -3.13,
      "median_excess_pct": -0.05
-    }
-   }
-  },
-  {
-   "person_id": "byron-donalds-fl19",
-   "person": "Byron Donalds",
-   "measured_buys": 10,
-   "underlying_filing_rows": 19,
-   "distinct_baseline_dates": 7,
-   "by_horizon": {
-    "d7": {
-     "status": "ok",
-     "n": 10,
-     "win_rate_vs_benchmark_pct": 30.0,
-     "avg_return_pct": 3.03,
-     "avg_excess_pct": 1.58,
-     "median_excess_pct": -0.75
-    },
-    "d30": {
-     "status": "ok",
-     "n": 10,
-     "win_rate_vs_benchmark_pct": 60.0,
-     "avg_return_pct": 9.25,
-     "avg_excess_pct": 6.79,
-     "median_excess_pct": 2.2
-    },
-    "d90": {
-     "status": "ok",
-     "n": 9,
-     "win_rate_vs_benchmark_pct": 44.4,
-     "avg_return_pct": 2.48,
-     "avg_excess_pct": -3.22,
-     "median_excess_pct": -9.04
-    },
-    "today": {
-     "status": "ok",
-     "n": 10,
-     "win_rate_vs_benchmark_pct": 30.0,
-     "avg_return_pct": -5.48,
-     "avg_excess_pct": -11.52,
-     "median_excess_pct": -15.61
     }
    }
   },
@@ -3839,6 +3839,86 @@
      "return_pct": -22.73,
      "benchmark_return_pct": -1.62,
      "excess_pct": -21.11
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035811-4",
+   "person_id": "byron-donalds-fl19",
+   "person": "Byron Donalds",
+   "ticker": "IBKR",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-01",
+   "trade_date": "2026-10-02",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-02",
+   "baseline_price": 74.83,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-11-09",
+     "price": 77.57,
+     "return_pct": 3.66,
+     "benchmark_return_pct": 0.08,
+     "excess_pct": 3.58
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-16",
+     "price": 78.43,
+     "return_pct": 4.81,
+     "benchmark_return_pct": -1.62,
+     "excess_pct": 6.43
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035811-3",
+   "person_id": "byron-donalds-fl19",
+   "person": "Byron Donalds",
+   "ticker": "IBKR",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-01",
+   "trade_date": "2026-10-02",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-02",
+   "baseline_price": 74.83,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-11-09",
+     "price": 77.57,
+     "return_pct": 3.66,
+     "benchmark_return_pct": 0.08,
+     "excess_pct": 3.58
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-16",
+     "price": 78.43,
+     "return_pct": 4.81,
+     "benchmark_return_pct": -1.62,
+     "excess_pct": 6.43
     }
    }
   },
