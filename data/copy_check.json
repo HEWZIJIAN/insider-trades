@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T08:27:54+00:00",
+ "generated_at": "2026-11-19T17:33:50+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,8 +17,8 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1589,
-  "measured": 1551,
+  "eligible_buys": 1590,
+  "measured": 1552,
   "unmeasurable": 38
  },
  "people": [
@@ -640,17 +640,17 @@
   {
    "person_id": "michael-rulli-oh06",
    "person": "Michael Rulli",
-   "measured_buys": 16,
-   "underlying_filing_rows": 16,
-   "distinct_baseline_dates": 13,
+   "measured_buys": 17,
+   "underlying_filing_rows": 17,
+   "distinct_baseline_dates": 14,
    "by_horizon": {
     "d7": {
      "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 50.0,
-     "avg_return_pct": 0.99,
-     "avg_excess_pct": 0.23,
-     "median_excess_pct": -0.29
+     "n": 17,
+     "win_rate_vs_benchmark_pct": 47.1,
+     "avg_return_pct": 0.79,
+     "avg_excess_pct": -0.12,
+     "median_excess_pct": -0.98
     },
     "d30": {
      "status": "ok",
@@ -670,11 +670,11 @@
     },
     "today": {
      "status": "ok",
-     "n": 16,
-     "win_rate_vs_benchmark_pct": 37.5,
-     "avg_return_pct": -3.53,
-     "avg_excess_pct": -8.17,
-     "median_excess_pct": -17.09
+     "n": 17,
+     "win_rate_vs_benchmark_pct": 35.3,
+     "avg_return_pct": -3.63,
+     "avg_excess_pct": -7.97,
+     "median_excess_pct": -16.46
     }
    }
   },
@@ -3519,6 +3519,46 @@
      "return_pct": 2.53,
      "benchmark_return_pct": -0.69,
      "excess_pct": 3.22
+    }
+   }
+  },
+  {
+   "trade_id": "house-20036855-5",
+   "person_id": "michael-rulli-oh06",
+   "person": "Michael Rulli",
+   "ticker": "MSFT",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-04",
+   "trade_date": "2026-11-04",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-11-05",
+   "baseline_price": 535.93,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-11-12",
+     "price": 523.0,
+     "return_pct": -2.41,
+     "benchmark_return_pct": 3.29,
+     "excess_pct": -5.7
+    },
+    "d30": {
+     "status": "pending",
+     "detail": "+30d falls in the future"
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-18",
+     "price": 508.29,
+     "return_pct": -5.16,
+     "benchmark_return_pct": -0.38,
+     "excess_pct": -4.78
     }
    }
   },

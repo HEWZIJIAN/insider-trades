@@ -173,10 +173,10 @@
   "sources": [
    "house_clerk_ptr"
   ],
-  "trade_count": 70,
+  "trade_count": 76,
   "document_count": 0,
   "first_seen": "2026-01-02",
-  "last_seen": "2026-10-07",
+  "last_seen": "2026-11-12",
   "positions": []
  },
  {
@@ -345,6 +345,21 @@
   "positions": []
  },
  {
+  "person_id": "michael-rulli-oh06",
+  "name": "Michael Rulli",
+  "roles": [
+   "House (OH06)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 46,
+  "document_count": 0,
+  "first_seen": "2024-11-26",
+  "last_seen": "2026-11-12",
+  "positions": []
+ },
+ {
   "person_id": "dziedzic-andrew",
   "name": "Dziedzic, Andrew",
   "roles": [
@@ -372,21 +387,6 @@
   "document_count": 0,
   "first_seen": "2025-12-17",
   "last_seen": "2026-10-30",
-  "positions": []
- },
- {
-  "person_id": "michael-rulli-oh06",
-  "name": "Michael Rulli",
-  "roles": [
-   "House (OH06)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 40,
-  "document_count": 0,
-  "first_seen": "2024-11-26",
-  "last_seen": "2026-10-16",
   "positions": []
  },
  {
@@ -624,6 +624,21 @@
   ]
  },
  {
+  "person_id": "steve-cohen-tn09",
+  "name": "Steve Cohen",
+  "roles": [
+   "House (TN09)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 19,
+  "document_count": 0,
+  "first_seen": "2025-12-30",
+  "last_seen": "2026-11-16",
+  "positions": []
+ },
+ {
   "person_id": "william-r-keating-ma09",
   "name": "William R. Keating",
   "roles": [
@@ -666,21 +681,6 @@
   "document_count": 18,
   "first_seen": "2025-08-12",
   "last_seen": "2026-09-17",
-  "positions": []
- },
- {
-  "person_id": "steve-cohen-tn09",
-  "name": "Steve Cohen",
-  "roles": [
-   "House (TN09)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 18,
-  "document_count": 0,
-  "first_seen": "2025-12-30",
-  "last_seen": "2026-08-31",
   "positions": []
  },
  {
@@ -1485,6 +1485,21 @@
   "positions": []
  },
  {
+  "person_id": "terri-a-sewell-al07",
+  "name": "Terri A. Sewell",
+  "roles": [
+   "House (AL07)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 3,
+  "document_count": 0,
+  "first_seen": "2026-03-26",
+  "last_seen": "2026-11-06",
+  "positions": []
+ },
+ {
   "person_id": "rudy-c-yakym-in02",
   "name": "Rudy C. Yakym",
   "roles": [
@@ -1791,21 +1806,6 @@
   "document_count": 0,
   "first_seen": "2026-04-14",
   "last_seen": "2026-04-14",
-  "positions": []
- },
- {
-  "person_id": "terri-a-sewell-al07",
-  "name": "Terri A. Sewell",
-  "roles": [
-   "House (AL07)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 2,
-  "document_count": 0,
-  "first_seen": "2026-03-26",
-  "last_seen": "2026-03-26",
   "positions": []
  },
  {
