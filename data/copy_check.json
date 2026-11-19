@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T01:02:43+00:00",
+ "generated_at": "2026-11-19T08:27:54+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -877,8 +877,8 @@
      "status": "ok",
      "n": 11,
      "win_rate_vs_benchmark_pct": 45.5,
-     "avg_return_pct": -5.43,
-     "avg_excess_pct": -9.39,
+     "avg_return_pct": -5.67,
+     "avg_excess_pct": -9.63,
      "median_excess_pct": -12.77
     }
    }
@@ -3874,11 +3874,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-16",
-     "price": 78.43,
-     "return_pct": 4.81,
+     "as_of": "2026-11-18",
+     "price": 76.45,
+     "return_pct": 2.16,
      "benchmark_return_pct": -2.91,
-     "excess_pct": 7.72
+     "excess_pct": 5.07
     }
    }
   },
@@ -3914,11 +3914,11 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-16",
-     "price": 78.43,
-     "return_pct": 4.81,
+     "as_of": "2026-11-18",
+     "price": 76.45,
+     "return_pct": 2.16,
      "benchmark_return_pct": -2.91,
-     "excess_pct": 7.72
+     "excess_pct": 5.07
     }
    }
   },
