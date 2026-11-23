@@ -270,6 +270,21 @@
   "positions": []
  },
  {
+  "person_id": "world-liberty-financial-multisig",
+  "name": "World Liberty Financial (multisig)",
+  "roles": [
+   "Wallet on ethereum"
+  ],
+  "sources": [
+   "crypto"
+  ],
+  "trade_count": 50,
+  "document_count": 0,
+  "first_seen": "2026-03-01",
+  "last_seen": "2026-11-23",
+  "positions": []
+ },
+ {
   "person_id": "donald-trump-labelled-wallet",
   "name": "Donald Trump (labelled wallet)",
   "roles": [
@@ -282,21 +297,6 @@
   "document_count": 0,
   "first_seen": "2026-05-07",
   "last_seen": "2026-11-18",
-  "positions": []
- },
- {
-  "person_id": "world-liberty-financial-multisig",
-  "name": "World Liberty Financial (multisig)",
-  "roles": [
-   "Wallet on ethereum"
-  ],
-  "sources": [
-   "crypto"
-  ],
-  "trade_count": 50,
-  "document_count": 0,
-  "first_seen": "2026-02-20",
-  "last_seen": "2026-11-04",
   "positions": []
  },
  {
@@ -896,6 +896,21 @@
   "positions": []
  },
  {
+  "person_id": "ed-case-hi01",
+  "name": "Ed Case",
+  "roles": [
+   "House (HI01)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 11,
+  "document_count": 0,
+  "first_seen": "2024-12-31",
+  "last_seen": "2026-11-21",
+  "positions": []
+ },
+ {
   "person_id": "john-j-mr-mcguire-va05",
   "name": "John J Mr McGuire",
   "roles": [
@@ -983,21 +998,6 @@
   "document_count": 0,
   "first_seen": "2025-12-05",
   "last_seen": "2026-10-21",
-  "positions": []
- },
- {
-  "person_id": "ed-case-hi01",
-  "name": "Ed Case",
-  "roles": [
-   "House (HI01)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 10,
-  "document_count": 0,
-  "first_seen": "2024-12-31",
-  "last_seen": "2026-08-18",
   "positions": []
  },
  {
@@ -1253,6 +1253,32 @@
   "positions": []
  },
  {
+  "person_id": "mcgurn-kevin",
+  "name": "McGurn Kevin",
+  "roles": [
+   "Interim CEO @ DJT"
+  ],
+  "sources": [
+   "sec_form4"
+  ],
+  "trade_count": 6,
+  "document_count": 0,
+  "first_seen": "2026-04-24",
+  "last_seen": "2026-11-23",
+  "positions": [
+   {
+    "ticker": "DJT",
+    "security": "Common Stock, par value $0.0001 per share",
+    "security_kind": "non-derivative",
+    "shares_owned": 87335.0,
+    "as_of_trade_date": "2026-11-23",
+    "as_of_disclosure_date": "2026-11-23",
+    "ownership": "D",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926038086/0001437749-26-038086-index.htm"
+   }
+  ]
+ },
+ {
   "person_id": "charles-j-chuck-fleischmann-tn03",
   "name": "Charles J. \"Chuck\" Fleischmann",
   "roles": [
@@ -1296,32 +1322,6 @@
   "first_seen": "2025-05-14",
   "last_seen": "2026-01-09",
   "positions": []
- },
- {
-  "person_id": "mcgurn-kevin",
-  "name": "McGurn Kevin",
-  "roles": [
-   "Interim CEO @ DJT"
-  ],
-  "sources": [
-   "sec_form4"
-  ],
-  "trade_count": 5,
-  "document_count": 0,
-  "first_seen": "2026-04-24",
-  "last_seen": "2026-11-13",
-  "positions": [
-   {
-    "ticker": "DJT",
-    "security": "Common Stock, par value $0.0001 per share",
-    "security_kind": "non-derivative",
-    "shares_owned": 95126.0,
-    "as_of_trade_date": "2026-11-13",
-    "as_of_disclosure_date": "2026-11-13",
-    "ownership": "D",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926036958/0001437749-26-036958-index.htm"
-   }
-  ]
  },
  {
   "person_id": "james-french-hill-ar02",
@@ -1665,6 +1665,21 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000147450624000146/0001474506-24-000146-index.htm"
    }
   ]
+ },
+ {
+  "person_id": "jennifer-mcclellan-va04",
+  "name": "Jennifer McClellan",
+  "roles": [
+   "House (VA04)"
+  ],
+  "sources": [
+   "house_clerk_ptr"
+  ],
+  "trade_count": 2,
+  "document_count": 0,
+  "first_seen": "2026-04-07",
+  "last_seen": "2026-11-19",
+  "positions": []
  },
  {
   "person_id": "darrell-e-issa-ca48",
@@ -2327,21 +2342,6 @@
   "document_count": 0,
   "first_seen": "2026-05-04",
   "last_seen": "2026-05-04",
-  "positions": []
- },
- {
-  "person_id": "jennifer-mcclellan-va04",
-  "name": "Jennifer McClellan",
-  "roles": [
-   "House (VA04)"
-  ],
-  "sources": [
-   "house_clerk_ptr"
-  ],
-  "trade_count": 1,
-  "document_count": 0,
-  "first_seen": "2026-04-07",
-  "last_seen": "2026-04-07",
   "positions": []
  },
  {

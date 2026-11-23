@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:19:08+00:00",
+ "generated_at": "2026-11-23T22:15:31+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1590,
+  "eligible_buys": 1591,
   "measured": 1552,
-  "unmeasurable": 38
+  "unmeasurable": 39
  },
  "people": [
   {
@@ -1961,6 +1961,21 @@
   }
  ],
  "trades": [
+  {
+   "trade_id": "house-20036891-1",
+   "person_id": "ed-case-hi01",
+   "person": "Ed Case",
+   "ticker": "AAPL",
+   "asset_class": "equity",
+   "disclosure_date": "2026-11-21",
+   "trade_date": "2026-11-16",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no trading day priced after the disclosure date",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
   {
    "trade_id": "house-20035831-7",
    "person_id": "david-j-taylor-oh02",
@@ -65887,7 +65902,7 @@
     },
     "today": {
      "status": "ok",
-     "as_of": "2026-11-21",
+     "as_of": "2026-11-20",
      "price": 1.0,
      "return_pct": 0.0,
      "benchmark_return_pct": 1.97,
