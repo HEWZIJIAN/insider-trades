@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T06:16:05+00:00",
+ "generated_at": "2026-11-24T18:05:52+00:00",
  "method": {
   "baseline": "close on the first trading day strictly after the disclosure date",
   "horizons_days": [
@@ -17,9 +17,9 @@
   "disclaimer": "A backtest of public filings, not investment advice. Amounts are disclosed as ranges, so position sizing cannot be reproduced."
  },
  "counts": {
-  "eligible_buys": 1591,
-  "measured": 1552,
-  "unmeasurable": 39
+  "eligible_buys": 1666,
+  "measured": 1626,
+  "unmeasurable": 40
  },
  "people": [
   {
@@ -142,6 +142,47 @@
      "avg_return_pct": 2.63,
      "avg_excess_pct": 6.38,
      "median_excess_pct": 6.46
+    }
+   }
+  },
+  {
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "measured_buys": 64,
+   "underlying_filing_rows": 74,
+   "distinct_baseline_dates": 18,
+   "by_horizon": {
+    "d7": {
+     "status": "ok",
+     "n": 64,
+     "win_rate_vs_benchmark_pct": 35.9,
+     "avg_return_pct": 0.52,
+     "avg_excess_pct": -0.38,
+     "median_excess_pct": -1.79
+    },
+    "d30": {
+     "status": "ok",
+     "n": 64,
+     "win_rate_vs_benchmark_pct": 28.1,
+     "avg_return_pct": 0.52,
+     "avg_excess_pct": -1.79,
+     "median_excess_pct": -6.56
+    },
+    "d90": {
+     "status": "ok",
+     "n": 50,
+     "win_rate_vs_benchmark_pct": 30.0,
+     "avg_return_pct": 1.78,
+     "avg_excess_pct": -2.33,
+     "median_excess_pct": -5.02
+    },
+    "today": {
+     "status": "ok",
+     "n": 64,
+     "win_rate_vs_benchmark_pct": 48.4,
+     "avg_return_pct": -5.35,
+     "avg_excess_pct": -0.9,
+     "median_excess_pct": -0.76
     }
    }
   },
@@ -1961,6 +2002,21 @@
   }
  ],
  "trades": [
+  {
+   "trade_id": "house-20035776-126",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PSA",
+   "asset_class": "equity",
+   "disclosure_date": "2029-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": false,
+   "reason": "no free price history available for PSA",
+   "baseline_date": null,
+   "baseline_price": null,
+   "horizons": {}
+  },
   {
    "trade_id": "house-20036891-1",
    "person_id": "ed-case-hi01",
@@ -4217,6 +4273,50 @@
    }
   },
   {
+   "trade_id": "house-20035776-131",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "NOW",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-20",
+   "trade_date": "2026-10-20",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-21",
+   "baseline_price": 153.12,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-28",
+     "price": 150.13,
+     "return_pct": -1.95,
+     "benchmark_return_pct": -0.1,
+     "excess_pct": -1.85
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 87.61,
+     "return_pct": -42.78,
+     "benchmark_return_pct": -10.77,
+     "excess_pct": -32.01
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 87.61,
+     "return_pct": -42.78,
+     "benchmark_return_pct": -10.77,
+     "excess_pct": -32.01
+    }
+   }
+  },
+  {
    "trade_id": "house-20035763-1",
    "person_id": "robert-e-latta-oh05",
    "person": "Robert E. Latta",
@@ -4389,6 +4489,50 @@
      "return_pct": -4.82,
      "benchmark_return_pct": -9.62,
      "excess_pct": 4.8
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-144",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "TXN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-10-14",
+   "trade_date": "2026-10-14",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-10-15",
+   "baseline_price": 279.12,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-10-22",
+     "price": 279.5,
+     "return_pct": 0.14,
+     "benchmark_return_pct": -1.01,
+     "excess_pct": 1.15
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-11-13",
+     "price": 303.6,
+     "return_pct": 8.77,
+     "benchmark_return_pct": -2.26,
+     "excess_pct": 11.03
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 263.75,
+     "return_pct": -5.51,
+     "benchmark_return_pct": -10.62,
+     "excess_pct": 5.11
     }
    }
   },
@@ -7327,6 +7471,138 @@
    }
   },
   {
+   "trade_id": "house-20035776-91",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MRVL",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-16",
+   "trade_date": "2026-09-16",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-17",
+   "baseline_price": 240.76,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-24",
+     "price": 258.95,
+     "return_pct": 7.56,
+     "benchmark_return_pct": 0.6,
+     "excess_pct": 6.96
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 227.83,
+     "return_pct": -5.37,
+     "benchmark_return_pct": 0.09,
+     "excess_pct": -5.46
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 122.28,
+     "return_pct": -49.21,
+     "benchmark_return_pct": -9.54,
+     "excess_pct": -39.67
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-80",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ISRG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-16",
+   "trade_date": "2026-09-16",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-17",
+   "baseline_price": 383.54,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-24",
+     "price": 399.52,
+     "return_pct": 4.17,
+     "benchmark_return_pct": 0.6,
+     "excess_pct": 3.57
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 426.7,
+     "return_pct": 11.25,
+     "benchmark_return_pct": 0.09,
+     "excess_pct": 11.16
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 399.05,
+     "return_pct": 4.04,
+     "benchmark_return_pct": -9.54,
+     "excess_pct": 13.58
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-133",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "SHOP",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-16",
+   "trade_date": "2026-09-16",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-17",
+   "baseline_price": 128.6,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-24",
+     "price": 145.16,
+     "return_pct": 12.88,
+     "benchmark_return_pct": 0.6,
+     "excess_pct": 12.28
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-10-16",
+     "price": 169.52,
+     "return_pct": 31.82,
+     "benchmark_return_pct": 0.09,
+     "excess_pct": 31.73
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 123.72,
+     "return_pct": -3.79,
+     "benchmark_return_pct": -9.54,
+     "excess_pct": 5.75
+    }
+   }
+  },
+  {
    "trade_id": "house-20035491-15",
    "person_id": "kevin-hern-ok01",
    "person": "Kevin Hern",
@@ -7807,6 +8083,50 @@
      "return_pct": 9.77,
      "benchmark_return_pct": -8.98,
      "excess_pct": 18.75
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-1",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ABT",
+   "asset_class": "equity",
+   "disclosure_date": "2026-09-08",
+   "trade_date": "2026-09-08",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-09-09",
+   "baseline_price": 105.23,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-16",
+     "price": 102.36,
+     "return_pct": -2.73,
+     "benchmark_return_pct": -1.1,
+     "excess_pct": -1.63
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-10-09",
+     "price": 99.6,
+     "return_pct": -5.35,
+     "benchmark_return_pct": 2.12,
+     "excess_pct": -7.47
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 103.0,
+     "return_pct": -2.12,
+     "benchmark_return_pct": -9.52,
+     "excess_pct": 7.4
     }
    }
   },
@@ -11049,6 +11369,490 @@
      "return_pct": -10.31,
      "benchmark_return_pct": -9.85,
      "excess_pct": -0.46
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-93",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MCD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-27",
+   "trade_date": "2026-08-27",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-28",
+   "baseline_price": 265.0,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-04",
+     "price": 255.69,
+     "return_pct": -3.51,
+     "benchmark_return_pct": 0.11,
+     "excess_pct": -3.62
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 236.5,
+     "return_pct": -10.75,
+     "benchmark_return_pct": 0.26,
+     "excess_pct": -11.01
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 273.24,
+     "return_pct": 3.11,
+     "benchmark_return_pct": -10.34,
+     "excess_pct": 13.45
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-92",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MCD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-27",
+   "trade_date": "2026-08-27",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-28",
+   "baseline_price": 265.0,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-04",
+     "price": 255.69,
+     "return_pct": -3.51,
+     "benchmark_return_pct": 0.11,
+     "excess_pct": -3.62
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 236.5,
+     "return_pct": -10.75,
+     "benchmark_return_pct": 0.26,
+     "excess_pct": -11.01
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 273.24,
+     "return_pct": 3.11,
+     "benchmark_return_pct": -10.34,
+     "excess_pct": 13.45
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-89",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MRSH",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-27",
+   "trade_date": "2026-08-27",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-28",
+   "baseline_price": 192.64,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-04",
+     "price": 185.74,
+     "return_pct": -3.58,
+     "benchmark_return_pct": 0.11,
+     "excess_pct": -3.69
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 171.12,
+     "return_pct": -11.17,
+     "benchmark_return_pct": 0.26,
+     "excess_pct": -11.43
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 207.1,
+     "return_pct": 7.51,
+     "benchmark_return_pct": -10.34,
+     "excess_pct": 17.85
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-70",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "GIS",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-27",
+   "trade_date": "2026-08-27",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-28",
+   "baseline_price": 41.55,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-04",
+     "price": 38.29,
+     "return_pct": -7.85,
+     "benchmark_return_pct": 0.11,
+     "excess_pct": -7.96
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 33.64,
+     "return_pct": -19.04,
+     "benchmark_return_pct": 0.26,
+     "excess_pct": -19.3
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 35.74,
+     "return_pct": -13.98,
+     "benchmark_return_pct": -10.34,
+     "excess_pct": -3.64
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-125",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PLD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-27",
+   "trade_date": "2026-08-27",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-28",
+   "baseline_price": 140.7,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-04",
+     "price": 137.34,
+     "return_pct": -2.39,
+     "benchmark_return_pct": 0.11,
+     "excess_pct": -2.5
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 133.05,
+     "return_pct": -5.44,
+     "benchmark_return_pct": 0.26,
+     "excess_pct": -5.7
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 122.5,
+     "return_pct": -12.94,
+     "benchmark_return_pct": -10.34,
+     "excess_pct": -2.6
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-124",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PLD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-27",
+   "trade_date": "2026-08-27",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-28",
+   "baseline_price": 140.7,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-04",
+     "price": 137.34,
+     "return_pct": -2.39,
+     "benchmark_return_pct": 0.11,
+     "excess_pct": -2.5
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 133.05,
+     "return_pct": -5.44,
+     "benchmark_return_pct": 0.26,
+     "excess_pct": -5.7
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 122.5,
+     "return_pct": -12.94,
+     "benchmark_return_pct": -10.34,
+     "excess_pct": -2.6
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-94",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MCD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-26",
+   "trade_date": "2026-08-26",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-27",
+   "baseline_price": 260.06,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-03",
+     "price": 259.63,
+     "return_pct": -0.17,
+     "benchmark_return_pct": 0.27,
+     "excess_pct": -0.44
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 236.5,
+     "return_pct": -9.06,
+     "benchmark_return_pct": 0.03,
+     "excess_pct": -9.09
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 273.24,
+     "return_pct": 5.07,
+     "benchmark_return_pct": -10.54,
+     "excess_pct": 15.61
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-90",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MRSH",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-26",
+   "trade_date": "2026-08-26",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-27",
+   "baseline_price": 190.0,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-03",
+     "price": 188.46,
+     "return_pct": -0.81,
+     "benchmark_return_pct": 0.27,
+     "excess_pct": -1.08
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 171.12,
+     "return_pct": -9.94,
+     "benchmark_return_pct": 0.03,
+     "excess_pct": -9.97
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 207.1,
+     "return_pct": 9.0,
+     "benchmark_return_pct": -10.54,
+     "excess_pct": 19.54
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-73",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "GIS",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-26",
+   "trade_date": "2026-08-26",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-27",
+   "baseline_price": 40.44,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-03",
+     "price": 39.26,
+     "return_pct": -2.92,
+     "benchmark_return_pct": 0.27,
+     "excess_pct": -3.19
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 33.64,
+     "return_pct": -16.82,
+     "benchmark_return_pct": 0.03,
+     "excess_pct": -16.85
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 35.74,
+     "return_pct": -11.62,
+     "benchmark_return_pct": -10.54,
+     "excess_pct": -1.08
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-121",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PLD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-26",
+   "trade_date": "2026-08-26",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-27",
+   "baseline_price": 141.85,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-03",
+     "price": 138.35,
+     "return_pct": -2.47,
+     "benchmark_return_pct": 0.27,
+     "excess_pct": -2.74
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 133.05,
+     "return_pct": -6.2,
+     "benchmark_return_pct": 0.03,
+     "excess_pct": -6.23
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 122.5,
+     "return_pct": -13.64,
+     "benchmark_return_pct": -10.54,
+     "excess_pct": -3.1
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-120",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PLD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-08-26",
+   "trade_date": "2026-08-26",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-08-27",
+   "baseline_price": 141.85,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-09-03",
+     "price": 138.35,
+     "return_pct": -2.47,
+     "benchmark_return_pct": 0.27,
+     "excess_pct": -2.74
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-09-25",
+     "price": 133.05,
+     "return_pct": -6.2,
+     "benchmark_return_pct": 0.03,
+     "excess_pct": -6.23
+    },
+    "d90": {
+     "status": "pending",
+     "detail": "+90d falls in the future"
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 122.5,
+     "return_pct": -13.64,
+     "benchmark_return_pct": -10.54,
+     "excess_pct": -3.1
     }
    }
   },
@@ -17290,6 +18094,198 @@
    }
   },
   {
+   "trade_id": "house-20035776-98",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MU",
+   "asset_class": "equity",
+   "disclosure_date": "2026-07-02",
+   "trade_date": "2026-07-02",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-07-06",
+   "baseline_price": 984.75,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-13",
+     "price": 937.0,
+     "return_pct": -4.85,
+     "benchmark_return_pct": -0.28,
+     "excess_pct": -4.57
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 893.19,
+     "return_pct": -9.3,
+     "benchmark_return_pct": 2.46,
+     "excess_pct": -11.76
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 1074.89,
+     "return_pct": 9.15,
+     "benchmark_return_pct": 2.44,
+     "excess_pct": 6.71
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 594.51,
+     "return_pct": -39.63,
+     "benchmark_return_pct": -8.18,
+     "excess_pct": -31.45
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-37",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "AVGO",
+   "asset_class": "equity",
+   "disclosure_date": "2026-07-02",
+   "trade_date": "2026-07-02",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-07-06",
+   "baseline_price": 373.9,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-13",
+     "price": 384.05,
+     "return_pct": 2.71,
+     "benchmark_return_pct": -0.28,
+     "excess_pct": 2.99
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 418.28,
+     "return_pct": 11.87,
+     "benchmark_return_pct": 2.46,
+     "excess_pct": 9.41
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 355.14,
+     "return_pct": -5.02,
+     "benchmark_return_pct": 2.44,
+     "excess_pct": -7.46
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 304.41,
+     "return_pct": -18.59,
+     "benchmark_return_pct": -8.18,
+     "excess_pct": -10.41
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-18",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "GOOG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-07-02",
+   "trade_date": "2026-07-02",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-07-06",
+   "baseline_price": 364.9,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-13",
+     "price": 350.67,
+     "return_pct": -3.9,
+     "benchmark_return_pct": -0.28,
+     "excess_pct": -3.62
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 360.13,
+     "return_pct": -1.31,
+     "benchmark_return_pct": 2.46,
+     "excess_pct": -3.77
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 340.35,
+     "return_pct": -6.73,
+     "benchmark_return_pct": 2.44,
+     "excess_pct": -9.17
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 264.0,
+     "return_pct": -27.65,
+     "benchmark_return_pct": -8.18,
+     "excess_pct": -19.47
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-139",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "TSM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-07-02",
+   "trade_date": "2026-07-02",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-07-06",
+   "baseline_price": 451.79,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-07-13",
+     "price": 421.58,
+     "return_pct": -6.69,
+     "benchmark_return_pct": -0.28,
+     "excess_pct": -6.41
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 414.0,
+     "return_pct": -8.36,
+     "benchmark_return_pct": 2.46,
+     "excess_pct": -10.82
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-10-02",
+     "price": 472.78,
+     "return_pct": 4.65,
+     "benchmark_return_pct": 2.44,
+     "excess_pct": 2.21
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 318.71,
+     "return_pct": -29.46,
+     "benchmark_return_pct": -8.18,
+     "excess_pct": -21.28
+    }
+   }
+  },
+  {
    "trade_id": "house-20034906-6",
    "person_id": "gilbert-cisneros-ca31",
    "person": "Gilbert Cisneros",
@@ -17443,7 +18439,7 @@
    "trade_date": "2026-06-30",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for TCBI",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-11-23, 144 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -18034,7 +19030,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 120 days later)",
+   "reason": "no free price history available for KVUE",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -18193,7 +19189,7 @@
    "trade_date": "2026-06-16",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 33 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -22144,7 +23140,7 @@
    "trade_date": "2026-05-29",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no free price history available for TCBI",
+   "reason": "no price within 10 days of disclosure (first available close was 2026-11-23, 171 days later)",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -23215,7 +24211,7 @@
    "trade_date": "2026-05-15",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-04, 60 days later)",
+   "reason": "no free price history available for EA",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -25377,6 +26373,150 @@
      "return_pct": -60.68,
      "benchmark_return_pct": -8.54,
      "excess_pct": -52.14
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-63",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "EME",
+   "asset_class": "equity",
+   "disclosure_date": "2026-06-01",
+   "trade_date": "2026-06-01",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-06-02",
+   "baseline_price": 827.28,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-06-09",
+     "price": 827.78,
+     "return_pct": 0.06,
+     "benchmark_return_pct": -2.96,
+     "excess_pct": 3.02
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-07-02",
+     "price": 774.66,
+     "return_pct": -6.36,
+     "benchmark_return_pct": -1.95,
+     "excess_pct": -4.41
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-08-31",
+     "price": 734.54,
+     "return_pct": -11.21,
+     "benchmark_return_pct": 0.98,
+     "excess_pct": -12.19
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 603.32,
+     "return_pct": -27.07,
+     "benchmark_return_pct": -9.18,
+     "excess_pct": -17.89
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-22",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "AME",
+   "asset_class": "equity",
+   "disclosure_date": "2026-06-01",
+   "trade_date": "2026-06-01",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-06-02",
+   "baseline_price": 227.73,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-06-09",
+     "price": 229.8,
+     "return_pct": 0.91,
+     "benchmark_return_pct": -2.96,
+     "excess_pct": 3.87
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-07-02",
+     "price": 234.62,
+     "return_pct": 3.03,
+     "benchmark_return_pct": -1.95,
+     "excess_pct": 4.98
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-08-31",
+     "price": 235.17,
+     "return_pct": 3.27,
+     "benchmark_return_pct": 0.98,
+     "excess_pct": 2.29
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 222.9,
+     "return_pct": -2.12,
+     "benchmark_return_pct": -9.18,
+     "excess_pct": 7.06
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-128",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "R",
+   "asset_class": "equity",
+   "disclosure_date": "2026-06-01",
+   "trade_date": "2026-06-01",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-06-02",
+   "baseline_price": 258.06,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-06-09",
+     "price": 276.95,
+     "return_pct": 7.32,
+     "benchmark_return_pct": -2.96,
+     "excess_pct": 10.28
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-07-02",
+     "price": 260.72,
+     "return_pct": 1.03,
+     "benchmark_return_pct": -1.95,
+     "excess_pct": 2.98
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-08-31",
+     "price": 244.46,
+     "return_pct": -5.27,
+     "benchmark_return_pct": 0.98,
+     "excess_pct": -6.25
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 284.21,
+     "return_pct": 10.13,
+     "benchmark_return_pct": -9.18,
+     "excess_pct": 19.31
     }
    }
   },
@@ -28132,6 +29272,102 @@
    }
   },
   {
+   "trade_id": "house-20035776-123",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PLD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-05-18",
+   "trade_date": "2026-05-18",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-05-19",
+   "baseline_price": 142.44,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-26",
+     "price": 146.94,
+     "return_pct": 3.16,
+     "benchmark_return_pct": 2.3,
+     "excess_pct": 0.86
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-06-18",
+     "price": 140.54,
+     "return_pct": -1.33,
+     "benchmark_return_pct": 1.77,
+     "excess_pct": -3.1
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-08-17",
+     "price": 140.62,
+     "return_pct": -1.28,
+     "benchmark_return_pct": 5.31,
+     "excess_pct": -6.59
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 122.5,
+     "return_pct": -14.0,
+     "benchmark_return_pct": -5.99,
+     "excess_pct": -8.01
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-122",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PLD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-05-18",
+   "trade_date": "2026-05-18",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-05-19",
+   "baseline_price": 142.44,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-26",
+     "price": 146.94,
+     "return_pct": 3.16,
+     "benchmark_return_pct": 2.3,
+     "excess_pct": 0.86
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-06-18",
+     "price": 140.54,
+     "return_pct": -1.33,
+     "benchmark_return_pct": 1.77,
+     "excess_pct": -3.1
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-08-17",
+     "price": 140.62,
+     "return_pct": -1.28,
+     "benchmark_return_pct": 5.31,
+     "excess_pct": -6.59
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 122.5,
+     "return_pct": -14.0,
+     "benchmark_return_pct": -5.99,
+     "excess_pct": -8.01
+    }
+   }
+  },
+  {
    "trade_id": "house-20034587-1",
    "person_id": "tim-moore-nc14",
    "person": "Tim Moore",
@@ -30868,6 +32104,102 @@
    }
   },
   {
+   "trade_id": "house-20035776-72",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "GIS",
+   "asset_class": "equity",
+   "disclosure_date": "2026-05-06",
+   "trade_date": "2026-05-06",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-05-07",
+   "baseline_price": 35.71,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-14",
+     "price": 33.13,
+     "return_pct": -7.22,
+     "benchmark_return_pct": 2.27,
+     "excess_pct": -9.49
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-06-05",
+     "price": 33.15,
+     "return_pct": -7.17,
+     "benchmark_return_pct": 0.82,
+     "excess_pct": -7.99
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 35.93,
+     "return_pct": 0.62,
+     "benchmark_return_pct": 5.22,
+     "excess_pct": -4.6
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 35.74,
+     "return_pct": 0.08,
+     "benchmark_return_pct": -5.71,
+     "excess_pct": 5.79
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-71",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "GIS",
+   "asset_class": "equity",
+   "disclosure_date": "2026-05-06",
+   "trade_date": "2026-05-06",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-05-07",
+   "baseline_price": 35.71,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-14",
+     "price": 33.13,
+     "return_pct": -7.22,
+     "benchmark_return_pct": 2.27,
+     "excess_pct": -9.49
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-06-05",
+     "price": 33.15,
+     "return_pct": -7.17,
+     "benchmark_return_pct": 0.82,
+     "excess_pct": -7.99
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-08-05",
+     "price": 35.93,
+     "return_pct": 0.62,
+     "benchmark_return_pct": 5.22,
+     "excess_pct": -4.6
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 35.74,
+     "return_pct": 0.08,
+     "benchmark_return_pct": -5.71,
+     "excess_pct": 5.79
+    }
+   }
+  },
+  {
    "trade_id": "house-20035147-17",
    "person_id": "michael-rulli-oh06",
    "person": "Michael Rulli",
@@ -31261,7 +32593,7 @@
    "trade_date": "2026-04-06",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 178 days later)",
+   "reason": "no free price history available for CBZ",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -33091,6 +34423,1110 @@
    }
   },
   {
+   "trade_id": "house-20035776-87",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "LYB",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 74.6,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 71.51,
+     "return_pct": -4.14,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -5.94
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 66.65,
+     "return_pct": -10.66,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -15.92
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 60.49,
+     "return_pct": -18.91,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -20.41
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 55.84,
+     "return_pct": -25.15,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -21.14
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-86",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "LOW",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 238.79,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 230.88,
+     "return_pct": -3.31,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -5.11
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 214.36,
+     "return_pct": -10.23,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -15.49
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 215.68,
+     "return_pct": -9.68,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -11.18
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 220.84,
+     "return_pct": -7.52,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -3.51
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-75",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "HD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 328.8,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 322.64,
+     "return_pct": -1.87,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -3.67
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 317.14,
+     "return_pct": -3.55,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -8.81
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 338.27,
+     "return_pct": 2.88,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": 1.38
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 339.04,
+     "return_pct": 3.11,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 7.12
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-66",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "FLEX",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 91.55,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 133.01,
+     "return_pct": 45.29,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": 43.49
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 150.78,
+     "return_pct": 64.7,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": 59.44
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 103.02,
+     "return_pct": 12.53,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": 11.03
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 73.94,
+     "return_pct": -19.24,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -15.23
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-53",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "CCI",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 88.78,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 91.07,
+     "return_pct": 2.58,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": 0.78
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 91.5,
+     "return_pct": 3.06,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -2.2
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 79.09,
+     "return_pct": -10.91,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -12.41
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 82.4,
+     "return_pct": -7.19,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -3.18
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-44",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "C",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 127.98,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 129.09,
+     "return_pct": 0.87,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -0.93
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 125.9,
+     "return_pct": -1.63,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -6.89
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 127.13,
+     "return_pct": -0.66,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -2.16
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 110.62,
+     "return_pct": -13.56,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -9.55
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-41",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "CVX",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 193.31,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 182.5,
+     "return_pct": -5.59,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -7.39
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 182.46,
+     "return_pct": -5.61,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -10.87
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 191.86,
+     "return_pct": -0.75,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -2.25
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 208.37,
+     "return_pct": 7.79,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 11.8
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-40",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "SCHW",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 91.64,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 89.5,
+     "return_pct": -2.34,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -4.14
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 87.35,
+     "return_pct": -4.68,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -9.94
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 104.47,
+     "return_pct": 14.0,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": 12.5
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 90.16,
+     "return_pct": -1.62,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 2.39
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-29",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "T",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 26.13,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 25.26,
+     "return_pct": -3.33,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -5.13
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 24.8,
+     "return_pct": -5.09,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -10.35
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 23.94,
+     "return_pct": -8.38,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -9.88
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 22.31,
+     "return_pct": -14.62,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -10.61
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-154",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "VZ",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 48.03,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 47.09,
+     "return_pct": -1.96,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -3.76
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 47.81,
+     "return_pct": -0.46,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -5.72
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 47.22,
+     "return_pct": -1.69,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -3.19
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 46.48,
+     "return_pct": -3.23,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 0.78
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-148",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "UNP",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 269.48,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 264.89,
+     "return_pct": -1.7,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -3.5
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 262.64,
+     "return_pct": -2.54,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -7.8
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 292.19,
+     "return_pct": 8.43,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": 6.93
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 288.89,
+     "return_pct": 7.2,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 11.21
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-140",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "TGT",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 129.75,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 125.88,
+     "return_pct": -2.98,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -4.78
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 127.07,
+     "return_pct": -2.07,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -7.33
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 145.9,
+     "return_pct": 12.45,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": 10.95
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 168.19,
+     "return_pct": 29.63,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 33.64
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-14",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ABNB",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 140.36,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 140.46,
+     "return_pct": 0.07,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -1.73
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 133.31,
+     "return_pct": -5.02,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -10.28
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 153.01,
+     "return_pct": 9.01,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": 7.51
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 173.96,
+     "return_pct": 23.94,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 27.95
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-136",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "SO",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 96.7,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 92.43,
+     "return_pct": -4.42,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -6.22
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 92.05,
+     "return_pct": -4.81,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -10.07
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 96.05,
+     "return_pct": -0.67,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -2.17
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 93.13,
+     "return_pct": -3.69,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 0.32
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-13",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "APD",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 300.05,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 294.99,
+     "return_pct": -1.69,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -3.49
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 278.62,
+     "return_pct": -7.14,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -12.4
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 294.27,
+     "return_pct": -1.93,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -3.43
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 297.09,
+     "return_pct": -0.99,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 3.02
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-116",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 147.09,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 146.06,
+     "return_pct": -0.7,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -2.5
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 143.56,
+     "return_pct": -2.4,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -7.66
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 146.1,
+     "return_pct": -0.67,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -2.17
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 169.37,
+     "return_pct": 15.15,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 19.16
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-114",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PFE",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 26.7,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 26.48,
+     "return_pct": -0.82,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -2.62
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 26.18,
+     "return_pct": -1.95,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -7.21
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 25.15,
+     "return_pct": -5.81,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -7.31
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 27.4,
+     "return_pct": 2.62,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 6.63
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-113",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PEP",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 158.49,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 156.29,
+     "return_pct": -1.39,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -3.19
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 144.19,
+     "return_pct": -9.02,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -14.28
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 143.5,
+     "return_pct": -9.46,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -10.96
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 140.54,
+     "return_pct": -11.33,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -7.32
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-110",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ORCL",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 161.39,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 194.59,
+     "return_pct": 20.57,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": 18.77
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 225.78,
+     "return_pct": 39.9,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": 34.64
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 117.74,
+     "return_pct": -27.05,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -28.55
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 101.19,
+     "return_pct": -37.3,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -33.29
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-107",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "NVDA",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 199.57,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 211.5,
+     "return_pct": 5.98,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": 4.18
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 211.14,
+     "return_pct": 5.8,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": 0.54
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 190.01,
+     "return_pct": -4.79,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -6.29
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 125.53,
+     "return_pct": -37.1,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -33.09
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-106",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "NKE",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 44.36,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 44.41,
+     "return_pct": 0.11,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": -1.69
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 46.23,
+     "return_pct": 4.22,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": -1.04
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 43.22,
+     "return_pct": -2.57,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -4.07
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 33.76,
+     "return_pct": -23.9,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": -19.89
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-101",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "MSFT",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-29",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 407.78,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 420.77,
+     "return_pct": 3.19,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": 1.39
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 450.24,
+     "return_pct": 10.41,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": 5.15
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 390.54,
+     "return_pct": -4.23,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": -5.73
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 484.52,
+     "return_pct": 18.82,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 22.83
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-135",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "SNOW",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-29",
+   "trade_date": "2026-04-26",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-30",
+   "baseline_price": 136.47,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-05-07",
+     "price": 153.72,
+     "return_pct": 12.64,
+     "benchmark_return_pct": 1.8,
+     "excess_pct": 10.84
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-29",
+     "price": 255.55,
+     "return_pct": 87.26,
+     "benchmark_return_pct": 5.26,
+     "excess_pct": 82.0
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-29",
+     "price": 282.9,
+     "return_pct": 107.3,
+     "benchmark_return_pct": 1.5,
+     "excess_pct": 105.8
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 254.82,
+     "return_pct": 86.72,
+     "benchmark_return_pct": -4.01,
+     "excess_pct": 90.73
+    }
+   }
+  },
+  {
    "trade_id": "house-20034416-1",
    "person_id": "debbie-dingell-mi06",
    "person": "Debbie Dingell",
@@ -33135,6 +35571,150 @@
      "return_pct": -13.91,
      "benchmark_return_pct": -3.07,
      "excess_pct": -10.84
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-84",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "KLAC",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-21",
+   "trade_date": "2026-04-21",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-22",
+   "baseline_price": 181.206,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-29",
+     "price": 181.621,
+     "return_pct": 0.23,
+     "benchmark_return_pct": 0.05,
+     "excess_pct": 0.18
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-22",
+     "price": 188.838,
+     "return_pct": 4.21,
+     "benchmark_return_pct": 4.84,
+     "excess_pct": -0.63
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-21",
+     "price": 217.56,
+     "return_pct": 20.06,
+     "benchmark_return_pct": 5.21,
+     "excess_pct": 14.85
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 126.87,
+     "return_pct": -29.99,
+     "benchmark_return_pct": -3.01,
+     "excess_pct": -26.98
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-67",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "FLEX",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-21",
+   "trade_date": "2026-04-21",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-22",
+   "baseline_price": 85.42,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-29",
+     "price": 90.6,
+     "return_pct": 6.06,
+     "benchmark_return_pct": 0.05,
+     "excess_pct": 6.01
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-22",
+     "price": 132.47,
+     "return_pct": 55.08,
+     "benchmark_return_pct": 4.84,
+     "excess_pct": 50.24
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-21",
+     "price": 127.39,
+     "return_pct": 49.13,
+     "benchmark_return_pct": 5.21,
+     "excess_pct": 43.92
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 73.94,
+     "return_pct": -13.44,
+     "benchmark_return_pct": -3.01,
+     "excess_pct": -10.43
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-45",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "C",
+   "asset_class": "equity",
+   "disclosure_date": "2026-04-21",
+   "trade_date": "2026-04-21",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-22",
+   "baseline_price": 129.73,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-29",
+     "price": 127.61,
+     "return_pct": -1.63,
+     "benchmark_return_pct": 0.05,
+     "excess_pct": -1.68
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-22",
+     "price": 125.09,
+     "return_pct": -3.58,
+     "benchmark_return_pct": 4.84,
+     "excess_pct": -8.42
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-07-21",
+     "price": 132.84,
+     "return_pct": 2.4,
+     "benchmark_return_pct": 5.21,
+     "excess_pct": -2.81
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 110.62,
+     "return_pct": -14.73,
+     "benchmark_return_pct": -3.01,
+     "excess_pct": -11.72
     }
    }
   },
@@ -37003,7 +39583,7 @@
    "trade_date": "2026-03-13",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-22, 199 days later)",
+   "reason": "no free price history available for PSKY",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -37753,7 +40333,7 @@
    "trade_date": "2026-03-03",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-31, 147 days later)",
+   "reason": "no free price history available for CRNX",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -41403,6 +43983,246 @@
      "return_pct": 18.78,
      "benchmark_return_pct": 5.18,
      "excess_pct": 13.6
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-27",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "AZN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-03-31",
+   "trade_date": "2026-03-31",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-01",
+   "baseline_price": 200.73,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-08",
+     "price": 204.27,
+     "return_pct": 1.76,
+     "benchmark_return_pct": 3.17,
+     "excess_pct": -1.41
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-01",
+     "price": 184.74,
+     "return_pct": -7.97,
+     "benchmark_return_pct": 9.98,
+     "excess_pct": -17.95
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-06-30",
+     "price": 189.62,
+     "return_pct": -5.53,
+     "benchmark_return_pct": 13.97,
+     "excess_pct": -19.5
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 174.35,
+     "return_pct": -13.14,
+     "benchmark_return_pct": 5.28,
+     "excess_pct": -18.42
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-26",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ASML",
+   "asset_class": "equity",
+   "disclosure_date": "2026-03-31",
+   "trade_date": "2026-03-31",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-01",
+   "baseline_price": 1359.76,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-08",
+     "price": 1421.05,
+     "return_pct": 4.51,
+     "benchmark_return_pct": 3.17,
+     "excess_pct": 1.34
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-01",
+     "price": 1427.02,
+     "return_pct": 4.95,
+     "benchmark_return_pct": 9.98,
+     "excess_pct": -5.03
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-06-30",
+     "price": 1989.4399,
+     "return_pct": 46.31,
+     "benchmark_return_pct": 13.97,
+     "excess_pct": 32.34
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 1266.22,
+     "return_pct": -6.88,
+     "benchmark_return_pct": 5.28,
+     "excess_pct": -12.16
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-142",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "TSLA",
+   "asset_class": "equity",
+   "disclosure_date": "2026-03-31",
+   "trade_date": "2026-03-31",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-01",
+   "baseline_price": 381.26,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-08",
+     "price": 343.25,
+     "return_pct": -9.97,
+     "benchmark_return_pct": 3.17,
+     "excess_pct": -13.14
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-01",
+     "price": 390.82,
+     "return_pct": 2.51,
+     "benchmark_return_pct": 9.98,
+     "excess_pct": -7.47
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-06-30",
+     "price": 420.6,
+     "return_pct": 10.32,
+     "benchmark_return_pct": 13.97,
+     "excess_pct": -3.65
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 345.82,
+     "return_pct": -9.3,
+     "benchmark_return_pct": 5.28,
+     "excess_pct": -14.58
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-138",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "TSM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-03-31",
+   "trade_date": "2026-03-31",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-01",
+   "baseline_price": 341.49,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-08",
+     "price": 365.9,
+     "return_pct": 7.15,
+     "benchmark_return_pct": 3.17,
+     "excess_pct": 3.98
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-01",
+     "price": 397.67,
+     "return_pct": 16.45,
+     "benchmark_return_pct": 9.98,
+     "excess_pct": 6.47
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-06-30",
+     "price": 477.57,
+     "return_pct": 39.85,
+     "benchmark_return_pct": 13.97,
+     "excess_pct": 25.88
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 318.71,
+     "return_pct": -6.67,
+     "benchmark_return_pct": 5.28,
+     "excess_pct": -11.95
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-111",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PLTR",
+   "asset_class": "equity",
+   "disclosure_date": "2026-03-31",
+   "trade_date": "2026-03-31",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-04-01",
+   "baseline_price": 146.49,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-04-08",
+     "price": 140.76,
+     "return_pct": -3.91,
+     "benchmark_return_pct": 3.17,
+     "excess_pct": -7.08
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-05-01",
+     "price": 144.07,
+     "return_pct": -1.65,
+     "benchmark_return_pct": 9.98,
+     "excess_pct": -11.63
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-06-30",
+     "price": 116.67,
+     "return_pct": -20.36,
+     "benchmark_return_pct": 13.97,
+     "excess_pct": -34.33
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 143.49,
+     "return_pct": -2.05,
+     "benchmark_return_pct": 5.28,
+     "excess_pct": -7.33
     }
    }
   },
@@ -45766,7 +48586,7 @@
    "trade_date": "2026-02-10",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 238 days later)",
+   "reason": "no free price history available for KVUE",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -49657,6 +52477,54 @@
    }
   },
   {
+   "trade_id": "house-20035776-16",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ABNB",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-24",
+   "trade_date": "2026-02-24",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-25",
+   "baseline_price": 132.02,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-03-04",
+     "price": 135.54,
+     "return_pct": 2.67,
+     "benchmark_return_pct": -1.16,
+     "excess_pct": 3.83
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-27",
+     "price": 122.87,
+     "return_pct": -6.93,
+     "benchmark_return_pct": -8.52,
+     "excess_pct": 1.59
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-26",
+     "price": 132.68,
+     "return_pct": 0.5,
+     "benchmark_return_pct": 8.29,
+     "excess_pct": -7.79
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-23",
+     "price": 173.96,
+     "return_pct": 31.77,
+     "benchmark_return_pct": -0.48,
+     "excess_pct": 32.25
+    }
+   }
+  },
+  {
    "trade_id": "oge-zinberg-joel-2026-02-16-12",
    "person_id": "zinberg-joel",
    "person": "Zinberg, Joel",
@@ -50665,6 +53533,150 @@
    }
   },
   {
+   "trade_id": "house-20035776-163",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "WM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-17",
+   "trade_date": "2026-02-17",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-18",
+   "baseline_price": 234.06,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-25",
+     "price": 228.1,
+     "return_pct": -2.55,
+     "benchmark_return_pct": 1.0,
+     "excess_pct": -3.55
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-20",
+     "price": 231.24,
+     "return_pct": -1.2,
+     "benchmark_return_pct": -5.5,
+     "excess_pct": 4.3
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-19",
+     "price": 222.34,
+     "return_pct": -5.01,
+     "benchmark_return_pct": 6.91,
+     "excess_pct": -11.92
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 239.63,
+     "return_pct": 2.38,
+     "benchmark_return_pct": 0.51,
+     "excess_pct": 1.87
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-118",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-17",
+   "trade_date": "2026-02-17",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-18",
+   "baseline_price": 156.86,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-25",
+     "price": 163.39,
+     "return_pct": 4.16,
+     "benchmark_return_pct": 1.0,
+     "excess_pct": 3.16
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-20",
+     "price": 144.28,
+     "return_pct": -8.02,
+     "benchmark_return_pct": -5.5,
+     "excess_pct": -2.52
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-19",
+     "price": 141.3,
+     "return_pct": -9.92,
+     "benchmark_return_pct": 6.91,
+     "excess_pct": -16.83
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 169.37,
+     "return_pct": 7.98,
+     "benchmark_return_pct": 0.51,
+     "excess_pct": 7.47
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-117",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-17",
+   "trade_date": "2026-02-17",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-18",
+   "baseline_price": 156.86,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-25",
+     "price": 163.39,
+     "return_pct": 4.16,
+     "benchmark_return_pct": 1.0,
+     "excess_pct": 3.16
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-20",
+     "price": 144.28,
+     "return_pct": -8.02,
+     "benchmark_return_pct": -5.5,
+     "excess_pct": -2.52
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-19",
+     "price": 141.3,
+     "return_pct": -9.92,
+     "benchmark_return_pct": 6.91,
+     "excess_pct": -16.83
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 169.37,
+     "return_pct": 7.98,
+     "benchmark_return_pct": 0.51,
+     "excess_pct": 7.47
+    }
+   }
+  },
+  {
    "trade_id": "house-20034036-6",
    "person_id": "david-j-taylor-oh02",
    "person": "David J. Taylor",
@@ -50949,6 +53961,294 @@
      "return_pct": 20.52,
      "benchmark_return_pct": 0.51,
      "excess_pct": 20.01
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-7",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ACN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-13",
+   "trade_date": "2026-02-13",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-17",
+   "baseline_price": 219.89,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-24",
+     "price": 196.73,
+     "return_pct": -10.53,
+     "benchmark_return_pct": 0.66,
+     "excess_pct": -11.19
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-19",
+     "price": 203.55,
+     "return_pct": -7.43,
+     "benchmark_return_pct": -3.38,
+     "excess_pct": -4.05
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-18",
+     "price": 177.55,
+     "return_pct": -19.26,
+     "benchmark_return_pct": 8.17,
+     "excess_pct": -27.43
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 221.17,
+     "return_pct": 0.58,
+     "benchmark_return_pct": 1.02,
+     "excess_pct": -0.44
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-6",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ACN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-13",
+   "trade_date": "2026-02-13",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-17",
+   "baseline_price": 219.89,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-24",
+     "price": 196.73,
+     "return_pct": -10.53,
+     "benchmark_return_pct": 0.66,
+     "excess_pct": -11.19
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-19",
+     "price": 203.55,
+     "return_pct": -7.43,
+     "benchmark_return_pct": -3.38,
+     "excess_pct": -4.05
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-18",
+     "price": 177.55,
+     "return_pct": -19.26,
+     "benchmark_return_pct": 8.17,
+     "excess_pct": -27.43
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 221.17,
+     "return_pct": 0.58,
+     "benchmark_return_pct": 1.02,
+     "excess_pct": -0.44
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-166",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "WM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-13",
+   "trade_date": "2026-02-13",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-17",
+   "baseline_price": 235.22,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-24",
+     "price": 229.58,
+     "return_pct": -2.4,
+     "benchmark_return_pct": 0.66,
+     "excess_pct": -3.06
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-19",
+     "price": 233.83,
+     "return_pct": -0.59,
+     "benchmark_return_pct": -3.38,
+     "excess_pct": 2.79
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-18",
+     "price": 222.73,
+     "return_pct": -5.31,
+     "benchmark_return_pct": 8.17,
+     "excess_pct": -13.48
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 239.63,
+     "return_pct": 1.87,
+     "benchmark_return_pct": 1.02,
+     "excess_pct": 0.85
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-151",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "UPS",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-13",
+   "trade_date": "2026-02-13",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-17",
+   "baseline_price": 115.51,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-24",
+     "price": 115.37,
+     "return_pct": -0.12,
+     "benchmark_return_pct": 0.66,
+     "excess_pct": -0.78
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-19",
+     "price": 96.56,
+     "return_pct": -16.41,
+     "benchmark_return_pct": -3.38,
+     "excess_pct": -13.03
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-18",
+     "price": 95.53,
+     "return_pct": -17.3,
+     "benchmark_return_pct": 8.17,
+     "excess_pct": -25.47
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 106.22,
+     "return_pct": -8.04,
+     "benchmark_return_pct": 1.02,
+     "excess_pct": -9.06
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-150",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "UPS",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-13",
+   "trade_date": "2026-02-13",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-17",
+   "baseline_price": 115.51,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-24",
+     "price": 115.37,
+     "return_pct": -0.12,
+     "benchmark_return_pct": 0.66,
+     "excess_pct": -0.78
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-19",
+     "price": 96.56,
+     "return_pct": -16.41,
+     "benchmark_return_pct": -3.38,
+     "excess_pct": -13.03
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-18",
+     "price": 95.53,
+     "return_pct": -17.3,
+     "benchmark_return_pct": 8.17,
+     "excess_pct": -25.47
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 106.22,
+     "return_pct": -8.04,
+     "benchmark_return_pct": 1.02,
+     "excess_pct": -9.06
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-119",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "PG",
+   "asset_class": "equity",
+   "disclosure_date": "2026-02-13",
+   "trade_date": "2026-02-13",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-02-17",
+   "baseline_price": 159.55,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-02-24",
+     "price": 165.28,
+     "return_pct": 3.59,
+     "benchmark_return_pct": 0.66,
+     "excess_pct": 2.93
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-03-19",
+     "price": 144.84,
+     "return_pct": -9.22,
+     "benchmark_return_pct": -3.38,
+     "excess_pct": -5.84
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-05-18",
+     "price": 142.39,
+     "return_pct": -10.76,
+     "benchmark_return_pct": 8.17,
+     "excess_pct": -18.93
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 169.37,
+     "return_pct": 6.15,
+     "benchmark_return_pct": 1.02,
+     "excess_pct": 5.13
     }
    }
   },
@@ -54850,7 +58150,7 @@
    "trade_date": "2026-01-09",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 236 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -59464,6 +62764,198 @@
    }
   },
   {
+   "trade_id": "house-20035776-9",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ACN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-01-21",
+   "trade_date": "2026-01-21",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-01-22",
+   "baseline_price": 285.09,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-01-29",
+     "price": 261.22,
+     "return_pct": -8.37,
+     "benchmark_return_pct": 0.73,
+     "excess_pct": -9.1
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-02-20",
+     "price": 215.35,
+     "return_pct": -24.46,
+     "benchmark_return_pct": 0.07,
+     "excess_pct": -24.53
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-04-22",
+     "price": 190.1,
+     "return_pct": -33.32,
+     "benchmark_return_pct": 3.23,
+     "excess_pct": -36.55
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 221.17,
+     "return_pct": -22.42,
+     "benchmark_return_pct": 0.12,
+     "excess_pct": -22.54
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-8",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "ACN",
+   "asset_class": "equity",
+   "disclosure_date": "2026-01-21",
+   "trade_date": "2026-01-21",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-01-22",
+   "baseline_price": 285.09,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-01-29",
+     "price": 261.22,
+     "return_pct": -8.37,
+     "benchmark_return_pct": 0.73,
+     "excess_pct": -9.1
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-02-20",
+     "price": 215.35,
+     "return_pct": -24.46,
+     "benchmark_return_pct": 0.07,
+     "excess_pct": -24.53
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-04-22",
+     "price": 190.1,
+     "return_pct": -33.32,
+     "benchmark_return_pct": 3.23,
+     "excess_pct": -36.55
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 221.17,
+     "return_pct": -22.42,
+     "benchmark_return_pct": 0.12,
+     "excess_pct": -22.54
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-165",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "WM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-01-21",
+   "trade_date": "2026-01-21",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-01-22",
+   "baseline_price": 229.0,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-01-29",
+     "price": 223.13,
+     "return_pct": -2.56,
+     "benchmark_return_pct": 0.73,
+     "excess_pct": -3.29
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-02-20",
+     "price": 230.31,
+     "return_pct": 0.57,
+     "benchmark_return_pct": 0.07,
+     "excess_pct": 0.5
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-04-22",
+     "price": 223.93,
+     "return_pct": -2.21,
+     "benchmark_return_pct": 3.23,
+     "excess_pct": -5.44
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 239.63,
+     "return_pct": 4.64,
+     "benchmark_return_pct": 0.12,
+     "excess_pct": 4.52
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-164",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "WM",
+   "asset_class": "equity",
+   "disclosure_date": "2026-01-21",
+   "trade_date": "2026-01-21",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-01-22",
+   "baseline_price": 229.0,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-01-29",
+     "price": 223.13,
+     "return_pct": -2.56,
+     "benchmark_return_pct": 0.73,
+     "excess_pct": -3.29
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-02-20",
+     "price": 230.31,
+     "return_pct": 0.57,
+     "benchmark_return_pct": 0.07,
+     "excess_pct": 0.5
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-04-22",
+     "price": 223.93,
+     "return_pct": -2.21,
+     "benchmark_return_pct": 3.23,
+     "excess_pct": -5.44
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 239.63,
+     "return_pct": 4.64,
+     "benchmark_return_pct": 0.12,
+     "excess_pct": 4.52
+    }
+   }
+  },
+  {
    "trade_id": "house-20033857-1",
    "person_id": "robert-e-latta-oh05",
    "person": "Robert E. Latta",
@@ -60036,6 +63528,54 @@
      "return_pct": -26.57,
      "benchmark_return_pct": -0.27,
      "excess_pct": -26.3
+    }
+   }
+  },
+  {
+   "trade_id": "house-20035776-51",
+   "person_id": "harriet-hageman-wy00",
+   "person": "Harriet Hageman",
+   "ticker": "COST",
+   "asset_class": "equity",
+   "disclosure_date": "2026-01-14",
+   "trade_date": "2026-01-14",
+   "benchmark": "SPY",
+   "measurable": true,
+   "reason": null,
+   "baseline_date": "2026-01-15",
+   "baseline_price": 956.75,
+   "horizons": {
+    "d7": {
+     "status": "ok",
+     "as_of": "2026-01-22",
+     "price": 976.17,
+     "return_pct": 2.03,
+     "benchmark_return_pct": -0.47,
+     "excess_pct": 2.5
+    },
+    "d30": {
+     "status": "ok",
+     "as_of": "2026-02-13",
+     "price": 1018.48,
+     "return_pct": 6.45,
+     "benchmark_return_pct": -1.52,
+     "excess_pct": 7.97
+    },
+    "d90": {
+     "status": "ok",
+     "as_of": "2026-04-15",
+     "price": 984.75,
+     "return_pct": 2.93,
+     "benchmark_return_pct": 1.11,
+     "excess_pct": 1.82
+    },
+    "today": {
+     "status": "ok",
+     "as_of": "2026-11-20",
+     "price": 1102.15,
+     "return_pct": 15.2,
+     "benchmark_return_pct": -0.35,
+     "excess_pct": 15.55
     }
    }
   },
@@ -70672,7 +74212,7 @@
    "trade_date": "2024-11-01",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-05, 420 days later)",
+   "reason": "no free price history available for WBD",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -73324,7 +76864,7 @@
    "trade_date": "2024-10-23",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-10-30, 445 days later)",
+   "reason": "no free price history available for KVUE",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
@@ -75079,7 +78619,7 @@
    "trade_date": "2025-01-27",
    "benchmark": "SPY",
    "measurable": false,
-   "reason": "no price within 10 days of disclosure (first available close was 2026-08-26, 447 days later)",
+   "reason": "no free price history available for LEG",
    "baseline_date": null,
    "baseline_price": null,
    "horizons": {}
