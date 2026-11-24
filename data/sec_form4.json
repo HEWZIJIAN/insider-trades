@@ -4317,6 +4317,22 @@
   "parser_version": "2026-09-22.1"
  },
  {
+  "id": "sec144-0001921094-26-001244",
+  "source": "sec_form144",
+  "source_label": "SEC EDGAR - Form 144 (notice of proposed sale)",
+  "person": null,
+  "issuer": "Trump Media & Technology Group Corp.",
+  "ticker": "DJT",
+  "disclosure_date": "2026-11-23",
+  "doc_id": "0001921094-26-001244",
+  "form": "144",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1849635/000192109426001244/0001921094-26-001244-index.htm",
+  "parsed": false,
+  "unparsed_reason": "notice_only",
+  "unparsed_detail": "Form 144 is a notice of intent to sell, not a completed trade.",
+  "parser_version": "2026-09-22.1"
+ },
+ {
   "id": "sec144-0001921094-26-001181",
   "source": "sec_form144",
   "source_label": "SEC EDGAR - Form 144 (notice of proposed sale)",
