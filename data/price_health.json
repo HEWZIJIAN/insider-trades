@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-25T21:53:36+00:00",
+ "checked_at": "2026-11-26T03:55:18+00:00",
  "equities": {
   "provider": "Yahoo Finance chart API",
   "ok": true,
-  "points": 7,
-  "latest": "2026-11-24",
-  "latest_close": 718.780029296875
+  "points": 8,
+  "latest": "2026-11-25",
+  "latest_close": 716.7000122070312
  },
  "crypto": {
   "provider": "CoinGecko public API",
   "ok": true,
   "points": 11,
-  "latest": "2026-11-25",
-  "latest_close": 59758.920537549915
+  "latest": "2026-11-26",
+  "latest_close": 60374.147782582884
  }
 }
